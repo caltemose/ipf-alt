@@ -1,0 +1,22 @@
+{
+  "name": "ipf-alt",
+  "version": "1.0.0",
+  "description": "Test repo for improving process for IPF site.",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caltemose/ipf-alt.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caltemose/ipf-alt/issues"
+  },
+  "homepage": "https://github.com/caltemose/ipf-alt#readme",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-rollup-each": "^3.0.0",
+    "rollup-plugin-buble": "^0.19.6"
+  }
+}
