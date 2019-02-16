@@ -1,5 +1,5 @@
 const fs = require('fs')
-const { series, parallel, src, dest } = require('gulp')
+const { series, parallel, watch, src, dest } = require('gulp')
 const changed = require('gulp-changed')
 const del = require('del')
 const rollupEach = require('gulp-rollup-each')
@@ -7,6 +7,7 @@ const rollupBuble = require('rollup-plugin-buble')
 const pug = require('gulp-pug')
 const sass = require('gulp-sass')
 const autoprefixer = require('gulp-autoprefixer')
+const browsersync = require('browser-sync').create()
 
 //
 // helpers
@@ -89,6 +90,14 @@ function static () {
         .pipe(dest('dist/assets/static'))
 }
 
+function serve () {
+    browsersync.init({
+        server: { baseDir: './dist' },
+        port: 4040,
+        notify: false,
+        open: false
+    })
+}
 
 //
 // exported tasks
@@ -102,3 +111,16 @@ exports.build = series(
     clean,
     parallel(html, css, js, images, static)
 )
+
+exports.watch = series(
+    watch('src/html/**/*.pug', html),
+    watch('src/assets/css/**/*.sass', css)
+)
+
+exports.dev = series(
+    exports.build, 
+    parallel(
+        serve, 
+        exports.watch
+    ))
+
