@@ -1,4 +1,4 @@
-include ./mixins.pug
+include ./mixins
 
 doctype html
 html(lang="en")
@@ -8,10 +8,85 @@ html(lang="en")
 
         block title
         
+        meta(content="IE=edge,chrome=1" http-equiv="X-UA-Compatible")
+        meta(content="width=device-width" name="viewport")
+
+        link(href='https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Playfair+Display:400italic' rel='stylesheet' type='text/css')
+        link(href='/assets/css/plugins.css', rel='stylesheet' type='text/css')
+        link(href='/assets/css/main.css', rel='stylesheet' type='text/css')
+        
+        meta(property="og:title" content="Inman Park Festival")
+        meta(property="og:description" content="Atlanta's Favorite Street Festival with a Parade, Live Bands, Dancing, Food, Drink and the always-popular Tour of Homes")
+        meta(property="og:image" content="http://inmanparkfestival.org/assets/img/ipf-butterfly-facebook.png")
+        meta(property="og:url" content="http://inmanparkfestival.org")
+        meta(property="og:type" content="website")
+        meta(name="twitter:card" content="summary_large_image")
+
     body
 
-        block contents
+        .SiteHeaderBackground
+            header.SiteHeader
+            
+                section.MastHead
+                    .SiteMenuToggle
+                        button.SiteMenuToggle-menu Menu
+                        button.SiteMenuToggle-close X
+                
+                    a.SiteLogo(href="/" title="Home Page")
+                        h1.u-visuallyhidden Inman Park Festival &amp; Tour of Homes
+                        img(src="/assets/img/ipf-logo-revised-large.svg" role="presentation")
+                
+                
+                .SiteNav#SiteNav
+                    nav.SiteNav-utilities
+                        each item in globals.utilities
+                            if item.title.toLowerCase() === selectedNav
+                                a(href=item.href class="is-selected")= item.title
+                            else
+                                a(href=item.href)= item.title
 
-        +footerSponsor("/assets/img/2019/sponsors/footer/northside-hospital-footer.png", "Northside Hospital", "http://www.northside.com/")
+                    nav.SiteNav-primary
+                        each item in globals.nav
+                            if item.title.toLowerCase() === selectedNav
+                                a(href=item.href class="is-selected")= item.title
+                            else
+                                a(href=item.href)= item.title
+
+        main
+
+            block contents
+
+
+        footer.Footer
+            .u-container
+            
+                .Footer-sponsors
+                    +footerSponsor("/assets/img/2019/sponsors/footer/northside-hospital-footer.png", "Northside Hospital", "http://www.northside.com/")
+                    +footerSponsor("/assets/img/2017/sponsors/footer/sweetwater.png", "Sweetwater Brewing Co.", "http://sweetwaterbrew.com")
+                    +footerSponsor("/assets/img/2017/sponsors/footer/old-fourth-ward-distillery.png", "Old Fourth Ward Distillery", "http://www.old4th.com")
+                    +footerSponsor("/assets/img/2017/sponsors/footer/asw-distillery.png", "ASW Distillery", "http://www.aswdistillery.com")
+                    +footerSponsor("/assets/img/2017/sponsors/footer/terrapin.png", "Terrapin Beer Co.", "http://terrapinbeer.com/")
+                    +footerSponsor("/assets/img/2017/sponsors/footer/sierra-nevada.png", "Sierra Nevada Brewing", "http://www.sierranevada.com")
+                    +footerSponsor("/assets/img/2017/sponsors/footer/bluemoon.png", "Blue Moon Brewing", "https://www.bluemoonbrewingcompany.com")
+            
+                nav.Footer-nav
+                    a(href="/contact-us" class="PipeNav") Contact Us
+                    a(href="/terms-of-use" class="PipeNav") Terms of Use
+                    a(href="/privacy-policy" class="PipeNav") Privacy Policy
+                    a(href="/trademark" class="PipeNav") Trademark Use
+                
+                p.fineprint!= globals.copyright
 
         block scripts
+
+        if (isProduction)
+            script.
+                var _gaq = _gaq || [];
+                _gaq.push(['_setAccount', 'UA-21675291-1']);
+                _gaq.push(['_trackPageview']);
+
+                (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                })();

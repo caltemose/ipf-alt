@@ -1,0 +1,216 @@
+.SiteHeaderBackground 
+    background-color: $brand-grey-dark
+    z-index: 1000
+
+.SiteHeader 
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    z-index: 1000
+
+    @media (min-width: $bp-md) 
+        position: relative
+        margin: 0 auto
+        max-width: $site-max-width
+
+.MastHead 
+    position: relative
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    padding-bottom: 0.5em
+    background-color: $brand-grey-dark
+
+    @media (min-width: $bp-md) 
+        position: absolute
+        top: 0
+        left: 0
+        background-color: transparent
+
+.SiteMenuToggle 
+    margin-top: 1em
+
+    @media (min-width: $bp-md) 
+        display: none
+
+.SiteMenuToggle button 
+    margin: 1em 0 0 1em
+    padding: 0.5em 0.25em
+    width: 4em
+    background-color: transparent
+    border-top: 1px solid #777
+    border-bottom: 1px solid #777
+    border-right: none
+    border-left: none
+    text-transform: uppercase
+    font-size: 0.8em
+    color: $brand-white
+
+.nav-open .SiteMenuToggle-menu 
+    display: none
+
+.SiteMenuToggle-close 
+    display: none
+
+.nav-open .SiteMenuToggle-close 
+    display: block
+
+.SiteLogo 
+    display: block
+    padding-right: 0.5em
+    text-align: right
+
+    &:hover, &:focus 
+        background-color: darken($brand-grey-dark, 5%)
+
+    &:focus 
+        outline: 1px solid $brand-yellow
+
+    h1 
+        margin: 1em 0 0
+        font-size: 1em
+
+    img 
+        display: block
+        margin-top: 0.5em
+        width: 170px
+
+    @media (min-width: $bp-md) 
+        padding-right: 0
+
+        h1 
+            font-size: 1.25em
+            margin-top: 1.25em
+
+        img 
+            width: 220px
+
+    @media (min-width: $bp-lg) 
+        img 
+            width: 260px
+
+.SiteNav 
+    display: none
+    background-color: $brand-grey-dark
+
+    @media (min-width: $bp-md) 
+        display: block
+        background-color: transparent
+
+.nav-open .SiteNav 
+    display: flex
+    flex-direction: column-reverse
+
+.SiteNav a 
+    text-decoration: none
+    color: $brand-white
+
+.SiteNav a:hover,
+.SiteNav a:focus,
+.SiteNav a.is-selected 
+    color: $brand-yellow
+    background-color: darken($brand-grey-dark, 20%)
+
+.SiteNav a:focus 
+    outline: 1px solid $brand-yellow
+
+.SiteNav-utilities 
+    display: flex
+    justify-content: center
+    margin: 1em 0
+
+    @media (min-width: $bp-md) 
+        margin-top: 0
+        padding-top: 1em
+        justify-content: flex-end
+
+.SiteNav-utilities a 
+    display: inline-block
+    margin-right: 1.25em
+    padding: 0.5em 0.25em
+    font-size: 0.75em
+    text-transform: uppercase
+    letter-spacing: 1px
+
+    @media (min-width: $bp-md) 
+        padding: 0.5em
+
+.SiteNav-utilities a:last-child 
+    margin-right: 0
+
+.SiteNav-primary 
+    display: block
+    border-bottom: 1px solid grey
+
+    @media (min-width: $bp-md) 
+        display: flex
+        flex-direction: row
+        justify-content: flex-end
+        margin-top: 2em
+        border: none
+
+    @media (min-width: $bp-lg) 
+        margin-top: 2em
+
+.SiteNav-primary a 
+    display: block
+    width: 100%
+    padding: 0.75em 0
+    border-top: 1px solid grey
+    text-align: center
+    text-transform: uppercase
+    letter-spacing: 0.15em
+
+    @media (min-width: $bp-md) 
+        margin-right: 0.75em
+        padding: 0.75em 0.5em 0.5em
+        width: inherit
+        font-size: 0.875em
+        border: none
+
+        &:last-child 
+            margin-right: 0
+
+    @media (min-width: $bp-lg) 
+        margin-right: 1em
+        padding: 0.75em 0.5em 0.5em
+        font-size: 1em
+
+.SecondaryNavContainer 
+    border-bottom: 1px solid lighten($brand-grey-dark, 50%)
+
+.SecondaryNav 
+    display: block
+    width: 100%
+    padding: 0 0.5em
+    overflow-x: auto
+    white-space: nowrap
+
+    @media (min-width: $bp-md) 
+        margin: 0 auto
+        max-width: $site-max-width
+        text-align: right
+        background-color: transparent
+
+.SecondaryNav a 
+    display: inline-block
+    margin-right: 1.5em
+    padding: 0.5em 0.25em
+    font-size: 0.75em
+    text-decoration: none
+    text-transform: uppercase
+    color: $brand-grey-dark
+
+    &:hover, &:focus, &.is-selected 
+        background-color: $brand-yellow
+    
+    &:focus 
+        outline: 1px solid $brand-yellow
+
+    @media (min-width: $bp-md) 
+        margin-right: 1.5em
+        padding: 0.5em
+
+        &:last-child 
+            margin-right: 0

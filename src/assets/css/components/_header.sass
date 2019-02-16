@@ -1,0 +1,49 @@
+.Header 
+    position: relative
+    width: 100%
+    padding: 1em 0
+    background: $brand-grey-dark
+    color: $base-font-color-inverse
+
+    a // TODO colors from variables
+        color: rgb(220, 220, 220)
+        &:hover, &:focus 
+            color: rgb(255, 255, 255)
+
+#Logo 
+    float: left
+    margin-top: 0.5em
+    margin-left: 20%
+    width: 120px
+    // height: 66px
+    transform: scale(1.4)
+
+    @media (min-width: $bp-md) 
+        margin-left: -1em
+
+#Trigger 
+    display: none
+
+    &:checked ~ #NavHeader 
+        max-height: 25em
+
+#TriggerLabel 
+    float: right
+    display: inline-block
+    margin: 1.25em 0 0 0
+    padding: 4px
+    border: 1px solid #aaa
+
+    @media (min-width: $bp-md) 
+        display: none
+
+#NavHeader 
+    max-height: 0
+    overflow: hidden
+
+    @media (min-width: $bp-md) 
+        max-height: inherit
+        // position: absolute
+        // top: 1.375rem
+        // right: 0
+

@@ -1,0 +1,166 @@
+{
+    "ipf": {
+        "title": "Inman Park Festival",
+        "date": {
+            "annual": "48",
+            "year": "2019",
+            "friday": {
+                "date": "April 26",
+                "hours": "12PM - 4PM"
+            },
+            "saturday": {
+                "date": "April 27",
+                "hours": "11AM - 6PM"
+            },
+            "sunday": {
+                "date": "April 28",
+                "hours": "11AM - 6PM"
+            },
+            "butterfly": {
+                "start": "8PM",
+                "end": "midnight"
+            }
+        }
+    },
+    "offseason": false,
+    "tour": {
+        "active": false,
+        "cost": {
+            "advance": "20",
+            "door": "25"
+        },
+        "hours": {
+            "weekend": "12PM - 6PM"
+        }
+    },
+    "nav": [
+        {
+            "title": "About",
+            "href": "/about"
+        }, {
+            "title": "Booths",
+            "href": "/booths"
+        }, {
+            "title": "Events",
+            "href": "/events"
+        }, {
+            "title": "Food",
+            "href": "/food"
+        }, {
+            "title": "Sponsors",
+            "href": "/sponsors"
+        }, {
+            "title": "Volunteer",
+            "href": "/volunteer"
+        }
+    ],
+    "utilities": [
+        {
+            "title": "Getting Here",
+            "href": "/map"
+        }, {
+            "title": "FAQ",
+            "href": "/about/faq"
+        }, {
+            "title": "Lost & Found",
+            "href": "/lost-and-found"
+        }
+    ],
+    "copyright": "Copyright &copy; Inman Park Festival",
+    "volunteerSite": "https://signup.com/go/JvQXwwg",
+    "vendors": {
+        "appActive": true,
+        "deadline": "March 9, 2019",
+        "notification": "March 26, 2019",
+        "site": "https://www.zapplication.org/event-info.php?ID=6787"
+    },
+    "events": {
+        "nav": [
+            {
+                "title": "Tour of Homes",
+                "href": "/events/tour-of-homes"
+            }, {
+                "title": "Parade",
+                "href": "/events/parade"
+            }, {
+                "title": "Music",
+                "href": "/events/music"
+            }, {
+                "title": "Dance",
+                "href": "/events/dance"
+            }, {
+                "title": "Kids' Zone",
+                "href": "/events/kidzone"
+            }
+        ],
+        "parade": {
+            "time": "2:00 PM",
+            "application": "/assets/archive/2019/2019-Parade-Application.pdf",
+            "applicationActive": true
+        }
+    },
+    "markets": {
+        "nav": [
+            {
+                "title": "Arts & Crafts",
+                "href": "/booths/arts-crafts-market"
+            }, {
+                "title": "Street Market",
+                "href": "/booths/street-market"
+            }, {
+                "title": "Community Corner",
+                "href": "/booths/community-corner"
+            }, {
+                "title": "Become an Exhibitor",
+                "href": "/booths/become-an-exhibitor"
+            }
+        ]
+    },
+    "art": {
+        "submissions": {
+            "active": false
+        }
+    },
+    "contacts": [
+        {
+            "value": "",
+            "label": "Choose one..."
+        }, {
+            "value": "chair",
+            "label": "Festival Chair"
+        }, {
+            "value": "dance",
+            "label": "Dance Festival"
+        }, {
+            "value": "market",
+            "label": "Arts & Crafts and Street Market"
+        }, {
+            "value": "parade",
+            "label": "Parade"
+        }, {
+            "value": "food",
+            "label": "Food Vendors"
+        }, {
+            "value": "music",
+            "label": "Music Coordinator"
+        }, {
+            "value": "toh",
+            "label": "Home Tour Tickets"
+        }, {
+            "value": "sponsors",
+            "label": "Sponsors"
+        }, {
+            "value": "volunteers",
+            "label": "Volunteers"
+        }, {
+            "value": "pr",
+            "label": "Public Relations"
+        }, {
+            "value": "marketing",
+            "label": "Advertising and Marketing"
+        }, {
+            "value": "support",
+            "label": "Website Support"
+        }
+    ]
+}
