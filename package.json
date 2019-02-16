@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "Test repo for improving process for IPF site.",
   "scripts": {
-      "start": "gulp dev",
-      "build": "gulp build",
-      "build:production": "NODE_ENV='production' gulp build",
-      "build:staging": "NODE_ENV='staging' gulp build"
+    "start": "gulp dev",
+    "build": "gulp build",
+    "build:production": "NODE_ENV='production' gulp build",
+    "build:staging": "NODE_ENV='staging' gulp build",
+    "deploy:staging": "deploy-to-staging-web-root",
+    "deploy:production": "echo 'deploy-to-production-web-root'"
   },
   "repository": {
     "type": "git",
