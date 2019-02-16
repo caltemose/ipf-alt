@@ -1,0 +1,258 @@
+{
+    "stages": {
+        "d": "Delta Park",
+        "e": "Euclid Avenue Stage",
+        "w": "WonderRoot Stage"
+    },
+    "saturday": {
+        "d": [
+            {
+                "start": "11:45AM",
+                "end": "12:45PM",
+                "title": "Rainmen",
+                "photo": "/assets/img/2017/music/rainmen.jpg",
+                "description": "Classic tunes",
+                "bio": "<p>The Rainmen have been playing together as the current lineup for nearly five years now. The band consists Atlanta music scene veterans who came together to play the kind of fun and energetic rock & roll dance music that they all loved, mostly sixties and early seventies rock & roll, with a good bit of R&B/Motown mixed in. The band is known for their three part harmonies and for keeping the dance floor rocking wherever they bring their \"dance party.\"</p>"
+            }, {
+                "start": "1:00PM",
+                "end": "2:00PM",
+                "title": "Cledus Jeremiah Jones & The Spirit Bones",
+                "photo": "/assets/img/2017/music/cledus-jones.jpg",
+                "description": "Hillbilly fusion, sorta",
+                "bio": "<p>Cledus Jeremiah Jones & The Spirit Bones play original songs that sound as if Commander Cody, Mojo Nixon and Hunter S. Thompson had a 3-way mutant love child. Their first CD \"The Odyssey of Cledus Jeremiah Jones\" is a concept album based on the legend of Appalachian Prophet Cledus Jeremiah Jones (full story at cledusjeremiahjones.com).</p><p>Their act is Americana as it flows downstream into New Orleans. While one song may sound like a jug band, it blends smoothly into one with a strong drum and bass blues groove.</p><p>Band Leader and Songwriter Ted Pettus (playing the role of Cledus) keeps his day job teaching anatomy and neuroscience at Emory University. But his alter ego, Cledus, plays with some of Atlanta’s finest musicians, bringing these songs to a new level of groove.</p>",
+                "url": "https://www.facebook.com/PettusAtLarge/app/190322544333196/"
+            }, {
+                "start": "3:00PM",
+                "end": "4:00PM",
+                "title": "10 degrees Off",
+                "photo": "/assets/img/2017/music/10-degrees-off.jpg",
+                "description": "Blues, swing, rock and good-time covers and originals",
+                "bio": "<p>All but one of the guys in 10 degrees Off call Inman Park home. Billy, the drummer (wouldn'tcha know it...) lives outside the perimeter and has to get shots and wear scuba gear whenever he comes in to rehearse.  But we're glad to have him.  Bass player Steve is responsible for booking all the music for the Inman Park Festival... how else do you think his band gets to play every year? But they're actually pretty good when they try hard enough. Jim's on the keyboards when he's not on their boat, and Wayne's always there... and on guitar.</p>"
+            }, {
+                "start": "4:15PM",
+                "end": "5:15PM",
+                "title": "Reign and Revelry",
+                "photo": "/assets/img/2017/music/reign-n-revelry.jpg",
+                "description": "Country, y'all!",
+                "bio": "<p>Reign and Revelry are a southern band with roots deep in Americana, Southern Rock, and Alternative Country, making their first appearance at Inman Park Festival.</p>",
+                "url": "https://www.facebook.com/reignandrevelry"
+            }, {
+                "start": "5:30PM",
+                "end": "6:45PM",
+                "title": "Mudcat",
+                "photo": "/assets/img/2017/music/mudcat.jpg",
+                "description": "Bluesy guitarist w/special guest Eddie Tigner",
+                "bio": "<p>&ldquo;Danny 'Mudcat' Dudeck is an internationally known bluesman and gospeleer. Mudcat, while continuing the traditions of the early blues pioneers, adds his own edge, resulting in one of Atlanta's greatest treasures.&rdquo; - Atlanta History Center</p>",
+                "url": "http://www.mudcatblues.com"
+            }, {
+                "start": "7:00PM",
+                "end": "8:00PM",
+                "title": "Geoff Achison",
+                "photo": "/assets/img/2017/music/geoff-achison.jpg",
+                "description": "Australian-Atlantan Blues guitarist",
+                "bio": "<p>Having morphed into an Atlantan for a year or so of his impressive career, Geoff Achison is an award winning blues-roots artist currently residing in (and a citizen of) his native home, Melbourne, Australia. Known for his energetic live performances and unique guitar mastery, Geoff is an extraordinary guitarist who plays quite unlike anyone else. Besides his music awards he has been honored in Australian Guitar Magazine's \"Top 50 Guitarists\", True Fire's \"Guitarists You Should Know\" and he is also an Official Patron of the Melbourne Blues Appreciation Society.</p>",
+                "url": "https://www.geoffachison.com"
+            }
+        ],
+        "e": [
+            {
+                "start": "11:45AM",
+                "end": "12:45PM",
+                "title": "Balalaika Fantasie",
+                "photo": "/assets/img/2017/music/balalaika-fantasie.jpg",
+                "description": "Traditional Eastern European instruments/music",
+                "bio": "<p>When you see and hear Balalaika Fantasie, you will experience an ensemble and singers performing on authentic Russian folk instruments, costumed in traditional Russian garb. Their repertoire includes Russian (of course), Ukrainian, Gypsy, and Jewish folk music, and they are members of the Atlanta Balalaika Society, here to perform Saturday at our Euclid Tent Stage.</p>"
+            }, {
+                "start": "1:00PM",
+                "end": "2:00PM",
+                "title": "Bitteroots",
+                "photo": "/assets/img/2017/music/the-bitterroots.jpg",
+                "description": "Soulful jam-rock",
+                "bio": "<p>The Bitteroots are an Atlanta/Decatur-based original jam-rock band founded in 2008. Fronted by female vocalist Laura Dees, the band has a sound that's been called a \"unique brand of soulful rock.\" The Bitteroots' groove-oriented approach to rock n roll has drawn comparisons to the Tedeschi-Trucks Band, Melissa Etheridge, and Janis Joplin.</p>",
+                "url": "http://www.thebitteroots.com"
+            }, {
+                "start": "3:15PM",
+                "end": "4:15PM",
+                "title": "Solid State",
+                "photo": "/assets/img/2017/music/solid-state.jpg",
+                "description": "Jazz by some of Atlanta's best",
+                "bio": "<p>Solid State is a cutting edge contemporary jazz group featuring 4 horns backed by piano, guitar, bass, and drums. Our music explores various genres of jazz including latin, swing, funk, and ballads. Harmonically based in modern jazz, the tonal structure never sits still on one chord vamps or uses repetitive patterns, but continually changes in a linear compositional flow. Our songs and solos explore wide dynamic ranges from soft and mellow to exciting and hot. Each tune is an ever developing journey through the many languages and styles of jazz, and seeks to involve the listener in our journey towards the goal of innovative yet listenable music.</p>"
+            }, {
+                "start": "4:30PM",
+                "end": "5:30PM",
+                "title": "Webb Wilder",
+                "photo": "/assets/img/2017/music/webb-wilder.jpg",
+                "description": "Americana/alt-country",
+                "bio": "<p>\"Mississippi Moderne\". Pronounce it however you like, but Webb pronounces it \"Moe-durn.\" Hybridized and improvised. Nashville rock 'n roll. Formed from Mississippi mud, tinged with British mod. Bruised by the blues. Baptized by Buck and Chuck. Psychiatric psycho-rootsy. Sizzling, glistening, uneasy listening. As it has been for three decades, it is now and ever shall be. Webb Wilder.</p><p>\"I hate to use the word mature\", Webb says. And so we shall not.</p>",
+                "url": "https://www.webbwilder.com "
+            }
+        ],
+        "w": [
+            {
+                "start": "11:45AM",
+                "end": "12:45PM",
+                "title": "TAYLOR ALXNDR*",
+                "photo": "/assets/img/2017/music/taylor-alxndr.jpg",
+                "description": "Synth/Pop",
+                "bio": "<p>TAYLOR ALXNDR is a queer and trans musician, performance artist, and community organizer. They make DIY synth pop music while also co-organizing Southern Fried Queer Pride, a queer and trans arts and advocacy organization, and curating SWEET TEA, a queer variety show. TAYLOR's music is meant to make you think and to make you move.</p>",
+                "url": "http://www.tayloralxndr.com/"
+            }, {
+                "start": "1:00PM",
+                "end": "2:00PM",
+                "title": "Agyn*",
+                "photo": "",
+                "description": ""
+            }, {
+                "start": "3:30PM",
+                "end": "4:30PM",
+                "title": "Lightning Orchestra",
+                "photo": "/assets/img/2017/music/lightning-orchestra.jpg",
+                "description": "",
+                "bio": "<p>Lightning Orchestra Band is a group of some of Atlanta's finest musicians who perform funk, soul, and afrobeat music.</p>",
+                "url": "https://www.facebook.com/lightningorchestra"
+            }, {
+                "start": "4:45PM",
+                "end": "5:15PM",
+                "title": "Fit of Body*",
+                "photo": "",
+                "description": "Bedroom dance music",
+                "bio": "<p>Fit Of Body's sound is unique among the current crop of  bedroom dance producers in that it can ignite a dance floor while still feeling deeply personal. This mood is enhanced by the way Parks colours his tracks with his own voice. His approach to adding live instrumentation to the arrangements lends a handmade delicacy otherwise lacking in so much hyper-quantized machine music. These are tracks that will feel at home in the DJ booth, your living room and your bedroom.</p>"
+            }, {
+                "start": "5:15PM",
+                "end": "5:45PM",
+                "title": "Pamela and her sons*",
+                "photo": "/assets/img/2017/music/pamela-and-her-sons.jpg",
+                "description": "Techno Dance",
+                "bio": "<p>Pamela and her sons is an Atlanta-based artist and musician. Pamela is microtonal cerebral dance music. Fragmented, off-kilter anxiety techno with an emphasis on texture, pattern, and rhythm.</p><p>Pamela recently composed a live score for Fails, a dance piece on failure choreographed and performed by Atlanta-based dancers Hez Stalcup and Blake Beckham.</p>",
+                "url": "http://pamelaandhersons.com"
+            }, {
+                "start": "6:00PM",
+                "end": "7:00PM",
+                "title": "Hank & Cupcakes",
+                "photo": "/assets/img/2017/music/hank-and-cupcakes.jpg",
+                "description": "High-energy rock",
+                "bio": "",
+                "url": ""
+            }
+        ]
+    },
+    "sunday": {
+        "d": [
+            {
+                "start": "12:30PM",
+                "end": "1:30PM",
+                "title": "Uncle Don's Band",
+                "photo": "/assets/img/2017/music/uncle-dons-band.jpg",
+                "description": "Classic rock/Americana",
+                "bio": "<p>Uncle Don's Band presents classic tunes reimagined! Byrds, Beatles, Stones, Dylan, Floyd, Petty, ELO, Badfinger, The Band, Dire Straits and many, many more! Featuring four of Atlanta's finest: Don Ruiz (vocals, bass), John Tyler (vocals, guitars), Burt Wolff (vocals, guitars, keys, sound efx), Larry Strong (drums and percussion). Some of the greatest songs ever, enhanced with (and by) improvisation! 12 string electric guitar! Starfire bass! Almost two centuries of obsessive rock and roll experience on display for your enjoyment and edification!</p>"
+            }, {
+                "start": "1:45PM",
+                "end": "2:45PM",
+                "title": "Gr&uuml;t",
+                "photo": "/assets/img/2017/music/grut.jpg",
+                "description": "\"Electronic experimental\" world/jazz/funk",
+                "bio": "<p>When I approached my pal Vincent for band suggestions for the Festival (Vincent Tseng, that is, the Asian-American photographer guy who seems to be in attendance at every live music performance I've ever attended in Atlanta), he heartily recommended these guys.  So all credit due goes to him.</p>",
+                "url": "https://www.facebook.com/GrutMusic"
+            }, {
+                "start": "3:00PM",
+                "end": "4:00PM",
+                "title": "Southern Ska Syndicate",
+                "photo": "/assets/img/2017/music/southern-ska-syndicate.jpg",
+                "description": "Ska, southern-style",
+                "bio": "<p>Southern Ska Syndicate is ready to get the party started with their mix of classic ska and rocksteady sounds guaranteed to get you skanking on the dance floor! With members from all around the United States and veterans of other bands, Southern Ska Syndicate brings the rebel spirit of 1960's Jamaican music to you! Despite being banned from performing in Mongolia, the band's high energy and positive vibe can't be brought down.</p>",
+                "url": "http://southernskasyndicate.com "
+            }, {
+                "start": "4:15PM",
+                "end": "5:15PM",
+                "title": "RUMOURS",
+                "photo": "/assets/img/2017/music/rumours.jpg",
+                "description": "The ultimate tribute to the band and music of Fleetwood Mac",
+                "bio": "<p>Rumours is the country's premier Fleetwood Mac tribute band. Based in Atlanta, GA, the band captures the energy of  Fleetwood Mac at the height of their career by blending perfect harmonies, precise instrumentation, and a visually engaging stage show. Their dedication to recreating the Fleetwood Mac experience has skyrocketed their popularity, garnering a loyal fan base. By playing to sold out audiences and packed houses at major venues across the country (including House of Blues, the legendary Daryl Hall's Club, and a residency at Epcot for Disney), Rumours has earned its place as one of the top tribute bands around today.</p>",
+                "url": "http://rumoursatl.com"
+            }, {
+                "start": "5:30PM",
+                "end": "6:30PM",
+                "title": "Morning Fatty",
+                "photo": "/assets/img/2017/music/morning-fatty.jpg",
+                "description": "FRED (Funk/Rock/Electro/Dub)",
+                "bio": "<p>Morning Fatty, is an ever-evolving punk/ska turned reggae-funk band. The group combines individual musical prowess to create a strong collective chemistry. Based out of Gainesville Florida, Morning Fatty  has continued to evolve and transform their sound since coming together in 2004. The group's original dynamic shifted incredibly with the addition of experienced drummer Tim Mulberry. Previous to joining the band, Tim had accomplished a world tour drumming for The Black Eyed Peas. The new sound can only be described as Funk Rock Electro Dub, or simply FRED. By melding electronic bass drops, dueling guitar licks, heavy rock melodies and a fat reggae groove, Morning Fatty discovered a distinctive sound that pays homage to each member's unique style.</p>",
+                "url": "http://www.morningfatty.com"
+            }
+        ],
+        "e": [
+            {
+                "start": "12:00PM",
+                "end": "1:00PM",
+                "title": "Fare Thee Well Music Camp Kids",
+                "photo": "/assets/img/2017/music/fare-thee-well.jpg",
+                "description": "Future musical stars, sponsored by Music on Main Street in Lilburn Georgia",
+                "bio": "<p>Through workshops, group activities, and private instruction, the Fare Thee Well camp experience is designed to improve music performance skills in a creative and fun environment.  Music is born from human emotions, and playing with others speeds learning and creates collaborative musicians; we are proud to provide them an opportunity to show off their chops!</p>",
+                "url": "http://www.musiconmainstreetlilburn.com/fare-thee-well-summer-music-camp.html"
+            }, {
+                "start": "1:15PM",
+                "end": "2:15PM",
+                "title": "MerryLeigh Giarra & After Six",
+                "photo": "/assets/img/2017/music/m-l-giarra.jpg",
+                "description": "Bluesy, jazzy, slightly country originals",
+                "bio": "<p>MerryLeigh Giarra tells a musical story in slice-of-life vignettes. Temperate but hard truths about love, family, growing up and holding one's own. About a woman discovering her strength and her softness, her choices and their consequences. It's mellow with an edge, raunch with a PhD.</p>",
+                "url": "http://merryleighgiarra.com/"
+            }, {
+                "start": "2:30PM",
+                "end": "3:30PM",
+                "title": "The Norm",
+                "photo": "/assets/img/2017/music/the-norm.jpg",
+                "description": "Funk/reggae/pop/rock/hip-hop fusion",
+                "bio": "<p>The Norm is the collaborative effort of singer-songwriter Bryan Rucker, his step-brother and rapper Ryan Bars, and pals. After starting out in Miami, Rucker moved to Athens, Georgia in 2015 and combined forces with childhood friend Daniel Rubin (drums) and local heavyweights Doyle Williams (guitar) and Jay Rodgers (bass). Together they combine their urban roots with layers of funk, reggae, pop, rock, and hip hop to achieve a sound that is both unique and captivating.</p>",
+                "url": "http://thenormmusic.com"
+            }, {
+                "start": "3:45PM",
+                "end": "4:45PM",
+                "title": "Georgia Soul Council",
+                "photo": "/assets/img/2017/music/georgia-soul-council.jpg",
+                "description": "Horn-driven R&B and funk",
+                "bio": "<p>Georgia Soul Council was originally formed in Atlanta in 2010 as the backing band for Otis Redding III, and reconvened in 2011 with a shift towards the 70's era breakbeat-Soul-Jazz that is their real musical passion. Since then they have been bringing their funkified live performances to the people of the southeastern United States, and have had the pleasure of sharing the stage with <em>Lee Fields & The Expressions</em>, <em>the Antibalas Afrobeat Orchestra</em>, <em>Papa Grows Funk</em>, <em>Col. Bruce Hampton</em>, <em>the Rebirth Brass Band</em>, and many others.</p>",
+                "url": "https://georgiasoulcouncil1.bandcamp.com"
+            }, {
+                "start": "5:00PM",
+                "end": "6:00PM",
+                "title": "Joe Gransden and his 17-piece Big Band",
+                "photo": "/assets/img/2017/music/joe-gransden.jpg",
+                "description": "Big band swing",
+                "bio": "<p>Joe Gransden is the soul of live Jazz and Big Band. Clint Eastwood discovered his talent and describes Joe as \"a young man with a classic voice and one hell of a Trumpet player.\" Kenny G, says \"Joe Gransden is one of those rarest musicians that has it all. He is an incredible instrumentalist with the technique of a virtuoso.\"</p>",
+                "url": "http://www.joegransden.com"
+            }
+        ],
+        "w": [
+            {
+                "start": "12:15PM",
+                "end": "1:15PM",
+                "title": "Dux*",
+                "photo": "/assets/img/2017/music/dux.jpg",
+                "description": "Cello and Synthesizer",
+                "bio": "<p>Other than carbs, salt, and fat from butter, popcorn is incredibly hard for a duck to swallow. The kernels can get snagged in the esophagus causing choking and abrasions. Using cello and synthesizer, Dux is/are exploring the limits of what musical vocabulary we can achieve.</p>",
+                "url": "https://www.facebook.com/bightydux"
+            }, {
+                "start": "1:30PM",
+                "end": "2:30PM",
+                "title": "Bradley Cole Smith Band",
+                "photo": "/assets/img/2017/music/bradley-cole-smith.jpg",
+                "description": "Original country-flavored tunes",
+                "bio": "<p>Bradley Cole Smith has been a fixture on the Atlanta music scene since the early 1990's. As a songwriter, he has been featured in films and television. As a performer, he has shared the stage with numerous artists including Sheryl Crow, Blues Traveler, Sister Hazel, Edwin McCain, Taj Mahal, Dwight Yoakum and Jerry Jeff Walker. He just completed recording an EP of original tunes with long-time bandmate Nelson Nolen and a cast of friends, old and new. The EP is set for release in the spring of 2017.</p>"
+            }, {
+                "start": "2:45PM",
+                "end": "3:45PM",
+                "title": "10th Letter Ensemble*",
+                "photo": "",
+                "description": ""
+            }, {
+                "start": "4:00PM",
+                "end": "5:00PM",
+                "title": "Hoodoo Moon",
+                "photo": "/assets/img/2017/music/hoodoo-moon.jpg",
+                "description": "A mix of classic bayou funk, rock and soul",
+                "bio": "<p>Hoodoo Moon is a nonstop party! Jamie Hood (get it? Hood-oo?) John and Kate Marsh and their Krewe de Joie let the bontemps roulez with a mix of classic bayou boogie, Detroit funk and southern soul.</p>",
+                "url": "https://www.facebook.com/hoodoomoonATL"
+            }
+        ]
+    }
+}

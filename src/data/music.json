@@ -1,0 +1,306 @@
+{
+    "stages": {
+        "d": "Delta Park",
+        "e": "Euclid Avenue Stage",
+        "f": "Freedom Stage"
+    },
+    "saturday": {
+        "d": [
+            {
+                "start": "11:45AM",
+                "end": "12:45PM",
+                "title": "MOMS' Kids",
+                "photo": "/assets/img/2018/music/moms.jpg",
+                "thumb": "/assets/img/2018/music/moms-thumb.jpg",
+                "description": "The future of Atlanta's musical community, right there on stage, for you to see, hear, and say later, \"I saw 'em when...\"",
+                "bio": "<p>Music on Main Street in Lilburn sponsors a musical youth education program and has done for some time. We're happy to provide some stage time for these youngsters, and a little insight into the live performance experience.</p>",
+                "url": "http://www.musiconmainstreetlilburn.com/"
+            },
+            {
+                "start": "1:00PM",
+                "end": "2:00PM",
+                "title": "Kitten Fontaine",
+                "photo": "/assets/img/2018/music/kitten-fontaine.jpg",
+                "thumb": "/assets/img/2018/music/kitten-fontaine-thumb.jpg",
+                "description": "Well-executed bar cover band fare",
+                "bio": "<p>Kitten Fontaine is getting cranked up for an awesome Festival with YOU! Lots of themed tunes, old standbys, and a few great ones you may not have heard us play before!!</p>",
+                "url": "https://www.facebook.com/kittenfontaine/"
+            },
+            {
+                "start": "3:00PM",
+                "end": "4:00PM",
+                "title": "Soldado",
+                "photo": "/assets/img/2018/music/soldado.jpg",
+                "thumb": "/assets/img/2018/music/soldado-thumb.jpg",
+                "description": "Like music from a Tarentino movie",
+                "bio": "<p>They had me as soon as I read, \"Like music from a Quentin Tarantino movie...\" that's what it said, right on their website, and that was enough for me. Turns out these guys (and gal) are truly a treat to see and hear. You may hear songs drawn from the four corners of the musical universe, rendered in Soldado's own dialect of that mathematical lingo called music.  Now that's what makes a real band, for my money!</p>",
+                "url": "http://www.soldado.biz"
+            },
+            {
+                "start": "4:15PM",
+                "end": "5:15PM",
+                "title": "Rockit 88",
+                "photo": "/assets/img/2018/music/rockit-88.jpg",
+                "thumb": "/assets/img/2018/music/rockit-88-thumb.jpg",
+                "description": "Esoteric classic rock covers and originals",
+                "bio": "<p>Classic rock and blues covers and originals performed by talented locals.  Featuring four-piece horn section, great vocals and harmonies, and virtuoso keyboards and guitars.</p>",
+                "url": "https://www.facebook.com/pg/rockit88east/community/?ref=page_internal"
+            },
+            {
+                "start": "5:30PM",
+                "end": "6:30PM",
+                "title": "The Swingin' Saddlecats",
+                "photo": "/assets/img/2018/music/swingin-saddlecats.jpg",
+                "thumb": "/assets/img/2018/music/swingin-saddlecats-thumb.jpg",
+                "description": "Ridin', ropin', and sangin' cowpokes, tongues planted firmly in cheek",
+                "bio": "<p>Swingin' Saddle Cats was born after a road tour through the Midwest US by Back In The Saddle. In the van, the members of Back In The Saddle started talking about their love of Rockabilly and Classic Country Western Music. That led to singing the songs while we rolled down the road, which led to some rehearsals and a first gig. Voila, Swingin' Saddle Cats! Bern&eacute; Poliakoff - Vocals / Guitar, Gwen Hughes - Vocals, Micah Cadwell - Lead Guitar, Tim Higgins - Rhythm Guitar / Fiddle / Vocals, Mike Hinton - Drums. The band is also joined on occasion by some of the finest players in Atlanta, playing songs by Carl Perkins, Gene Vincent, Roy Orbison, Buddy Holly, Wanda Jackson and many more of our favorite artists. Bring your dancin' shoes!</p>",
+                "url": "https://www.facebook.com/Swingin-Saddle-Cats-1794988150532911/"
+            },
+            {
+                "start": "6:45PM",
+                "end": "7:45PM",
+                "title": "Sandra Hall and the Shadows",
+                "photo": "/assets/img/2018/music/sandra-hall.jpg",
+                "thumb": "/assets/img/2018/music/sandra-hall-thumb.jpg",
+                "description": "Beloved blues/jazz diva plus Blind Willie's house band",
+                "bio": "<p>Well-known in Atlanta's musical community and accompanied by the house band from Blind Willie's, Ms. Hall graces our stage again.  She is also known as the \"Empress of the Blues\".  Renowned blues venue Blind Willie's is sort of a home base for Sandra, and she frequently is backed up by The Shadows, aka Blind Willie's house band. Such will be the case at Festival time.  If you're an aficionado of the Blues, don't miss her!</p>",
+                "url": "https://www.facebook.com/SandraHallBlues/"
+            },
+            {
+                "start": "8:00PM",
+                "end": "9:00PM",
+                "title": "Bad Cat Daddy",
+                "thumb": "/assets/img/2018/music/bad-cat-daddy-thumb.png",
+                "description": "You pays your money and you takes your chances...",
+                "bio": "<p>Eclectic selections of esoteric genre music, performed by folks who haven't passed out yet, including performers from earlier in the day, sound crew members, neighbors, random buskers and/or variously talented non-professional musicians, and featuring a killer kazoo/bouzouki duet (early in the set, if it happens). This set is generously provided by the Festival for our beer-drinking clientele.</p>",
+                "url": "https://www.reverbnation.com/10degreesoff"
+            }
+        ],
+        "e": [
+            {
+                "start": "11:45AM",
+                "end": "12:45PM",
+                "title": "Dusty Roads",
+                "photo": "/assets/img/2018/music/dusty-roads.jpg",
+                "thumb": "/assets/img/2018/music/dusty-roads-thumb.jpg",
+                "description": "",
+                "bio": "<p>Some of Atlanta's finest pickers just recorded their first album at Inman Park's Wrecking Bar. Expect some finely constructed acoustic songs that feel as if they soar down from the mountaintop to resonate the listener's heart-strings.</p>",
+                "url": "https://www.dustyroadsmusic.com/"
+            },
+            {
+                "start": "1:00PM",
+                "end": "2:00PM",
+                "title": "Brewery Road",
+                "thumb": "/assets/img/2018/music/brewery-road-thumb.jpg",
+                "photo": "/assets/img/2018/music/brewery-road.jpg",
+                "description": "Classic rockers",
+                "url": "http://www.facebook.com/breweryroad"
+            },
+            {
+                "start": "3:00PM",
+                "end": "4:00PM",
+                "title": "Grant Green, Jr.",
+                "photo": "/assets/img/2018/music/ggreen-yrscott.jpg",
+                "thumb": "/assets/img/2018/music/ggreen-yrscott-thumb.jpg",
+                "description": "Jazz guitarist (son of the legendary Grant Green)",
+                "bio": "<p>Grant Green, Jr. is a jazz guitarist and son of jazz guitar player Grant Green. He is a member of the group Masters of Groove, along with drummer Bernard Purdie and B3 organ player Reuben Wilson.  Born in St Louis, Missouri on August 4, 1955, Grant started playing guitar at the age of fourteen.  He moved to New York in 1965 where he first met numerous Jazz musicians who stopped by the family home.  He is reputed to have been the \"mystery drummer\" on a number of early recordings by a little-known British group (the Beatles) when their regular drummer couldn't keep up. In 1969, Green Jr. moved to Detroit with his father. His next door neighbors were Stevie Wonder's parents. Marvin Gaye lived a few blocks away, so did members of the Four tops and other Motown artists. At that time the influence of Motown was widely felt. His father and Stevie were great Influences on him, and he went on to play with greats such as Leon Thomas, Reuben Wilson, Jimmy McGriff, Lou Donaldson and Dr. Lonnie Smith, among others. He continues to record and perform.<br><a href=\"http://www.grantgreenjr.com\" target=\"_blank\">http://www.grantgreenjr.com</a></p>"
+            },
+            {
+                "start": "4:45PM",
+                "end": "5:45PM",
+                "title": "Velvet Caravan",
+                "thumb": "/assets/img/2018/music/velvet-caravan-thumb.jpg",
+                "description": "Django-ish gypsy jazz",
+                "bio": "<p>As a national and international touring ensemble, the band still calls Savannah, Georgia its' home, bringing a bit of southern charm and coastal coolness to their music. If one were to name one Savannah-based musical act that most exemplifies this time-honored, eclectic and adventurous city, they'd be hard to find a more appropriate ambassador than Velvet Caravan.</p><p>This unorthodox, high-energy, acoustic-based quintet has, over the past few years, emerged as one of the shining lights of Savannah's burgeoning music scene. In that time, the band has grown to perform as an instrumental combo which routinely drew enthusiastic and loyal followers at raucous restaurants and jazz clubs to a respected and admired touring act that's comfortable in an attentive listening room or large concert hall.  They have recently built their show to occasionally collaborate with vocalists, orchestras, and a variety of featured musicians. We welcome them on their first trip to our Festival, and hope they find lots more Atlanta fans.</p>",
+                "url": "http://www.velvetcaravan.com/"
+            }
+        ],
+        "f": [
+            {
+                "start": "11:45AM",
+                "end": "12:45PM",
+                "title": "Moody Hollow Band",
+                "photo": "/assets/img/2018/music/moody-hollow.jpg",
+                "thumb": "/assets/img/2018/music/moody-hollow-thumb.jpg",
+                "description": "Southern Rock Band fronted by Brit La Palm Heart meets Allison Kraus",
+                "bio": "",
+                "url": "http://moodyhollow.band/"
+            },
+            {
+                "start": "1:00PM",
+                "end": "2:00PM",
+                "title": "Honey Strikes Band",
+                "photo": "/assets/img/2018/music/honey-strikes.jpg",
+                "thumb": "/assets/img/2018/music/honey-strikes-thumb.jpg",
+                "description": "Youthful Rockers",
+                "bio": "<p>Honey Strikes came to life in early 2017, when members Zack Gruczkowski, Zach Carnegie, and Stephen Leotis (formerly of Motor Earth) solidified a new lineup with guitarist Jason Zwang, drawing from the members' shared love for lush, edgy, guitars and slick, sparkling rock. The name comes from the band's studies in rock n' roll history--and a love for the raw and visceral lyrics of Iggy Pop.</p><p>Building off Zack’s seemingly endless catalog of high schooler’s bedroom hits, watching Honey Strikes time travels to now from the heydays of Foo Fighters, QOTA, Soundgarden, Stone Temple Pilots.</p>",
+                "url": "http://honeystrikesband.com/"
+            },
+            {
+                "start": "3:30PM",
+                "end": "4:30PM",
+                "title": "The Young and the Elder",
+                "photo": "/assets/img/2018/music/young-and-elder.jpg",
+                "thumb": "/assets/img/2018/music/young-and-elder-thumb.jpg",
+                "description": "Piano-driven rock. Three-piece acoustic/electric eclectic",
+                "bio": "<p>They've been performing around Atlanta and the southeast U.S. since the summer of 2014. Their blend of indie, rock, classical, and other styles has been featured on radio stations like 99x and Album 88 (in Atlanta) and  V89 (in Tallahassee, FL). They've been invited to perform at Greenville'sArtisphere, Songs For Kids, and street festivals around Atlanta. The Young and the Elder's debut album will be available soon.</p>",
+                "url": "https://www.facebook.com/pg/theyoungandtheelder/"
+            },
+            {
+                "start": "4:45PM",
+                "end": "5:45PM",
+                "title": "Javon Womack",
+                "photo": "/assets/img/2018/music/javon-womack.jpg",
+                "thumb": "/assets/img/2018/music/javon-womack-thumb.jpg",
+                "description": "Atlanta-based singer/songwriter/producer of original R&B-ish ballads",
+                "bio": "<p>Javon Womack's voice will captivate you with the first buttery note that melts into your ears and seeps into your soul. From groove-worthy rhythm and blues to original silky songs of love, Womack uses edgy electronic and organic elements to possess the listener. Before he landed in Atlanta to become part of the growing film and music scene, he played drums and sang for his church and was also percussionist in the marching band in Commerce, Georgia. Since being in Atlanta he has been involved with numerous projects. He has performed all over Athens and Atlanta, opening for Egyptian Lover, Killer Mike, Pastor Troy and Toro y Moi. A Southeastern tour is also in the works.</p>",
+                "url": "https://www.facebook.com/jvwomack/"
+            },
+            {
+                "start": "6:00PM",
+                "end": "7:00PM",
+                "title": "The band Be Easy",
+                "photo": "/assets/img/2018/music/the-band-be-easy.jpg",
+                "thumb": "/assets/img/2018/music/the-band-be-easy-thumb.jpg",
+                "description": "Horn-centric funk and R&B, from Jacksonville, FL.",
+                "bio": "",
+                "url": "http://www.thebandbeeasy.com/"
+            }
+        ]
+    },
+    "sunday": {
+        "d": [
+            {
+                "start": "12:30AM",
+                "end": "1:30PM",
+                "title": "Rodeo Twister",
+                "photo": "/assets/img/2018/music/rodeotwister.jpg",
+                "thumb": "/assets/img/2018/music/rodeotwister-thumb.jpg",
+                "description": "",
+                "bio": "<p>Rockabilly Country by three friends with deep deep roots in the Atlanta Music Scene. We think this is the US version of the Nits.</p>",
+                "url": "https://rodeotwister.com/bio"
+            },
+            {
+                "start": "1:45PM",
+                "end": "2:45PM",
+                "title": "Squirrelheads",
+                "thumb": "/assets/img/2018/music/squirrelheads-thumb.jpg",
+                "description": "A taste of N'awlins funk in Hotlanta!",
+                "bio": "<p>Since 2001 The Squirrelheads have been dishing out some of the freshest New Orleans FUNK, Blues and Boogie this side of the Mississippi Delta. With a unique blend of New Orleans-influenced funk and good old Southern Soul, The Squirrelheads offer a musical blend that will insist you tap your feet and shake that thang. If you ain't groovin' then you ain't listenin' to The Squirrelheads.</p><p>Start with influences such as the Meters, The Neville Brothers, Dr. John, Buckwheat Zydeco and The Radiators. Then throw in a side of the south such as the Allman Brothers Band and James Brown and you have a unique style of roots-funk-boogie with a Zydeco twist. Truly a sound that will turn any night into a full-blown Mardi Gras Party!</p>",
+                "url": "http://www.thesquirrelheads.com/"
+            },
+            {
+                "start": "3:00PM",
+                "end": "4:00PM",
+                "title": "ONE HEADLIGHT",
+                "thumb": "/assets/img/2018/music/one-headlight-thumb.jpg",
+                "photo": "/assets/img/2018/music/one-headlight.jpg",
+                "description": "Rock anthems for the Original MTV Generation.",
+                "bio": "<p>ONE HEADLIGHT is an Atlanta-based pop/rock band for the original MTV Generation and beyond!  Formed in 2014 by a crazy criminal psychologist and a CEO in the music and corporate industries, the band intentionally wanted to be different, especially in terms of what to play.   By mixing professional studio backing tracks with live electric guitars, electric drums and tight vocals, ONE HEADLIGHT is now a modern musical mashup between an infectious club DJ and David Bowie, U2, or Guns N' Roses LIVE!  With their precision instruments and jaw-dropping vocal skills, ONE HEADLIGHT does not try to cover the best of the 70s, 80s and 90s anthems; instead, they seek to actually replicate the sounds at the highest level, complete with hilarious stage props, costumes and antics from the days gone by!  ONE HEADLIGHT will gladly drive you down memory lane, to a simpler time when music was both cool and fun!</p>",
+                "url": "https://www.oneheadlightband.com/"
+            },
+            {
+                "start": "4:15PM",
+                "end": "5:15PM",
+                "title": "Delta Moon",
+                "photo": "/assets/img/2018/music/delta-moon.jpg",
+                "thumb": "/assets/img/2018/music/delta-moon-thumb.jpg",
+                "description": "Delta blues, twin slide guitars, festival faves",
+                "bio": "<p>\"Tom Gray and Mark Johnson are the rusty, banged up Cadillacs of the slide guitar, side by side coughing up smoke and spitting backwoods dirt, but unswerving in their precision and singular style.\" — Tom Clarke, Hittin' the Note</p><p>Delta Moon plays deep roots music. A whisky-flavored voice delivers 21st century lyrics, while two slide guitars wind around an unshakeable groove like kudzu vines on a barbwire fence.</p><p>Delta Moon's latest album, Cabbagetown — named for one of the band's favorite Atlanta neighborhoods — came out in March 2017. The band has been touring incessantly behind it, visiting nine countries since spring, every night winning enthusiastic audience response. No Depression describes Cabbagetown as having \"great grooves, thought provoking lyrics, infectious hooks, sweet slide guitar work and mountains of superb tone.\"</p>",
+                "url": "http://deltamoon.com/biography/"
+            },
+            {
+                "start": "5:30PM",
+                "end": "6:30PM",
+                "title": "Mingo Fishtrap",
+                "photo": "/assets/img/2018/music/mingo-fishtrap.jpg",
+                "thumb": "/assets/img/2018/music/mingo-fishtrap-thumb.jpg",
+                "description": "Soulful funk and roll from Austin, TX",
+                "bio": "\"This all-in, guns blazing spirit they seem to share on stage is blessed live treatment for their really beautiful, sophisticated type of dance-soul music.\" Live Music News & Review \"You could mix any track by Mingo Fishtrap in a playlist with anyone from Robert Randolph to Galactic to Tedeschi/Trucks.\" The Pop Break</p><p>\"Austin, Texas doesn't have a Trombone Shorty, the Subdudes or Dirty Dozen Brass Band like New Orleans does but they do have Mingo Fishtrap, and they're just as funky and soulful as those bands with a healthy dash of Motown tossed into their pot.\" Something Else Reviews</p><p>\"It's clear that even with the revival of soul and funk music in recent years, only a few bands can match the vocal intensity Blevins offers combined with the instrumental prowess of his bandmates.\"   Jambands.com</p><p>Texas Music Magazine calls Mingo Fishtrap \"the space where melodic pop meets gritty Memphis soul, with a twist of N'awlins funk.\"</p><p>Like kudzu vine crisscrossing the Mississippi Delta, Mingo's tenacious sound infiltrates the musical landscape on a sanctified mission to shake your soul. The critically acclaimed collective have found their sweet spot. Now four albums deep, Mingo has honed its sound, rubbed shoulders with musical idols, and delivered powerhouse live shows to crowds of thousands across the country and globe in the years since the band's inception in a tiny dorm room in Denton, Texas.",
+                "url": "http://www.mingofishtrap.com/"
+            }
+        ],
+        "e": [
+            {
+                "start": "11:45AM",
+                "end": "12:45PM",
+                "title": "Mia Green",
+                "photo": "/assets/img/2018/music/mia-green.jpg",
+                "thumb": "/assets/img/2018/music/mia-green-thumb.jpg",
+                "description": "Gifted songwriter and musician, from here in our 'hood.",
+                "bio": "<p>Atlanta's breakout singer songwriter has been a crowd-pleaser at about every festival in Atlanta but this is her Inman Park Festival debut.</p>",
+                "url": "https://www.miagreenmusic.com/"
+            },
+            {
+                "start": "1:00PM",
+                "end": "2:00PM",
+                "title": "Rockaholics",
+                "photo": "/assets/img/2018/music/rockaholics.jpg",
+                "thumb": "/assets/img/2018/music/rockaholics-thumb.jpg",
+                "description": "Soulful blues/rock",
+                "bio": "<p>Decades of experience back up the Rockaholics ATL. They continue to pay their dues while performing live homage to the blues, rock and soul artists of yesterday and today. Dynamic and flexible, The Rockaholics ATL regularly welcome guest artists to sit-in for those impromptu, improvisational performances, that make every appearance unique.They may have Rock in their name, but it's the Blues that's in their Soul.</p>",
+                "url": "https://www.reverbnation.com/therockaholicsatl"
+            },
+            {
+                "start": "2:15PM",
+                "end": "3:15PM",
+                "title": "Eddie Tigner and the Fatt Matt's Band",
+                "photo": "/assets/img/2018/music/eddie-tigner.jpg",
+                "thumb": "/assets/img/2018/music/eddie-tigner-thumb.jpg",
+                "description": "Revered blues piano man",
+                "bio": "<p>Eddie Tigner plays the piano with a smooth, strong bass that rolls along below the weave of the soulful notes of the upper registers. He is a musician who can move an audience from the swing of Heartbreak: \"It's hurtin' me!\", to the rocking sound of Shake Rattle and Roll. For Eddie, the piano is not just an instrument; it's a place to be.</p><p>\"You can't separate the person and his music – especially with this man. When you are in his presence, you can't help but smile. You can't help but be happy and joyful and when he plays it's the same thing. If you were blind and you heard him play, you would just be so joyful!\" – Mudcat Dudeck</p><p>One of the most popular musical groups in the 1940's was The Ink Spots. When the original bass player died in 1947, Tigner's bass-style of playing on the piano and put his name in for one of the groups. That led to a life on the road and a steady job as an \"Ink Spot\" that lasted until 1987. The band played in clubs and lounges in the new \"motels\", the Holiday Inn or Ramada Inn, and stopped at military bases in every state.</p><p>Life on the road was hard, but Tigner likes to recall how he developed his own home-on-the-road routine. \"I had me a crock pot,\" Tigner explains, \"and I would make me what I want. Gizzards and rice. I loved that back then. Put it on before I go downstairs to play and when I came back it be pretty well done!\"</p>",
+                "url": "https://eddietigner.bandcamp.com/"
+            },
+            {
+                "start": "3:30PM",
+                "end": "4:30PM",
+                "title": "Tray Dahl and the Jugtime Rag Band",
+                "photo": "/assets/img/2018/music/tracy-dahl-jugtime.jpg",
+                "thumb": "/assets/img/2018/music/tracy-dahl-jugtime-thumb.jpg",
+                "description": "The 1920's and 30's come back to life - It don't Mean a Thing if it Ain't got that Swing meet Minnie the Moocher",
+                "bio": "Purists Beware! Tray Dahl & The Jugtime Ragband is not jug band, ragtime, or dixieland. It is an energetic amalgamation of all the popular styles of the 1920's/30's - jazz, a little blues, a bit of swing, a pinch old time gospel, and even classic showtunes - all immersed in an early 20th century New Orleans sound. We get people's feet stomping in a roaring twenties kind of way. Our sound has been described by many as “speakeasy” or “prohibition era” music. Our songs match the early New Orleans jazz/blues instrumentation combo of tenor banjo and trumpet with upbeat dixieland and swing tempos underlying a heavy dose of powerful 1920's inspired vocals stylistically akin to Bessie Smith, Clara Smith, and Louis Armstrong. Our main influences include Louis Prima, Bix Beiderbecke, Louis Armstrong and the Boswell Sisters. We play songs composed by some of the best songwriters from the early and mid-twentieth century alongside our original tunes which are heavily influenced by their work. Our original songs are stories that take listeners back in time through the experiences of our main characters whose tales, so far, have taken place anywhere from the 1860's to 1930's.",
+                "url": "http://jugtimeragband.com/"
+            },
+            {
+                "start": "4:45PM",
+                "end": "5:45PM",
+                "title": "Ruby Velle and the Soulphonics",
+                "photo": "/assets/img/2018/music/ruby-velle.jpg",
+                "thumb": "/assets/img/2018/music/ruby-velle-thumb.jpg",
+                "description": "Deep, raw funk. Stax-style Southern soul. Uplifting Motown-channeling anthems.",
+                "bio": "<p>Atlanta's Ruby Velle and the Soulphonics are the heirs to the thrones of the old-school masters. But they're much more than just a group of revivalists trying to create a period piece. Powerhouse singer Velle and her band will settle for nothing less than bringing these classic sounds glimmering into the now with a fresh new modern sheen.</p><p>Ruby Velle and the Soulphonics have made a name for themselves captivating audiences with their stirring live performances. They're a world-class modern soul revue topped off with the cherry of Velle's sultry voice, as she deftly toggles between sweetly crooned R&B tunes and expertly belted barn-burning get-downs that can instantly jolt a roomful of wallflowers into a wild dance party.</p>",
+                "url": "http://www.rubyvelleandthesoulphonics.com"
+            }
+        ],
+        "f": [
+            {
+                "start": "1:30PM",
+                "end": "2:30PM",
+                "title": "Bradley Cole Smith Band",
+                "photo": "/assets/img/2017/music/bradley-cole-smith.jpg",
+                "thumb": "/assets/img/2018/music/bradley-cole-smith-thumb.jpg",
+                "description": "Original country-flavored tunes",
+                "bio": "<p>Bradley Cole Smith has been a fixture on the Atlanta music scene since the early 1990's. As a songwriter, he has been featured in films and television. As a performer, he has shared the stage with numerous artists including Sheryl Crow, Blues Traveler, Sister Hazel, Edwin McCain, Taj Mahal, Dwight Yoakum and Jerry Jeff Walker.</p>"
+            },
+            {
+                "start": "2:45PM",
+                "end": "3:45PM",
+                "title": "Wolfpack ATL",
+                "photo": "/assets/img/2018/music/wolfpack.jpg",
+                "thumb": "/assets/img/2018/music/wolfpack-thumb.jpg",
+                "description": "The brainchild of Atlanta's own Kebbi Williams",
+                "bio": "<p>\"When determining how badass a band truly is, its live show can't just be good. The sheer physicality of its performance must force patrons to shut up and listen. No Atlanta band pulls off this feat with as much originality and force as The Wolfpack.\"</p><p>Kebbi was born into a musical family. His father Earl Williams, an inventive multi instrumentalist who plays bass, keys, banjo, harmonica, flute, and saxophone taught Kebbi music. The tenor saxophone that Kebbi plays is from Earl. A rarity from the 1920's era, a CONN M, it's the only saxophone Kebbi's played. Earl also taught his brother, Milan Williams (Kebbi's uncle) how to play music. Milan was an original member of The Commodores and composed their breakout hit \"Machine Gun\" as well as the pair of epic soul/funk classics, \"Brickhouse\" and \"Easy Like (Sunday Morning)\".</p><p>Family is a unifying theme for Kebbi, shared by his love for Atlanta. In 2010, Williams founded the non-profit organization, Music In The Park (MITP) Atlanta. Their mission: enlighten, educate, and galvanize young performers while inspiring vibrancy in the community through music and the performing arts.  MITP Atlanta has supported nearly 6000 students, engaged over 400 professional musicians, and presented live music to 50,000 people since its inception seven years ago.  MITP, begun in response to the absence of music education in schools and limited arts programming in his West End neighborhood, is constantly evolving and expanding for the next generation of musicians.</p>",
+                "url": "http://musicintheparkatl.org/kebbi-williams/"
+            },
+            {
+                "start": "4:00PM",
+                "end": "5:00PM",
+                "title": "Tito Gato",
+                "photo": "/assets/img/2018/music/tito-gato.jpg",
+                "thumb": "/assets/img/2018/music/tito-gato-thumb.jpg",
+                "description": "Latin Jazz: Get your salsa fix here!",
+                "url": "http://www.titogato.com"
+            }
+        ]
+    }
+}

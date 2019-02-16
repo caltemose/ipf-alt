@@ -9,6 +9,51 @@ const sass = require('gulp-sass')
 const autoprefixer = require('gulp-autoprefixer')
 const browsersync = require('browser-sync').create()
 
+const _src = 'src/'
+const _dest = 'dist'
+const config = {
+    port: 4040,
+    src: _src,
+    dest: _dest,
+    data: {
+        globals: _src + 'data/globals.json',
+        music: _src + 'data/music.json',
+        vendors: {
+            ac: _src + 'data/vendors-ac.json',
+            cc: _src + 'data/vendors-cc.json',
+            street: _src + 'data/vendors-street.json'
+        }
+    },
+    pug: {
+        src: [_src + 'html/**/*.pug', '!' + _src + 'html/_templates/**/*'],
+        options: { pretty: true }
+    },
+    sass: {
+        src: _src + 'assets/css/**/*.sass',
+        dest: _dest + '/assets/css'
+    },
+    autoprefixer: {
+        options: { browsers: ["last 3 version"] }
+    },
+    js: {
+        src: [ _src + 'assets/js/pages/**/*.js' ],
+        dest: _dest + '/assets/js'
+    },
+    images: {
+        src: _src + 'assets/img/**/*',
+        dest: _dest + '/assets/img'
+    },
+    static: {
+        src: _src + 'assets/static/**/*',
+        dest: _dest + '/assets/static'
+    }
+}
+
+const ENV_DEV = 'development'
+const ENV_STAGE = 'staging'
+const ENV_PROD = 'production'
+
+
 //
 // helpers
 //
@@ -16,26 +61,21 @@ const browsersync = require('browser-sync').create()
 const getData = function() {
     const data = {};
     data.isProduction = isProductionEnv()
-    data.globals = JSON.parse(fs.readFileSync('src/data/globals.json', 'utf8'));
-    // data.music = JSON.parse(fs.readFileSync(config.tasks.html.dataFiles.music, 'utf8'));
-    // data.vendors = {};
-    // data.vendors.ac = JSON.parse(fs.readFileSync(config.tasks.html.dataFiles.vendors.ac, 'utf8'));
-    // data.vendors.street = JSON.parse(fs.readFileSync(config.tasks.html.dataFiles.vendors.street, 'utf8'));
-    // data.vendors.cc = JSON.parse(fs.readFileSync(config.tasks.html.dataFiles.vendors.cc, 'utf8'));
+    data.globals = JSON.parse(fs.readFileSync(config.data.globals, 'utf8'));
+    data.music = JSON.parse(fs.readFileSync(config.data.music, 'utf8'));
+    data.vendors = {};
+    data.vendors.ac = JSON.parse(fs.readFileSync(config.data.vendors.ac, 'utf8'));
+    data.vendors.street = JSON.parse(fs.readFileSync(config.data.vendors.street, 'utf8'));
+    data.vendors.cc = JSON.parse(fs.readFileSync(config.data.vendors.cc, 'utf8'));
     return data;
 }
 
 function isProductionEnv () {
-    return getNodeEnv() === 'production'
+    return getNodeEnv() === ENV_PROD
 }
 
 function getNodeEnv () {
-    return process.env.NODE_ENV || 'development'
-}
-
-function report(cb) {
-    console.log('env', getNodeEnv())
-    cb()
+    return process.env.NODE_ENV || ENV_DEV
 }
 
 //
@@ -43,29 +83,28 @@ function report(cb) {
 //
 
 function clean (cb) {
-    return del('dist', cb)
+    return del(config.dest, cb)
 }
 
 function html () {
-    return src(['src/html/**/*.pug', '!src/html/_templates/**/*'])
-        .pipe(pug({
-            pretty: true,
-            data: getData()
-        }))
-        .pipe(dest('dist'))
+    const pugOptions = config.pug.options
+    pugOptions.data = getData()
+    return src(config.pug.src)
+        .pipe(pug(pugOptions))
+        .pipe(dest(config.dest))
         .pipe(browsersync.stream())
 }
 
 function css () {
-    return src('src/assets/css/**/*.sass')
+    return src(config.sass.src)
         .pipe(sass({ indentedSyntax: true }))
-        .pipe(autoprefixer({ browsers: ["last 3 version"] }))
-        .pipe(dest('dist/assets/css'))
+        .pipe(autoprefixer(config.autoprefixer.options))
+        .pipe(dest(config.sass.dest))
         .pipe(browsersync.stream())
 }
 
 function js () {
-    return src([ 'src/assets/js/pages/**/*.js' ])
+    return src(config.js.src)
         .pipe(
             rollupEach(
                 {
@@ -77,28 +116,28 @@ function js () {
                 { format: 'iife' }
             )
         )
-        .pipe(dest('dist/assets/js'))
+        .pipe(dest(config.js.dest))
         .pipe(browsersync.stream())
 }
 
 function images () {
-    return src('src/assets/img/**/*')
-        .pipe(changed('dist/assets/img'))
-        .pipe(dest('dist/assets/img'))
+    return src(config.images.src)
+        .pipe(changed(config.images.dest))
+        .pipe(dest(config.images.dest))
         .pipe(browsersync.stream())
 }
 
 function static () {
-    return src('src/assets/static/**/*')
-        .pipe(changed('dist/assets/static'))
-        .pipe(dest('dist/assets/static'))
+    return src(config.static.src)
+        .pipe(changed(config.static.dest))
+        .pipe(dest(config.static.dest))
         .pipe(browsersync.stream())
 }
 
 function serve (cb) {
     browsersync.init({
-        server: { baseDir: './dist' },
-        port: 4040,
+        server: { baseDir: './' + config.dest },
+        port: config.port,
         notify: false,
         open: false
     })
@@ -106,11 +145,11 @@ function serve (cb) {
 }
 
 function watchAll () {
-    watch('src/html/**/*.pug', html)
-    watch('src/assets/css/**/*.sass', css)
-    watch('src/assets/js/**/*.js', js)
-    watch('src/assets/img/**/*', images)
-    watch('src/assets/static/**/*', static)
+    watch(config.pug.src, html)
+    watch(config.sass.src, css)
+    watch(config.js.src, js)
+    watch(config.images.src, images)
+    watch(config.static.src, static)
 }
 
 //
