@@ -1,0 +1,153 @@
+$gold: $brand-yellow
+$silver: #C0C0C0
+$bronze: #CD7F32
+$other: #eee
+
+.SponsorsContainer 
+    @media (min-width: $bp-lg) 
+        max-width: $site-max-width
+        margin-left: auto
+        margin-right: auto
+    
+
+
+.SponsorsHeader 
+    margin: 0
+    padding: 0.25em 0 0.4em
+    font-size: 1.25em
+    text-align: center
+
+    &.SponsorsHeader--presenting 
+        background-color: $brand-grey-dark
+        color: white
+    
+
+    &.SponsorsHeader--gold 
+        background-color: $gold
+    
+    &.SponsorsHeader--silver 
+        background-color: $silver
+    
+    &.SponsorsHeader--bronze 
+        background-color: $bronze
+    
+    &.SponsorsHeader--other 
+        background-color: $other
+    
+
+
+.Sponsors 
+    display: block
+    margin: 0 0 3em
+    padding: 0
+    width: 100%
+    list-style: none
+
+    > li 
+        margin: 0
+        width: 100%
+        text-align: center
+    
+
+
+.Sponsors--Presenting 
+    text-align: center
+    border: 1px solid $brand-grey-dark
+
+    a:focus, a:hover 
+        background-color: #eee
+    
+
+
+.Sponsors--gold,
+.Sponsors--silver,
+.Sponsors--bronze,
+.Sponsors--other 
+    @media (min-width: $bp-md) 
+        display: flex
+        flex-wrap: wrap
+    
+
+    > li 
+        @media (max-width: $bp-sm-max) 
+            width: 100%
+            border: 1px solid #ccc
+            border-bottom: none
+
+            &:last-child 
+                border-bottom: 1px solid #ccc
+            
+
+            img 
+                width: 100%
+            
+        
+
+        @media (min-width: $bp-md) 
+            width: 33.3333%
+            border: 1px solid #ccc
+            border-top: none
+            border-left: none
+
+            &:nth-child(1),
+            &:nth-child(3n+4) 
+                border-left: 1px solid #ccc
+            
+
+            img 
+                width: 100%
+            
+        
+
+        a 
+            display: block
+            width: 100%
+        
+    
+
+
+.Sponsors--gold a:hover,
+.Sponsors--gold a:focus 
+    background-color: lighten($gold, 35%)
+
+.Sponsors--silver a:hover,
+.Sponsors--silver a:focus 
+    background-color: lighten($silver, 20%)
+
+.Sponsors--bronze a:hover,
+.Sponsors--bronze a:focus 
+    background-color: lighten($bronze, 45%)
+
+.Sponsors--other a:hover,
+.Sponsors--other a:focus 
+    background-color: lighten($other, 10%)
+
+
+.Sponsors-top 
+    li 
+        border-top: 1px solid #ccc
+    
+
+
+.PresentingSponsor 
+    border: 1px solid $brand-green
+
+    h4 
+        margin-top: 0
+        padding: 0.5em
+        background-color: $brand-green
+        text-align: center
+    
+
+    @media (min-width: $bp-lg) 
+        width: $site-max-width
+        margin: 0 auto
+    
+
+
+.PresentingSponsor-logo 
+    text-align: center
+    img 
+        max-width: 100%
+    
+

@@ -1,0 +1,28 @@
+.BoothWinner-name 
+    font-weight: bold
+
+    @media (min-width: $bp-md) 
+        display: inline-block
+
+.BoothWinner-type 
+    color: rgb(140, 140, 140)
+
+    @media (min-width: $bp-md) 
+        display: inline-block
+        margin-left: 0.25em
+        &::before 
+            content: '| '
+
+.BoothWinner-url 
+    display: block
+    font-size: 0.75em
+    word-wrap: break-word
+
+    @media (min-width: $bp-md) 
+        font-size: inherit
+        word-wrap: normal
+
+.BoothWinner--honorable 
+    .BoothWinner-url 
+        display: block
+        margin-bottom: 1.25em

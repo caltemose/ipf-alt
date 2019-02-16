@@ -1,0 +1,75 @@
+.Hero 
+    margin: 0 auto 2em
+    // padding: 6em 3em
+    max-width: $site-hero-width
+    background: #ccc
+
+    &.owl-carousel 
+        background: none
+
+    @media screen and (min-width: $bp-md) 
+        // padding: 9em 6em
+
+    > p 
+        font-style: italic
+
+.HeroSlidePromo 
+    height: 210px
+    background-color: $brand-green
+
+    @media (min-width: $bp-md) 
+        height: 432px
+
+    @media (min-width: $bp-lg) 
+        height: 576px
+
+.HeroSlidePromo-copy 
+    padding: 2em 1em 1em
+
+    h3 
+        margin-top: 0
+
+    a 
+        color: $link-color-alt
+        &:hover, &:focus 
+            background-color: darken($brand-green, 10%)
+
+    .Button 
+        display: none
+
+    @media (min-width: $bp-md) 
+        text-align: center
+        padding: 1em 5em 2em
+        max-width: 800px
+        margin-left: auto
+        margin-right: auto
+
+        h3 
+            font-size: 1.5em
+
+        .Button 
+            display: inline-block
+
+    @media (min-width: $bp-lg) 
+        padding-top: 2em
+
+        h3 
+            font-size: 2em
+
+.HeroSlidePromo-banner 
+    display: none
+
+    @media (min-width: $bp-md) 
+        display: block
+        width: 100%
+        height: 213px
+
+        // TODO handle this image outside this class
+        background-image: url(/assets/img/2017/hero-volunteer-banner.jpg)
+        background-repeat: no-repeat
+        background-size: cover
+
+    @media (min-width: $bp-lg) 
+        height: 285px
+    
+

@@ -1,0 +1,126 @@
+extends ../_templates/layout.pug
+
+block pageVars
+    - var selectedNav = 'about'
+
+block title
+    title #{globals.ipf.title} | About the #{globals.ipf.title}
+
+block contents
+
+    div.Banner-dates
+        div #{globals.ipf.date.year} Tour of Homes Preview: Friday #{globals.ipf.date.friday.date}
+        div Festival: Saturday #{globals.ipf.date.saturday.date} &amp; Sunday #{globals.ipf.date.sunday.date}
+
+    article.u-container
+
+        h1 About the Inman Park Festival
+
+        p Inman Park Spring Festival takes place in one of Atlanta's oldest and most scenic neighborhoods. First developed in the late 1800s, Inman Park is home to many historic homes and parks. The Festival began in the early 1970s as a means to attract attention to gentrification efforts that sought to revitalize the community.
+
+        p The festival offers something for everybody. Music, kids activities, a Tour of Homes, a marvelous street parade, an artists' market, some of the city's best people-watching. Come early, stay late, and be our guests at Atlanta's best street festival.
+
+    //- .PromotionItemSolo.u-container.u-container--noPad
+    //-     .PromotionItemSolo-header
+    //-         h3 #{globals.ipf.date.year} Festival Dates & Times:
+    //-     .PromotionItemSolo-content
+    //-         ul
+    //-             li 
+    //-                 | Friday, #{globals.ipf.date.friday.date}: #{globals.ipf.date.friday.hours} 
+    //-                 small (Tour of Homes preview only)
+    //-             li Saturday, #{globals.ipf.date.saturday.date}: #{globals.ipf.date.saturday.hours}
+    //-             li Sunday, #{globals.ipf.date.sunday.date}: #{globals.ipf.date.sunday.hours}
+
+    article.u-container
+
+        h2 Important Festival Details
+
+        p The only public Festival event on Friday is the Tour of Homes preview. Booths and other events start on Saturday.
+
+        h3 Admission
+        
+        p Admission to all Festival events, except the Tour of Homes, is free. 
+        //- Tour of Homes tickets are $#{globals.tour.cost.advance} in advance and $#{globals.tour.cost.door} starting Friday, #{globals.ipf.date.friday.date}.
+
+        
+        h3 Arrival
+        
+        p Check out the <a href="/map">Map page</a> for an overview of important festival locations and for help getting here. <strong>We highly recommend not driving to the neighborhood.</strong> Walk, bike, Marta, Uber, Lyft - there are plenty of other options.
+        
+        h3 FAQ
+        
+        p Read our <a href="/about/faq">Frequently-asked Questions here.</a>
+        
+        
+        h2 Summary of Events
+        
+        h3 Tour of Homes
+        
+        p The Tour of Homes is a self-conducted tour of some of the beautiful homes and buildings in Inman Park. See inside some of the glorious old Victorian homes or check out some of the beautiful remodeling jobs neighbors have completed on their houses.
+        
+        //- TODO globalize the times below.
+        //- p The home preview starts on Friday #{globals.ipf.date.friday.date} between #{globals.ipf.date.friday.hours} and continues through Saturday and Sunday between 12PM - 6PM.
+        
+        p 
+            | To find out more about the Tour of Homes and read about the homes on the tour, visit the
+            = ' ' 
+            a(href="/events/tour-of-homes") Tour of Homes page.
+        
+        
+        h3 Parade
+        
+        p The Festival Parade is a festival favorite that happens at 2PM on Saturday. Come see some of Atlanta's wild and quirky groups march through the streets of Inman Park. For more information, or to learn about applying to be in the festival parade, <a href="/events/parade">visit the parade page</a>.
+        
+        h3 Music
+        
+        p There are many bands playing a wide variety of music across three stages on Saturday and Sunday. To see which bands are playing and to view the music schedule, check out the <a href="/events/music">music page</a>.
+        
+        
+        h3 Dance Festival
+        
+        p Every year The Trolley Barn hosts a program of classical and contemporary dance. Check out <a href="/events/dance">the dance page</a> to learn more about the dance program. 
+
+
+        h3 Kids' Zone
+        
+        p Festival provides a dedicated space for kids to play that includes slides, obstacles courses, crafts, a great playground, riding toys for our youngest guests and other surprises, all of them FREE! Check the <a href="/events/kidszone">Kids' Zone page</a> for more details.
+
+        h3 Arts & Crafts Show and Street Market
+        
+        p Browse many booths on the tree-shaded streets of Inman Park from 11AM to 6PM Saturday and Sunday during festival. The <a href="/booths/arts-crafts-market">Arts & Crafts Market</a> is a juried selection of more than 150 artists showcasing their work in a variety of media including sculpture, painting and photography. The <a href="/booths/street-market">Street Market</a> includes more than 250 booths of vendors selling antiques, handcrafted wares, clothing and a large variety of other items.
+
+
+    ul.PromotionGrid.u-container.u-container--noPad
+        li.PromotionItem.alt-primary
+            section
+                h3 Join Our Volunteer Team Today.
+                
+                a.u-blockCentered.Button(href=globals.volunteerSite) Sign Up
+        
+        li.PromotionItem
+            section
+                h3 Festival Music
+                p Check back later to see which bands are playing Festival #{globals.ipf.date.year}.
+            //- section
+            //-     h3 Festival Artwork Chosen
+            //- 
+            //-     p
+            //-         a(href="/art/2017/") Read the interview with local artist Mindy Phan.
+            //- 
+            //- .ArrowNav
+            //-     a(href="#") >
+
+
+        li.PromotionItem.alt-secondary
+            section
+                h3 Follow Festival Online
+                nav.social-icons
+                    a(href="https://www.facebook.com/InmanParkFestival/" target="_blank") 
+                        span.icon.-facebook
+                            span.u-visuallyhidden Facebook
+                    a(href="http://twitter.com/InmanParkFest" target="_blank") 
+                        span.icon.-twitter
+                            span.u-visuallyhidden Twitter: @inmanparkfest
+                    a(href="https://www.instagram.com/inmanparkfest" target="_blank")
+                        span.icon.-instagram
+                            span.u-visuallyhidden Instagram: @inmanparkfest

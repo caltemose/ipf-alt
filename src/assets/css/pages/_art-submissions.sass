@@ -1,0 +1,41 @@
+.dz-message 
+    padding: 3em 2em
+    border: 1px solid black
+
+.dropzone 
+    @media (min-width: 1024px) 
+        margin-right: 10em
+
+.ArtForm 
+    input[type="text"],
+    input[type="email"] 
+        width: 100%
+        max-width: 30em
+
+    input[type="submit"] 
+        width: 10em
+        padding: 1em 2em
+        background-color: $brand-green
+
+        &:hover 
+            cursor: pointer
+            background-color: $link-hover-color
+
+        &:focus 
+            border-color: $brand-green
+
+.ArtForm-error 
+    color: red
+
+.SubmissionLoader 
+    display: none
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    background: rgba(255,255,255,0.5)
+    z-index: 9999
+    padding-top: 40%
+    text-align: center
+

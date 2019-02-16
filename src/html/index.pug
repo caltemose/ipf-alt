@@ -7,4 +7,152 @@ block title
     title Home
 
 block contents
-    h1= globals.ipf.title
+    div.Banner-dates
+        div #{globals.ipf.date.year} Tour of Homes Preview: Friday #{globals.ipf.date.friday.date}
+        div Festival: Saturday #{globals.ipf.date.saturday.date} &amp; Sunday #{globals.ipf.date.sunday.date}
+
+    .Hero.owl-carousel.owl-theme
+        // festival volunteer promo slide
+        div
+            .HeroSlidePromo
+                .HeroSlidePromo-banner
+        
+                .HeroSlidePromo-copy
+                    h3 Festival Needs Volunteers!
+                    p
+                        | Festival doesn't happen without volunteers.
+                        = ' '
+                        a(href=globals.volunteerSite) Signup now
+                        = ' '
+                        | to volunteer your time and help make this year's festival great!
+        
+                    a.u-blockCentered.Button(href=globals.volunteerSite) Sign Up
+
+        // festival art submission slide
+        //- div
+        //-     .HeroSlidePromo
+        //-         .HeroSlidePromo-banner
+        //- 
+        //-         .HeroSlidePromo-copy
+        //-             h3 Call For Entries!
+        //-             p <a href="/art/submissions">Submit your artwork</a> for this year's festival. Be part of an in-town tradition and put your talent on display for the Inman Park Festival attendees. 
+        //- 
+        //-             a.u-blockCentered.Button(href="/art/submissions") Learn More
+
+
+        div
+            +slideImage('/assets/img/slideshows/parade-block-heros', 'Parade Block Heroes')
+
+        div
+            +slideImage('/assets/img/slideshows/parade-elvises', 'Parade Elvises')
+
+        div
+            +slideImageXL('/assets/img/slideshows/painting-face', 'Face painting in progress')
+        
+        div
+            +slideImageXL('/assets/img/slideshows/homes-bighome', 'One of many beautiful homes in Inman Park')
+
+    .u-container
+    
+        .PageIntro
+
+            .PageIntro-header
+                h1 Welcome to Atlanta's Favorite Street Festival
+                
+            .PageIntro-copy
+                p During the last full weekend in April each year, Inman Park proudly presents a neighborhood festival widely regarded as Atlanta&rsquo;s most spirited and eclectic.
+                
+                //- p Thanks to some fantastic weather, this past festival was wonderful. Looking forward to next year...
+                
+                p Please join us for the #{globals.ipf.date.annual}th Inman Park Spring Festival and Tour Of Homes.
+                p The #{globals.ipf.date.year} Inman Park Festival takes place on Saturday #{globals.ipf.date.saturday.date} &amp; Sunday #{globals.ipf.date.sunday.date} with a Tour of Homes preview on Friday #{globals.ipf.date.friday.date}.
+
+    .PromotionItemHero.u-container.u-container--noPad
+        .PromotionItemHero-image.image--art-2018
+
+        .PromotionItemHero-text
+            section
+                h2 Volunteer Now!
+                
+                p Festival thrives on volunteers. <a href="#{globals.volunteerSite}">Sign up now on our volunteer site</a>.
+
+        //- .PromotionItemHero-text
+        //-     section
+        //-         h2 Getting Ready
+        //- 
+        //-         p Festival planning is well-underway. Look here soon for Volunteer signup and other announcements as we get closer to this year's festival.
+        
+        //- .PromotionItemHero-text
+        //-     section
+        //-         h2 Off Season
+        //-         //- p Next year's Festival details will be available online later this year.
+        //-         p Look for this year's Festival updates in the forthcoming months.
+
+        //- .PromotionItemHero-text
+        //-     section
+        //-         h2 Tour Tickets on Sale
+        //-         p 
+        //-             a(href="/events/tour-of-homes/#buy-tickets") Buy Tour of Homes tickets online now!
+        //-     .ArrowNav
+        //-         a(href="/events/tour-of-homes/#buy-tickets") >
+
+    ul.PromotionGrid.u-container.u-container--noPad
+        li.PromotionItem.alt-primary
+            section
+                h3 Vendor Applications Online
+                p
+                    a.u-blockCentered.Button(href="https://www.zapplication.org/event-info.php?ID=6787") Apply Now
+            
+
+        //- li.PromotionItem
+        //-     section
+        //-         h3 Festival 2019 Art
+        //-         p Call for entries is live! Learn how to submit your artwork for this year's design competition.
+        //-         p
+        //-             a(href="/art/submissions") Learn More
+            
+
+        //- li.PromotionItem
+        //-     section
+        //-         h3 Tour of Homes
+        //-         p
+        //-             a(href="/events/tour-of-homes") Review the homes that toured this past festival.
+        //-     .ArrowNav
+        //-         a(href="#") >
+
+        //- Buy Tour Tickets Now
+        //-
+        //- li.PromotionItem
+        //-     section
+        //-         h3 #{globals.ipf.date.year} Art Contest
+        //-         p The call for artwork entries deadline has passed. Check back for details on this year's winning artwork.
+        //-         
+        
+        li.PromotionItem
+            section
+                h3 Festival Dates #{globals.ipf.date.year}
+                ul
+                    li Friday #{globals.ipf.date.friday.date} (Tour of Homes only) 
+                    li Saturday #{globals.ipf.date.saturday.date} 
+                    li Sunday #{globals.ipf.date.sunday.date}
+
+
+        //- li.PromotionItem
+        //-     section
+        //-         h3 #{globals.ipf.date.year} Join the Parade
+        //-         p If your group is interested in marching in this year's parade, <a href="#{globals.events.parade.application}">Download the Parade Application here</a>.
+
+        li.PromotionItem.alt-secondary
+            section
+                h3 Follow Festival Online
+                nav.social-icons
+                    a(href="https://www.facebook.com/InmanParkFestival/" target="_blank") 
+                        span.icon.-facebook
+                            span.u-visuallyhidden Facebook
+                    a(href="http://twitter.com/InmanParkFest" target="_blank") 
+                        span.icon.-twitter
+                            span.u-visuallyhidden Twitter: @inmanparkfest
+                    a(href="https://www.instagram.com/inmanparkfest" target="_blank")
+                        span.icon.-instagram
+                            span.u-visuallyhidden Instagram: @inmanparkfest
+
