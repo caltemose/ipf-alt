@@ -2,7 +2,12 @@
   "name": "ipf-alt",
   "version": "1.0.0",
   "description": "Test repo for improving process for IPF site.",
-  "scripts": {},
+  "scripts": {
+      "start": "gulp dev",
+      "build": "gulp build",
+      "build:production": "NODE_ENV='production' gulp build",
+      "build:staging": "NODE_ENV='staging' gulp build"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/caltemose/ipf-alt.git"

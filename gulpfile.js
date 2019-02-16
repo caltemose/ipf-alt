@@ -53,6 +53,7 @@ function html () {
             data: getData()
         }))
         .pipe(dest('dist'))
+        .pipe(browsersync.stream())
 }
 
 function css () {
@@ -60,10 +61,11 @@ function css () {
         .pipe(sass({ indentedSyntax: true }))
         .pipe(autoprefixer({ browsers: ["last 3 version"] }))
         .pipe(dest('dist/assets/css'))
+        .pipe(browsersync.stream())
 }
 
 function js () {
-    return src([ 'src/js/pages/**/*.js' ])
+    return src([ 'src/assets/js/pages/**/*.js' ])
         .pipe(
             rollupEach(
                 {
@@ -75,28 +77,40 @@ function js () {
                 { format: 'iife' }
             )
         )
-        .pipe(dest('dist/js'))
+        .pipe(dest('dist/assets/js'))
+        .pipe(browsersync.stream())
 }
 
 function images () {
     return src('src/assets/img/**/*')
         .pipe(changed('dist/assets/img'))
         .pipe(dest('dist/assets/img'))
+        .pipe(browsersync.stream())
 }
 
 function static () {
     return src('src/assets/static/**/*')
         .pipe(changed('dist/assets/static'))
         .pipe(dest('dist/assets/static'))
+        .pipe(browsersync.stream())
 }
 
-function serve () {
+function serve (cb) {
     browsersync.init({
         server: { baseDir: './dist' },
         port: 4040,
         notify: false,
         open: false
     })
+    cb()
+}
+
+function watchAll () {
+    watch('src/html/**/*.pug', html)
+    watch('src/assets/css/**/*.sass', css)
+    watch('src/assets/js/**/*.js', js)
+    watch('src/assets/img/**/*', images)
+    watch('src/assets/static/**/*', static)
 }
 
 //
@@ -105,22 +119,13 @@ function serve () {
 
 exports.clean = series(clean)
 
-exports.sass = series(clean, css)
-
 exports.build = series(
     clean,
     parallel(html, css, js, images, static)
 )
 
-exports.watch = series(
-    watch('src/html/**/*.pug', html),
-    watch('src/assets/css/**/*.sass', css)
-)
-
 exports.dev = series(
     exports.build, 
-    parallel(
-        serve, 
-        exports.watch
-    ))
+    series(serve, watchAll)
+)
 
