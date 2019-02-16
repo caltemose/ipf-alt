@@ -1,0 +1,17 @@
+include ./mixins.pug
+
+doctype html
+html(lang="en")
+    block pageVars
+
+    head
+
+        block title
+        
+    body
+
+        block contents
+
+        +footerSponsor("/assets/img/2019/sponsors/footer/northside-hospital-footer.png", "Northside Hospital", "http://www.northside.com/")
+
+        block scripts

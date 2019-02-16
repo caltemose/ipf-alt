@@ -1,21 +1,26 @@
-const gulp = require('gulp')
+const { series, parallel, src, dest } = require('gulp')
 const del = require('del')
 const rollupEach = require('gulp-rollup-each')
 const rollupBuble = require('rollup-plugin-buble')
+const pug = require('gulp-pug')
 
-gulp.task('clean', (done) => {
-    return del('dist', done)
-})
-gulp.task('html', () => {
-    return gulp
-        .src('src/html/**/*')
-        .pipe(gulp.dest('dist'))
-})
-gulp.task('js', () => {
-    return gulp
-        .src([
-            'src/js/pages/**/*.js'
-        ])
+function clean (cb) {
+    return del('dist', cb)
+}
+
+function html () {
+    return src('src/html/**/*')
+        .pipe(dest('dist'))
+}
+
+function compilePug () {
+    return src(['src/html/**/*.pug', '!src/html/_templates/**/*'])
+        .pipe(pug())
+        .pipe(dest('dist'))
+}
+
+function js () {
+    return src([ 'src/js/pages/**/*.js' ])
         .pipe(
             rollupEach(
                 {
@@ -24,12 +29,24 @@ gulp.task('js', () => {
                     ],
                     isCache: true
                 },
-                {
-                    format: 'iife'
-                }
+                { format: 'iife' }
             )
         )
-        .pipe(gulp.dest('dist/js'))
-})
-gulp.task('build', gulp.series('clean', gulp.parallel('html', 'js')))
+        .pipe(dest('dist/js'))
+}
 
+function getNodeEnv () {
+    return process.env.NODE_ENV || 'development'
+}
+
+function report(cb) {
+    console.log('env', getNodeEnv())
+    cb()
+}
+
+exports.clean = series(clean)
+
+exports.build = series(
+    clean,
+    parallel(compilePug, js)
+)

@@ -16,6 +16,7 @@
   "devDependencies": {
     "del": "^3.0.0",
     "gulp": "^4.0.0",
+    "gulp-pug": "^4.0.1",
     "gulp-rollup-each": "^3.0.0",
     "rollup-plugin-buble": "^0.19.6"
   }

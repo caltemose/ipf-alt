@@ -1,0 +1,6 @@
+# src/assets/js/__tests__/**/*
+# src/assets/js/picturefill.min.js
+# dist/assets/js/plugins.js
+data-processing/**/*
+gulpfile.js
+

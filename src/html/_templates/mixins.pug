@@ -1,0 +1,96 @@
+//- used to create the pipe-delimited navigation menus for sectional subnav
+mixin secondaryNav(nav, selected)
+    .SecondaryNavContainer
+        nav.SecondaryNav
+            each item in nav
+                if item.title.toLowerCase() === selected
+                    a(href=item.href title=item.title class="is-selected")= item.title
+                else
+                    a(href=item.href title=item.title)= item.title
+
+//- the individual band summary list item
+mixin bandListing(band)
+    - var imgUrl = typeof(band.photo) !== 'undefined' ? band.photo : ''
+    - var thumbUrl = typeof(band.thumb) !== 'undefined' ? band.thumb : ''
+    
+    li.Band
+
+        .BandPhoto.BandPhoto--thumb
+            if thumbUrl !== ''
+                img.img(src=thumbUrl alt=band.title)
+
+        .BandCopy
+            h4
+                != band.title
+                small
+                    | #{band.start}
+                    = ' - '
+                    | #{band.end}
+
+            p= band.description
+
+            button.BandDetailsTrigger Read the Band's bio
+
+            .BandDetails
+                
+                .u-container-thin
+                    button.BandDetails--close CLOSE
+
+                    if imgUrl !== ''
+                        .BandPhoto
+                            img.img(src=imgUrl alt=band.title)
+
+                    h4= band.title
+                    article!= band.bio
+            
+            if band.url && band.url !== ''
+                p
+                    a(href=band.url target="_blank") Visit band site
+
+//- the listing of bands per stage for a single specified day
+mixin musicday(dayTitle, stages, day)
+    li.MusicDay
+
+        h2 #{dayTitle} Bands by Stage
+        
+        //- Delta Park bands
+        - var id = dayTitle + "Delta"
+        h3.u-namedLink(id=id)= stages.d
+        ul.MusicStage
+            each band in day.d
+                +bandListing(band)
+        
+        //- Euclid Avenue bands
+        - var id = dayTitle + "Euclid"
+        h3.u-namedLink(id=id)= stages.e
+        ul.MusicStage
+            each band in day.e
+                +bandListing(band)
+        
+        //- Freedom bands
+        - var id = dayTitle + "Freedom"
+        h3.u-namedLink(id=id)= stages.f
+        ul.MusicStage
+            each band in day.f
+                +bandListing(band)
+
+mixin slideImage(imageName, alt)
+    img(sizes="(min-width: 1024px) 1024px, 100vw" srcset="#{imageName}-1024.jpg 1024w, #{imageName}-768.jpg 768w, #{imageName}-320.jpg 320w" src="#{imageName}-320.jpg" alt=alt)
+
+mixin slideImageXL(imageName, alt)
+    img(sizes="(min-width: 1024px) 1024px, 100vw" srcset="#{imageName}-2048.jpg 2048w, #{imageName}-1024.jpg 1024w, #{imageName}-768.jpg 768w, #{imageName}-320.jpg 320w" src="#{imageName}-320.jpg" alt=alt)
+
+mixin sponsorGridImage(src, alt, url)
+    li
+        a(href=url target="_blank")
+            img(src=src alt=alt)
+
+mixin footerSponsor(src, alt, url)
+    a(href=url target="_blank")
+        img(src=src alt=alt)
+
+mixin presentingSponsor(src, alt)
+    .PresentingSponsor
+        h4 Presenting Sponsor:
+        .PresentingSponsor-logo
+            img(src=src alt=alt)
