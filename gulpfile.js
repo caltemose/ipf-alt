@@ -2,6 +2,7 @@ const fs = require('fs')
 const { series, parallel, watch, src, dest } = require('gulp')
 const changed = require('gulp-changed')
 const del = require('del')
+const concat = require('gulp-concat')
 const rollupEach = require('gulp-rollup-each')
 const rollupBuble = require('rollup-plugin-buble')
 const pug = require('gulp-pug')
@@ -34,6 +35,11 @@ const config = {
     },
     autoprefixer: {
         options: { browsers: ["last 3 version"] }
+    },
+    jsPlugins: {
+        src: _src + 'assets/js/plugins/**/*.js',
+        filename: 'plugins.js',
+        dest: _dest + '/assets/js',
     },
     js: {
         src: [ _src + 'assets/js/pages/**/*.js' ],
@@ -103,6 +109,12 @@ function css () {
         .pipe(browsersync.stream())
 }
 
+function jsPlugins () {
+    return src(config.jsPlugins.src)
+        .pipe(concat(config.jsPlugins.filename))
+        .pipe(dest(config.jsPlugins.dest))
+}
+
 function js () {
     return src(config.js.src)
         .pipe(
@@ -147,6 +159,7 @@ function serve (cb) {
 function watchAll () {
     watch(config.pug.src, html)
     watch(config.sass.src, css)
+    watch(config.jsPlugins.src, jsPlugins)
     watch(config.js.src, js)
     watch(config.images.src, images)
     watch(config.static.src, static)
@@ -158,11 +171,9 @@ function watchAll () {
 
 exports.clean = series(clean)
 
-exports.markup = series(clean, html)
-
 exports.build = series(
     clean,
-    parallel(html, css, js, images, static)
+    parallel(html, css, js, jsPlugins, images, static)
 )
 
 exports.dev = series(
@@ -170,3 +181,7 @@ exports.dev = series(
     series(serve, watchAll)
 )
 
+// throwaway testing tasks
+
+exports.markup = series(clean, html)
+exports.jsPlugins = series(clean, jsPlugins)

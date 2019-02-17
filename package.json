@@ -26,6 +26,7 @@
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-changed": "^3.2.0",
+    "gulp-concat": "^2.6.1",
     "gulp-pug": "^4.0.1",
     "gulp-rollup-each": "^3.0.0",
     "gulp-sass": "^4.0.2",

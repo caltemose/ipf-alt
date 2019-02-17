@@ -74,11 +74,13 @@ mixin musicday(dayTitle, stages, day)
             each band in day.f
                 +bandListing(band)
 
+//- a(href=`before${link}after`) 
+
 mixin slideImage(imageName, alt)
-    img(sizes="(min-width: 1024px) 1024px, 100vw" srcset="#{imageName}-1024.jpg 1024w, #{imageName}-768.jpg 768w, #{imageName}-320.jpg 320w" src="#{imageName}-320.jpg" alt=alt)
+    img(sizes="(min-width: 1024px) 1024px, 100vw" srcset=`${imageName}-1024.jpg 1024w, ${imageName}-768.jpg 768w, ${imageName}-320.jpg 320w` src=`${imageName}-320.jpg` alt=alt)
 
 mixin slideImageXL(imageName, alt)
-    img(sizes="(min-width: 1024px) 1024px, 100vw" srcset="#{imageName}-2048.jpg 2048w, #{imageName}-1024.jpg 1024w, #{imageName}-768.jpg 768w, #{imageName}-320.jpg 320w" src="#{imageName}-320.jpg" alt=alt)
+    img(sizes="(min-width: 1024px) 1024px, 100vw" srcset=`${imageName}-2048.jpg 2048w, ${imageName}-1024.jpg 1024w, ${imageName}-768.jpg 768w, ${imageName}-320.jpg 320w` src=`${imageName}-320.jpg` alt=alt)
 
 mixin sponsorGridImage(src, alt, url)
     li
