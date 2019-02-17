@@ -1,0 +1,38 @@
+extends ../../_templates/layout
+
+block title
+    title #{globals.ipf.title} | Events | Tour of Homes
+
+block contents
+
+    +secondaryNav(globals.events.nav, "tour of homes")
+
+    //- +presentingSponsor("/assets/img/2017/sponsors/presenting-sponsors/north-american-properties.png", "North American Properties")
+
+    article.u-container
+
+        h1 Tour of Homes
+        
+        p The Tour of Homes is a self-conducted tour of some of the beautiful homes and buildings in Inman Park. See inside some of the glorious old Victorian homes or check out some of the beautiful remodeling jobs neighbors have completed on their houses.
+
+        //- p The home preview starts on Friday #{globals.ipf.date.friday.date} between #{globals.ipf.date.friday.hours} and continues through Saturday and Sunday between #{globals.tour.hours.weekend}.
+
+        h2 Tour of Homes Tickets
+
+        p Tour of Homes tickets are $#{globals.tour.cost.advance} in advance and $#{globals.tour.cost.door} starting the Friday of Festival.
+        //- #{globals.ipf.date.friday.date}.
+
+        //- include _paypal.jade
+        //- 
+        //- include _tickets-local.jade
+
+        h2 Tour of Homes Sponsors
+        
+        ul.Sponsors.Sponsors--other.Sponsors-top
+            +sponsorGridImage("/assets/img/2018/sponsors/toh/adam-stillman.png", "Adam Stillman", "http://adamstillman.net/index2.html")
+            +sponsorGridImage("/assets/img/2018/sponsors/toh/floor-n-decor.png", "Floor & D&eacute;cor", "https://www.flooranddecor.com/")
+            +sponsorGridImage("/assets/img/2018/sponsors/toh/vacasa.png", "Vacasa", "https://www.vacasa.com/")
+
+        h2 This Year's Homes
+
+    include _homes-2018

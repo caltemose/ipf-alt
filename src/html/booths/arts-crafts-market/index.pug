@@ -1,0 +1,18 @@
+extends ../../_templates/layout
+
+block title
+    title #{globals.ipf.title} | Arts & Crafts Market
+
+block contents
+
+    +secondaryNav(globals.markets.nav, "arts & crafts")
+
+    article.u-container
+
+        h1 Arts & Crafts Market
+        
+        p Vendors listed below are from the previous Festival.
+        
+        //- p Festival #{globals.ipf.date.year} Street Market vendors will be listed below as soon as they are chosen.
+
+        include _vendor-list

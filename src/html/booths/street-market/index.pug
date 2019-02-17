@@ -1,0 +1,20 @@
+extends ../../_templates/layout
+
+block title
+    title #{globals.ipf.title} | Street Market
+block contents
+
+    +secondaryNav(globals.markets.nav, "street market")
+
+    article.u-container
+    
+        h1 Street Market
+        
+        p Atlanta's largest Street Market offers more than 270 booths of antiques and handcrafted wares. You will find plenty of unique items &ndash; everything from handmade soap and unique plants to one-of-a-kind paintings and specialty jewelry.
+
+        //- p Festival #{globals.ipf.date.year} Street Market vendors will be listed below as soon as they are chosen.
+        //- 
+        
+        p Vendors listed below are from the previous Festival.
+        
+        include _vendor-list

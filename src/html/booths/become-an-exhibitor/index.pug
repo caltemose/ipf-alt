@@ -1,0 +1,50 @@
+extends ../../_templates/layout
+
+block title
+    title #{globals.ipf.title} | Market | Become an Exhibitor
+
+block contents
+
+    +secondaryNav(globals.markets.nav, "become an exhibitor")
+
+    article.u-container
+    
+        h1 Become an Exhibitor
+
+        if !globals.vendors.appActive && !global.offseason
+            p Exhibitor applications for this year's festival are now closed. Vendors will be notified of acceptance no later than #{globals.vendors.notification}.
+
+        if globals.vendors.appActive
+            p 
+                | To apply to become a vendor for the #{globals.ipf.date.year} #{globals.ipf.title}, please use this link:
+                = " "
+                a(href=globals.vendors.site) #{globals.vendors.site}
+
+            p 
+                | ZAPP is free for artists, and once you have created a profile, you can apply to other Festivals too. If you need additional help to get started, here is a link to instructions and a help video to apply to shows on ZAPP:
+                = " "
+                a(href="https://www.zapplication.org/help-center.php?page=how-to-apply") https://www.zapplication.org/help-center.php?page=how-to-apply
+            
+            h2 Deadlines for the #{globals.ipf.date.year} #{globals.ipf.title}:
+            
+            ul
+                li Application submissions must be postmarked by #{globals.vendors.deadline}
+                li Vendors will be notified of acceptance no later than #{globals.vendors.notification}
+        //- 
+        //- p 
+        //-     | If you have questions, please email us at:
+        //-     = " "
+        //-     a(href="mailto:artinmanpark@gmail.com") artinmanpark@gmail.com
+        //- 
+        if globals.offseason && !globals.vendors.appActive
+            p Vendor applications are closed in the off-season but you can check back on this site in the fall to find instructions on how to become a vendor. We use <a href="https://www.zapplication.org/" target="_blank">ZAPP</a> to manage vendor applications &ndash; feel free to visit their site to create an account at any time.
+
+        //- h2 Exhibitor Information
+        //- 
+        //- p Here are some helpful documents for exhibitors:
+        //- 
+        //- ul
+        //-     li
+        //-         a(href="/assets/archive/2017/2017-Exhibitor-Checkin-Map.pdf") 2017 Map with Exhibitor Check-in Locations (PDF)
+        //-     li
+        //-         a(href="/assets/archive/2017/2017-Inman-Park-Stores-And-Hotels.pdf") List of Stores and Hotels in the Area (PDF)

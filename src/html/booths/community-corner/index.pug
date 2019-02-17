@@ -1,0 +1,21 @@
+extends ../../_templates/layout
+
+block title
+    title #{globals.ipf.title} | Community Corner
+
+block contents
+
+    +secondaryNav(globals.markets.nav, "community corner")
+    
+    article.u-container
+    
+        h1 Community Corner
+        
+        //- p Non-profit organizations may request a space in the Community Corner which is separate from the main vendor area. Appropriate applicants (registered non-profits) are accepted based on availability on first come, first serve basis.
+
+        //- p Festival #{globals.ipf.date.year} Street Market vendors will be listed below as soon as they are chosen.
+        //- 
+        
+        p Vendors listed below are from the previous Festival.
+        
+        include _vendor-list

@@ -1,0 +1,46 @@
+extends ../_templates/layout
+
+block title
+    title #{globals.ipf.title} | Contact Us
+
+block contents
+
+    article.u-container
+        h1 Contact Us
+
+        p If you have a question, please send an email to the appropriate point of contact. We will make every effort to get back to you as soon as possible. Thank you for your interest and we hope to see you at Festival!
+
+        form(method="POST" action="contact.php").Form--contact#ContactForm
+            
+            p 
+                strong All fields are required.
+            
+            label
+                | Your name:
+                input(type="text" name="name" required)
+            
+            label
+                | Your email address:
+                input(type="email" name="email" required)
+            
+            label
+                | Select a point of contact:
+                select(name="recipient" required)
+                    each contact in globals.contacts
+                        option(value=contact.value)= contact.label
+
+            label
+                | Your Message:
+                textarea(name="message" required)
+
+            label
+                input(type="text" size="25" name="email_address")
+            
+            input(type="submit" name="submit" value="Send Email")
+
+        p#successMessage Message sent - thanks for getting in touch. We'll respond as soon as we can.
+
+//- block scripts
+//-     script(src="/assets/js/pages/contact.js")
+//-     script.
+//-         ipf.contact.init('ContactForm');

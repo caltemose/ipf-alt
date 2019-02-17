@@ -1,0 +1,17 @@
+extends ../../_templates/layout
+
+block title
+    title #{globals.ipf.title} | Booth Map & Search
+block contents
+
+    +secondaryNav(globals.markets.nav, "map")
+
+    article.u-container
+        #BoothMap.BoothMap
+
+//- block scripts
+//-     script(src="/assets/js/pages/booth-map.js")
+//-     script.
+//-         ipf.boothMap.init('BoothMap');
+//-     script(async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdvi4gdoM6JBzz0v-gc0AYUMtf_blKJ2A&callback=ipf.boothMap.onGoogleReady")
+    //- script(async defer src="https://maps.googleapis.com/maps/api/js?callback=ipf.boothMap.onGoogleReady")

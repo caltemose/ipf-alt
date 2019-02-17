@@ -1,0 +1,39 @@
+extends ../_templates/layout
+
+block title
+    title #{globals.ipf.title} Yearly Art
+
+block contents
+
+    article.u-container
+
+        h1 Inman Park Festival Yearly Art
+
+        p Each year a call to artists is sent out to the community to request artwork for the forthcoming festival. After receiving many submissions from local artists, the festival committee selects the winner whose art will be used in a variety of marketing materials including the Tour of Homes brochure, the website, staff shirts and shirts for sale to the public.
+        
+        if globals.art.submissions.active
+            #submitMsg
+                h2 Submit Your Artwork for This Year's Festival
+                p Are you a local artist in interested in submitting artwork to be used for this year's festival posters and t-shirts? If so, checkout our <a href="submissions">Submissions Page</a>.
+        
+        //- h2 This Year's Winner
+        //- 
+        //- p 
+        //-     | Read about this year's winner 
+        //-     = ' '
+        //-     a(href="/art/2019") here.
+        
+        h2 Previous Winners
+        
+        ul
+            li
+                a(href="/art/2018") 2018 - Cooper Pierce
+            li
+                a(href="/art/2017") 2017 - Ming Phan
+
+//- block scripts
+//-     script.
+//-         var urlParams = new URLSearchParams(window.location.search);
+//-         if (urlParams.has('show')) {
+//-             document.getElementById('submitMsg').style.display = 'block'
+//-         }

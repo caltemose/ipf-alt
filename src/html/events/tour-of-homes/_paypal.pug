@@ -1,0 +1,45 @@
+h2#buy-tickets Buy Tickets Now!
+
+p When your transaction has been completed, a receipt for your purchase will be emailed to you.
+
+p.Big Please print the first page of the PayPal receipt sent via email showing your name and the number of tickets purchased. Bring this page to our Ticket Sales booth to exchange for your Tour of Homes Ticket(s).
+
+p On Friday, the only location where tickets can be picked up is the intersection of Elizabeth Street and Euclid Avenue. <a href="https://www.google.com/maps/place/33%C2%B045'30.0%22N+84%C2%B021'23.2%22W/@33.7583282,-84.3652018,15z/data=!3m1!4b1!4m6!3m5!1s0x0:0x0!7e2!8m2!3d33.7583293!4d-84.3564474">See here on Google Maps.</a>
+
+.PaypalItems
+    //- Tour of Homes Individual Tickets - Advance Purchase
+    .PaypalItem
+        //- span Tour of Homes Individual Tickets: $#{globals.tour.cost.advance} each
+        //- form(target='paypal', action='https://www.paypal.com/cgi-bin/webscr', method='post')
+        //-   input(type='hidden', name='cmd', value='_s-xclick')
+        //-   input(type='hidden', name='hosted_button_id', value='RNBNA4ADCKUYU')
+        //-   input(type='image', src='https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif', border='0', name='submit', alt='PayPal - The safer, easier way to pay online!')
+        //-   img(alt='', border='0', src='https://www.paypalobjects.com/en_US/i/scr/pixel.gif', width='1', height='1')
+
+        span Tour of Homes Individual Tickets: $#{globals.tour.cost.door} each
+        form(target='paypal', action='https://www.paypal.com/cgi-bin/webscr', method='post')
+            input(type='hidden', name='cmd', value='_s-xclick')
+            input(type='hidden', name='hosted_button_id', value='LT6HKKX2MUQNA')
+            input(type='image', src='https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif', border='0', name='submit', alt='PayPal - The safer, easier way to pay online!')
+            img(alt='', border='0', src='https://www.paypalobjects.com/en_US/i/scr/pixel.gif', width='1', height='1')
+
+
+
+//- .Paypal Items
+//-     //- Tour of Homes Individual Tickets - Door Purchase
+//-     .PaypalItem
+//-         span Tour of Homes Individual Tickets: $#{globals.tour.cost.door} each
+//-         form(target='paypal', action='https://www.paypal.com/cgi-bin/webscr', method='post')
+//-             input(type='hidden', name='cmd', value='_s-xclick')
+//-             input(type='hidden', name='hosted_button_id', value='LT6HKKX2MUQNA')
+//-             input(type='image', src='https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif', border='0', name='submit', alt='PayPal - The safer, easier way to pay online!')
+//-             img(alt='', border='0', src='https://www.paypalobjects.com/en_US/i/scr/pixel.gif', width='1', height='1')
+
+
+.PaypalViewCart
+    form(target='paypal', action='https://www.paypal.com/cgi-bin/webscr', method='post')
+        input(type='hidden', name='cmd', value='_s-xclick')
+        input(type='hidden', name='encrypted', value='-----BEGIN PKCS7-----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-----END PKCS7-----\
+        ')
+        input(type='image', src='https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_LG.gif', border='0', name='submit', alt='PayPal - The safer, easier way to pay online!')
+        img(alt='', border='0', src='https://www.paypalobjects.com/en_US/i/scr/pixel.gif', width='1', height='1')

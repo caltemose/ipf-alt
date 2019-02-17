@@ -1,0 +1,83 @@
+extends ../../_templates/layout
+
+block title
+    title #{globals.ipf.title} Art Submissions
+
+block contents
+
+    article.u-container
+
+        h1 Call for Design Entries
+
+        p The call for entries is closed. Check the <a href="/art">Art page</a> for details about this year's winner when they are announced.
+
+//- 
+//-         p Be part of an In-town tradition and put your talent on display for the Inman Park Festival attendees. 
+//- 
+//-         //- The Inman Park Festival is a fun, eclectic and family- friendly event that offers something for everyone: a perfect mix of music, art, performances, shopping, dance, old and new homes, relaxation, community, and Atlanta's delightful spring weather.
+//- 
+//-         h2 Submission Deadline: Dec 31, 2018
+//- 
+//-         p The design will need to be able to be reproduced in a variety of methods and sizes on all Festival Content:
+//- 
+//-         ul
+//-             li T-shirt (screen printed onto a t-shirt for children and adults S-XXL) 
+//-             li Poster (digitally printed - approximately 18" W x 24" H - this size may change)
+//-             li Tour of Homes Ticket Cover  (digitally printed - ticket size is 4.25" W x 11" H)
+//-             li Advertising, promotions, and social media 
+//- 
+//-         h2 Prize Package for the Winning Design
+//- 
+//-         ul
+//-             li $1,000 Cash Prize
+//-             li Festival t-shirt and two Tour of Homes tickets ($60 value)
+//- 
+//-         h2 The Winning Design Will:
+//- 
+//-         ul
+//-             li Capture the unique spirit of the Inman Park neighborhood
+//-             li Include reference to the annual Festival (e.g. #{globals.ipf.date.year} Inman Park Festival, #{globals.ipf.date.annual}th Annual #{globals.ipf.title}) 
+//-             li Incorporate the Inman Park Butterfly logo (seen above) as appropriate (Including the butterfly logo in your design is not required but is strongly recommended, and we welcome fresh and interesting interpretations of this thematic element.)
+//- 
+//-         h2 Requirements
+//- 
+//-         #formResults.u-displayNone
+//-             p Thanks for your submission. We'll be in touch.
+//- 
+//-         #formContainer
+//-             p All artwork submitted will be owned by Inman Park Festival.
+//- 
+//-             p You may submit a maximum of three (3) entries.
+//- 
+//-             form(action="upload.php" method="post" enctype="multipart/form-data" class="dropzone")#imagedrop
+//-                 .dz-message(data-dz-message)
+//-                     span Click or drop files here to upload. Valid file types are: jpeg, png, pdf. Maximum file size per file is 5 MB
+//- 
+//-                 .dz-previews-container
+//- 
+//-                 .ArtForm
+//-                     p Please provide your personal contact details so we can contact you once we've selected the final artwork for this year's festival. Your name is required and you must provide either your phone number or email or both.
+//- 
+//-                     .ArtForm-error
+//- 
+//-                     label
+//-                         span Your Name:
+//-                         input(type="text" name="artistName" placeholder="Your Name")
+//- 
+//-                     label
+//-                         span Your Phone Number:
+//-                         input(type="text" name="artistPhone" placeholder="Your Phone Number")
+//- 
+//-                     label
+//-                         span Your Email Address:
+//-                         input(type="email" name="artistEmail" placeholder="Your Email")
+//- 
+//-                     input(type="submit" name="submit" value="Submit")
+//- 
+//-         #submissionLoader.SubmissionLoader
+//-             img(src="/assets/img/ajax-loader.gif" alt="submitting files...")
+//- 
+//- block scripts
+//-     script(src="/assets/dropzone.js")
+//-     script(src="/assets/js/pages/art-submission.js")
+    

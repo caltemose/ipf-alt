@@ -1,0 +1,63 @@
+extends ../../_templates/layout
+
+block title
+    title #{globals.ipf.title} | Events | Kids' Zone
+
+block contents
+
+    +secondaryNav(globals.events.nav, "kids' zone")
+
+    +presentingSponsor("/assets/img/2018/sponsors/presenting/king-of-pops.png", "King of Pops")
+
+    .u-container
+    
+        h1 Inman Park Festival Kid's Zone
+    
+    .Hero.owl-carousel.owl-theme
+        div
+            +slideImage('/assets/img/slideshows/2018/kidzone-face-paint')
+        div
+            +slideImage('/assets/img/slideshows/2018/kidzone-sphere')
+        div
+            +slideImage('/assets/img/slideshows/2018/kidzone-acrobats')
+        div
+            +slideImage('/assets/img/slideshows/2018/kidzone-dog-dance')
+        div
+            +slideImage('/assets/img/slideshows/2018/kidzone-red-dots')
+    
+    article.u-container
+    
+        p Festival provides a dedicated space for kids to play that includes slides, obstacles courses, crafts, a great playground, riding toys for our youngest guests and the CHANCE TO JOIN A CIRCUS, all of them FREE! This year there is even more!
+        
+        p 
+            | The Kids' Zone is located in Springvale Park, off Elizabeth Street and Waverly Way, behind the main music tent. 
+            = ' '
+            a(href="https://www.google.com/maps/place/Springvale+Park/@33.757609,-84.3595155,17z/data=!3m1!4b1!4m5!3m4!1s0x88f504009b29b45f:0xe3d98edfcfc1ac1e!8m2!3d33.7576046!4d-84.3573268" target="_blank") [map it]
+        
+        //- TODO put kids' zone hours in globals
+        p The Kids' Zone is a great place to let the kids play while parents or chaperones enjoy one of Atlanta's oldest urban park spaces. 
+        //- Kids' Zone hours are from 11AM until 6 PM on Saturday #{globals.ipf.date.saturday.date} and Sunday #{globals.ipf.date.sunday.date}.
+
+        //- h2 Kids' Zone Schedule
+        //- 
+        //- p Events for Saturday #{globals.ipf.date.saturday.date}:
+        //- 
+        //- ul
+        //-     li 11:30 Coach Beauchamp Kids' Yoga
+        //-     li 12:00 Storytelling by Tosinger
+        //-     li 1:00 Circus Camp's Aerial Performance
+        //-     li 1:30 Paniflov's Performing Pets
+        //-     li 2:00 Festival Parade
+        //-     li 3:30 Paniflov's Performing Pets
+        //-     li 4:00 Circus Camp's Aerial Performance
+        //-     li 5:00  Miss Ladybug's Garden Variety Shoe Show
+        //- 
+        //- p Events for Sunday #{globals.ipf.date.sunday.date}:
+        //- 
+        //- ul
+        //-     li 11:30 Coach Beauchamp Kids' Yoga
+        //-     li 12:00 Paniflov's Performing Pets
+        //-     li 12:30 Mr. Greg
+        //-     li 2:00 Paniflov's Performing Pets
+        //-     li 3:00 Mr. Greg
+        //-     li 4:00 Miss Ladybug's Garden Variety Shoe Show

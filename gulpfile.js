@@ -158,6 +158,8 @@ function watchAll () {
 
 exports.clean = series(clean)
 
+exports.markup = series(clean, html)
+
 exports.build = series(
     clean,
     parallel(html, css, js, images, static)

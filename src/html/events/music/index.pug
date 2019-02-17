@@ -1,0 +1,56 @@
+extends ../../_templates/layout
+
+block title
+    title #{globals.ipf.title} | Events | Music
+
+block contents
+
+    +secondaryNav(globals.events.nav, "music")
+
+    +presentingSponsor("/assets/img/2017/sponsors/presenting-sponsors/andre-de-winter.png", "Andre de Winter Homes")
+
+    .u-container
+
+        h1 Live Music at the Inman Park Festival
+        
+        p See this space soon for the Festival music lineup.
+
+
+    //- .u-container
+    //-     select#musicSelector.MusicSelector
+    //-         option(value="") Select Day &amp; Stage:
+    //-         optgroup(label="Saturday")
+    //-             option(value="SaturdayDelta") Delta Park
+    //-             option(value="SaturdayEuclid") Euclid Ave
+    //-             option(value="SaturdayFreedom") Freedom
+    //-         optgroup(label="Sunday")
+    //-             option(value="SundayDelta") Delta Park
+    //-             option(value="SundayEuclid") Euclid Ave
+    //-             option(value="SundayFreedom") Freedom
+
+    //- ul.MusicDates
+    //-     //- Saturday bands by stage
+    //-     +musicday("Saturday", music.stages, music.saturday)
+    //- 
+    //-     //- Sunday bands by stage
+    //-     +musicday("Sunday", music.stages, music.sunday)
+
+
+
+
+//- block scripts
+//-     script.
+//-         var ipf = ipf || {};
+//-         ipf.page = 'music';
+//-         ipf.$body = $('body');
+//-         $('#musicSelector').change(function handleMusicChange(event) {
+//-             window.location = '#' + event.target.value;
+//-         });
+//-         $('.BandDetailsTrigger').click(function openBandDetails(event) {
+//-             ipf.$body.addClass('show-band-details');
+//-             $(event.target).next().show();
+//-         });
+//-         $('.BandDetails--close').click(function closeBandDetails(event) {
+//-             ipf.$body.removeClass('show-band-details');
+//-             $(event.target).parent().parent().hide();
+//-         });

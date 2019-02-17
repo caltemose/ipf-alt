@@ -1,0 +1,42 @@
+extends ../../_templates/layout
+
+block title
+    title #{globals.ipf.title} | Events | Parade
+
+block contents
+
+    +secondaryNav(globals.events.nav, "parade")
+
+    +presentingSponsor("/assets/img/2017/sponsors/presenting-sponsors/mailchimp.png", "Mailchimp")
+
+    .u-container
+    
+        h1 Inman Park Festival Parade
+    
+    .Hero.owl-carousel.owl-theme
+            
+        div
+            img(src="/assets/img/fpo/gnomes-930x450.jpg")
+        div
+            img(src="/assets/img/fpo/box-heros-930x450.jpg")
+        div
+            img(src="/assets/img/fpo/nicole-930x450.jpg")
+    
+    article.u-container
+    
+        p Come see our Butterfly, Trash Monarch, Precision Attache Case Drill Team, and the <a href="http://seedandfeed.org/" target="_blank">Seed & Feed Marching Abominables</a> take to the street in the city's funkiest and most eclectic spring parade. 
+        //- This favorite of Festival begins at Edgewood and Euclid on Saturday #{globals.ipf.date.saturday.date} at #{globals.events.parade.time} (rain or shine) and runs to Austin Avenue at the foot of Little Five Points.
+
+        p 
+            | The AJC considers the parade one of 
+            = ' '
+            a(href="http://www.accessatlanta.com/news/events/10-things-every-atlanta-resident-should-do/njyjQ/" target="_blank") 10 Things Every Atlanta Resident Should Do:
+
+        blockquote Take in a parade with personality. (Intown Atlanta) Inman Park Spring Festival's parade is a people watching paradise. Colorful costumes, creative themes, and the Seed & Feed Marching Abominable invite spring with sass and funk.
+
+        if globals.events.parade.applicationActive
+            h2 Want to March in the Parade?
+            p 
+                a(href="#{globals.events.parade.application}") Download the Parade Application
+                = ' '
+                | if you'd like to register to march in the parade.

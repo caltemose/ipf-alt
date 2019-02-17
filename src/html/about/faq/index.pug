@@ -1,0 +1,106 @@
+extends ../../_templates/layout
+
+block pageVars
+    - var selectedNav = 'faq'
+
+block title
+    title #{globals.ipf.title} | FAQ
+
+block contents
+
+    .Hero
+        div
+            .HeroSlidePromo
+                .HeroSlidePromo-banner
+
+                .HeroSlidePromo-copy
+                    h3 Festival Needs Volunteers!
+                    p
+                        | Festival doesn't happen without volunteers.
+                        = ' '
+                        a(href=globals.volunteerSite) Signup now
+                        = ' '
+                        | to volunteer your time and help make this year's festival great!
+                    
+                    a.u-blockCentered.Button(href=globals.volunteerSite) Sign Up
+
+    article.u-container
+
+        h1 Frequently-asked Questions
+        
+        //- +tertiaryNav(globals.events.nav)
+        
+        h2 Festival 101
+        
+        dl.FaqList
+            dt When does festival take place?
+            dd The Inman Park Spring Festival always take place on the last weekend of April. 
+            //- This year it runs from #{globals.ipf.date.saturday.date} - #{globals.ipf.date.sunday.date}.
+            
+            dt What are the hours?
+            dd On Friday, the Tour of Homes runs from Noon until 4:00 p.m (there are no other Festival events on Friday.) On Saturday and Sunday the Tour of Homes runs from Noon until 6:00 p.m. On Saturday, Festival (excluding the Tour of Homes) begins at 11:00 a.m. and runs until 8:30 p.m. On Sunday, the times are 11:00 until 7:00 p.m.
+            
+            dt When is the parade?
+            dd The parade occurs on Saturday at 2:00 p.m.
+
+            dt Are Pets Allowed?
+            dd Please remember that, by City of Atlanta Ordnance, pets are not allowed at Festivals, "unless part of a planned festival program or assisting persons with disabilities". This prohibition includes "dogs, cats, snakes, birds, pigs, etc.", and applies whether or not the pet is leashed. As the ordnance says, this is for the pet's protection as well as for the protection of festival patrons. Thanks!!
+        
+        h2 Tour of Homes Tickets 
+        
+        dl.FaqList
+            dt How much do Tour of Homes Tickets Cost?
+            dd Tour of Homes tickets are $#{globals.tour.cost.advance} in advance and $#{globals.tour.cost.door} starting Friday, #{globals.ipf.date.friday.date}.
+            
+            dt Are there group ticket rates?
+            dd Yes, group discounts are available for groups of 10 or more.
+        
+        h2 Markets
+        
+        dl.FaqList
+            dt What are the hours of the Market?
+            dd 11:00AM to 6:00PM on Saturday and Sunday
+
+            dt How can I become an exhibitor?
+            dd Complete the application and form available on the <a href="/booths/become-an-exhibitor">Become an Exhibitor page</a>
+
+            //- dt When is the application deadline?
+            //- dd The deadline is March 10, 2017.
+
+            //- TODO Put the application dates into the global data
+            //- dt When will I find out if I have been accepted into the Market?
+            //- dd All applicants will be notified no later than March 17, 2017.
+        
+        
+        h2 Events 
+        
+        dl.FaqList
+            dt What are the hours?
+            dd On Friday, the Tour of Homes runs from Noon until 4:00 p.m (there are no other Festival events on Friday.) On Saturday and Sunday the Tour of Homes runs from Noon until 6:00 p.m. On Saturday, Festival (excluding the Tour of Homes) begins at 11:00 a.m. and runs until 8:30 p.m. On Sunday, the times are 11:00 until 7:00 p.m.
+
+            dt When is the parade?
+            dd The parade occurs on Sat. at 2:00 p.m.
+
+
+        h2 Food 
+        
+        dl.FaqList
+            dt What food is available at the festival?
+            dd Pizza, barbecue, gyros, sandwiches, and, of course, funnel cakes and other street festival staples. Local restaurants will also be open for business.
+
+
+        h2 Sponsors
+        
+        dl.FaqList
+            dt What levels of sponsorships does the festival offer?
+            dd There are several levels of sponsorships available to businesses of all sizes, including Gold and Silver levels as well as Friends of Festival designations.
+
+            dt How do I learn more about sponsorships?
+            dd Go to the <a href="/contact-us">Contact Us page</a> and send an e-mail request to Festival Sponsorships.
+
+
+        //- h2 Volunteer
+        //- 
+        //- dl.FaqList
+        //-     dt Where do you sign up?
+        //-     dd You can sign up online at <a href="#{globals.volunteerSite}">Signup.com</a>

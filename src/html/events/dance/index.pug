@@ -1,0 +1,55 @@
+extends ../../_templates/layout
+
+block title
+    title #{globals.ipf.title} | Events | Dance
+
+block contents
+
+    +secondaryNav(globals.events.nav, "dance")
+
+    .u-container
+    
+        h1 Inman Park Dance Festival
+    
+    .Hero.owl-carousel.owl-theme
+
+        
+        div
+            +slideImageXL('/assets/img/slideshows/2017/dance-blue-line', 'Dancers at Festival')
+        div
+            +slideImageXL('/assets/img/slideshows/2017/dance-chair', 'Dancers at Festival')
+        div
+            +slideImageXL('/assets/img/slideshows/2017/dance-y', 'Dancers at Festival')
+        div
+            +slideImageXL('/assets/img/slideshows/2017/dance-ballerinas', 'Ballerinas at Festival')
+
+
+    article.u-container
+
+        p Check back later to learn about Festival's Dance activities.
+        
+        //- p
+        //-     | Saturday, April 28 &amp; Sunday, April 29
+        //-     br
+        //-     | 4:00 pm
+        //-     br
+        //-     | The Trolley Barn, 963 Edgewood Avenue, Atlanta GA 30307
+        //-     br
+        //-     | Free
+        //- 
+        //- p Yet another way Atlanta's favorite street festival is unique is the Inman Park Dance Festival. This event is the only free admission dance festival in the region that presents both ballet and modern dance vocabularies and compensates its performers. The dance festival presents two performances in the <a href="http://www.thetrolleybarn.com">Trolley Barn</a>, one on Saturday and one on Sunday at 4:00 pm. Performances last for about an hour and includes Q &amp; A with the artists. This is an intimate, family friendly event. The show is the same for both days and will present five companies; <a href="http://atlantaballet.com/" target="_blank">Atlanta Ballet Center for Dance Education Pre-Professional Division</a>, <a target="_blank" href="http://ballethnic.org">Ballethnic</a>, <a target="_blank" href="http://catellierdanceprojects.org">Catellier Dance Projects</a>, <a target="_blank" href="http://fullradiusdance.org">Full Radius Dance</a>, <a target="_blank" href="http://www.georgiaballet.org">The Georgia Ballet</a> and <a target="_blank" href="http://www.immerseatl.com">ImmerseATL</a>. Each company brings a unique dance voice to the show.
+        //- 
+        //- p <a target="_blank" href="http://www.immerseatl.com">ImmersATL</a> is a new to the Inman Park Dance Festival. This dance organization is providing a link from preprofessional dance life to professional dance life supporting young adult performers. The mission of this company is to "train dancers in an environment that stirs curiosity, sparks joy and fosters an intentional work ethic." 
+        //- 
+        //- p The <a target="_blank" href="http://www.georgiaballet.org">Georgia Ballet's</a>, as its name suggests, primary performing vocabulary is classical ballet. The company's repertory includes dances that are several hundred years old and dances that are of this century. This variety of work highlights the talents of the fine artists that perform with this company.
+        //- 
+        //- p The modern dance vocabulary of physically integrated dance is the fort&eacute; of <a target="_blank" href="http://fullradiusdance.org">Full Radius Dance</a>. In fact, this Atlanta-based company is a recognized national and international leader in this dance form which is modern dance based movement for dancers with and without physical disabilities. Full Radius Dance is celebrated for its distinct style, technique, and artistry. This is recently demonstrated by performances in South Korea, Spain, and New York City and the placement of video footage of its 2018 concert in the Jerome Robbins Dance Division of The New York Public Library.
+        //- 
+        //- p <a target="_blank" href="http://catellierdanceprojects.org">Catallier Dance Projects</a> is also a new to the festival. This modern company has a reputation for creating meaningful multimedia work and the press observes that their work is "energetic, witty, smart, engaging...smartly personal, transparently accessible, and deeply funny."
+        //- 
+        //- p <a target="_blank" href="http://ballethnic.org">Ballethnic</a> is also a company with a singular movement voice. This company combines the vocabularies of classical ballet and West African dance. Always highly energetic, the company performs works directly linked to African culture and works that examine African American perspectives.
+        //- 
+        //- p <a href="http://atlantaballet.com/" target="_blank">Atlanta Ballet Center for Dance Education Pre-Professional Division</a>  is the dance festival's look to the future. The company is a pre-professional performing outlet for a group of conservatory students training at the Center. These high school aged performers will demonstrate their developing technical and artistic prowess.
+        //- 
+        //- p Inman Park neighbor Carolyn Stine McLaughlin directs the Inman Park Dance Festival. She is a 20-plus-year resident of the neighborhood. The Inman Park Dance Festival was founded in 2001 and is a natural extension of her commitment to the Atlanta dance community and her teaching work with <a target="_blank" href="http://movementartsatlanta.wordpress.com">Movement Arts Atlanta</a>. If you know of a company that should be considered for next year's performances, please contact Carolyn via email: movementartsatl@gmail.com.
+
