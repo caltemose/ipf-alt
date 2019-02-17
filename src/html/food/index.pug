@@ -1,0 +1,32 @@
+extends ../_templates/layout
+
+block pageVars
+    - var selectedNav = 'food'
+
+block title
+    title #{globals.ipf.title} | Food & Restaurants
+
+block contents
+
+    article.u-container
+
+        h1 Where to Eat and Drink During Festival
+        
+        h2 Food Vendors
+        
+        p 
+            | The #{globals.ipf.title} has many food vendors that offer pizza, barbecue, gyros, sausages, sandwiches, and other street festival staples. After you've dined at one of several food vendor sections, grab a funnel cake or a popsicle at 
+            = ' '
+            a(href="http://atlanta.kingofpops.net" target="_blank") King of Pops
+            = ' '
+            | to satisfy your sweet tooth. 
+        
+        
+        h2 Local Restaurants
+        
+        p 
+            | Inman Park is now a major culinary destination in Atlanta and visitors have many restaurants to choose from in a wide variety of food cultures and styles. From the restaurants in the Inman Park village/commercial area, to 
+            = ' '
+            a(href="http://www.krogstreetmarket.com/" target="_blank") Krog Street Market
+            |, to the many wonderful places scattered throughout the neighborhood, you'll never lack great places to eat and drink during festival.
+        

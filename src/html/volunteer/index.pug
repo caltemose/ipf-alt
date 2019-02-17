@@ -1,0 +1,75 @@
+extends ../_templates/layout
+
+block pageVars
+    - var selectedNav = 'volunteer'
+
+block title
+    title #{globals.ipf.title} | Volunteer Rules and Signup
+
+block contents
+
+    //- .Hero
+    //-     div
+    //-         .HeroSlidePromo
+    //-             .HeroSlidePromo-banner
+    //- 
+    //-             .HeroSlidePromo-copy
+    //-                 h3 Festival Needs Volunteers!
+    //-                 p
+    //-                     | Festival doesn't happen without volunteers.
+    //-                     = ' '
+    //-                     a(href=globals.volunteerSite) Signup now
+    //-                     = ' '
+    //-                     | to volunteer your time and help make this year's festival great!
+    //- 
+    //-                 a.u-blockCentered.Button(href=globals.volunteerSite) Sign Up
+
+    article.u-container
+    
+        h1 Festival Thrives on Volunteers
+        p This festival runs on volunteers. Check back in the coming months for a link to volunteer for this year's festival.
+        //- p 
+        //-     | This festival runs on volunteers. To sign up to volunteer, please visit 
+        //-     a(href=globals.volunteerSite) Signup.com
+        //-     = ' '
+        //-     | today to volunteer for this year's festival.
+        
+        
+        h2 Rules for All Volunteers
+
+        p Thank you for your help and your interest in our success. Previous rules still apply.
+        
+        p We will have kegs of beer reserved for our active volunteers to enjoy after their volunteer shifts. Due to requirements from our insurance carrier and liquor license holder as well as logistical concerns, <strong>volunteers and staff may no longer get free beer from any beer trucks</strong>. Volunteers will still be rewarded with a cold one, just not via the busy beer trucks. Once you sign up, your committee chairperson will let you know where you can enjoy your volunteer beer after your shift.
+
+        p Again remember, and please spread the word &ndash; no one will be given free beer from a beer truck, whether wearing a staff shirt, volunteer shirt or no shirt!
+        
+        p 
+            | If you have any questions about volunteering for any duty other than beer shifts, please email
+            = ' '
+            a(href="mailto:jbradshaw@kslaw.com") Jane Bradshaw Burnette.
+        
+        
+        h2 Rules for Beer Volunteers
+        
+        ol
+            li 
+                p
+                    strong NO CONSECUTIVE SHIFTS. 
+                    | Volunteers can sign up for one shift – volunteers will not be accepted for multiple consecutive shifts unless explicit prior approval is made by the Beer Captains.  Further, we can no longer accept volunteers doing consecutive shifts on different trucks. For example, we can't accept volunteers moving from truck to truck on back-to-back shifts.  We appreciate everyone's enthusiasm for volunteering and encourage you to spread your talents around to other volunteer opportunities at Festival if you'd like to do back-to-back shifts.  You are welcome to sign up for two shifts if you spread them over the two days – one on Saturday and one on Sunday.
+            
+            li 
+                p
+                    strong SIGN UP IN YOUR OWN NAME. 
+                    | Beer volunteers must sign up for volunteer slots in the name of the specific person who will be working that shift.  Volunteers cannot sign the name of one person on behalf of another unnamed person, and we need a separate individual e-mail contact for each person serving on the shift.  To the extent groups want to sign up who have worked together in past years, you must communicate with the beer captain directly to assure he or she has contact information for each individual who will be serving on the shift; otherwise, the sign-up will be rejected.
+            
+            li 
+                p
+                    strong NO GUARANTEED SLOTS. 
+                    | Signing up for a beer shift does not guarantee you will be given that volunteer slot.  You will receive a confirmation e-mail from the Beer Committee to let you know once the slot is reserved.
+
+        p We love our beer volunteers and hope these procedures will make our beer trucks operate smoothly, while keeping our insurer and liquor license holder happy.
+            
+        //- p 
+        //-     | If you're ready to volunteer for festival,
+        //-     = ' '
+        //-     a(href=globals.volunteerSite) go to Signup.com now!

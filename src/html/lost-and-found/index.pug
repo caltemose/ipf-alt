@@ -1,0 +1,22 @@
+extends ../../_templates/layout
+block pageVars
+    - var selectedNav = 'lost & found'
+
+block title
+    title #{globals.ipf.title} | Lost and Found
+
+block contents
+
+    article.u-container
+
+        h1 Lost and Found
+
+        p If you have lost or found an item during festival, please stop by the information booth in front of 160 Elizabeth Street to drop off or look for lost items.
+        //- TODO alias the lost & found email
+        p
+            | If you need to contact the festival staff for lost and found items, please send an email to Robbie Pierce at 
+            = ' '
+            a(href="mailto:robbie@whytekerner.com") robbie@whytekerner.com
+
+        p Please don't forget to include a detailed description of the item you lost or found, where you lost or found it, and include a phone number where we can reach you.
+

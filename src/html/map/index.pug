@@ -1,0 +1,41 @@
+extends ../../_templates/layout
+
+block pageVars
+    - var selectedNav = 'getting here'
+
+block title
+    title #{globals.ipf.title} | Map
+
+block contents
+
+    article.u-container
+
+        h1 Getting to the Inman Park Festival
+        
+        p As those of you who visit our neighborhood regularly know, parking in Inman Park is becoming a bit more difficult. We strongly encourage you to avoid parking in Inman Park or in the adjacent neighborhoods. Please consider using any of the following options instead of driving directly here:
+        
+        ul
+            li Walk/bike the beltline if you can - it's really the best way to get here 
+            li Marta to the Inman Park/Reynoldstown Station
+            li Drive to a Marta station near Inman Park (Edgewood/Candler Park, East Lake) and then take Marta just 1 or 2 stops to our station
+            li Lyft/Uber/Taxi
+
+        h2 Bike
+
+        p Free and secure valet bike parking will be provided by the Atlanta Bicycle Coalition in the following locations:
+
+        ul
+            li the intersection of Alta Avenue and Euclid Avenue
+            li the intersection of Waverly Way and Elizabeth Stree
+            li on Edgewood Avenue between Waddell and Krog Streets
+        
+        h2 Festival Map with Free Shuttle Route and Bike Parking
+
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1xhnIWgf6rrrt4iT7z5GT9iVP3hU" width="100%" height="400"></iframe>
+
+        p
+            a(href="https://drive.google.com/open?id=1xhnIWgf6rrrt4iT7z5GT9iVP3hU&usp=sharing") View this full map (contains bus route, tour of homes, stages and other important locations)
+        
+        
+        
+        

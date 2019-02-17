@@ -1,0 +1,56 @@
+extends ../_templates/layout
+
+block pageVars
+    - var selectedNav = 'sponsors'
+
+block title
+    title #{globals.ipf.title} | Sponsors
+
+block contents
+
+    .u-container
+
+        h1 Festival Sponsors
+        
+        //- p This year&rsquo;s festival sponsors will be listed soon.
+
+    .SponsorsContainer
+        h2.SponsorsHeader.SponsorsHeader--presenting Presenting Sponsor
+        .Sponsors.Sponsors--Presenting
+            a(href="https://www.northside.com/" target="_blank")
+                img(src="/assets/img/2019/sponsors/presenting/northside-hospital.png" alt="Inman Park Festival Presenting Sponsor: Northside Hospital")
+    
+        h2.SponsorsHeader.SponsorsHeader--gold Gold Sponsors
+        ul.Sponsors.Sponsors--gold
+            +sponsorGridImage("/assets/img/2017/sponsors/gold/sweetwater-brewing.png", "Sweetwater Brewing Co.", "http://sweetwaterbrew.com/")
+            +sponsorGridImage("/assets/img/2017/sponsors/gold/blue-moon.png", "Blue Moon Brewing", "https://www.bluemoonbrewingcompany.com")
+            +sponsorGridImage("/assets/img/2017/sponsors/gold/old-fourth-ward-distillery.png", "Old Fourth Ward Distillery", "http://www.old4th.com/")
+            +sponsorGridImage("/assets/img/2017/sponsors/gold/sierra-nevada.png", "Sierra Nevada Brewing", "http://www.sierranevada.com/")
+            +sponsorGridImage("/assets/img/2017/sponsors/gold/terrapin.png", "Terrapin Beer Co.", "http://terrapinbeer.com/")
+            +sponsorGridImage("/assets/img/2017/sponsors/gold/asw-distillery.png", "ASW Distillery", "http://www.aswdistillery.com/")
+            +sponsorGridImage("/assets/img/2018/sponsors/gold/matua.png", "Matua", "https://www.matua.co.nz/")
+    
+        h2.SponsorsHeader.SponsorsHeader--silver Silver Sponsors
+        ul.Sponsors.Sponsors--silver
+            +sponsorGridImage("/assets/img/2018/sponsors/silver/andre-de-winter.png", "Andre de Winter", "http://www.dewinterhomes.com/")
+            +sponsorGridImage("/assets/img/2018/sponsors/silver/mailchimp.png", "MailChimp", "https://mailchimp.com/")
+            +sponsorGridImage("/assets/img/2018/sponsors/silver/king-of-pops.png", "King of Pops", "https://kingofpops.com/")
+            +sponsorGridImage("/assets/img/2018/sponsors/toh/vacasa.png", "Vacasa", "https://www.vacasa.com/")
+            +sponsorGridImage("/assets/img/2017/sponsors/silver/fontis.png", "Fontis", "https://fontiswater.com/")
+    
+        h2.SponsorsHeader.SponsorsHeader--bronze Bronze Sponsors
+        ul.Sponsors.Sponsors--bronze
+            +sponsorGridImage("/assets/img/2018/sponsors/bronze/happier-camper.png", "Happier Camper", "http://www.happiercamper.com")
+            +sponsorGridImage("/assets/img/2018/sponsors/bronze/whitten.jpg", "Whitten Management Services", "http://www.whittenmanagement.com/")
+            +sponsorGridImage("/assets/img/2018/sponsors/bronze/wrfg.png", "WRFG", "http://wrfg.org")
+            +sponsorGridImage("/assets/img/2018/sponsors/bronze/kind.png", "KIND", "https://www.kindsnacks.com/")
+            +sponsorGridImage("/assets/img/2018/sponsors/bronze/honest-tea.png", "Honest Tea", "https://www.honesttea.com/")
+            +sponsorGridImage("/assets/img/2018/sponsors/bronze/renewal-andersen.png", "Renewal by Andersen", "http://www.rbaofatlanta.com/")
+            +sponsorGridImage("/assets/img/2017/sponsors/silver/circus-camp.png", "Circus Camp", "http://www.circuscamp.org/")
+            +sponsorGridImage("/assets/img/2018/sponsors/bronze/mountain-view-group.png", "Mountain View Group", "http://www.mountainviewgroup.com/")
+            +sponsorGridImage("/assets/img/2018/sponsors/bronze/silver-smiles.png", "Silver Smiles", "https://silversmiles.com/")
+            +sponsorGridImage("/assets/img/2018/sponsors/bronze/atlanta-beltline-partnership.png", "Atlanta Beltline Partnership", "https://beltline.org/about/atlanta-beltline-partnership/")
+            +sponsorGridImage("/assets/img/2018/sponsors/bronze/alexan.png", "Alexan on Krog", "http://alexanonkrog.com/")
+            +sponsorGridImage("/assets/img/2018/sponsors/toh/opendoor.png", "Opendoor", "https://www.opendoor.com/t/f_events/c_q118pilot/p_inmanpark")
+            +sponsorGridImage("/assets/img/2018/sponsors/bronze/homeadvisor.png", "HomeAdvisor", "https://www.homeadvisor.com/c.Atlanta.GA.html")
+            
