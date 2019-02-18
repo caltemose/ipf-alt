@@ -11,48 +11,31 @@ block contents
         div #{globals.ipf.date.year} Tour of Homes Preview: Friday #{globals.ipf.date.friday.date}
         div Festival: Saturday #{globals.ipf.date.saturday.date} &amp; Sunday #{globals.ipf.date.sunday.date}
 
-    .Hero.owl-carousel.owl-theme
-        // festival volunteer promo slide
-        div
-            .HeroSlidePromo
-                .HeroSlidePromo-banner
+    .Hero
+        .carousel
+            //- .HeroSlidePromo
+            //-     .HeroSlidePromo-banner
         
-                .HeroSlidePromo-copy
-                    h3 Festival Needs Volunteers!
-                    p
-                        | Festival doesn't happen without volunteers.
-                        = ' '
-                        a(href=globals.volunteerSite) Signup now
-                        = ' '
-                        | to volunteer your time and help make this year's festival great!
+            //-     .HeroSlidePromo-copy
+            //-         h3 Festival Needs Volunteers!
+            //-         p
+            //-             | Festival doesn't happen without volunteers.
+            //-             = ' '
+            //-             a(href=globals.volunteerSite) Signup now
+            //-             = ' '
+            //-             | to volunteer your time and help make this year's festival great!
         
-                    a.u-blockCentered.Button(href=globals.volunteerSite) Sign Up
-
-        // festival art submission slide
-        //- div
-        //-     .HeroSlidePromo
-        //-         .HeroSlidePromo-banner
-        //- 
-        //-         .HeroSlidePromo-copy
-        //-             h3 Call For Entries!
-        //-             p <a href="/art/submissions">Submit your artwork</a> for this year's festival. Be part of an in-town tradition and put your talent on display for the Inman Park Festival attendees. 
-        //- 
-        //-             a.u-blockCentered.Button(href="/art/submissions") Learn More
-
-        div
-            +slideImage('/assets/img/slideshows/parade-block-heros', 'Parade Block Heroes')
-
-        div
-            +slideImage('/assets/img/slideshows/parade-elvises', 'Parade Elvises')
-
-        div
-            +slideImageXL('/assets/img/slideshows/painting-face', 'Face painting in progress')
-        
-        div
-            +slideImageXL('/assets/img/slideshows/homes-bighome', 'One of many beautiful homes in Inman Park')
+            //-         a.u-blockCentered.Button(href=globals.volunteerSite) Sign Up
+            div
+                +slideImage('/assets/img/slideshows/parade-block-heros', 'Parade Block Heroes')
+            div
+                +slideImage('/assets/img/slideshows/parade-elvises', 'Parade Elvises')
+            div
+                +slideImageXL('/assets/img/slideshows/painting-face', 'Face painting in progress')
+            div
+                +slideImageXL('/assets/img/slideshows/homes-bighome', 'One of many beautiful homes in Inman Park')
 
     .u-container
-    
         .PageIntro
 
             .PageIntro-header
@@ -153,3 +136,5 @@ block contents
                         span.icon.-instagram
                             span.u-visuallyhidden Instagram: @inmanparkfest
 
+block scripts
+    script(src="/assets/js/home.js")

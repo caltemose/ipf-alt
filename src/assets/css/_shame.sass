@@ -65,3 +65,37 @@
     background-position: center center
     border: 1px solid #ddd
 
+//
+// tiny slider
+//
+
+.tns-outer
+    position: relative
+
+.tns-nav
+    width: 100%
+    text-align: center
+
+    button
+        margin: 0 0.4em
+        padding: 0
+        width: 1em
+        height: 1em
+        border: 1px solid transparent
+        border-radius: 50%
+        background: #ccc
+
+        &:focus
+            outline: 0
+            border-color: #000
+
+        &.tns-nav-active
+            background-color: $brand-green
+        
+        @media(min-width: $bp-md)
+            margin: 0 0.6em
+            width: 1.25em
+            height: 1.25em
+
+
+

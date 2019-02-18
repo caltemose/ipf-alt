@@ -14,14 +14,15 @@ block contents
     
         h1 Festival Events
         
-    .Hero.owl-carousel.owl-theme
-            
-        div
-            img(src="/assets/img/fpo/dance-toes-930x450.jpg")
-        div
-            img(src="/assets/img/fpo/elvi-930x450.jpg")
-        div
-            img(src="/assets/img/fpo/painty-face-930x450.jpg")
+        //- TODO convert events slideshow to responsive images
+    .Hero
+        .carousel
+            div
+                img(src="/assets/img/fpo/dance-toes-930x450.jpg")
+            div
+                img(src="/assets/img/fpo/elvi-930x450.jpg")
+            div
+                img(src="/assets/img/fpo/painty-face-930x450.jpg")
             
     
     article.u-container
@@ -47,3 +48,6 @@ block contents
         //-     span.Note this would only display when tickets are available to sell
         //-     | Ready to buy Tour of Homes tickets? 
         //-     a(href="#") Get them here.
+
+block scripts
+    script(src="/assets/js/events.js")

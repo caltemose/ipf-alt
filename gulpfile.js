@@ -5,10 +5,13 @@ const del = require('del')
 const concat = require('gulp-concat')
 const rollupEach = require('gulp-rollup-each')
 const rollupBuble = require('rollup-plugin-buble')
+const resolve = require('rollup-plugin-node-resolve')
+const commonjs = require('rollup-plugin-commonjs')
 const pug = require('gulp-pug')
 const sass = require('gulp-sass')
 const autoprefixer = require('gulp-autoprefixer')
 const browsersync = require('browser-sync').create()
+const uglify = require('gulp-uglify')
 
 const _src = 'src/'
 const _dest = 'dist'
@@ -121,7 +124,13 @@ function js () {
             rollupEach(
                 {
                     plugins: [
-                        rollupBuble({ target: { ie: 11 } })
+                        rollupBuble({ target: { ie: 11 } }),
+                        resolve({
+                            jsnext: true,
+                            main: true,
+                            browser: true
+                        }),
+                        commonjs()
                     ],
                     isCache: true
                 },
@@ -165,11 +174,15 @@ function watchAll () {
     watch(config.static.src, static)
 }
 
+function minify () {
+    return src(_dest + '/assets/js/home.js')
+        .pipe(uglify())
+        .pipe(dest(_dest + '/assets/js/'))
+}
+
 //
 // exported tasks
 //
-
-exports.clean = series(clean)
 
 exports.build = series(
     clean,
@@ -183,5 +196,8 @@ exports.dev = series(
 
 // throwaway testing tasks
 
+exports.clean = series(clean)
 exports.markup = series(clean, html)
 exports.jsPlugins = series(clean, jsPlugins)
+exports.js = series(clean, js)
+exports.minify = series(minify)
