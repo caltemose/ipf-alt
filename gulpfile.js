@@ -112,12 +112,6 @@ function css () {
         .pipe(browsersync.stream())
 }
 
-function jsPlugins () {
-    return src(config.jsPlugins.src)
-        .pipe(concat(config.jsPlugins.filename))
-        .pipe(dest(config.jsPlugins.dest))
-}
-
 function js () {
     return src(config.js.src)
         .pipe(
@@ -186,7 +180,7 @@ function minify () {
 
 exports.build = series(
     clean,
-    parallel(html, css, js, jsPlugins, images, static)
+    parallel(html, css, js, images, static)
 )
 
 exports.dev = series(
@@ -198,6 +192,6 @@ exports.dev = series(
 
 exports.clean = series(clean)
 exports.markup = series(clean, html)
-exports.jsPlugins = series(clean, jsPlugins)
 exports.js = series(clean, js)
 exports.minify = series(minify)
+

@@ -13,17 +13,19 @@ block contents
     
         h1 Inman Park Festival Kid's Zone
     
-    .Hero.owl-carousel.owl-theme
-        div
-            +slideImage('/assets/img/slideshows/2018/kidzone-face-paint')
-        div
-            +slideImage('/assets/img/slideshows/2018/kidzone-sphere')
-        div
-            +slideImage('/assets/img/slideshows/2018/kidzone-acrobats')
-        div
-            +slideImage('/assets/img/slideshows/2018/kidzone-dog-dance')
-        div
-            +slideImage('/assets/img/slideshows/2018/kidzone-red-dots')
+    .Hero
+        .carousel
+            //- TODO kidzone slideshow uses responsive images
+            div
+                +slideImage('/assets/img/slideshows/2018/kidzone-face-paint')
+            div
+                +slideImage('/assets/img/slideshows/2018/kidzone-sphere')
+            div
+                +slideImage('/assets/img/slideshows/2018/kidzone-acrobats')
+            div
+                +slideImage('/assets/img/slideshows/2018/kidzone-dog-dance')
+            div
+                +slideImage('/assets/img/slideshows/2018/kidzone-red-dots')
     
     article.u-container
     
@@ -61,3 +63,5 @@ block contents
         //-     li 2:00 Paniflov's Performing Pets
         //-     li 3:00 Mr. Greg
         //-     li 4:00 Miss Ladybug's Garden Variety Shoe Show
+
+
