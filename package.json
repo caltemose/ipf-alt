@@ -21,8 +21,10 @@
   },
   "homepage": "https://github.com/caltemose/ipf-alt#readme",
   "devDependencies": {
+    "axios": "^0.18.0",
     "browser-sync": "^2.26.3",
     "del": "^3.0.0",
+    "form-serialize": "^0.7.2",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-changed": "^3.2.0",
@@ -32,6 +34,8 @@
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.1",
     "rollup-plugin-buble": "^0.19.6",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.4.0",
     "tiny-slider": "^2.9.1"
   },
   "dependencies": {

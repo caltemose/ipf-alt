@@ -17,11 +17,11 @@ block contents
             
             label
                 | Your name:
-                input(type="text" name="name" required)
+                input(type="text" name="name" required value="Chad")
             
             label
                 | Your email address:
-                input(type="email" name="email" required)
+                input(type="email" name="email" required value="caltemose@gmail.com")
             
             label
                 | Select a point of contact:
@@ -31,7 +31,7 @@ block contents
 
             label
                 | Your Message:
-                textarea(name="message" required)
+                textarea(name="message" required) hello there.
 
             label
                 input(type="text" size="25" name="email_address")
@@ -40,7 +40,5 @@ block contents
 
         p#successMessage Message sent - thanks for getting in touch. We'll respond as soon as we can.
 
-//- block scripts
-//-     script(src="/assets/js/pages/contact.js")
-//-     script.
-//-         ipf.contact.init('ContactForm');
+block scripts
+    script(src="/assets/js/contact.js")

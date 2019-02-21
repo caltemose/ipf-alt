@@ -5,6 +5,8 @@ const del = require('del')
 const concat = require('gulp-concat')
 const rollupEach = require('gulp-rollup-each')
 const rollupBuble = require('rollup-plugin-buble')
+const globals = require('rollup-plugin-node-globals')
+const builtins = require('rollup-plugin-node-builtins')
 const resolve = require('rollup-plugin-node-resolve')
 const commonjs = require('rollup-plugin-commonjs')
 const pug = require('gulp-pug')
@@ -55,6 +57,10 @@ const config = {
     static: {
         src: _src + 'assets/static/**/*',
         dest: _dest + '/assets/static'
+    },
+    php: {
+        src: [_src + 'html/**/*.php', '!' + _src + 'html/**/_*.php'],
+        dest: _dest
     }
 }
 
@@ -124,7 +130,9 @@ function js () {
                             main: true,
                             browser: true
                         }),
-                        commonjs()
+                        commonjs(),
+                        globals(),
+                        builtins()
                     ],
                     isCache: true
                 },
@@ -149,6 +157,12 @@ function static () {
         .pipe(browsersync.stream())
 }
 
+function php () {
+    return src(config.php.src)
+        .pipe(changed(config.php.dest))
+        .pipe(dest(config.php.dest))
+}
+
 function serve (cb) {
     browsersync.init({
         server: { baseDir: './' + config.dest },
@@ -162,10 +176,10 @@ function serve (cb) {
 function watchAll () {
     watch(config.pug.src, html)
     watch(config.sass.src, css)
-    watch(config.jsPlugins.src, jsPlugins)
     watch(config.js.src, js)
     watch(config.images.src, images)
     watch(config.static.src, static)
+    watch(config.php.src, php)
 }
 
 function minify () {
@@ -180,7 +194,7 @@ function minify () {
 
 exports.build = series(
     clean,
-    parallel(html, css, js, images, static)
+    parallel(html, css, js, images, static, php)
 )
 
 exports.dev = series(
@@ -194,4 +208,5 @@ exports.clean = series(clean)
 exports.markup = series(clean, html)
 exports.js = series(clean, js)
 exports.minify = series(minify)
+exports.php = series(clean, php)
 

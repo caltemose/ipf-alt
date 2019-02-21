@@ -21,6 +21,6 @@ const carouselConfig = {
 }
 
 const carousels = document.getElementsByClassName('carousel')
-if (carousels) {
+if (carousels.length) {
     const slider = tns(carouselConfig)
 }
