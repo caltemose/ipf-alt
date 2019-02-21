@@ -13,19 +13,20 @@ block contents
 
     .Hero
         .carousel
-            //- .HeroSlidePromo
-            //-     .HeroSlidePromo-banner
+            .HeroSlidePromo
+                .HeroSlidePromo-banner
         
-            //-     .HeroSlidePromo-copy
-            //-         h3 Festival Needs Volunteers!
-            //-         p
-            //-             | Festival doesn't happen without volunteers.
-            //-             = ' '
-            //-             a(href=globals.volunteerSite) Signup now
-            //-             = ' '
-            //-             | to volunteer your time and help make this year's festival great!
+                .HeroSlidePromo-copy
+                    h3 Festival Needs Volunteers!
+                    p
+                        | Festival doesn't happen without volunteers.
+                        = ' '
+                        a(href=globals.volunteerSite) Signup now
+                        = ' '
+                        | to volunteer your time and help make this year's festival great!
         
-            //-         a.u-blockCentered.Button(href=globals.volunteerSite) Sign Up
+                    a.u-blockCentered.Button(href=globals.volunteerSite) Sign Up
+
             div
                 +slideImage('/assets/img/slideshows/parade-block-heros', 'Parade Block Heroes')
             div
@@ -123,21 +124,7 @@ block contents
         //-         p If your group is interested in marching in this year's parade, <a href="#{globals.events.parade.application}">Download the Parade Application here</a>.
 
         li.PromotionItem.alt-secondary
-            section
-                h3 Follow Festival Online
-                nav.SocialIcons
-                    a(href="https://www.facebook.com/InmanParkFestival/" target="_blank") 
-                        span.icon
-                            img(src="/assets/img/sprites/facebook.svg" alt="Facebook")
-                            span.u-visuallyhidden Facebook
-                    a(href="http://twitter.com/InmanParkFest" target="_blank") 
-                        span.icon
-                            img(src="/assets/img/sprites/twitter.svg" alt="Twitter")
-                            span.u-visuallyhidden Twitter: @inmanparkfest
-                    a(href="https://www.instagram.com/inmanparkfest" target="_blank")
-                        span.icon
-                            img(src="/assets/img/sprites/instagram.svg" alt="Instagram")
-                            span.u-visuallyhidden Instagram: @inmanparkfest
+            include _includes/_social-icons
 
 block scripts
     script(src="/assets/js/home.js")
