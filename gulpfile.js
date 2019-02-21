@@ -1,6 +1,7 @@
 const fs = require('fs')
 const { series, parallel, watch, src, dest } = require('gulp')
 const changed = require('gulp-changed')
+const gulpif = require('gulp-if')
 const del = require('del')
 const concat = require('gulp-concat')
 const rollupEach = require('gulp-rollup-each')
@@ -13,6 +14,8 @@ const pug = require('gulp-pug')
 const sass = require('gulp-sass')
 const autoprefixer = require('gulp-autoprefixer')
 const browsersync = require('browser-sync').create()
+const imagemin = require('gulp-imagemin')
+const cleanCSS = require('gulp-clean-css')
 const uglify = require('gulp-uglify')
 
 const _src = 'src/'
@@ -31,7 +34,7 @@ const config = {
         }
     },
     pug: {
-        src: [_src + 'html/**/*.pug', '!' + _src + 'html/_templates/**/*'],
+        src: [_src + 'html/**/*.pug', '!' + _src + 'html/_templates/**/*', '!' + _src + 'html/_includes/**/*'],
         options: { pretty: true }
     },
     sass: {
@@ -114,6 +117,7 @@ function css () {
     return src(config.sass.src)
         .pipe(sass({ indentedSyntax: true }))
         .pipe(autoprefixer(config.autoprefixer.options))
+        .pipe(gulpif(isProductionEnv, cleanCSS({ compatibility: 'ie8' })))
         .pipe(dest(config.sass.dest))
         .pipe(browsersync.stream())
 }
@@ -139,6 +143,7 @@ function js () {
                 { format: 'iife' }
             )
         )
+        .pipe(gulpif(isProductionEnv, uglify()))
         .pipe(dest(config.js.dest))
         .pipe(browsersync.stream())
 }
@@ -146,6 +151,7 @@ function js () {
 function images () {
     return src(config.images.src)
         .pipe(changed(config.images.dest))
+        .pipe(gulpif(isProductionEnv, imagemin()))
         .pipe(dest(config.images.dest))
         .pipe(browsersync.stream())
 }
@@ -201,6 +207,7 @@ exports.dev = series(
     exports.build, 
     series(serve, watchAll)
 )
+
 
 // throwaway testing tasks
 
