@@ -12,6 +12,7 @@ mixin secondaryNav(nav, selected)
 mixin bandListing(band)
     - var imgUrl = typeof(band.photo) !== 'undefined' ? band.photo : ''
     - var thumbUrl = typeof(band.thumb) !== 'undefined' ? band.thumb : ''
+    - var hasBio = typeof(band.bio) !== 'undefined' && band.bio !== '' ? true : false
     
     li.Band
 
@@ -29,7 +30,8 @@ mixin bandListing(band)
 
             p= band.description
 
-            button.BandDetailsTrigger Read the Band's bio
+            if hasBio
+                button.BandDetailsTrigger Read the Band's bio
 
             .BandDetails
                 
