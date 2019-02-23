@@ -1,2 +1,3 @@
-# ipf-alt
-Test repo for improving process for IPF site.
+# Inman Park Festival Website
+
+This is the repo for the Inman Park Festival website at http://inmanparkfestival.org.
