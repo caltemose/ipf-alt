@@ -68,8 +68,11 @@
             {
                 "start": "8:00PM",
                 "end": "9:00PM",
-                "title": "Bad Cat Daddy",
-                "description": "All-star mystery men"
+                "title": "Webster",
+                "description": "A band that loves to jam",
+                "bio": "<p>Webster&#39;s music enjoys wide appeal. The 5-piece Atlanta band formed in 2005 and covers artists including The Grateful Dead, Bob Dylan, Neil Young, Rolling Stones, Tom Petty, Phish, REM, Van Morrison, Jimmy Cliff, among others. Their focus is on improvisational and inspirational live music. The band's tangible energy takes an audience on a musical journey, encouraging an active and fun experience. They have performed at numerous venues throughout greater Atlanta, sharing the stage with major headline acts including Government Mule, Chris Robinson, Drive-By Truckers and The Wailers. Come check out Webster!</p>",
+                "thumb": "/assets/img/2019/music/webster-thumb.jpg",
+                "photo": "/assets/img/2019/music/webster.jpg"
             }
         ],
         "e": [
