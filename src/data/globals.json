@@ -95,7 +95,7 @@
         ],
         "parade": {
             "time": "2:00 PM",
-            "application": "/assets/archive/2019/2019-Parade-Application.pdf",
+            "application": "/assets/static/archive/2019/2019-Parade-Application.pdf",
             "applicationActive": true
         }
     },
