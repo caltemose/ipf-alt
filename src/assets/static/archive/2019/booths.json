@@ -1,0 +1,24 @@
+{
+    "booths": [
+        {
+            "space": 65,
+            "business": "ABC Crafts",
+            "contact": "Alice Waters"
+        },
+        {
+            "space": 70,
+            "business": "XYZ Clothing",
+            "contact": "Brian Sorden"
+        },
+        {
+            "space": 67,
+            "business": "Hello World!",
+            "contact": "William Cats"
+        },
+        {
+            "space": 3,
+            "business": "Hello Moto",
+            "contact": "Will Smith"
+        }
+    ]
+}

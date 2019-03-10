@@ -204,7 +204,7 @@ exports.build = series(
 )
 
 exports.dev = series(
-    exports.build, 
+    exports.build,
     series(serve, watchAll)
 )
 
@@ -216,4 +216,3 @@ exports.markup = series(clean, html)
 exports.js = series(clean, js)
 exports.minify = series(minify)
 exports.php = series(clean, php)
-

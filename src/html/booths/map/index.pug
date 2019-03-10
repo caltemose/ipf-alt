@@ -1,17 +1,20 @@
 extends ../../_templates/layout
 
 block title
-    title #{globals.ipf.title} | Booth Map & Search
+    title #{globals.ipf.title} | Booth Map &amp; Search
 block contents
 
     +secondaryNav(globals.markets.nav, "map")
 
     article.u-container
         #BoothMap.BoothMap
+        .BoothSearch
+            input(type="text" name="booth-search" placeholder="Enter business/artist name to search").BoothSearch-input
 
-//- block scripts
-//-     script(src="/assets/js/pages/booth-map.js")
+block scripts
+    script(src="/assets/js/booth-map.js")
+    //- script(async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBw0z8g2KytDVe62meV8DqlL9TCF6kYr78&callback=ipf.boothMap.onGoogleReady")
+
 //-     script.
 //-         ipf.boothMap.init('BoothMap');
-//-     script(async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdvi4gdoM6JBzz0v-gc0AYUMtf_blKJ2A&callback=ipf.boothMap.onGoogleReady")
     //- script(async defer src="https://maps.googleapis.com/maps/api/js?callback=ipf.boothMap.onGoogleReady")

@@ -1,0 +1,67 @@
+{
+    "areas": [
+        {
+            "numbers": [1, 63],
+            "points": [
+                [33.756435, -84.359024],
+                [33.756395, -84.358991],
+                [33.757391, -84.357634],
+                [33.757441, -84.357650]
+            ],
+            "anchor": {
+                "lat": 33.756879,
+                "lng": -84.358373
+            },
+            "mode": "arts-crafts"
+        },
+        {
+            "numbers": [70, 86],
+            "even": true,
+            "points": [
+                [33.755591,-84.359747],
+                [33.755547,-84.359709],
+                [33.755679,-84.359140],
+                [33.755746,-84.359124]
+            ],
+            "anchor": {
+                "lat": 33.755668,
+                "lng": -84.359436
+            },
+            "mode": "community-corner"
+        },
+        {
+            "numbers": [65, 87],
+            "points": [
+                [33.755661, -84.359861],
+                [33.755645, -84.359748],
+                [33.755795, -84.359110],
+                [33.755862, -84.359107]
+            ],
+            "anchor": {
+                "lat": 33.755738,
+                "lng": -84.359440
+            },
+            "mode": "community-corner"
+        }
+    ],
+    "styles": {
+        "arts-crafts": {
+            "strokeColor": "#d63511",
+            "strokeOpacity": 0.9,
+            "fillColor": "#d63511",
+            "fillOpacity": 0.6
+        },
+        "community-corner": {
+            "strokeColor": "#707776",
+            "strokeOpacity": 0.9,
+            "fillColor": "#707776",
+            "fillOpacity": 0.6
+        },
+        "street-market": {
+            "strokeColor": "#1d1add",
+            "strokeOpacity": 0.9,
+            "fillColor": "#1d1add",
+            "fillOpacity": 0.6
+        }
+    }
+}
