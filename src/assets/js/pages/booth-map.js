@@ -16,7 +16,6 @@ const loadAreas = () => {
         .then(res => {
             areas = res.data.areas
             areaStyles = res.data.styles
-            console.log(areas)
             loadBooths()
         })
         .catch(err => {
@@ -28,7 +27,6 @@ const loadBooths = () => {
     axios.get('/assets/static/archive/2019/booths.json')
         .then(res => {
             booths = res.data.booths
-            console.log(booths)
             loadGoogleMaps()
         })
         .catch(err => {
@@ -44,13 +42,21 @@ const loadGoogleMaps = () => {
         gm = googleMaps
         map = new gm.Map(document.getElementById('BoothMap'), {
             center: {
-                lat: 33.7573884,
-                lng: -84.359835
+                lat: 33.757516,
+                lng: -84.355797
             },
             zoom: 17,
             styles: [
                 {
                     featureType: 'poi.business',
+                    stylers: [{visibility: 'off'}]
+                },
+                {
+                    featureType: 'poi.place_of_worship',
+                    stylers: [{visibility: 'off'}]
+                },
+                {
+                    featureType: 'poi.school',
                     stylers: [{visibility: 'off'}]
                 }
             ]
@@ -97,7 +103,6 @@ const initSearchInput = () => {
             update(suggestions)
         },
         onSelect: item => {
-            console.log(item)
             const input = document.querySelector(INPUT_SELECTOR)
             input.value = item.label
             selectBusinessOnMap(item.value)
@@ -147,9 +152,7 @@ const selectBusinessOnMap = number => {
 
         infoWindow = new gm.InfoWindow({ content })
         infoWindow.open(map)
-        // infoWindow.setPosition({ lat: currentArea.points[0][0], lng: currentArea.points[0][1] })
         infoWindow.setPosition(currentArea.anchor)
-        console.log(infoWindow)
 
     } else {
         console.error('no matching area found for ', number)

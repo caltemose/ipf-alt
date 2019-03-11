@@ -47,21 +47,21 @@
     "styles": {
         "arts-crafts": {
             "strokeColor": "#d63511",
-            "strokeOpacity": 0.9,
+            "strokeOpacity": 0.3,
             "fillColor": "#d63511",
-            "fillOpacity": 0.6
+            "fillOpacity": 0.3
         },
         "community-corner": {
             "strokeColor": "#707776",
-            "strokeOpacity": 0.9,
+            "strokeOpacity": 0.3,
             "fillColor": "#707776",
-            "fillOpacity": 0.6
+            "fillOpacity": 0.3
         },
         "street-market": {
             "strokeColor": "#1d1add",
-            "strokeOpacity": 0.9,
+            "strokeOpacity": 0.3,
             "fillColor": "#1d1add",
-            "fillOpacity": 0.6
+            "fillOpacity": 0.3
         }
     }
 }
