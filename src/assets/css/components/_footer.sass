@@ -1,4 +1,4 @@
-.Footer 
+.Footer
     width: 100%
     padding: 2em 0 12em
     background: $brand-grey-dark
@@ -8,61 +8,63 @@
     text-transform: uppercase
     letter-spacing: 0.2em
 
-    a 
+    a
         color: $base-font-color-inverse
-        &:hover, &:focus, &.is-selected 
+        &:hover, &:focus, &.is-selected
             background-color: darken($brand-grey-dark, 30%)
 
-    p 
+    p
         font-size: 0.6em
-    
 
-    @media (max-width: $bp-lg) 
+
+    @media (max-width: $bp-lg)
         min-height: 30em
 
-.Footer-sponsors 
+.Footer-sponsors
     margin: 0 0 2em 0
     display: flex
     flex-direction: row
     flex-wrap: wrap
-    
-    a 
+
+    a
         display: block
         width: 50%
         // use this only when there are odd number of footer sponsors
         // and ensure the last logo is appropriate in this slot
-        &:last-child 
+        &:last-child
             width: 100%
-        
-    
 
-    @media (min-width: $bp-md) 
+
+
+    @media (min-width: $bp-md)
         flex-wrap: nowrap
         align-items: center
         justify-content: space-between
 
-        a 
+        a
             width: inherit
 
-            &:last-child 
+            &:last-child
                 width: inherit
-            
 
-            img 
+
+            img
+                max-width: 80px
+
+    @media (min-width: $bp-lg)
+        a
+            img
                 max-width: 100px
 
-
-.Footer-nav 
+.Footer-nav
     margin: 0 0 1.5em 0
     padding: 0 2em
     font-size: 0.6em
 
-    a 
+    a
         margin-top: 0.5em
-    
 
-    @media (max-width: $bp-sm-max) 
-        a:nth-child(even) 
+
+    @media (max-width: $bp-sm-max)
+        a:nth-child(even)
             border-right: none
-
-
