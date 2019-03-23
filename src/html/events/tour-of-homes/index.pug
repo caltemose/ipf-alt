@@ -15,7 +15,7 @@ block contents
         
         p The Tour of Homes is a self-conducted tour of some of the beautiful homes and buildings in Inman Park. See inside some of the glorious old Victorian homes or check out some of the beautiful remodeling jobs neighbors have completed on their houses.
 
-        //- p The home preview starts on Friday #{globals.ipf.date.friday.date} between #{globals.ipf.date.friday.hours} and continues through Saturday and Sunday between #{globals.tour.hours.weekend}.
+        p The home preview starts on Friday #{globals.ipf.date.friday.date} between #{globals.ipf.date.friday.hours} and continues through Saturday and Sunday between #{globals.tour.hours.weekend}.
 
         h2 Tour of Homes Tickets
 
@@ -23,7 +23,8 @@ block contents
         //- #{globals.ipf.date.friday.date}.
 
         //- include _paypal.jade
-        //- 
+        include _ticketbud
+
         //- include _tickets-local.jade
 
         h2 Tour of Homes Sponsors

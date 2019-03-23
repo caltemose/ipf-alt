@@ -1,57 +1,57 @@
 $promo-padding: 3rem
 
-.PromoGrid 
+.PromoGrid
     list-style: none
     margin: $promo-padding 0
     padding: 0
 
     @include clearfix()
 
-.PromoItem 
+.PromoItem
     margin: 0
     padding: $promo-padding 0 0
     width: 100%
 
-    h4 
+    h4
         margin: 0 0 1em
         padding: 0 $promo-padding
         font-size: 3em
 
-        @media screen and (min-width: 768px) 
+        @media screen and (min-width: 768px)
             // font-size: 0.9375em
-    
-    p 
+
+    p
         margin: 0
         padding: 0 $promo-padding
 
-    @media screen and (min-width: 768px) 
+    @media screen and (min-width: 768px)
         width: 32%
         margin-right: 2%
         float: left
         min-height: 9em
 
-        &:last-child 
+        &:last-child
             margin-right: 0
 
-.PromoItem:first-child 
+.PromoItem:first-child
     padding-top: 0
 
-.PromoItem.PromoItem--threeCol 
-    @media screen and (min-width: 768px) 
+.PromoItem.PromoItem--threeCol
+    @media screen and (min-width: 768px)
         width: 100%
         float: none
         margin-right: 0
 
-        .PromoItem-titleImage 
+        .PromoItem-titleImage
             width: 66%
             float: left
 
 .PromoItem--actionPrimary,
-.PromoItem--actionSecondary 
+.PromoItem--actionSecondary
     padding-bottom: $promo-padding
     color: $base-font-color-inverse
 
-    h4 
+    h4
         font-size: 1.5625em
         font-family: $base-font-family-sans-serif
         font-style: normal
@@ -59,22 +59,22 @@ $promo-padding: 3rem
         letter-spacing: 0.25em
         line-height: 1.5em
 
-.PromoItem--actionPrimary 
+.PromoItem--actionPrimary
     background-color: $brand-yellow
 
-.PromoItem--actionSecondary 
+.PromoItem--actionSecondary
     background-color: $brand-green
 
-.PromoItem-titleImage 
+.PromoItem-titleImage
     margin-bottom: 1em
     width: 100%
-    @media screen and (min-width: $bp-md) 
+    @media screen and (min-width: $bp-md)
         margin-bottom: 0
 
-.ArrowNav 
+.ArrowNav
     text-align: right
 
-    > a 
+    > a
         display: inline-block
         width: 3.75em
         height: 3.75em
@@ -84,40 +84,40 @@ $promo-padding: 3rem
         text-align: center
         text-decoration: none
 
-        &:hover 
+        &:hover
             background-color: lighten($brand-grey-dark, 30%)
             text-decoration: none
 
-.PromotionGrid 
+.PromotionGrid
     display: flex
     flex-direction: column
     margin: 0
     padding: 0
     list-style: none
 
-    @media screen and (min-width: $bp-md) 
+    @media screen and (min-width: $bp-md)
         margin: 0 auto
         align-items: stretch
         flex-direction: row
 
-.PromotionItem 
+.PromotionItem
     position: relative
     margin-bottom: 0
 
-    > section 
+    > section
         padding-left: $promotion-padding-sm
         padding-right: $promotion-padding-sm
 
-    h3 
+    h3
         font-size: 1.75em
 
-    ul 
+    ul
         padding-left: 1em
 
-    &.alt-primary, &.alt-secondary 
+    &.alt-primary, &.alt-secondary
         padding-bottom: $promotion-padding-sm
 
-        h3 
+        h3
             font-size: 1.5em
             font-family: $base-font-family-sans-serif
             font-style: normal
@@ -126,133 +126,133 @@ $promo-padding: 3rem
             color: $brand-white
             letter-spacing: 0.1em
 
-        a 
-            text-decoration: none
+        a
+            // text-decoration: none
             background-color: transparent
 
-    &.alt-primary 
+    &.alt-primary
         background-color: $brand-green
 
-        a:hover, a:focus 
+        a:hover, a:focus
             color: darken($brand-green, 30%)
 
-    &.alt-secondary 
+    &.alt-secondary
         background-color: $brand-yellow
 
-        a:hover, a:focus 
+        a:hover, a:focus
             color: darken($brand-yellow, 40%)
 
-    &.alt-tertiary 
+    &.alt-tertiary
         // border: 1px solid rgba(0, 0, 0, 0.1)
         background-color: rgba(0, 0, 0, 0.05)
 
-    @media screen and (min-width: $bp-md) 
+    @media screen and (min-width: $bp-md)
         width: 33.3333%
 
-        > section 
+        > section
             padding-left: 2em
             padding-right: 2em
 
-        h3 
+        h3
             font-size: 1.5em
 
-        .ArrowNav 
+        .ArrowNav
             position: absolute
             bottom: 0
             right: 0
 
-.PromotionItemSolo 
+.PromotionItemSolo
     display: flex
     flex-direction: column
     margin: 0
 
-    @media screen and (min-width: $bp-lg) 
+    @media screen and (min-width: $bp-lg)
         margin: 0 auto
         align-items: stretch
         flex-direction: row
 
-.PromotionItemSolo-header 
+.PromotionItemSolo-header
     padding-top: $promotion-padding-sm
     padding-right: $promotion-padding-sm
     padding-left: $promotion-padding-sm
     background-color: $brand-green
 
-    h3 
+    h3
         margin-top: 0
         padding-right: 2em
         font-family: $base-font-family-sans-serif
         font-size: 1.75em
         color: $brand-white
 
-    @media screen and (min-width: $bp-lg) 
+    @media screen and (min-width: $bp-lg)
         width: 33.3333%
 
-        h3 
+        h3
             padding-top: 1em
             padding-right: 0
 
-.PromotionItemSolo-content 
+.PromotionItemSolo-content
     padding-right: $promotion-padding-sm
     padding-left: $promotion-padding-sm
     padding-bottom: $promotion-padding-sm
     background-color: $brand-green
 
-    ul 
+    ul
         list-style: none
         margin: 0
         padding: 0
 
-    @media screen and (min-width: $bp-lg) 
+    @media screen and (min-width: $bp-lg)
         width: 66.6666%
         padding-top: $promotion-padding-sm
         background-color: $brand-white
 
-        ul 
+        ul
             font-size: 1.25em
 
-        li > small 
+        li > small
             display: block
 
-.PromotionItemHero 
+.PromotionItemHero
     display: flex
     flex-direction: column
 
-    h2 
+    h2
         font-size: 3em
         margin-top: 1.75rem
 
-    @media screen and (min-width: $bp-md) 
+    @media screen and (min-width: $bp-md)
         align-items: stretch
         flex-direction: row
 
-        h2 
+        h2
             margin-top: 1rem
             margin-bottom: 0.5rem
 
-.PromotionItemHero-image 
+.PromotionItemHero-image
     width: 100%
     height: 190px
 
-    @media screen and (min-width: $bp-md) 
+    @media screen and (min-width: $bp-md)
         flex-basis: 66.6666%
         height: inherit
 
-.PromotionItemHero-text 
+.PromotionItemHero-text
     position: relative
 
-    > section 
+    > section
         padding-left: $promotion-padding-sm
         padding-right: $promotion-padding-sm
 
-    @media screen and (min-width: $bp-md) 
+    @media screen and (min-width: $bp-md)
         flex-basis: 33.3333%
 
-        > section 
+        > section
             padding-left: 2em
             padding-right: 2em
             padding-bottom: 3em
 
-        .ArrowNav 
+        .ArrowNav
             position: absolute
             right: 0
             bottom: 0
