@@ -7,14 +7,6 @@ block title
     title Home
 
 block contents
-    if globals.tour.tickets.active
-        div.Banner.Banner--tix
-            div
-                a(href=globals.tour.tickets.url) Buy Tour Tickets Here
-    div.Banner.Banner--dates
-        div #{globals.ipf.date.year} Tour of Homes Preview: Friday #{globals.ipf.date.friday.date}
-        div Festival: Saturday #{globals.ipf.date.saturday.date} &amp; Sunday #{globals.ipf.date.sunday.date}
-
     .Hero
         .carousel
             .HeroSlidePromo
