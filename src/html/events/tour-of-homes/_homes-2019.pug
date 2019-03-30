@@ -1,6 +1,11 @@
 mixin tourImage(imageName, alt)
     img(sizes="(min-width: 1024px) 940px, 100vw" srcset=`${imageName}-1440.jpg 1440w, ${imageName}-940.jpg 940w, ${imageName}-720.jpg 720w, ${imageName}-366.jpg 366w, ${imageName}-326.jpg 326w` src=`${imageName}-326.jpg` alt=alt).TourHomeImage
 
+mixin homeSponsor(name)
+    p.HomeSponsor
+        | Sponsored by:
+        span=name
+
 
 ul.TourHomes.u-container
 
@@ -65,6 +70,8 @@ ul.TourHomes.u-container
         p The kitchen was expanded to the back of the house, providing deck access and adding storage. The backsplash was inspired by a visit to a Rho&#770;ne Valley hotel, where they saw Calacatta marble with broken joints they thought would perfectly suit their irregular old house.
 
         p The remodel also included adding the bathroom between the guest room and cozy reading room. By moving bookshelves from next to the fireplace into the back hall, they opened up useable space in the living room while using often overlooked hall space. The new French doors in the upgraded master suite provide a view of the plunge pool and back deck.
+        
+        +homeSponsor("Red Level Renovations")
 
     //- 5
     li
@@ -79,6 +86,8 @@ ul.TourHomes.u-container
         p Having grown up in a 250-year-old house in New England, Lisa wanted an old house&mdash;with a 21st century kitchen. Saleem wanted to replace the airplane-bathroom-sized sink in the master bathroom. Their 2018 renovation included converting an existing kitchen into the new butler&rsquo;s pantry and half-bath. (Note how the wooden floor tiles demarcate the original wall.) They replaced the staircase, reclaiming treads for the butler&rsquo;s pantry countertop and the kitchen vent hood in order to retain original elements in the new construction. Removing a bathroom uncovered the brick wall in the master bedroom. The guest bedroom closet was converted into a bathroom, and the cabinets flanking the window use doors salvaged from other parts of the house.
 
         p The home is filled with flea market finds, found art and vibrant color and texture, combining Saleem&rsquo;s unorthodox style with Lisa&rsquo;s keen eye for design. Saleem made the beer- cap-covered chair, while Atlanta artist O.M. Norling created the cow painting next to the staircase.
+        
+        +homeSponsor("Lindsey Cheney")
 
     //- 6
     li
@@ -93,6 +102,8 @@ ul.TourHomes.u-container
         p In addition to completing less glamorous upgrades, such as adding central air-conditioning, the McCaas have designed a new kitchen to suit Cam&rsquo;s passion for cooking, turned a closet under the stairs into a half bath, and re-configured the downstairs living space to combine the kitchen with a great room. The home&rsquo;s artwork reflects the McCaas&rsquo; love of travel in Europe and Asia, and the copper platters over the living room mantel were collected by Stephanie&rsquo;s parents, who lived in Iran in the 1950s.
 
         p In 2016, the McCaas renovated the master bedroom suite. They were thrilled to swap marble and subway tile for the 1980s bathroom with its molded plastic shower insert and add a walk-in closet behind a shiplap wall. At the same time, they converted part of the original master bedroom into a hall bathroom for their daughters.
+        
+        +homeSponsor("Cam McCaa")
 
     //- 7
     li
@@ -108,6 +119,7 @@ ul.TourHomes.u-container
         
         p The spacious rooms on three levels recall the structure&rsquo;s history as a mid-century rooming house while also feeling bright and contemporary. For their new kitchen, Michelle and Ron wanted lots of light, so they had most of their storage built into drawers beneath the countertops, leaving plenty of room for windows.
 
+        +homeSponsor("Jenny Levine Photography")
 
     //- 8
     li
@@ -138,3 +150,5 @@ ul.TourHomes.u-container
         p Dave&rsquo;s fondness for folk art appears in every room, up the stairs, and in the master suite. The sophisticated black and white master bathroom has hand-painted geometric tiles. One daughter&rsquo;s room is a study in contrasting colors and cozy textures, while the other&rsquo;s is a Harry-Potter-inspired wonderland. The girls share a chalkboard library and playroom, accessed by a magical sliding door.
 
         p Don&rsquo;t be surprised if you hear the Darlings&rsquo; chickens! They make this family feel they have a country life here in intown Atlanta.
+        
+        +homeSponsor("Leigh Hayes")

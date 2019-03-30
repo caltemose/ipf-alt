@@ -39,6 +39,8 @@ html(lang="en")
                 
                 .SiteNav#SiteNav
                     nav.SiteNav-utilities
+                        if globals.tour.tickets.active
+                            a(href=globals.tour.tickets.url).SiteNav-tix Buy Tour Tickets
                         each item in globals.utilities
                             if item.title.toLowerCase() === selectedNav
                                 a(href=item.href class="is-selected")= item.title

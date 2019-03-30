@@ -24,7 +24,10 @@
     },
     "offseason": false,
     "tour": {
-        "active": false,
+        "tickets": {
+            "active": true,
+            "url": "https://ipf.ticketbud.com/2019-tour-of-homes"
+        },
         "cost": {
             "advance": "20",
             "door": "25"

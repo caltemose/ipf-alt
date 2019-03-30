@@ -1,18 +1,26 @@
-.Banner-dates 
+.Banner
     padding: 0.5em
-    background: $brand-yellow
-    color: $brand-black
     text-align: center
     font-family: $base-font-family-serif
 
-    @media (min-width: $bp-md) 
-        div 
+.Banner--dates
+    background: $brand-yellow
+    color: $brand-black
+
+    @media (min-width: $bp-md)
+        div
             display: inline-block
-            &:last-child 
+            &:last-child
                 margin-left: 0.5em
                 padding-left: 0.5em
                 border-left: 1px solid $brand-black
 
-    @media (min-width: $bp-lg) 
+    @media (min-width: $bp-lg)
         padding: 0.75em
         font-size: 1.15em
+
+.Banner--tix
+    background: rgb(222,222,222)
+
+    @media (min-width: $bp-md)
+        display: none
