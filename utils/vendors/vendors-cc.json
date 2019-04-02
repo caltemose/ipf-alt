@@ -1,0 +1,105 @@
+{
+  "Bitter-Lucas-Intown Lutheran Church": {
+    "booths": [
+      "67"
+    ],
+    "firstname": "Lucas",
+    "lastname": "Bitter",
+    "business": "Intown Lutheran Church",
+    "category": "Non profit (501c3)",
+    "class": "non-profit-501c3",
+    "url": "http://intownlutheran.com"
+  },
+  "Chambliss-Yvonne-Freedom Fellowship Church": {
+    "booths": [
+      "76"
+    ],
+    "firstname": "Yvonne",
+    "lastname": "Chambliss",
+    "business": "Freedom Fellowship Church",
+    "category": "Non profit (501c3)",
+    "class": "non-profit-501c3",
+    "url": "http://discoverfreedomfellowship.org"
+  },
+  "Escarcega-Julie-Good Mews Animal Foundation": {
+    "booths": [
+      "74"
+    ],
+    "firstname": "Julie",
+    "lastname": "Escarcega",
+    "business": "Good Mews Animal Foundation",
+    "category": "Non profit (501c3)",
+    "class": "non-profit-501c3",
+    "url": "http://www.goodmews.org"
+  },
+  "Hollis-Katherine": {
+    "booths": [
+      "70"
+    ],
+    "firstname": "Katherine",
+    "lastname": "Hollis",
+    "category": "Non profit (501c3)",
+    "class": "non-profit-501c3"
+  },
+  "johnson-wendy-Atlanta Roller Derby": {
+    "booths": [
+      "71"
+    ],
+    "firstname": "wendy",
+    "lastname": "johnson",
+    "business": "Atlanta Roller Derby",
+    "category": "Non profit (501c3)",
+    "class": "non-profit-501c3",
+    "url": "http://www.atlantarollergirls.com"
+  },
+  "Lee-Ashley-West Atlanta Modern Quilt Guild": {
+    "booths": [
+      "73"
+    ],
+    "firstname": "Ashley",
+    "lastname": "Lee",
+    "business": "West Atlanta Modern Quilt Guild",
+    "category": "Non profit (501c3)",
+    "class": "non-profit-501c3"
+  },
+  "Mayfield-Julia-LifeLine Animal Project": {
+    "booths": [
+      "78"
+    ],
+    "firstname": "Julia",
+    "lastname": "Mayfield",
+    "business": "LifeLine Animal Project",
+    "category": "Non profit (501c3)",
+    "class": "non-profit-501c3"
+  },
+  "Parker-Cindy": {
+    "booths": [
+      "72"
+    ],
+    "firstname": "Cindy",
+    "lastname": "Parker",
+    "category": "Non profit (501c3)",
+    "class": "non-profit-501c3"
+  },
+  "Perez-Courtney": {
+    "booths": [
+      "69"
+    ],
+    "firstname": "Courtney",
+    "lastname": "Perez",
+    "category": "Non profit (501c3)",
+    "class": "non-profit-501c3",
+    "url": "https://www.fullcirclefarmsanctuary.org"
+  },
+  "Pierce-Susan-Trees Atlanta": {
+    "booths": [
+      "65"
+    ],
+    "firstname": "Susan",
+    "lastname": "Pierce",
+    "business": "Trees Atlanta",
+    "category": "Non profit (501c3)",
+    "class": "non-profit-501c3",
+    "url": "http://www.treesatlanta.org"
+  }
+}
