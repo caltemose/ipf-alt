@@ -1,5 +1,5 @@
-{
-  "Barreneche/Schemel-Juan/Daniel-D3F CO LLC": {
+[
+  {
     "booths": [
       "308"
     ],
@@ -9,7 +9,7 @@
     "category": "Various / Other",
     "class": "various-other"
   },
-  "Oden-Livingston-Oden Creations": {
+  {
     "booths": [
       "310"
     ],
@@ -19,7 +19,7 @@
     "category": "Metalwork",
     "class": "metalwork"
   },
-  "Puckett-Mark-Woodcraft toys": {
+  {
     "booths": [
       "312"
     ],
@@ -29,7 +29,7 @@
     "category": "Woodwork",
     "class": "woodwork"
   },
-  "Hursit-Kemal-ARK Imports, LLC": {
+  {
     "booths": [
       "313"
     ],
@@ -39,7 +39,7 @@
     "category": "Various / Other",
     "class": "various-other"
   },
-  "Rhoton-Rob-C R stuff": {
+  {
     "booths": [
       "314"
     ],
@@ -49,7 +49,7 @@
     "category": "Textile / Fiber",
     "class": "textile-fiber"
   },
-  "Patel-Mona-MDC": {
+  {
     "booths": [
       "315"
     ],
@@ -60,7 +60,7 @@
     "class": "mixed-media",
     "url": "http://www.etsy.com/shop/monadoesconcrete"
   },
-  "DiGiorgio-Donna-DD aRt": {
+  {
     "booths": [
       "316"
     ],
@@ -71,7 +71,7 @@
     "class": "various-other",
     "url": "http://digiorgio.smugmug.com"
   },
-  "Benitez-Priscilla-Peach or Plum?": {
+  {
     "booths": [
       "317"
     ],
@@ -82,7 +82,7 @@
     "class": "painting",
     "url": "http://peachorplum.com"
   },
-  "massey-jill": {
+  {
     "booths": [
       "318"
     ],
@@ -92,7 +92,7 @@
     "class": "jewelry",
     "url": "http://www.jillmassey.com"
   },
-  "Kirton-Heather-The Craftist": {
+  {
     "booths": [
       "319"
     ],
@@ -103,7 +103,7 @@
     "class": "consumables",
     "url": "http://www.thecraftist.com"
   },
-  "Corley-Katelynn-Flora/Fauna": {
+  {
     "booths": [
       "320"
     ],
@@ -113,7 +113,7 @@
     "category": "Garden",
     "class": "garden"
   },
-  "Albert-Sarah-Sarah Paints Rappersu": {
+  {
     "booths": [
       "321"
     ],
@@ -124,7 +124,7 @@
     "class": "painting",
     "url": "http://www.etsy.com/shop/sarahpaintsrappers"
   },
-  "Harris-Jensen-After Hours Pottery": {
+  {
     "booths": [
       "323"
     ],
@@ -135,7 +135,7 @@
     "class": "ceramics",
     "url": "http://www.instagram.com/afterhourspottery"
   },
-  "Bins-Heather-Whole Earth": {
+  {
     "booths": [
       "324"
     ],
@@ -145,7 +145,7 @@
     "category": "Textile / Fiber",
     "class": "textile-fiber"
   },
-  "Bruns-Nancy-Fire Raine Studio": {
+  {
     "booths": [
       "325"
     ],
@@ -156,7 +156,7 @@
     "class": "jewelry",
     "url": "http://www.fireraine.etsy.com"
   },
-  "Cuttino-Marcus-The Raffia Boutique": {
+  {
     "booths": [
       "326"
     ],
@@ -167,7 +167,7 @@
     "class": "various-other",
     "url": "https://www.facebook.com/theraffiaboutique/"
   },
-  "Bruns-Stan-Stan Bruns Illustrations": {
+  {
     "booths": [
       "327"
     ],
@@ -178,7 +178,7 @@
     "class": "painting",
     "url": "http://www.stanbruns.etsy.com"
   },
-  "Saul-Katie-Horticult LLC": {
+  {
     "booths": [
       "328"
     ],
@@ -189,7 +189,7 @@
     "class": "garden",
     "url": "http://www.thirtyonedegreewater.com"
   },
-  "Bolton-Matt-Bolton Art Gallery": {
+  {
     "booths": [
       "329"
     ],
@@ -200,7 +200,7 @@
     "class": "painting",
     "url": "http://www.facebook.com/boltonartgallery"
   },
-  "Phillips-Katie-Katie Phillips Fine Art": {
+  {
     "booths": [
       "330"
     ],
@@ -211,7 +211,7 @@
     "class": "painting",
     "url": "https://www.katiephillipsart.com"
   },
-  "Black-Gloria": {
+  {
     "booths": [
       "331"
     ],
@@ -220,7 +220,7 @@
     "category": "Jewelry",
     "class": "jewelry"
   },
-  "Ludlum-Jennifer": {
+  {
     "booths": [
       "332"
     ],
@@ -230,7 +230,7 @@
     "class": "photography",
     "url": "http://www.jenniferludlumphotography.com"
   },
-  "Zapata-Maryelin-4m leather design": {
+  {
     "booths": [
       "333"
     ],
@@ -241,7 +241,7 @@
     "class": "jewelry",
     "url": "http://www.4mleatherdesign.com"
   },
-  "Isea-Carolina-ISEA DESIGNS": {
+  {
     "booths": [
       "334"
     ],
@@ -252,7 +252,7 @@
     "class": "jewelry",
     "url": "http://iseadesigns.etsy.com"
   },
-  "Aiken-Jenny Lee-OM Grown Wellness": {
+  {
     "booths": [
       "335"
     ],
@@ -263,7 +263,7 @@
     "class": "woodwork",
     "url": "http://omgrownart.com"
   },
-  "Laguardia-Maria": {
+  {
     "booths": [
       "336"
     ],
@@ -272,7 +272,7 @@
     "category": "Various / Other",
     "class": "various-other"
   },
-  "Morgan-Jon-Pure Bliss Organics": {
+  {
     "booths": [
       "337"
     ],
@@ -283,7 +283,7 @@
     "class": "various-other",
     "url": "http://www.pureblissorganics.com"
   },
-  "mcdevitt-mark-methane studios, inc": {
+  {
     "booths": [
       "338"
     ],
@@ -294,7 +294,7 @@
     "class": "mixed-media",
     "url": "http://www.methanestudios.com"
   },
-  "Zhang-Jim": {
+  {
     "booths": [
       "339"
     ],
@@ -303,7 +303,7 @@
     "category": "Mixed media",
     "class": "mixed-media"
   },
-  "Cullen-Emory-Wandering Line": {
+  {
     "booths": [
       "340"
     ],
@@ -314,7 +314,7 @@
     "class": "textile-fiber",
     "url": "http://www.thewanderingline.com"
   },
-  "Babay-Kristen-YouNique Jewelry": {
+  {
     "booths": [
       "341"
     ],
@@ -324,7 +324,7 @@
     "category": "Jewelry",
     "class": "jewelry"
   },
-  "Lyle-Alaina": {
+  {
     "booths": [
       "342"
     ],
@@ -334,7 +334,7 @@
     "class": "mixed-media",
     "url": "http://www.alainalyle.com"
   },
-  "Elam Chavez-Missy": {
+  {
     "booths": [
       "343"
     ],
@@ -344,7 +344,7 @@
     "class": "mixed-media",
     "url": "http://www.missyelamchavez.com"
   },
-  "Jenkins-Janet-TJ Crafters": {
+  {
     "booths": [
       "344"
     ],
@@ -355,7 +355,7 @@
     "class": "consumables",
     "url": "http://www.tjcrafters.com"
   },
-  "Linden-Charles-Linden Longbords": {
+  {
     "booths": [
       "345"
     ],
@@ -366,7 +366,7 @@
     "class": "various-other",
     "url": "http://lindenlongboards.com"
   },
-  "Whatley-Jeanne-Color of Heat": {
+  {
     "booths": [
       "346"
     ],
@@ -377,7 +377,7 @@
     "class": "textile-fiber",
     "url": "http://www.colorofheat.com"
   },
-  "Kohler-Camille-cameoko": {
+  {
     "booths": [
       "347"
     ],
@@ -388,7 +388,7 @@
     "class": "jewelry",
     "url": "https://www.cameoko.com"
   },
-  "Miley-Josh-MileyMade": {
+  {
     "booths": [
       "348"
     ],
@@ -399,7 +399,7 @@
     "class": "woodwork",
     "url": "http://mileymade.com"
   },
-  "Humphrey-Jennifer": {
+  {
     "booths": [
       "349"
     ],
@@ -409,7 +409,7 @@
     "class": "textile-fiber",
     "url": "http://www.the-little-nest.com"
   },
-  "Muxworthy-Jeramy-Muxworrrthy": {
+  {
     "booths": [
       "350"
     ],
@@ -420,7 +420,7 @@
     "class": "mixed-media",
     "url": "http://muxworrrthy.com"
   },
-  "Kyegombe-Paul-Kyegombe Fine Art Gallery": {
+  {
     "booths": [
       "351"
     ],
@@ -431,7 +431,7 @@
     "class": "various-other",
     "url": "http://www.kyegombe.com"
   },
-  "MARTINO-MONICA-Lemon Zesty": {
+  {
     "booths": [
       "352"
     ],
@@ -442,7 +442,7 @@
     "class": "mixed-media",
     "url": "http://www.lemonzesty.com"
   },
-  "Borum-Teesha": {
+  {
     "booths": [
       "353"
     ],
@@ -452,7 +452,7 @@
     "class": "various-other",
     "url": "http://www.highvibesentiments.com"
   },
-  "Eaton-Ken": {
+  {
     "booths": [
       "354"
     ],
@@ -462,7 +462,7 @@
     "class": "garden",
     "url": "http://eatonadventures.com"
   },
-  "TEMELKURAN-Inan-Ana Ana LLC": {
+  {
     "booths": [
       "355"
     ],
@@ -473,7 +473,7 @@
     "class": "textile-fiber",
     "url": "http://www.anaana.biz"
   },
-  "Bodi-Ashley-Southern Sunshine": {
+  {
     "booths": [
       "356"
     ],
@@ -484,7 +484,7 @@
     "class": "woodwork",
     "url": "http://southern-sunshine.com"
   },
-  "Kusumadjaja-Patricia-Patricia FK Design & Illustration": {
+  {
     "booths": [
       "357"
     ],
@@ -495,7 +495,7 @@
     "class": "painting",
     "url": "http://www.patriciafk.com"
   },
-  "Carlson-Jay-Clue Town Books": {
+  {
     "booths": [
       "359"
     ],
@@ -505,7 +505,7 @@
     "category": "Various / Other",
     "class": "various-other"
   },
-  "sapp-michelle": {
+  {
     "booths": [
       "360"
     ],
@@ -514,7 +514,7 @@
     "category": "Consumables",
     "class": "consumables"
   },
-  "Gent-Nancy-ALYN VAUGHN": {
+  {
     "booths": [
       "361"
     ],
@@ -525,7 +525,7 @@
     "class": "various-other",
     "url": "http://www.alynvaughn.com"
   },
-  "Brown-Erica-Corked": {
+  {
     "booths": [
       "362"
     ],
@@ -536,7 +536,7 @@
     "class": "mixed-media",
     "url": "http://www.corkedcandle.com"
   },
-  "Hays-Dirk": {
+  {
     "booths": [
       "363"
     ],
@@ -546,7 +546,7 @@
     "class": "painting",
     "url": "http://dirkhays.com"
   },
-  "Sissoko-Laura": {
+  {
     "booths": [
       "364"
     ],
@@ -556,7 +556,7 @@
     "class": "woodwork",
     "url": "http://www.ateliersissoko.com"
   },
-  "Cherep-Sergey-SR Cherep Art Studios": {
+  {
     "booths": [
       "365"
     ],
@@ -567,7 +567,7 @@
     "class": "painting",
     "url": "http://www.sergeycherep.com"
   },
-  "Schmidt-Shelley-Studio Schmidt Designs": {
+  {
     "booths": [
       "366"
     ],
@@ -578,7 +578,7 @@
     "class": "various-other",
     "url": "http://www.studioschmidtdesigns.com"
   },
-  "Sasaki-Masayuki": {
+  {
     "booths": [
       "367"
     ],
@@ -588,7 +588,7 @@
     "class": "ceramics",
     "url": "http://www.masasasakiceramics.com"
   },
-  "Schlumberger-Claire-Clair ThÃ© LLC": {
+  {
     "booths": [
       "368"
     ],
@@ -599,7 +599,7 @@
     "class": "consumables",
     "url": "http://www.clairthe.com"
   },
-  "May-Judy-YIP and More": {
+  {
     "booths": [
       "369"
     ],
@@ -609,7 +609,7 @@
     "category": "Textile / Fiber",
     "class": "textile-fiber"
   },
-  "Coan-SharAnne": {
+  {
     "booths": [
       "370"
     ],
@@ -618,7 +618,7 @@
     "category": "Mixed media",
     "class": "mixed-media"
   },
-  "Wilson-Darlene-The Last Straw...You'll Ever Want": {
+  {
     "booths": [
       "371"
     ],
@@ -628,7 +628,7 @@
     "category": "Consumables",
     "class": "consumables"
   },
-  "Battle-BECKY-Thyme to Garnish": {
+  {
     "booths": [
       "372"
     ],
@@ -639,7 +639,7 @@
     "class": "consumables",
     "url": "http://www.thymetogarnish.com"
   },
-  "Rowe-Stephanie": {
+  {
     "booths": [
       "373"
     ],
@@ -648,7 +648,7 @@
     "category": "Mixed media",
     "class": "mixed-media"
   },
-  "Neel-Marie-Atelier Marie Neel": {
+  {
     "booths": [
       "374"
     ],
@@ -658,7 +658,7 @@
     "category": "Textile / Fiber",
     "class": "textile-fiber"
   },
-  "Anderson-Sindy-Sinfully Sweet Soap": {
+  {
     "booths": [
       "375"
     ],
@@ -669,7 +669,7 @@
     "class": "various-other",
     "url": "http://sinfullysweetsoap.com/"
   },
-  "Fryar-Josephine-Jowelry's Designs": {
+  {
     "booths": [
       "376"
     ],
@@ -680,7 +680,7 @@
     "class": "jewelry",
     "url": "http://jowelrysdesigns.com"
   },
-  "Richardson-Latoya-Ky's Ties": {
+  {
     "booths": [
       "377"
     ],
@@ -691,7 +691,7 @@
     "class": "textile-fiber",
     "url": "http://www.kythetieguy.com"
   },
-  "Midgette-Bryan": {
+  {
     "booths": [
       "378"
     ],
@@ -700,7 +700,7 @@
     "category": "Various / Other",
     "class": "various-other"
   },
-  "Ramsey-Kristen-Sign Me Up Signs & Art": {
+  {
     "booths": [
       "379"
     ],
@@ -711,7 +711,7 @@
     "class": "painting",
     "url": "http://signmeupsigns.etsy.com"
   },
-  "Gonzalez-Olivia-True & Radiant": {
+  {
     "booths": [
       "380"
     ],
@@ -722,7 +722,7 @@
     "class": "consumables",
     "url": "https://www.trueandradiant.com/"
   },
-  "Ruth-Rick-Marble Mountain Creations": {
+  {
     "booths": [
       "381"
     ],
@@ -733,7 +733,7 @@
     "class": "mixed-media",
     "url": "http://www.trainsgoneby.com"
   },
-  "Thompson-Taylor-Fresh Eyes": {
+  {
     "booths": [
       "382"
     ],
@@ -743,7 +743,7 @@
     "category": "Mixed media",
     "class": "mixed-media"
   },
-  "Owens-Angela-Heads Or Tails": {
+  {
     "booths": [
       "383"
     ],
@@ -754,7 +754,7 @@
     "class": "various-other",
     "url": "http://www.hairbowpalace.com"
   },
-  "Hammonds-Quiandra-Got Scrapz": {
+  {
     "booths": [
       "384"
     ],
@@ -764,7 +764,7 @@
     "category": "Leather",
     "class": "leather"
   },
-  "Sanderson-Karen": {
+  {
     "booths": [
       "385"
     ],
@@ -773,7 +773,7 @@
     "category": "Various / Other",
     "class": "various-other"
   },
-  "Cumberland-CJ": {
+  {
     "booths": [
       "386"
     ],
@@ -782,7 +782,7 @@
     "category": "Various / Other",
     "class": "various-other"
   },
-  "Jones-Hal-Wooden it be Lovely": {
+  {
     "booths": [
       "387"
     ],
@@ -793,7 +793,7 @@
     "class": "various-other",
     "url": "http://woodenitbelovely123.com"
   },
-  "Mendoza-Jimmy-Jimmyjamboombam": {
+  {
     "booths": [
       "388"
     ],
@@ -804,7 +804,7 @@
     "class": "woodwork",
     "url": "http://www.jimmyjamboombam.com"
   },
-  "DANCY-LANIKA-LUMERIA BOD": {
+  {
     "booths": [
       "389"
     ],
@@ -815,7 +815,7 @@
     "class": "various-other",
     "url": "http://www.lumeriabodycare.com"
   },
-  "Gerber-Russ-A Russell Gerber Ceramics": {
+  {
     "booths": [
       "390"
     ],
@@ -826,7 +826,7 @@
     "class": "ceramics",
     "url": "https://www.instagram.com/arussellgerber/"
   },
-  "Neuenschwander-Chris": {
+  {
     "booths": [
       "391"
     ],
@@ -836,7 +836,7 @@
     "class": "various-other",
     "url": "http://www.nooshstudios.com"
   },
-  "Lesiewicz-Pete-Country Americana Antiques": {
+  {
     "booths": [
       "392"
     ],
@@ -846,7 +846,7 @@
     "category": "Mixed media",
     "class": "mixed-media"
   },
-  "Barber-Richard": {
+  {
     "booths": [
       "393"
     ],
@@ -856,7 +856,7 @@
     "class": "various-other",
     "url": "http://nostalgiaplaques.com/"
   },
-  "Hall-Ric-Roadside Recyclers": {
+  {
     "booths": [
       "394",
       "396"
@@ -867,7 +867,7 @@
     "category": "Various / Other",
     "class": "various-other"
   },
-  "Mason-Chris-Chris Mason Photography": {
+  {
     "booths": [
       "395"
     ],
@@ -878,7 +878,7 @@
     "class": "mixed-media",
     "url": "http://www.chrismasonphoto.com"
   },
-  "Evans-Lynnie-Lynnie's art": {
+  {
     "booths": [
       "397"
     ],
@@ -889,7 +889,7 @@
     "class": "mixed-media",
     "url": "http://lynniesart.com"
   },
-  "Fairo-Evija-100%cool Efi Designs": {
+  {
     "booths": [
       "398"
     ],
@@ -900,7 +900,7 @@
     "class": "textile-fiber",
     "url": "http://www.etsy.com/shop/ingaandevija"
   },
-  "Councilman-Meg-Margaret Vera": {
+  {
     "booths": [
       "399"
     ],
@@ -911,7 +911,7 @@
     "class": "leather",
     "url": "https://www.etsy.com/shop/margaretvera"
   },
-  "grobe-jean-N-Vites": {
+  {
     "booths": [
       "400"
     ],
@@ -922,7 +922,7 @@
     "class": "metalwork",
     "url": "http://weatheredblessings.com"
   },
-  "Espinoza-Cindy-Zafiro Jewelry": {
+  {
     "booths": [
       "401"
     ],
@@ -933,7 +933,7 @@
     "class": "jewelry",
     "url": "http://www.zafirojewelry.com"
   },
-  "Bancroft-Elexa": {
+  {
     "booths": [
       "403"
     ],
@@ -943,7 +943,7 @@
     "class": "mixed-media",
     "url": "http://www.lexiconoflove.etsy.com"
   },
-  "Ferrante-Ana-Aureum LLC": {
+  {
     "booths": [
       "404"
     ],
@@ -954,7 +954,7 @@
     "class": "mixed-media",
     "url": "http://saleroantihumedad.blogspot.com"
   },
-  "Ladd-Corrie-bones&blooms": {
+  {
     "booths": [
       "406"
     ],
@@ -965,7 +965,7 @@
     "class": "jewelry",
     "url": "http://www.bonesandblooms.com"
   },
-  "Wood-Hannah": {
+  {
     "booths": [
       "410"
     ],
@@ -975,7 +975,7 @@
     "class": "jewelry",
     "url": "http://www.blackblackmoon.com"
   },
-  "Brighton-Gene-Gene Brighton": {
+  {
     "booths": [
       "411"
     ],
@@ -985,7 +985,7 @@
     "category": "Various / Other",
     "class": "various-other"
   },
-  "Oesterling-Brigid-Brigid KO Designs": {
+  {
     "booths": [
       "412"
     ],
@@ -996,7 +996,7 @@
     "class": "mixed-media",
     "url": "http://www.brigidko.com"
   },
-  "Hartman-Allison-404 Proud": {
+  {
     "booths": [
       "413"
     ],
@@ -1007,7 +1007,7 @@
     "class": "various-other",
     "url": "http://www.404proud.com"
   },
-  "Balog-Robert-Killjoy Designs": {
+  {
     "booths": [
       "414"
     ],
@@ -1017,7 +1017,7 @@
     "category": "Various / Other",
     "class": "various-other"
   },
-  "Munns-Shijun-Shijun Art": {
+  {
     "booths": [
       "415"
     ],
@@ -1028,7 +1028,7 @@
     "class": "painting",
     "url": "http://www.shijunart.com"
   },
-  "Arpin-Susan-1952": {
+  {
     "booths": [
       "417"
     ],
@@ -1038,7 +1038,7 @@
     "category": "Antiques",
     "class": "antiques"
   },
-  "Dave-Meghna-Maelu": {
+  {
     "booths": [
       "419"
     ],
@@ -1049,7 +1049,7 @@
     "class": "textile-fiber",
     "url": "http://www.maeludesigns.com"
   },
-  "Prater-Evans-Mount Inspiration Apparel": {
+  {
     "booths": [
       "420"
     ],
@@ -1060,7 +1060,7 @@
     "class": "mixed-media",
     "url": "http://www.mountinspiration.com"
   },
-  "Manangan-Jamie-Map of Home": {
+  {
     "booths": [
       "421"
     ],
@@ -1071,7 +1071,7 @@
     "class": "various-other",
     "url": "http://www.mapofhome.etsy.com"
   },
-  "Lee-Sarah-M&K House": {
+  {
     "booths": [
       "422"
     ],
@@ -1082,7 +1082,7 @@
     "class": "textile-fiber",
     "url": "http://www.mandkhouse.com"
   },
-  "Pace-Barbara-B's Creative Stitches": {
+  {
     "booths": [
       "423"
     ],
@@ -1092,7 +1092,7 @@
     "category": "Textile / Fiber",
     "class": "textile-fiber"
   },
-  "Cruz-Jackie-Vintage Vannety": {
+  {
     "booths": [
       "425"
     ],
@@ -1102,7 +1102,7 @@
     "category": "Various / Other",
     "class": "various-other"
   },
-  "Sharpe-Lindsay": {
+  {
     "booths": [
       "426"
     ],
@@ -1112,7 +1112,7 @@
     "class": "various-other",
     "url": "http://www.etsy.com/shop/oddlittlebirdie"
   },
-  "Roemer-Andrea-Brixtix Bakery for Dogs": {
+  {
     "booths": [
       "428"
     ],
@@ -1123,7 +1123,7 @@
     "class": "pet-supplies",
     "url": "http://brixtix.com"
   },
-  "Alston-Stacey-The Waldorf School of Atlanta": {
+  {
     "booths": [
       "430"
     ],
@@ -1134,7 +1134,7 @@
     "class": "various-other",
     "url": "http://www.waldorfatlanta.org"
   },
-  "Phelps-Demone": {
+  {
     "booths": [
       "431"
     ],
@@ -1144,7 +1144,7 @@
     "class": "painting",
     "url": "http://demonephelps.com"
   },
-  "Harris-Aneta": {
+  {
     "booths": [
       "432"
     ],
@@ -1154,7 +1154,7 @@
     "class": "textile-fiber",
     "url": "http://www.jacklegshop.com"
   },
-  "Scott-Ginger-Barnesville Bear": {
+  {
     "booths": [
       "433",
       "435"
@@ -1165,7 +1165,7 @@
     "category": "Antiques",
     "class": "antiques"
   },
-  "Patel-Niral-Art by Baker Street": {
+  {
     "booths": [
       "436"
     ],
@@ -1176,7 +1176,7 @@
     "class": "various-other",
     "url": "http://artbybakerstreet.com"
   },
-  "Eberlein-Bill-Megateeth Fossils": {
+  {
     "booths": [
       "437"
     ],
@@ -1187,7 +1187,7 @@
     "class": "various-other",
     "url": "http://www.megateeth.com"
   },
-  "Kamau-Nahashon-Tinga Tinga Inc DBA Ethnic Vibes": {
+  {
     "booths": [
       "438"
     ],
@@ -1197,7 +1197,7 @@
     "category": "Textile / Fiber",
     "class": "textile-fiber"
   },
-  "Bush-Spirit & Samuel-4241 Highborne Dr": {
+  {
     "booths": [
       "439"
     ],
@@ -1208,7 +1208,7 @@
     "class": "jewelry",
     "url": "http://www.spiritlala.com"
   },
-  "Brown-Melissa-Hollywoof Styles": {
+  {
     "booths": [
       "440"
     ],
@@ -1219,7 +1219,7 @@
     "class": "pet-supplies",
     "url": "http://hollywoofstyles.com"
   },
-  "Brooks-Jessica": {
+  {
     "booths": [
       "441"
     ],
@@ -1229,7 +1229,7 @@
     "class": "textile-fiber",
     "url": "http://www.jbrooksboutique.com"
   },
-  "Smith-Spurge-Little Wood and Toy Shop": {
+  {
     "booths": [
       "442"
     ],
@@ -1240,7 +1240,7 @@
     "class": "woodwork",
     "url": "https://www.etsy.com/shop/littlewoodandtoyshop"
   },
-  "Cohn-Alison-Love Alison": {
+  {
     "booths": [
       "443"
     ],
@@ -1251,7 +1251,7 @@
     "class": "mixed-media",
     "url": "http://lovealison.com"
   },
-  "zajlo-harry": {
+  {
     "booths": [
       "444",
       "446",
@@ -1262,7 +1262,7 @@
     "category": "Various / Other",
     "class": "various-other"
   },
-  "Hornsby-Jay-The Belligerent Monkey": {
+  {
     "booths": [
       "445"
     ],
@@ -1273,7 +1273,7 @@
     "class": "painting",
     "url": "http://www.belligerentmonkey.com"
   },
-  "Wellem-Lala": {
+  {
     "booths": [
       "449"
     ],
@@ -1283,7 +1283,7 @@
     "class": "mixed-media",
     "url": "http://www.lalawellem.com"
   },
-  "Gresens-Amy-element47": {
+  {
     "booths": [
       "451"
     ],
@@ -1294,7 +1294,7 @@
     "class": "jewelry",
     "url": "http://www.element47designs.com"
   },
-  "ayers-jeff": {
+  {
     "booths": [
       "453"
     ],
@@ -1304,7 +1304,7 @@
     "class": "various-other",
     "url": "http://www.call-to-duty.org"
   },
-  "Cohan-Daphne": {
+  {
     "booths": [
       "454"
     ],
@@ -1314,7 +1314,7 @@
     "class": "textile-fiber",
     "url": "http://www.thehighfiberco.etsy.com"
   },
-  "Schwartzwald-Brittany-B. Hart Art": {
+  {
     "booths": [
       "455"
     ],
@@ -1324,7 +1324,7 @@
     "category": "Ceramics",
     "class": "ceramics"
   },
-  "Maddox-Charles-Maddox Wood Design": {
+  {
     "booths": [
       "456"
     ],
@@ -1335,7 +1335,7 @@
     "class": "woodwork",
     "url": "http://www.facebook.com/maddoxwooddesign"
   },
-  "Brannon-Beverly-Garden Grown Designs": {
+  {
     "booths": [
       "457"
     ],
@@ -1346,7 +1346,7 @@
     "class": "various-other",
     "url": "http://www.etsy.com/shop/gardengrowndesigns"
   },
-  "Murrah-Chawn": {
+  {
     "booths": [
       "458"
     ],
@@ -1356,7 +1356,7 @@
     "class": "mixed-media",
     "url": "http://www.chawnmurrah.com"
   },
-  "Davis-Sheron-Earth Spirit Art and Glass": {
+  {
     "booths": [
       "459"
     ],
@@ -1367,7 +1367,7 @@
     "class": "mixed-media",
     "url": "http://earthspiritartandglass.blogspot.com"
   },
-  "Koch-Melissa-Shore Dog": {
+  {
     "booths": [
       "461"
     ],
@@ -1378,7 +1378,7 @@
     "class": "pet-supplies",
     "url": "http://www.shoredog.com"
   },
-  "Saldana-Jimmy-Resurrected Furniture Design": {
+  {
     "booths": [
       "462",
       "464"
@@ -1390,7 +1390,7 @@
     "class": "antiques",
     "url": "http://resurrectedfd.com"
   },
-  "Britt-Rachel-Gnarly Gnarwhals": {
+  {
     "booths": [
       "463"
     ],
@@ -1400,7 +1400,7 @@
     "category": "Various / Other",
     "class": "various-other"
   },
-  "Rodenberger-Robert-Jazzy Artz Inc": {
+  {
     "booths": [
       "465"
     ],
@@ -1411,7 +1411,7 @@
     "class": "various-other",
     "url": "http://www.jazzyartz.com"
   },
-  "Churchill-Sarah": {
+  {
     "booths": [
       "466"
     ],
@@ -1420,7 +1420,7 @@
     "category": "Textile / Fiber",
     "class": "textile-fiber"
   },
-  "Davenport-Donna-What's It Worth": {
+  {
     "booths": [
       "467",
       "469"
@@ -1431,7 +1431,7 @@
     "category": "Antiques",
     "class": "antiques"
   },
-  "Schleicher-John Eric & Ashlee-J & A Wares": {
+  {
     "booths": [
       "468"
     ],
@@ -1442,7 +1442,7 @@
     "class": "various-other",
     "url": "http://www.jandawares.com"
   },
-  "Wethern-Sam": {
+  {
     "booths": [
       "470"
     ],
@@ -1452,7 +1452,7 @@
     "class": "painting",
     "url": "http://cadmium14.blogspot.com"
   },
-  "Mosley-Nick-Buckhead Thread Co.": {
+  {
     "booths": [
       "471"
     ],
@@ -1463,7 +1463,7 @@
     "class": "textile-fiber",
     "url": "http://www.buckheadthread.com"
   },
-  "Barragan-Ana Maria-Ana Barragan LLC": {
+  {
     "booths": [
       "472"
     ],
@@ -1474,7 +1474,7 @@
     "class": "woodwork",
     "url": "http://www.anabarragan.com"
   },
-  "berbey-tarik-four corners of the world": {
+  {
     "booths": [
       "473"
     ],
@@ -1484,7 +1484,7 @@
     "category": "Metalwork",
     "class": "metalwork"
   },
-  "Prahler-Michelle-PlanetPrahler": {
+  {
     "booths": [
       "474"
     ],
@@ -1495,7 +1495,7 @@
     "class": "mixed-media",
     "url": "http://www.etsy.com/people/planetprahler"
   },
-  "Tai-Brandon-Honey Next Door": {
+  {
     "booths": [
       "475"
     ],
@@ -1506,7 +1506,7 @@
     "class": "consumables",
     "url": "http://honeynextdoor.com"
   },
-  "Levey-Larry-fantasy treasures": {
+  {
     "booths": [
       "476"
     ],
@@ -1516,7 +1516,7 @@
     "category": "Various / Other",
     "class": "various-other"
   },
-  "Pieroni-Amy-EcoManiacs Sustainable Jewelry": {
+  {
     "booths": [
       "477",
       "479"
@@ -1528,7 +1528,7 @@
     "class": "jewelry",
     "url": "http://www.facebook.com/amypieronidesigns"
   },
-  "Olaya-Dean-Block & Hammer": {
+  {
     "booths": [
       "478"
     ],
@@ -1539,7 +1539,7 @@
     "class": "metalwork",
     "url": "http://blockandhammer.etsy.com"
   },
-  "McCorvey-Matt-Tintop Treasures": {
+  {
     "booths": [
       "480"
     ],
@@ -1550,7 +1550,7 @@
     "class": "mixed-media",
     "url": "http://www.facebook.com/tintoptreasures"
   },
-  "Miller-Mary": {
+  {
     "booths": [
       "481"
     ],
@@ -1560,7 +1560,7 @@
     "class": "mixed-media",
     "url": "http://marygayemiller.com"
   },
-  "Baum-Brittany-GABEAUX": {
+  {
     "booths": [
       "482"
     ],
@@ -1571,7 +1571,7 @@
     "class": "various-other",
     "url": "http://gabeaux.net"
   },
-  "Busbee-Buzz-ABETTERBUZZ Brand Goods": {
+  {
     "booths": [
       "483"
     ],
@@ -1582,7 +1582,7 @@
     "class": "various-other",
     "url": "http://www.abetterbuzzbrandgoods.com"
   },
-  "Holcombe-Stephanie": {
+  {
     "booths": [
       "484"
     ],
@@ -1592,7 +1592,7 @@
     "class": "textile-fiber",
     "url": "http://www.sedame.com"
   },
-  "Cullen-Kim-Beautiful Chaos": {
+  {
     "booths": [
       "485",
       "487"
@@ -1604,7 +1604,7 @@
     "class": "jewelry",
     "url": "http://www.bchaos.com"
   },
-  "Dougherty-Jenny-How Awcard": {
+  {
     "booths": [
       "486"
     ],
@@ -1615,7 +1615,7 @@
     "class": "various-other",
     "url": "http://howawcard.com"
   },
-  "Hill-Jason": {
+  {
     "booths": [
       "488"
     ],
@@ -1625,7 +1625,7 @@
     "class": "various-other",
     "url": "http://www.maniclawd.com"
   },
-  "Zinn-Andrew": {
+  {
     "booths": [
       "489",
       "491"
@@ -1636,7 +1636,7 @@
     "class": "jewelry",
     "url": "http://culture-cross.org"
   },
-  "poindexter-susan": {
+  {
     "booths": [
       "490"
     ],
@@ -1646,7 +1646,7 @@
     "class": "photography",
     "url": "http://susanpoindexter.com"
   },
-  "Keyser-Donald-We InGeorgia": {
+  {
     "booths": [
       "492"
     ],
@@ -1657,7 +1657,7 @@
     "class": "consumables",
     "url": "http://www.3beerrub.com"
   },
-  "rice-florence-Handwoven Creations": {
+  {
     "booths": [
       "493"
     ],
@@ -1667,7 +1667,7 @@
     "category": "Mixed media",
     "class": "mixed-media"
   },
-  "Dillingham-Karen-Westwind Tie Dye": {
+  {
     "booths": [
       "494"
     ],
@@ -1677,7 +1677,7 @@
     "category": "Textile / Fiber",
     "class": "textile-fiber"
   },
-  "bailey-nathan-7art": {
+  {
     "booths": [
       "495"
     ],
@@ -1688,7 +1688,7 @@
     "class": "mixed-media",
     "url": "http://sevenart.org"
   },
-  "Biberdorf-Brenda-Brenda's Fused Glass": {
+  {
     "booths": [
       "497",
       "499"
@@ -1700,7 +1700,7 @@
     "class": "glass",
     "url": "http://brendasfusedglass.com"
   },
-  "molnar-arlene-the altered artist": {
+  {
     "booths": [
       "498"
     ],
@@ -1710,7 +1710,7 @@
     "category": "Woodwork",
     "class": "woodwork"
   },
-  "Tillman-Angie-Phickles": {
+  {
     "booths": [
       "500"
     ],
@@ -1721,7 +1721,7 @@
     "class": "consumables",
     "url": "http://phickles.com"
   },
-  "Gonzalez-Carol-Creative Woodscapes": {
+  {
     "booths": [
       "501"
     ],
@@ -1731,7 +1731,7 @@
     "category": "Woodwork",
     "class": "woodwork"
   },
-  "FISHER-DALE-HONEY ON THE HILL": {
+  {
     "booths": [
       "502"
     ],
@@ -1742,7 +1742,7 @@
     "class": "various-other",
     "url": "http://www.honeyonthehill.com"
   },
-  "Haratine-Tim-Built By Bees": {
+  {
     "booths": [
       "503",
       "505"
@@ -1754,7 +1754,7 @@
     "class": "consumables",
     "url": "http://www.builtbybees.com"
   },
-  "Leone-Mone": {
+  {
     "booths": [
       "504"
     ],
@@ -1764,7 +1764,7 @@
     "class": "consumables",
     "url": "http://controlhaircare.com"
   },
-  "Teague-Catherine": {
+  {
     "booths": [
       "506"
     ],
@@ -1774,7 +1774,7 @@
     "class": "photography",
     "url": "http://catiteague.com"
   },
-  "Chambers-Tom": {
+  {
     "booths": [
       "507"
     ],
@@ -1784,9 +1784,9 @@
     "class": "mixed-media",
     "url": "http://www.branchingoutart.weebly.com"
   },
-  "Russell-Richard-All Things Gallery": {
+  {
     "booths": [
-      "510"
+      "508"
     ],
     "firstname": "Richard",
     "lastname": "Russell",
@@ -1795,7 +1795,7 @@
     "class": "mixed-media",
     "url": "http://www.allthingsgallery.biz"
   },
-  "Woolley-Shari-Shari B. Green": {
+  {
     "booths": [
       "509"
     ],
@@ -1806,7 +1806,18 @@
     "class": "textile-fiber",
     "url": "http://www.facebook.com/sharibgreen/"
   },
-  "McCulty-Keri-Kuiperly Bag Co": {
+  {
+    "booths": [
+      "510"
+    ],
+    "firstname": "Richard",
+    "lastname": "Russell",
+    "business": "All Things Gallery",
+    "category": "Mixed media",
+    "class": "mixed-media",
+    "url": "http://www.allthingsgallery.biz"
+  },
+  {
     "booths": [
       "511"
     ],
@@ -1817,7 +1828,7 @@
     "class": "various-other",
     "url": "https://www.etsy.com/shop/kuiperlybagco"
   },
-  "Jalsa-Ann-In The Beginning Jewelry": {
+  {
     "booths": [
       "512"
     ],
@@ -1827,7 +1838,7 @@
     "category": "Jewelry",
     "class": "jewelry"
   },
-  "Rank-Don-Don Rank Pottery": {
+  {
     "booths": [
       "513"
     ],
@@ -1837,7 +1848,7 @@
     "category": "Various / Other",
     "class": "various-other"
   },
-  "Timmins-Jennifer": {
+  {
     "booths": [
       "514"
     ],
@@ -1847,7 +1858,7 @@
     "class": "jewelry",
     "url": "http://www.gibcobracelets.comandwww.perfecttoerings.com"
   },
-  "Smith-Katherine-Katherine Smith Jewelry": {
+  {
     "booths": [
       "515"
     ],
@@ -1858,7 +1869,7 @@
     "class": "jewelry",
     "url": "http://www.katherinesmithjewelry.com"
   },
-  "Mclaughlin-Merrily-Merrilily Gardens": {
+  {
     "booths": [
       "516"
     ],
@@ -1869,7 +1880,7 @@
     "class": "consumables",
     "url": "http://www.merrililygardens.com"
   },
-  "Leff-Amy-Throwing Stars LLC": {
+  {
     "booths": [
       "517"
     ],
@@ -1880,7 +1891,7 @@
     "class": "jewelry",
     "url": "http://www.throwingstarsjewelry.com"
   },
-  "Read-Elaine-Xocolatl Small Batch Chocolate": {
+  {
     "booths": [
       "518"
     ],
@@ -1891,7 +1902,7 @@
     "class": "consumables",
     "url": "http://www.xocolatlchocolate.com"
   },
-  "Williams-Leroy": {
+  {
     "booths": [
       "519",
       "521"
@@ -1901,7 +1912,7 @@
     "category": "Consumables",
     "class": "consumables"
   },
-  "Davis-Mari-CLIMB Handmade": {
+  {
     "booths": [
       "523"
     ],
@@ -1912,7 +1923,7 @@
     "class": "various-other",
     "url": "http://thebeehiveatl.com/collections/climb"
   },
-  "aidien shapiro-Davide-American Princess": {
+  {
     "booths": [
       "525"
     ],
@@ -1922,7 +1933,7 @@
     "category": "Jewelry",
     "class": "jewelry"
   },
-  "Tice-Mike-MW Furnishings": {
+  {
     "booths": [
       "527"
     ],
@@ -1933,7 +1944,7 @@
     "class": "woodwork",
     "url": "https://www.mwfurnishings.design/"
   },
-  "Schretter-Michelle-The SandArt Cart": {
+  {
     "booths": [
       "532"
     ],
@@ -1944,7 +1955,7 @@
     "class": "various-other",
     "url": "http://www.thesandartcart.com"
   },
-  "Harmadi-Danielle-Freshwater Design Co.": {
+  {
     "booths": [
       "533"
     ],
@@ -1955,7 +1966,7 @@
     "class": "leather",
     "url": "http://www.freshwaterdesign.co"
   },
-  "boyd-tim-timboydart": {
+  {
     "booths": [
       "534"
     ],
@@ -1965,7 +1976,7 @@
     "category": "Painting",
     "class": "painting"
   },
-  "Shah-Shaili-Wiggle & Roar": {
+  {
     "booths": [
       "535"
     ],
@@ -1976,7 +1987,7 @@
     "class": "various-other",
     "url": "http://www.wiggleandroar.etsy.com"
   },
-  "Cain-Dave-Dave Cain Handcrafted Jewelry": {
+  {
     "booths": [
       "536"
     ],
@@ -1987,7 +1998,7 @@
     "class": "jewelry",
     "url": "http://www.davecain.com"
   },
-  "Hallman-Nancy-Bill hallman boutique": {
+  {
     "booths": [
       "537"
     ],
@@ -1998,7 +2009,7 @@
     "class": "textile-fiber",
     "url": "http://www.billhallman.com"
   },
-  "Spangler-Brandon-BE Creations and Designs INC": {
+  {
     "booths": [
       "538"
     ],
@@ -2009,7 +2020,7 @@
     "class": "various-other",
     "url": "http://www.beoutfitters.com"
   },
-  "Mathis-Danielle": {
+  {
     "booths": [
       "539"
     ],
@@ -2019,7 +2030,7 @@
     "class": "textile-fiber",
     "url": "http://www.textileandtwine.etsy.com"
   },
-  "Stansbury-Kimberly": {
+  {
     "booths": [
       "540"
     ],
@@ -2028,7 +2039,7 @@
     "category": "Various / Other",
     "class": "various-other"
   },
-  "Van Asten-Marie-Luce-Clay in wood": {
+  {
     "booths": [
       "541"
     ],
@@ -2039,7 +2050,7 @@
     "class": "mixed-media",
     "url": "http://www.clayinwood.com"
   },
-  "Fulford-Tami-Handmade Studio": {
+  {
     "booths": [
       "542"
     ],
@@ -2050,7 +2061,7 @@
     "class": "ceramics",
     "url": "http://tamifulford.com/"
   },
-  "Stickles-Valerie-PenguinArts": {
+  {
     "booths": [
       "543"
     ],
@@ -2061,7 +2072,7 @@
     "class": "jewelry",
     "url": "http://www.penguinartsjewelry.com"
   },
-  "Schemel/Barreneche-Daniel/Juan-Fento": {
+  {
     "booths": [
       "544"
     ],
@@ -2071,7 +2082,7 @@
     "category": "Various / Other",
     "class": "various-other"
   },
-  "Blackmore-Brian-Rainbow Designs": {
+  {
     "booths": [
       "545"
     ],
@@ -2081,7 +2092,7 @@
     "category": "Jewelry",
     "class": "jewelry"
   },
-  "Dayvault-Laurie-Go Jump in the LakeÂ®": {
+  {
     "booths": [
       "546",
       "548"
@@ -2093,7 +2104,7 @@
     "class": "woodwork",
     "url": "https://www.etsy.com/shop/gojumpinthelake"
   },
-  "Sapp-Talia-Talia Serinese Jewelry": {
+  {
     "booths": [
       "547"
     ],
@@ -2104,7 +2115,7 @@
     "class": "jewelry",
     "url": "http://www.taliaserinese.etsy.com"
   },
-  "Hurlbutt-Sandy-The Country Junction": {
+  {
     "booths": [
       "549"
     ],
@@ -2114,7 +2125,7 @@
     "category": "Mixed media",
     "class": "mixed-media"
   },
-  "Iniguez-Cyndee": {
+  {
     "booths": [
       "550"
     ],
@@ -2123,7 +2134,7 @@
     "category": "Consumables",
     "class": "consumables"
   },
-  "Schloss-Dr. Patrick-Schloss Pottery": {
+  {
     "booths": [
       "551"
     ],
@@ -2133,7 +2144,7 @@
     "category": "Ceramics",
     "class": "ceramics"
   },
-  "Vickers-Emily-Created by Emily": {
+  {
     "booths": [
       "552"
     ],
@@ -2144,7 +2155,7 @@
     "class": "mixed-media",
     "url": "http://www.createdbyemily.com"
   },
-  "Althen Butler-Jennifer-RockBelly": {
+  {
     "booths": [
       "553"
     ],
@@ -2154,7 +2165,7 @@
     "category": "Various / Other",
     "class": "various-other"
   },
-  "Weil-Courtney": {
+  {
     "booths": [
       "554"
     ],
@@ -2164,7 +2175,7 @@
     "class": "jewelry",
     "url": "http://www.craftsandlove.com"
   },
-  "Day-Anne-Gift N' Green": {
+  {
     "booths": [
       "555"
     ],
@@ -2175,7 +2186,7 @@
     "class": "various-other",
     "url": "http://www.giftngreen.com"
   },
-  "Brown-Marsha-Marsha Marsha Jewelry": {
+  {
     "booths": [
       "556"
     ],
@@ -2185,7 +2196,7 @@
     "category": "Jewelry",
     "class": "jewelry"
   },
-  "Bowie-Carrie-Southern Redesigns": {
+  {
     "booths": [
       "557",
       "559"
@@ -2196,7 +2207,7 @@
     "category": "Mixed media",
     "class": "mixed-media"
   },
-  "Martin-nathan-Go Forth Goods": {
+  {
     "booths": [
       "558"
     ],
@@ -2207,7 +2218,7 @@
     "class": "leather",
     "url": "http://www.goforthgoods.com"
   },
-  "Oleski-Jackie-JackieOdesigns": {
+  {
     "booths": [
       "560"
     ],
@@ -2217,7 +2228,7 @@
     "category": "Various / Other",
     "class": "various-other"
   },
-  "Coker-Gail-Mama G's Creations": {
+  {
     "booths": [
       "561"
     ],
@@ -2228,7 +2239,7 @@
     "class": "consumables",
     "url": "http://salsainasnap.com"
   },
-  "Heard-Peggy-Cactus Creations": {
+  {
     "booths": [
       "562"
     ],
@@ -2238,7 +2249,7 @@
     "category": "Garden",
     "class": "garden"
   },
-  "Majors-Renee-The Kountry Candle Kollection": {
+  {
     "booths": [
       "563"
     ],
@@ -2248,7 +2259,7 @@
     "category": "Consumables",
     "class": "consumables"
   },
-  "Barnett-Casey-Uncorked Candle Company": {
+  {
     "booths": [
       "564"
     ],
@@ -2259,7 +2270,7 @@
     "class": "consumables",
     "url": "http://www.uncorked-candles.com"
   },
-  "Bruschi-Paul-Jack Be Nimble Candles": {
+  {
     "booths": [
       "565"
     ],
@@ -2270,7 +2281,7 @@
     "class": "consumables",
     "url": "http://www.jackbenimblecandles.com"
   },
-  "Fajardo-Erika-ErÃ¼ka Art & Design": {
+  {
     "booths": [
       "566"
     ],
@@ -2280,7 +2291,7 @@
     "category": "Textile / Fiber",
     "class": "textile-fiber"
   },
-  "hrycuna-jo anna-the lazy scroll": {
+  {
     "booths": [
       "567"
     ],
@@ -2291,7 +2302,7 @@
     "class": "garden",
     "url": "http://www.thelazyscroll.com"
   },
-  "Simon-Jim-The Woodstock Woodshop": {
+  {
     "booths": [
       "568"
     ],
@@ -2302,7 +2313,7 @@
     "class": "woodwork",
     "url": "http://www.thewoodstockwoodshop.com"
   },
-  "Weatherwax-Scott-Mindzai Apparel": {
+  {
     "booths": [
       "569"
     ],
@@ -2313,7 +2324,7 @@
     "class": "various-other",
     "url": "http://www.mindzaiapparel.net"
   },
-  "McCollum-Richard-White Forest Spoons": {
+  {
     "booths": [
       "570"
     ],
@@ -2324,7 +2335,7 @@
     "class": "woodwork",
     "url": "http://www.spootch.com"
   },
-  "Knight-Michael-Kaboodle Home": {
+  {
     "booths": [
       "571",
       "573"
@@ -2335,7 +2346,7 @@
     "category": "Woodwork",
     "class": "woodwork"
   },
-  "Bishop-Lauren-Baizaar": {
+  {
     "booths": [
       "572",
       "574"
@@ -2347,7 +2358,7 @@
     "class": "jewelry",
     "url": "http://www.silverstonebrass.com"
   },
-  "Wright-John-Bee Wild": {
+  {
     "booths": [
       "575"
     ],
@@ -2358,7 +2369,7 @@
     "class": "consumables",
     "url": "http://beewild.buzz"
   },
-  "Melancon-Sarah-Third Half Studios": {
+  {
     "booths": [
       "576"
     ],
@@ -2369,7 +2380,7 @@
     "class": "mixed-media",
     "url": "http://www.thirdhalfstudios.com"
   },
-  "Brown-Cedric": {
+  {
     "booths": [
       "577"
     ],
@@ -2379,7 +2390,7 @@
     "class": "textile-fiber",
     "url": "http://www.cedricbrowncollections.com"
   },
-  "Myers-Cassie-Woven Words": {
+  {
     "booths": [
       "578"
     ],
@@ -2390,7 +2401,7 @@
     "class": "various-other",
     "url": "http://shopwovenwords.etsy.com"
   },
-  "Pennella-Carson-C.A.P Glassworks": {
+  {
     "booths": [
       "579"
     ],
@@ -2400,7 +2411,7 @@
     "category": "Glass",
     "class": "glass"
   },
-  "Jeziorski-Rita-Gallerita Studios": {
+  {
     "booths": [
       "580"
     ],
@@ -2410,7 +2421,7 @@
     "category": "Mixed media",
     "class": "mixed-media"
   },
-  "Denier-Michael": {
+  {
     "booths": [
       "581"
     ],
@@ -2420,7 +2431,7 @@
     "class": "painting",
     "url": "http://www.mikedenierart.com"
   },
-  "Scharko-Marci-Turnrow Bath Body & Home": {
+  {
     "booths": [
       "582"
     ],
@@ -2431,7 +2442,7 @@
     "class": "consumables",
     "url": "http://www.myturnrow.com"
   },
-  "smith-deidra-blue frog art": {
+  {
     "booths": [
       "583"
     ],
@@ -2442,7 +2453,7 @@
     "class": "various-other",
     "url": "http://www.bluefrogart.com"
   },
-  "Sheffield-Suzi-Beautiful Briny Sea": {
+  {
     "booths": [
       "584"
     ],
@@ -2453,7 +2464,7 @@
     "class": "consumables",
     "url": "http://www.beautifulbriysea.com"
   },
-  "Kelly-Lisa-Mandalina": {
+  {
     "booths": [
       "585"
     ],
@@ -2464,7 +2475,7 @@
     "class": "textile-fiber",
     "url": "http://www.facebook.com/mandalinalove"
   },
-  "Carter-Cassie-Cheeky Maiden Soap Co": {
+  {
     "booths": [
       "586"
     ],
@@ -2475,7 +2486,7 @@
     "class": "various-other",
     "url": "http://www.cheekymaidensoap.com"
   },
-  "McCormick-Marla-McMurphy Studios": {
+  {
     "booths": [
       "587"
     ],
@@ -2486,7 +2497,7 @@
     "class": "painting",
     "url": "http://marlajmccormick.com"
   },
-  "Santoro-Angela-Scribbler Experiment": {
+  {
     "booths": [
       "588"
     ],
@@ -2497,7 +2508,7 @@
     "class": "textile-fiber",
     "url": "http://www.scribblerexperiment.etsy.com"
   },
-  "Jackson-Kasey-Element Tree Essentials": {
+  {
     "booths": [
       "589"
     ],
@@ -2508,7 +2519,7 @@
     "class": "consumables",
     "url": "http://elementtreecandles.com"
   },
-  "Garcia-Greta-It Element, LLC": {
+  {
     "booths": [
       "590",
       "592"
@@ -2519,7 +2530,7 @@
     "category": "Various / Other",
     "class": "various-other"
   },
-  "Shull-J. Spencer-jellykoe": {
+  {
     "booths": [
       "591"
     ],
@@ -2530,7 +2541,7 @@
     "class": "various-other",
     "url": "http://www.jellykoe.com"
   },
-  "Hoff-Kenny-THE TIN MAN": {
+  {
     "booths": [
       "593",
       "595"
@@ -2542,7 +2553,7 @@
     "class": "antiques",
     "url": "http://thetinmanart.com"
   },
-  "Powell-Linda": {
+  {
     "booths": [
       "594"
     ],
@@ -2552,7 +2563,7 @@
     "class": "various-other",
     "url": "http://www.bigskinny.net"
   },
-  "Wyman-Christine-doggie bags": {
+  {
     "booths": [
       "597"
     ],
@@ -2562,7 +2573,7 @@
     "category": "Pet supplies",
     "class": "pet-supplies"
   },
-  "Aude-Paul-Paul Aude Leather Handbags": {
+  {
     "booths": [
       "598"
     ],
@@ -2573,7 +2584,7 @@
     "class": "leather",
     "url": "http://www.audeandamy.com"
   },
-  "Williams-Alicia-Creations by SV": {
+  {
     "booths": [
       "599"
     ],
@@ -2584,7 +2595,7 @@
     "class": "woodwork",
     "url": "http://www.creationsbysv.etsy.com"
   },
-  "Aversano-Krista": {
+  {
     "booths": [
       "600"
     ],
@@ -2594,7 +2605,7 @@
     "class": "pet-supplies",
     "url": "http://www.tajmahound.com"
   },
-  "Younce-Marsha-Josie's BackYard": {
+  {
     "booths": [
       "601"
     ],
@@ -2605,7 +2616,7 @@
     "class": "mixed-media",
     "url": "http://josiesbackyard.com"
   },
-  "Robinson-Tommy-Natalie Grace Home": {
+  {
     "booths": [
       "602"
     ],
@@ -2616,7 +2627,7 @@
     "class": "mixed-media",
     "url": "http://nataliegracehome.com"
   },
-  "Lang-Elizabeth": {
+  {
     "booths": [
       "604"
     ],
@@ -2626,7 +2637,7 @@
     "class": "painting",
     "url": "http://www.betweentheevergreens.com/"
   },
-  "HOPE-MARIAH-Hope House Gallery": {
+  {
     "booths": [
       "606"
     ],
@@ -2637,7 +2648,7 @@
     "class": "painting",
     "url": "http://www.mariahhope.com"
   },
-  "hanes-elizabeth-Beauty and Beast Art": {
+  {
     "booths": [
       "608"
     ],
@@ -2648,7 +2659,7 @@
     "class": "ceramics",
     "url": "http://www.chickentracksartranch.com"
   },
-  "Buff-Lori-Future Relics": {
+  {
     "booths": [
       "609"
     ],
@@ -2659,7 +2670,7 @@
     "class": "ceramics",
     "url": "http://futurerelicsgallery.com"
   },
-  "Brown-Allison-Hungry Like the Wolf Vintage": {
+  {
     "booths": [
       "610"
     ],
@@ -2669,7 +2680,7 @@
     "category": "Antiques",
     "class": "antiques"
   },
-  "Crum-Michael-Smack Yo Mama  BBQ Sauce": {
+  {
     "booths": [
       "611"
     ],
@@ -2680,7 +2691,7 @@
     "class": "consumables",
     "url": "http://www.smackyomama.com"
   },
-  "Sandlin-Caroline-Caroline Sandlin Jewelry": {
+  {
     "booths": [
       "612"
     ],
@@ -2691,7 +2702,7 @@
     "class": "jewelry",
     "url": "http://www.carolinesandlin.etsy.com"
   },
-  "Taylor-Danial-Oriskany Glass Studio": {
+  {
     "booths": [
       "613"
     ],
@@ -2702,7 +2713,7 @@
     "class": "glass",
     "url": "http://www.oriskanyglass.etsy.com"
   },
-  "Squire-Anja-Klinker Closet": {
+  {
     "booths": [
       "614"
     ],
@@ -2713,7 +2724,7 @@
     "class": "metalwork",
     "url": "http://www.klinkercloset.com"
   },
-  "Chumburidze-Nino-Agora Art Studio": {
+  {
     "booths": [
       "615"
     ],
@@ -2724,7 +2735,7 @@
     "class": "jewelry",
     "url": "http://www.ninoarts.com"
   },
-  "Nemecek-Alexia-Lexi Brite, LLC": {
+  {
     "booths": [
       "616"
     ],
@@ -2735,7 +2746,7 @@
     "class": "textile-fiber",
     "url": "http://www.lexibrite.com"
   },
-  "Townsend-Jeremy": {
+  {
     "booths": [
       "617"
     ],
@@ -2745,7 +2756,7 @@
     "class": "mixed-media",
     "url": "http://www.iamjert.com"
   },
-  "Senft-Kathy-One Screw Loose": {
+  {
     "booths": [
       "618",
       "620"
@@ -2757,7 +2768,7 @@
     "class": "consumables",
     "url": "http://onescrewloose.com"
   },
-  "Cox-Sage-Dragonfly Henna": {
+  {
     "booths": [
       "619"
     ],
@@ -2768,7 +2779,7 @@
     "class": "various-other",
     "url": "http://www.atlantahenna.com"
   },
-  "Rogers-Angela-Paper Towns Vintage": {
+  {
     "booths": [
       "621"
     ],
@@ -2779,7 +2790,7 @@
     "class": "jewelry",
     "url": "http://etsy.com/shop/papertownsvintage"
   },
-  "Bennett-Branson-Branson's Designs": {
+  {
     "booths": [
       "622"
     ],
@@ -2789,7 +2800,7 @@
     "category": "Leather",
     "class": "leather"
   },
-  "Hagaman-Jennifer-The Artizan Way": {
+  {
     "booths": [
       "624"
     ],
@@ -2800,7 +2811,7 @@
     "class": "various-other",
     "url": "http://www.theartizanway.com"
   },
-  "sinquefield-david-D & B Enterprises": {
+  {
     "booths": [
       "626"
     ],
@@ -2810,4 +2821,4 @@
     "category": "Woodwork",
     "class": "woodwork"
   }
-}
+]

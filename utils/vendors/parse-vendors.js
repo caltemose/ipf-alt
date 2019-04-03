@@ -1,7 +1,10 @@
 const fs = require('fs')
+const path = require('path')
 const csv = require('csv-parser')
 const slug = require('slug')
 
+const INPUT_FILE = '2019-vendors.tsv'
+const GULP_PATH = '../../src/data/'
 const YEAR = '2019'
 
 function readFile (url) {
@@ -12,37 +15,32 @@ function readFile (url) {
 }
 
 function parseRow (row) {
-    let key = ''
+    // let key = ''
 
     let last = cleanField(row['Last Name'])
-    if (notEmpty(last)) {
-        key = last
-    }
+    // if (notEmpty(last)) {
+    //     key = last
+    // }
 
     let first = cleanField(row['First Name'])
-    if (notEmpty(first)) {
-        if (key.length) {
-            key += '-'
-        }
-        key += first
-    }
+    // if (notEmpty(first)) {
+    //     if (key.length) {
+    //         key += '-'
+    //     }
+    //     key += first
+    // }
 
     let business = cleanField(row['Business Name'])
-    if (notEmpty(business)) {
-        if (key.length) {
-            key += '-'
-        }
-        key += business
-    }
+    // if (notEmpty(business)) {
+    //     if (key.length) {
+    //         key += '-'
+    //     }
+    //     key += business
+    // }
 
     const area = row['Area'].toLowerCase()
 
     let vendor = { booths: [] }
-    if (results[area][key]) {
-        vendor = results[area][key]
-    } else {
-        results[area][key] = vendor
-    }
 
     if (notEmpty(first)) {
         vendor.firstname = first
@@ -61,20 +59,23 @@ function parseRow (row) {
         vendor.class = makeClassFromCategory(vendor.category)
     }
 
-    if (notEmpty(row['Booth'])) {
-        vendor.booths.push(cleanField(row['Booth']))
-    }
+    vendor.booths = getBoothsFromRow(row)
 
     if (notEmpty(row['Website'])) {
         const url = cleanUrl(row['Website'])
         if (url) vendor.url = url
     }
+
+    results[area].push(vendor)
 }
 
 function writeFiles () {
-    writeFile(results.ac, 'vendors-ac.json')
-    writeFile(results.sm, 'vendors-sm.json')
-    writeFile(results.cc, 'vendors-cc.json')
+    console.log('ac', results.ac.length)
+    console.log('sm', results.sm.length)
+    console.log('cc', results.cc.length)
+    writeFile(results.ac, path.resolve(__dirname, GULP_PATH + 'vendors-ac.json'))
+    writeFile(results.sm, path.resolve(__dirname, GULP_PATH + 'vendors-sm.json'))
+    writeFile(results.cc, path.resolve(__dirname, GULP_PATH + 'vendors-cc.json'))
 }
 
 /*
@@ -85,14 +86,14 @@ HELPERS
 
 function defaultResults () {
     return {
-        ac: {},
-        cc: {},
-        sm: {}
+        ac: [],
+        cc: [],
+        sm: []
     }
 }
 
 function notEmpty (field) {
-    return field.trim() != ''
+    return field && field.trim() != ''
 }
 
 function cleanField (field) {
@@ -159,6 +160,20 @@ function makeClassFromCategory (category) {
     return slug(category)
 }
 
+function getBoothsFromRow (row) {
+    const booths = []
+    if (notEmpty(row['Booth 1'])) {
+        booths.push(row['Booth 1'].trim())
+        if (notEmpty(row['Booth 2'])) {
+            booths.push(row['Booth 2'].trim())
+            if (notEmpty(row['Booth 3'])) {
+                booths.push(row['Booth 3'].trim())
+            }
+        }
+    }
+    return booths
+}
+
 function writeFile (data, file) {
     fs.writeFile(file, JSON.stringify(data, null, '  '), err => {
         if (err) {
@@ -175,4 +190,4 @@ Init
 
 let results = defaultResults()
 
-readFile('2019-vendors.tsv')
+readFile(path.resolve(__dirname, INPUT_FILE))

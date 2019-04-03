@@ -1,10 +1,10 @@
-//- p Below are this year's non-profit organizations.
+p Below are this year's non-profit organizations.
 
 ul.Vendors
-    each vendor in vendors.cc.lines
+    each vendor in vendors.cc
         li.Vendor
             ul.u-list-unstyled
-                li(class="Category--#{vendor.class}")
+                li(class=`Category--${vendor.class}`)
                     - var nameAsBusiness = vendor.business === '';
                     if nameAsBusiness
                         h3.Vendor-business #{vendor.firstname} #{vendor.lastname}
@@ -13,5 +13,5 @@ ul.Vendors
                         p.Vendor-name #{vendor.firstname} #{vendor.lastname}
                     - var hasUrl = vendor.url !== ''
                     if hasUrl
-                        a.Vendor-url(href="#{vendor.url}")= vendor.url
+                        a.Vendor-url(href=vendor.url)= vendor.url
                     //- div.Vendor-category= vendor.category

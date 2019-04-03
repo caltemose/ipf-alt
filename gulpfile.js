@@ -30,7 +30,7 @@ const config = {
         vendors: {
             ac: _src + 'data/vendors-ac.json',
             cc: _src + 'data/vendors-cc.json',
-            street: _src + 'data/vendors-street.json'
+            street: _src + 'data/vendors-sm.json'
         }
     },
     pug: {
@@ -204,7 +204,7 @@ exports.build = series(
 )
 
 exports.dev = series(
-    exports.build, 
+    exports.build,
     series(serve, watchAll)
 )
 
@@ -216,4 +216,3 @@ exports.markup = series(clean, html)
 exports.js = series(clean, js)
 exports.minify = series(minify)
 exports.php = series(clean, php)
-

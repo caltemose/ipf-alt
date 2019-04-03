@@ -1,7 +1,7 @@
 *
-    box-sizing: border-box 
+    box-sizing: border-box
 
-body 
+body
     margin: 0
     padding: 0
     font-family: $base-font-family-sans-serif
@@ -10,44 +10,44 @@ body
     background: #fff
 
 
-main 
+main
     margin-top: 5.2em
     // hackery garbage until we have all content in -
     // keeps page from being too short.
     min-height: 300px
 
-    > article 
+    > article
         margin-bottom: 3em !important
-    
 
-    @media (min-width: $bp-md) 
+
+    @media (min-width: $bp-md)
         margin-top: 0
         min-height: 600px
-        > article 
+        > article
             > p,
             > ul,
             > ol,
             > dl,
-            > blockquote 
+            > blockquote
                 margin-right: 3em
-            
-        
-    
 
-    @media (min-width: $bp-lg) 
-        > article 
+
+
+
+    @media (min-width: $bp-lg)
+        > article
             > p,
             > ul,
             > ol,
             > dl,
-            > blockquote 
+            > blockquote
                 margin-right: 10em
-            
-        
-    
 
 
-h1, h2, h3, h4, h5, h6 
+
+
+
+h1, h2, h3, h4, h5, h6
     font-family: $base-font-family-serif
     font-style: italic
     font-weight: normal
@@ -60,89 +60,87 @@ h1
         font-size: 2.5em
 
 
-h2 
+h2
     font-size: 2em
     margin-top: 1.75em
 
 
-h3 
+h3
     font-size: 1.25em
     margin: 1.5em 0 0.75em
 
 
-h4 
+h4
     font-size: 1em
     margin: 0.25em 0 0.2em
 
 
-ul 
-    @media (max-width: $bp-sm-max) 
+ul
+    @media (max-width: $bp-sm-max)
         margin: 0.5em 0 1em
         padding: 0 1.25em
-    
 
 
-li 
+
+li
     margin-bottom: 0.5em
 
 
-dl 
+dl
     margin-left: 1.5em
 
-    dt 
+    dt
         margin-bottom: 0.25em
         color: $brand-grey
 
-        &:before 
+        &:before
             content: "Q:"
             // font-family: $base-font-family-serif
             margin-left: -1.5em
             margin-right: 0.4em
-        
-    
 
-    dd 
+
+
+    dd
         margin: 0 0 1.25em 0
 
-        &:before 
+        &:before
             content: "A:"
             // font-family: $base-font-family-serif
             margin-left: -1.5em
             margin-right: 0.4em
-        
-    
 
 
-p 
+
+
+p
     line-height: 1.5em
     letter-spacing: -0.6px
 
-
-a //TODO use variable for colors
+//TODO use variable for colors
+a
     color: rgb(85, 132, 46) // green
     text-decoration: underline
 
-    &:visited 
+    &:visited
         color: rgb(50, 93, 15)
-    
 
-    &:hover, &:focus 
+
+    &:hover, &:focus
         background: $link-hover-color
-    
 
 
-blockquote 
+
+blockquote
     margin: 1.5em 2em
     font-family: $base-font-family-serif
     font-size: 1.25em
 
-    &:before 
+    &:before
         content: "\201C"
         display: inline-block
         margin-left: -0.5em
         margin-right: 0.1em
-    
-    &:after 
-        content: "\201D"
-    
 
+    &:after
+        content: "\201D"
