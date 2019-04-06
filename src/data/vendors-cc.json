@@ -1,25 +1,12 @@
 [
   {
     "booths": [
-      "65"
+      "72"
     ],
-    "firstname": "Susan",
-    "lastname": "Pierce",
-    "business": "Trees Atlanta",
+    "firstname": "Cindy",
+    "lastname": "Parker",
     "category": "Non profit (501c3)",
-    "class": "non-profit-501c3",
-    "url": "http://www.treesatlanta.org"
-  },
-  {
-    "booths": [
-      "67"
-    ],
-    "firstname": "Lucas",
-    "lastname": "Bitter",
-    "business": "Intown Lutheran Church",
-    "category": "Non profit (501c3)",
-    "class": "non-profit-501c3",
-    "url": "http://intownlutheran.com"
+    "class": "non-profit-501c3"
   },
   {
     "booths": [
@@ -53,22 +40,14 @@
   },
   {
     "booths": [
-      "72"
+      "76"
     ],
-    "firstname": "Cindy",
-    "lastname": "Parker",
+    "firstname": "Yvonne",
+    "lastname": "Chambliss",
+    "business": "Freedom Fellowship Church",
     "category": "Non profit (501c3)",
-    "class": "non-profit-501c3"
-  },
-  {
-    "booths": [
-      "73"
-    ],
-    "firstname": "Ashley",
-    "lastname": "Lee",
-    "business": "West Atlanta Modern Quilt Guild",
-    "category": "Non profit (501c3)",
-    "class": "non-profit-501c3"
+    "class": "non-profit-501c3",
+    "url": "http://discoverfreedomfellowship.org"
   },
   {
     "booths": [
@@ -83,14 +62,14 @@
   },
   {
     "booths": [
-      "76"
+      "67"
     ],
-    "firstname": "Yvonne",
-    "lastname": "Chambliss",
-    "business": "Freedom Fellowship Church",
+    "firstname": "Lucas",
+    "lastname": "Bitter",
+    "business": "Intown Lutheran Church",
     "category": "Non profit (501c3)",
     "class": "non-profit-501c3",
-    "url": "http://discoverfreedomfellowship.org"
+    "url": "http://intownlutheran.com"
   },
   {
     "booths": [
@@ -99,6 +78,27 @@
     "firstname": "Julia",
     "lastname": "Mayfield",
     "business": "LifeLine Animal Project",
+    "category": "Non profit (501c3)",
+    "class": "non-profit-501c3"
+  },
+  {
+    "booths": [
+      "65"
+    ],
+    "firstname": "Susan",
+    "lastname": "Pierce",
+    "business": "Trees Atlanta",
+    "category": "Non profit (501c3)",
+    "class": "non-profit-501c3",
+    "url": "http://www.treesatlanta.org"
+  },
+  {
+    "booths": [
+      "73"
+    ],
+    "firstname": "Ashley",
+    "lastname": "Lee",
+    "business": "West Atlanta Modern Quilt Guild",
     "category": "Non profit (501c3)",
     "class": "non-profit-501c3"
   }
