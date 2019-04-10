@@ -22,7 +22,9 @@
     .Vendor-business
         margin: 0
         padding-left: 1rem
-        padding-top: 0.75rem
+        padding-top: 1.75rem
+        @media (min-width: $bp-md)
+            padding-top: 0.75rem
 
     .Vendor-name
         margin: 0
@@ -30,7 +32,7 @@
 
     .Vendor-url
         display: block
-        font-size: 0.9375em
+        font-size: 0.75em
         padding-left: 1rem
         margin-bottom: 1em
 
@@ -42,6 +44,7 @@
         padding: 0.2em
         min-width: 10em
         text-align: center
+        font-family: $base-font-family-sans-serif
         font-size: 0.75em
         text-transform: uppercase
 
@@ -130,7 +133,7 @@
         .Vendor-category
             background: rgba(204, 105, 39, 0.3)
 
-    .Category--textile, .Category--textile-fiber 
+    .Category--textile, .Category--textile-fiber
         .Vendor-category
             background: rgb(88, 199, 239)
 

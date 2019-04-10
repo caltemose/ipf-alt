@@ -1,11 +1,11 @@
-.Note 
+.Note
     display: block
     font-size: 0.9375em
     font-style: italic
     color: #444
 
 
-.PlaceholderImage 
+.PlaceholderImage
     min-height: 100px
     margin: 1em 0
     padding: 2em
@@ -15,14 +15,15 @@
     color: #999
 
 
-.Todo 
+.Todo
     color: magenta
     font-style: italic
 
 
-.Button 
+.Button
     padding: 1.5em
-    min-width: 13em
+    // min-width: 13em
+    font-family: $base-font-family-sans-serif
     background-color: $brand-white !important // b/c of PromotionItem styling
     color: $brand-grey-dark
     border: 1px solid $brand-white
@@ -30,13 +31,16 @@
     text-transform: uppercase
     letter-spacing: 1px
 
-    &:hover, &:focus, &.is-selected 
+    &:hover, &:focus, &.is-selected
         background-color: $brand-white
         color: $brand-black !important // b/c of PromotionItem styling
         border: 1px solid $brand-grey-dark
 
+    &.alt-primary
+        background-color: $brand-green !important
+        color: $brand-black
 
-.Big 
+.Big
     font-size: 1.2em
     font-weight: bold
 
@@ -44,22 +48,22 @@
 .fineprint
     letter-spacing: 0
 
-.image--big-house 
+.image--big-house
     background-image: url(/assets/img/fpo/big-house.jpg)
     background-size: cover
     background-position: center center
 
-.image--art-2017 
+.image--art-2017
     background-image: url(/assets/img/2017/home-art-banner.jpg)
     background-size: cover
     background-position: center center
 
-.image--iris-2018 
+.image--iris-2018
     background-image: url(/assets/img/2018/iris.jpg)
     background-size: cover
     background-position: center
 
-.image--art-2018 
+.image--art-2018
     background-image: url(/assets/img/2018/home-art-banner.png)
     background-size: cover
     background-position: center center
@@ -98,11 +102,8 @@
 
         &.tns-nav-active
             background-color: $brand-green
-        
+
         @media(min-width: $bp-md)
             margin: 0 0.6em
             width: 1.25em
             height: 1.25em
-
-
-

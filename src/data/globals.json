@@ -6,18 +6,27 @@
             "year": "2019",
             "friday": {
                 "date": "April 26",
-                "hours": "12PM - 4PM"
+                "hours": {
+                    "start": "12:00 PM",
+                    "stop": "4:00 PM"
+                }
             },
             "saturday": {
                 "date": "April 27",
-                "hours": "11AM - 6PM"
+                "hours": {
+                    "start": "11:00 AM",
+                    "stop": "9:00 PM"
+                }
             },
             "sunday": {
                 "date": "April 28",
-                "hours": "11AM - 6PM"
+                "hours": {
+                    "start": "11:00 AM",
+                    "stop": "6:00 PM"
+                }
             },
             "butterfly": {
-                "start": "8PM",
+                "start": "8:00 PM",
                 "end": "midnight"
             }
         }
@@ -33,7 +42,14 @@
             "door": "25"
         },
         "hours": {
-            "weekend": "12PM - 6PM"
+            "friday": {
+                "start": "12:00 PM",
+                "stop": "6:00 PM"
+            },
+            "weekend": {
+                "start": "12:00 PM",
+                "stop": "6:00 PM"
+            }
         }
     },
     "nav": [

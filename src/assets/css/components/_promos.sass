@@ -103,6 +103,7 @@ $promo-padding: 3rem
 .PromotionItem
     position: relative
     margin-bottom: 0
+    padding-bottom: 1em
 
     > section
         padding-left: $promotion-padding-sm
@@ -129,12 +130,14 @@ $promo-padding: 3rem
         a
             // text-decoration: none
             background-color: transparent
+            // color: $brand-white
 
     &.alt-primary
         background-color: $brand-green
 
         a:hover, a:focus
-            color: darken($brand-green, 30%)
+            color: darken($brand-green, 40%)
+            // color: darken($brand-white, 30%)
 
     &.alt-secondary
         background-color: $brand-yellow

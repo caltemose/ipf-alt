@@ -8,21 +8,47 @@ block title
 
 block contents
 
-    .Hero
-        div
-            .HeroSlidePromo
-                .HeroSlidePromo-banner
+    include ../../_includes/_banner
+    
+    ul.PromotionGrid.u-container.u-container--noPad
+        li.PromotionItem.alt-primary
+            section
+                h3 Tour of Homes Tickets Available Online
+                p
+                    a.u-blockCentered.Button(href=globals.tour.tickets.url) Buy Now
+        
+        
+        //- li.PromotionItem.alt-tertiary
+        //- 
+        //- li.PromotionItem.alt-primary
+        //-     section
+        //-         h3 Volunteers Needed!
+        //-         p Help make a great festival better by volunteering.
+        //-         p
+        //-             a(href="/volunteer") Learn more
 
-                .HeroSlidePromo-copy
-                    h3 Festival Needs Volunteers!
-                    p
-                        | Festival doesn't happen without volunteers.
-                        = ' '
-                        a(href=globals.volunteerSite) Signup now
-                        = ' '
-                        | to volunteer your time and help make this year's festival great!
-                    
-                    a.u-blockCentered.Button(href=globals.volunteerSite) Sign Up
+        //- li.PromotionItem.alt-primary
+        //-     section
+        //-         h3 Remember:
+        //-         ul
+        //-             li No pets allowed at Festival
+        //-             li No bikes or scooters within the Festival footprint (<a href="/map">See map for footprint</a>)
+
+    //- .Hero
+    //-     div
+    //-         .HeroSlidePromo
+    //-             .HeroSlidePromo-banner
+    //- 
+    //-             .HeroSlidePromo-copy
+    //-                 h3 Festival Needs Volunteers!
+    //-                 p
+    //-                     | Festival doesn't happen without volunteers.
+    //-                     = ' '
+    //-                     a(href=globals.volunteerSite) Signup now
+    //-                     = ' '
+    //-                     | to volunteer your time and help make this year's festival great!
+    //- 
+    //-                 a.u-blockCentered.Button(href=globals.volunteerSite) Sign Up
 
     article.u-container
 
@@ -34,15 +60,14 @@ block contents
         
         dl.FaqList
             dt When does festival take place?
-            dd The Inman Park Spring Festival always take place on the last weekend of April. 
-            //- This year it runs from #{globals.ipf.date.saturday.date} - #{globals.ipf.date.sunday.date}.
+            dd The Inman Park Spring Festival always take place on the last weekend of April. This year it runs from #{globals.ipf.date.saturday.date} - #{globals.ipf.date.sunday.date}.
             
             //- TODO hours should come from global data
             dt What are the hours?
-            dd On Friday, the Tour of Homes runs from Noon until 4:00 p.m (there are no other Festival events on Friday.) On Saturday and Sunday the Tour of Homes runs from Noon until 6:00 p.m. On Saturday, Festival (excluding the Tour of Homes) begins at 11:00 a.m. and runs until 8:30 p.m. On Sunday, the times are 11:00 until 7:00 p.m.
+            dd On Friday, the Tour of Homes runs from Noon until #{globals.tour.hours.friday.stop} (there are no other Festival events on Friday.) On Saturday and Sunday the Tour of Homes runs from Noon until #{globals.tour.hours.weekend.stop}. On Saturday, Festival (excluding the Tour of Homes) begins at #{globals.ipf.date.saturday.hours.start} and runs until #{globals.ipf.date.saturday.hours.stop}. On Sunday, the times are #{globals.ipf.date.sunday.hours.start} until #{globals.ipf.date.sunday.hours.stop}.
             
             dt When is the parade?
-            dd The parade occurs on Saturday at 2:00 p.m.
+            dd The parade occurs on Saturday at #{globals.events.parade.time}.
 
             dt Are Pets Allowed?
             dd No. Please remember that, by City of Atlanta Ordnance, pets are not allowed at Festivals, "unless part of a planned festival program or assisting persons with disabilities". This prohibition includes "dogs, cats, snakes, birds, pigs, etc.", and applies whether or not the pet is leashed. As the ordnance says, this is for the pet's protection as well as for the protection of festival patrons. Thanks!!
@@ -83,10 +108,10 @@ block contents
         
         dl.FaqList
             dt What are the hours?
-            dd On Friday, the Tour of Homes runs from Noon until 4:00 p.m (there are no other Festival events on Friday.) On Saturday and Sunday the Tour of Homes runs from Noon until 6:00 p.m. On Saturday, Festival (excluding the Tour of Homes) begins at 11:00 a.m. and runs until 8:30 p.m. On Sunday, the times are 11:00 until 7:00 p.m.
+            dd On Friday, the Tour of Homes runs from Noon until #{globals.tour.hours.friday.stop} (there are no other Festival events on Friday.) On Saturday and Sunday the Tour of Homes runs from Noon until #{globals.tour.hours.weekend.stop}. On Saturday, Festival (excluding the Tour of Homes) begins at #{globals.ipf.date.saturday.hours.stop} and runs until #{globals.ipf.date.saturday.hours.stop} On Sunday, the times are #{globals.ipf.date.sunday.hours.start} until #{globals.ipf.date.sunday.hours.stop}.
 
             dt When is the parade?
-            dd The parade occurs on Sat. at 2:00 p.m.
+            dd The parade occurs on Saturday at #{globals.events.parade.time}.
 
 
         h2 Food 
@@ -106,8 +131,8 @@ block contents
             dd Go to the <a href="/contact-us">Contact Us page</a> and send an e-mail request to Festival Sponsorships.
 
 
-        //- h2 Volunteer
-        //- 
-        //- dl.FaqList
-        //-     dt Where do you sign up?
-        //-     dd You can sign up online at <a href="#{globals.volunteerSite}">Signup.com</a>
+        h2 Volunteer
+        
+        dl.FaqList
+            dt Where do you sign up?
+            dd You can sign up online at <a href=globals.volunteerSite>Signup.com</a>

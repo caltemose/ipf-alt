@@ -7,6 +7,7 @@ block contents
 
     +secondaryNav(globals.events.nav, "tour of homes")
 
+    include ../../_includes/_banner
     //- +presentingSponsor("/assets/img/2017/sponsors/presenting-sponsors/north-american-properties.png", "North American Properties")
 
     article.u-container
@@ -15,17 +16,24 @@ block contents
         
         p The Tour of Homes is a self-conducted tour of some of the beautiful homes and buildings in Inman Park. See inside some of the glorious old Victorian homes or check out some of the beautiful remodeling jobs neighbors have completed on their houses.
 
-        p The home preview starts on Friday #{globals.ipf.date.friday.date} between #{globals.ipf.date.friday.hours} and continues through Saturday and Sunday between #{globals.tour.hours.weekend}.
+        p The home preview starts on Friday #{globals.ipf.date.friday.date} between #{globals.ipf.date.friday.hours.start} and #{globals.ipf.date.friday.hours.stop} and continues  Saturday and Sunday between #{globals.tour.hours.weekend.start} and #{globals.tour.hours.weekend.stop}.
 
         h2 Tour of Homes Tickets
 
         p Tour of Homes tickets are $#{globals.tour.cost.advance} in advance and $#{globals.tour.cost.door} starting the Friday of Festival.
-        //- #{globals.ipf.date.friday.date}.
 
-        //- include _paypal.jade
         include _ticketbud
 
-        //- include _tickets-local.jade
+        include _tickets-local
+        
+        h2 Important Details
+
+        ul
+            li One child under 12, no ticket required, may accompany and be supervised by each ticketed adult.
+            li If you buy tickets online, you must bring either your printed tickets attachment (pdf) or your phone with your email containing your tickets attachment.
+            li Tour tickets are valid the entire weekend of festival but each house can only be visited once per ticket.
+            li Discounted Home tour tickets ($5.00 off) are available until noon on the Friday Festival starts.
+
 
         //- h2 Tour of Homes Sponsors
         //- 

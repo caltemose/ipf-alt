@@ -8,6 +8,8 @@ block title
 
 block contents
 
+    include ../_includes/_banner
+
     article.u-container
 
         h1 About the Inman Park Festival
@@ -36,12 +38,13 @@ block contents
         h3 Admission
         
         p Admission to all Festival events, except the Tour of Homes, is free. 
-        //- Tour of Homes tickets are $#{globals.tour.cost.advance} in advance and $#{globals.tour.cost.door} starting Friday, #{globals.ipf.date.friday.date}.
+        
+        p Tour of Homes tickets are $#{globals.tour.cost.advance} in advance and $#{globals.tour.cost.door} starting Friday, #{globals.ipf.date.friday.date}.
 
         
         h3 Arrival
         
-        p Check out the <a href="/map">Map page</a> for an overview of important festival locations and for help getting here. <strong>We highly recommend not driving to the neighborhood.</strong> Walk, bike, Marta, Uber, Lyft - there are plenty of other options.
+        p Check out the <a href="/map">Map page</a> for an overview of important festival locations and for help getting here. <strong>We do not recommend driving to the neighborhood.</strong> Walk, bike, Marta, Uber, Lyft - there are plenty of other options.
         
         h3 FAQ
         
@@ -57,7 +60,7 @@ block contents
         p You can redeem your Ticketbud tickets for the official printed Tour of Homes booklet at any of the <a href="/map">ticket locations marked on the map with the ticket icon</a>.
         
         //- TODO globalize the times below.
-        //- p The home preview starts on Friday #{globals.ipf.date.friday.date} between #{globals.ipf.date.friday.hours} and continues through Saturday and Sunday between 12PM - 6PM.
+        //- p The home preview starts on Friday #{globals.ipf.date.friday.date} between #{globals.ipf.date.friday.hours.start} and #{globals.ipf.date.friday.hours.stop} and continues Saturday and Sunday between #{globals.ipf.tour.hours.weekend.start} and #{globals.ipf.tour.hours.weekend.stop}.
         
         p 
             | To find out more about the Tour of Homes and read about the homes on the tour, visit the
@@ -67,7 +70,7 @@ block contents
         
         h3 Parade
         
-        p The Festival Parade is a festival favorite that happens at 2PM on Saturday. Come see some of Atlanta's wild and quirky groups march through the streets of Inman Park. For more information, or to learn about applying to be in the festival parade, <a href="/events/parade">visit the parade page</a>.
+        p The Festival Parade is a festival favorite that happens at #{globals.events.parade.time} on Saturday. Come see some of Atlanta's wild and quirky groups march through the streets of Inman Park. For more information, or to learn about applying to be in the festival parade, <a href="/events/parade">visit the parade page</a>.
         
         h3 Music
         
@@ -83,9 +86,9 @@ block contents
         
         p Festival provides a dedicated space for kids to play that includes slides, obstacles courses, crafts, a great playground, riding toys for our youngest guests and other surprises, all of them FREE! Check the <a href="/events/kidszone">Kids' Zone page</a> for more details.
 
-        h3 Arts & Crafts Show and Street Market
+        h3 Arts &amp; Crafts Show and Street Market
         
-        p Browse many booths on the tree-shaded streets of Inman Park from 11AM to 6PM Saturday and Sunday during festival. The <a href="/booths/arts-crafts-market">Arts & Crafts Market</a> is a juried selection of more than 150 artists showcasing their work in a variety of media including sculpture, painting and photography. The <a href="/booths/street-market">Street Market</a> includes more than 250 booths of vendors selling antiques, handcrafted wares, clothing and a large variety of other items.
+        p Browse many booths on the tree-shaded streets of Inman Park from #{globals.ipf.date.saturday.hours.start} to #{globals.tour.hours.weekend.stop} Saturday and Sunday during festival. The <a href="/booths/arts-crafts-market">Arts & Crafts Market</a> is a juried selection of more than 150 artists showcasing their work in a variety of media including sculpture, painting and photography. The <a href="/booths/street-market">Street Market</a> includes more than 250 booths of vendors selling antiques, handcrafted wares, clothing and a large variety of other items.
 
 
     ul.PromotionGrid.u-container.u-container--noPad
@@ -97,16 +100,9 @@ block contents
         
         li.PromotionItem
             section
-                h3 Festival Music
-                p Check back later to see which bands are playing Festival #{globals.ipf.date.year}.
-            //- section
-            //-     h3 Festival Artwork Chosen
-            //- 
-            //-     p
-            //-         a(href="/art/2017/") Read the interview with local artist Mindy Phan.
-            //- 
-            //- .ArrowNav
-            //-     a(href="#") >
+                h3 Band Listing
+                p <a href="/events/music">Check the music page</a> to see which bands are playing this year's Festival.
+                //- p Check back later to see which bands are playing Festival #{globals.ipf.date.year}.
 
 
         li.PromotionItem.alt-secondary

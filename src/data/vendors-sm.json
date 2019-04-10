@@ -228,7 +228,7 @@
     ],
     "firstname": "Claire",
     "lastname": "Schlumberger",
-    "business": "Clair ThÃ© LLC",
+    "business": "Clair Th&eacute; LLC",
     "category": "Consumables",
     "class": "consumables",
     "url": "http://www.clairthe.com"
@@ -563,7 +563,7 @@
     "lastname": "Timmins",
     "category": "Jewelry",
     "class": "jewelry",
-    "url": "http://www.gibcobracelets.comandwww.perfecttoerings.com"
+    "url": "http://www.gibcobracelets.com"
   },
   {
     "booths": [

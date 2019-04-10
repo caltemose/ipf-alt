@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Test repo for improving process for IPF site.",
   "scripts": {
+    "html": "gulp markup",
     "start": "gulp dev",
     "build": "gulp build",
     "build:production": "NODE_ENV='production' gulp build",

@@ -9,7 +9,7 @@ ul.Vendors
                     if nameAsBusiness
                         h3.Vendor-business #{vendor.firstname} #{vendor.lastname}
                     else
-                        h3.Vendor-business= vendor.business
+                        h3.Vendor-business !{vendor.business}
                         p.Vendor-name #{vendor.firstname} #{vendor.lastname}
                     - var hasUrl = vendor.url !== ''
                     if hasUrl

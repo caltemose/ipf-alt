@@ -6,13 +6,18 @@ block title
 block contents
 
     +secondaryNav(globals.markets.nav, "become an exhibitor")
+    
+    include ../../_includes/_banner
 
     article.u-container
     
         h1 Become an Exhibitor
 
         if !globals.vendors.appActive && !global.offseason
-            p Exhibitor applications for this year's festival are now closed. Vendors will be notified of acceptance no later than #{globals.vendors.notification}.
+            p Exhibitor applications for this year's festival are now closed. 
+            
+            //- p Vendors will be notified of acceptance no later than #{globals.vendors.notification}.
+            p Accepted vendors have been notified.
 
         if globals.vendors.appActive
             p 
