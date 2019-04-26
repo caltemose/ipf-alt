@@ -44,7 +44,7 @@
         "hours": {
             "friday": {
                 "start": "12:00 PM",
-                "stop": "6:00 PM"
+                "stop": "4:00 PM"
             },
             "weekend": {
                 "start": "12:00 PM",
