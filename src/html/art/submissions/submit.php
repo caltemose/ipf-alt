@@ -69,7 +69,7 @@ $domain = "inmanparkfestival.org";
 # Make the call to the client.
 $result = $mgClient->sendMessage($domain, array(
     'from'    => 'Site Admin' . ' <' . 'support@inmanparkfestival.org' . '>',
-    'to'      => 'chad@chadzilla.com,ipnamarketing@gmail.com',
+    'to'      => 'chad@chadzilla.com' //,ipnamarketing@gmail.com',  
     'subject' => 'Email from Festival Contact Form',
     'text'    => $emailMsg
 ));
@@ -80,5 +80,3 @@ $res = json_encode($success);
 header('Content-type: application/json');
 echo $res;
 
-
-?>

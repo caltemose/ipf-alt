@@ -1,9 +1,8 @@
 <?php
-
+/*
 echo '{err:"' . $err . '"}';
 exit();
-
-/*
+*/
 
 $target_dir = 'uploads/';
 $uploadOk = 1;
@@ -37,7 +36,6 @@ if (!in_array($imageFileType, ['jpg', 'jpeg', 'png', 'pdf', 'gif'])) {
     $uploadOk = 0;
 }
 
-
 // Check if $uploadOk is set to 0 by an error
 if ($uploadOk) {
     header('Content-type: application/json');
@@ -57,5 +55,3 @@ if ($uploadOk) {
         echo '{err: "Sorry, there was an error uploading your file."}';
     }
 }
-?>
-*/
