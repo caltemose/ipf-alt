@@ -10,8 +10,9 @@ exit();
 // ACTIVE FORM - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 function sendError ($err) {
-  echo '{err:"' . $err . '"}';
-  exit();
+    header('Content-type: application/json');
+    echo '{err:"' . $err . '"}';
+    exit();
 }
 
 function cleanInput ($input) {
@@ -69,10 +70,11 @@ $domain = "inmanparkfestival.org";
 # Make the call to the client.
 $result = $mgClient->sendMessage($domain, array(
     'from'    => 'Site Admin' . ' <' . 'support@inmanparkfestival.org' . '>',
-    'to'      => 'chad@chadzilla.com' //,ipnamarketing@gmail.com',  
+    'to'      => 'chad@chadzilla.com', 
     'subject' => 'Email from Festival Contact Form',
     'text'    => $emailMsg
 ));
+//,ipnamarketing@gmail.com',  
 
 $success["result"] = $result;
 $res = json_encode($success);

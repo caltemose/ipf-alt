@@ -1,5 +1,6 @@
 import axios from 'axios'
 import Dropzone from 'dropzone'
+import serialize from 'form-serialize'
 
 const FORM_ID = 'imagedrop'
 
@@ -83,6 +84,7 @@ const onFileComplete = (file) => {
         formData.images = getImages()
 
         console.log(formData)
+        console.log(serialize($form))
 
         axios
             .post('submit.php', formData)
