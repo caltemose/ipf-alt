@@ -1,4 +1,4 @@
-// import axios from 'axios'
+import axios from 'axios'
 import Dropzone from 'dropzone'
 
 const FORM_ID = 'imagedrop'
@@ -81,12 +81,17 @@ const onFileComplete = (file) => {
         formData.artistPhone = $phone.value
         formData.artistEmail = $email.value
         formData.images = getImages()
+
         console.log(formData)
-        
-        // $.post('submit.php', formData, function (res) {
-        //     hideLoadingState()
-        //     showResults()
-        // })
+
+        axios
+            .post('submit.php', formData)
+            .then(res => {
+                console.log(res)
+                hideLoadingState()
+                showResults()
+            })
+            .catch(err => console.log(err))
     }
 }
 
@@ -122,8 +127,6 @@ const submitForm = (event) => {
         errorMsg += 'You must submit at least one art file.'
     }
     errorMsg += '</p>'
-    console.log(isValid)
-    console.log(errorMsg)
 
     if (isValid) {
         showLoadingState()
