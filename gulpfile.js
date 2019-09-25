@@ -189,7 +189,7 @@ function watchAll () {
 }
 
 function minify () {
-    return src(_dest + '/assets/js/home.js')
+    return src(_dest + '/assets/js/home.js') // this can't be right...
         .pipe(uglify())
         .pipe(dest(_dest + '/assets/js/'))
 }

@@ -1,8 +1,14 @@
 <?php
 
+/*
+// INACTIVE FORM - - - - - - - - - - - - - - - - - - - - - - - - 
 echo '{err:"' . $err . '"}';
 exit();
-/*
+*/
+
+
+// ACTIVE FORM - - - - - - - - - - - - - - - - - - - - - - - - - 
+
 function sendError ($err) {
   echo '{err:"' . $err . '"}';
   exit();
@@ -52,7 +58,6 @@ for($i=0; $i<count($images); $i++) {
   $emailMsg .= $images[$i] . "\n";
 }
 
-
 require '../../contact-us/vendor/autoload.php';
 use Mailgun\Mailgun;
 require '../../contact-us/_config.php';
@@ -72,9 +77,8 @@ $result = $mgClient->sendMessage($domain, array(
 $success["result"] = $result;
 $res = json_encode($success);
 
-
 header('Content-type: application/json');
 echo $res;
-// echo '{"msg":"' . $emailMsg .  '"}';
-*/
+
+
 ?>
