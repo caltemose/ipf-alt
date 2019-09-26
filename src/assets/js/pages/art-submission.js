@@ -45,6 +45,8 @@ const initDropzone = () => {
     dz.on('addedfile', (file) => {
         onFileAdded(file)
     })
+
+    console.log(dz)
 }
 
 const onFileAdded = (file) => {
@@ -70,6 +72,21 @@ const onFileSending = (file) => {
 }
 
 const onFileComplete = (file) => {
+    let formData = {}
+    formData.artistName = $name.value
+    formData.artistPhone = $phone.value
+    formData.artistEmail = $email.value
+    formData.images = getImages()
+
+    let serialized = ''
+    serialized += `artistName=${$name.value}&artistPhone=${$phone.value}&artistEmail=${$email.value}`
+    serialized += `&images=${formData.images.join(',')}`
+
+    console.log(serialized)
+    console.log(formData)
+    console.log(serialize($form))
+
+    // TODO check for non-JSON responses
     const response = JSON.parse(file.xhr.response)
     const uuid = file.upload.uuid
     if (files[uuid]) {
@@ -77,15 +94,6 @@ const onFileComplete = (file) => {
         files[uuid].url = response.http_referer + response.file
     }
     if (allFilesComplete()) {
-        let formData = {}
-        formData.artistName = $name.value
-        formData.artistPhone = $phone.value
-        formData.artistEmail = $email.value
-        formData.images = getImages()
-
-        console.log(formData)
-        console.log(serialize($form))
-
         axios
             .post('submit.php', formData)
             .then(res => {
