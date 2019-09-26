@@ -2,24 +2,24 @@
     "ipf": {
         "title": "Inman Park Festival",
         "date": {
-            "annual": "48",
-            "year": "2019",
+            "annual": "49",
+            "year": "2020",
             "friday": {
-                "date": "April 26",
+                "date": "April 24",
                 "hours": {
                     "start": "12:00 PM",
                     "stop": "4:00 PM"
                 }
             },
             "saturday": {
-                "date": "April 27",
+                "date": "April 25",
                 "hours": {
                     "start": "11:00 AM",
                     "stop": "9:00 PM"
                 }
             },
             "sunday": {
-                "date": "April 28",
+                "date": "April 26",
                 "hours": {
                     "start": "11:00 AM",
                     "stop": "6:00 PM"
@@ -31,10 +31,10 @@
             }
         }
     },
-    "offseason": false,
+    "offseason": true,
     "tour": {
         "tickets": {
-            "active": true,
+            "active": false,
             "url": "https://ipf.ticketbud.com/2019-tour-of-homes"
         },
         "cost": {
@@ -89,8 +89,8 @@
     "volunteerSite": "https://signup.com/go/JvQXwwg",
     "vendors": {
         "appActive": false,
-        "deadline": "March 9, 2019",
-        "notification": "March 26, 2019",
+        "deadline": "March 9, 2020",
+        "notification": "March 26, 2020",
         "site": "https://www.zapplication.org/event-info.php?ID=6787"
     },
     "events": {

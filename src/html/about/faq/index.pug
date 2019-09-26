@@ -10,12 +10,13 @@ block contents
 
     include ../../_includes/_banner
     
-    ul.PromotionGrid.u-container.u-container--noPad
-        li.PromotionItem.alt-primary
-            section
-                h3 Tour of Homes Tickets Available Online
-                p
-                    a.u-blockCentered.Button(href=globals.tour.tickets.url) Buy Now
+    if globals.tour.tickets.active
+        ul.PromotionGrid.u-container.u-container--noPad
+            li.PromotionItem.alt-primary
+                section
+                    h3 Tour of Homes Tickets Available Online
+                    p
+                        a.u-blockCentered.Button(href=globals.tour.tickets.url) Buy Now
         
         
         //- li.PromotionItem.alt-tertiary

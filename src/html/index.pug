@@ -11,19 +11,20 @@ block contents
     
     .Hero
         .carousel
-            .HeroSlidePromo
-                .HeroSlidePromo-banner
+            //- VOLUNTEER PROMO SLIDE
+            //- .HeroSlidePromo
+            //-     .HeroSlidePromo-banner
         
-                .HeroSlidePromo-copy
-                    h3 Festival Needs Volunteers!
-                    p
-                        | Festival doesn't happen without volunteers.
-                        = ' '
-                        a(href=globals.volunteerSite) Signup now
-                        = ' '
-                        | to volunteer your time and help make this year's festival great!
+            //-     .HeroSlidePromo-copy
+            //-         h3 Festival Needs Volunteers!
+            //-         p
+            //-             | Festival doesn't happen without volunteers.
+            //-             = ' '
+            //-             a(href=globals.volunteerSite) Signup now
+            //-             = ' '
+            //-             | to volunteer your time and help make this year's festival great!
         
-                    a.u-blockCentered.Button(href=globals.volunteerSite) Sign Up
+            //-         a.u-blockCentered.Button(href=globals.volunteerSite) Sign Up
 
             div
                 +slideImage('/assets/img/2019/hero-big-mask', 'Parade Block Heroes')
@@ -50,15 +51,16 @@ block contents
                 p *Please remember that pets, bicycles and scooters are not allowed at festival.*
 
     .PromotionItemHero.u-container.u-container--noPad
-        .PromotionItemHero-image.image--art-2019
-        .PromotionItemHero-text
-            section
-                h2 Tickets Available!
+        //- .PromotionItemHero-image.image--art-2019
+        //- .PromotionItemHero-text
+            //- section
+            //-     h2 Tickets Available!
                 
-                p Tour of Homes tickets can now be purchased online and at neighborhood locations.
+            //-     p Tour of Homes tickets can now be purchased online and at neighborhood locations.
                 
-                p
-                    a(href="/events/tour-of-homes#buy-tickets") Learn More
+            //-     p
+            //-         a(href="/events/tour-of-homes#buy-tickets") Learn More
+            
             //- section
             //-     h2 Art Chosen!
             //- 
@@ -79,11 +81,12 @@ block contents
         //- 
         //-         p Festival planning is well-underway. Look here soon for Volunteer signup and other announcements as we get closer to this year's festival.
         
-        //- .PromotionItemHero-text
-        //-     section
-        //-         h2 Off Season
-        //-         //- p Next year's Festival details will be available online later this year.
-        //-         p Look for this year's Festival updates in the forthcoming months.
+        .PromotionItemHero-image.image--iris-2018
+        .PromotionItemHero-text
+            section
+                h2 Off Season
+                //- p Next year's Festival details will be available online later this year.
+                p Look for this year's Festival updates in the forthcoming months.
 
         //- .PromotionItemHero-text
         //-     section
@@ -108,24 +111,21 @@ block contents
         //-         p
         //-             a(href="/art/submissions") Learn More
 
+        //- li.PromotionItem.alt-primary
+        //-     section
+        //-         h3 Festival 2019 Art Chosen!
+        //-         p The artwork for this year's festival posters and shirts has been selected.
+        //-         p
+        //-             a(href="/art/2019") View the Art
+
+
         li.PromotionItem.alt-primary
             section
-                h3 Festival 2019 Art Chosen!
-                p The artwork for this year's festival posters and shirts has been selected.
+                h3 Tour of Homes
                 p
-                    a(href="/art/2019") View the Art
+                    a(href="/events/tour-of-homes") Review the homes that toured this past festival.
 
 
-        //- li.PromotionItem
-        //-     section
-        //-         h3 Tour of Homes
-        //-         p
-        //-             a(href="/events/tour-of-homes") Review the homes that toured this past festival.
-        //-     .ArrowNav
-        //-         a(href="#") >
-
-        //- Buy Tour Tickets Now
-        //-
         //- li.PromotionItem
         //-     section
         //-         h3 #{globals.ipf.date.year} Art Contest
