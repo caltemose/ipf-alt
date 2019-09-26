@@ -8,7 +8,7 @@ block contents
 
         h1 Call for Design Entries
 
-        if !globals.art.submissions.active
+        if globals.art.submissions.active
             //- CLOSED
             p The call for entries is closed. Check the <a href="/art">Art page</a> for details about this year's winner when they are announced.
 
@@ -60,22 +60,19 @@ block contents
                 li T-shirts will be printed on various colored backgrounds, TBD by the Festival Committee.
                 li Hand drawn artwork must be digitized as a single color in an AI file, with additional colors in separated vector layers in the same AI file. The Designer must provide this layered file. (Not required for Contest submission, but required if submission is selected.)
                 li The winning design becomes the property of Inman Park Neighborhood Association.
-
-            h2 Questions?
-
-            p
-                | Contact the Marketing Committee at
-                |
-                a(href="mailto:ipnamarketing@gmail.com") ipnamarketing@gmail.com
-                | 
-                | with questions.
+                li
+                    | Contact the Marketing Committee at
+                    |
+                    a(href="mailto:ipnamarketing@gmail.com") ipnamarketing@gmail.com
+                    | 
+                    | with questions.
+            
+            h2 Submit
 
             #formResults.u-displayNone
                 p Thanks for your submission. We'll be in touch.
 
             #formContainer
-                p All artwork submitted will be owned by Inman Park Festival.
-
                 p You may submit a maximum of three (3) entries.
 
                 form(action="upload.php" method="post" enctype="multipart/form-data" class="dropzone")#imagedrop
