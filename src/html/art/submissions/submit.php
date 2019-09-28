@@ -1,4 +1,7 @@
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 
 /*
 // INACTIVE FORM - - - - - - - - - - - - - - - - - - - - - - - - 
@@ -21,13 +24,29 @@ function cleanInput ($input) {
 
 $target_dir = "uploads/";
 
-$artistName = cleanInput($_POST['artistName']);
-$artistPhone = cleanInput($_POST['artistPhone']);
-$artistEmail = cleanInput($_POST['artistEmail']);
-$images = $_POST['images'];
+$json = file_get_contents('php://input');
+$post_data = json_decode($json);
+
+$artistName = cleanInput($post_data->artistName);
+$artistPhone = cleanInput($post_data->artistPhone);
+$artistEmail = cleanInput($post_data->artistEmail);
+$images = $post_data->images;
 
 $validPhone = false;
 $validEmail = false;
+
+
+/*
+stdClass Object ( 
+    [artistName] => Chad Altemose
+    [artistPhone] => 4045634039
+    [artistEmail] => chad@chadzilla.com
+    [images] => Array (
+        [0] => http://inmanparkfestival.org/art/submissions/uploads/1569583390--is-near-death9.png 
+    ) 
+)
+*/
+
 
 if (!isset($artistName) || strlen($artistName) < 2) {
   sendError("You must supply a valid name.");
@@ -81,4 +100,3 @@ $res = json_encode($success);
 
 header('Content-type: application/json');
 echo $res;
-
