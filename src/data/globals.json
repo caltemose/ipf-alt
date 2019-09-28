@@ -137,7 +137,7 @@
     },
     "art": {
         "submissions": {
-            "active": false,
+            "active": true,
             "deadline": "Dec 15, 2019"
         }
     },

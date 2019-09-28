@@ -8,7 +8,7 @@ block contents
 
         h1 Call for Design Entries
 
-        if globals.art.submissions.active
+        if !globals.art.submissions.active
             //- CLOSED
             p The call for entries is closed. Check the <a href="/art">Art page</a> for details about this year's winner when they are announced.
 
@@ -100,12 +100,12 @@ block contents
 
                         input(type="submit" name="submit" value="Submit")
 
-        if !globals.art.submissions.active
+        if globals.art.submissions.active
             #submissionLoader.SubmissionLoader
                 img(src="/assets/img/ajax-loader.gif" alt="submitting files...")
 
 block scripts
-    if !globals.art.submissions.active
+    if globals.art.submissions.active
         script(src="/assets/js/art-submission.js")
 
 //- 3 things to reverse !globals: first conditional, submission loader, page script
