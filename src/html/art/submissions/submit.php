@@ -36,18 +36,6 @@ $validPhone = false;
 $validEmail = false;
 
 
-/*
-stdClass Object ( 
-    [artistName] => Chad Altemose
-    [artistPhone] => 4045634039
-    [artistEmail] => chad@chadzilla.com
-    [images] => Array (
-        [0] => http://inmanparkfestival.org/art/submissions/uploads/1569583390--is-near-death9.png 
-    ) 
-)
-*/
-
-
 if (!isset($artistName) || strlen($artistName) < 2) {
   sendError("You must supply a valid name.");
 }
@@ -89,11 +77,10 @@ $domain = "inmanparkfestival.org";
 # Make the call to the client.
 $result = $mgClient->sendMessage($domain, array(
     'from'    => 'Site Admin' . ' <' . 'support@inmanparkfestival.org' . '>',
-    'to'      => 'chad@chadzilla.com', 
+    'to'      => 'chad@chadzilla.com,ipnamarketing@gmail.com', 
     'subject' => 'Email from Festival Contact Form',
     'text'    => $emailMsg
 ));
-//,ipnamarketing@gmail.com',  
 
 $success["result"] = $result;
 $res = json_encode($success);
