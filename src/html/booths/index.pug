@@ -30,9 +30,13 @@ block contents
 
         h1 Arts &amp; Crafts Show and Street Vendors
 
-        p If you're looking for gifts, new clothes, art for your house or just about anything else, you are likely to find what you're looking for at one of the many vendor booths lining the tree-shaded streets during the Inman Park Festival.
+        p 
+            strong If you are interested in becoming a vendor,
+            |
+            | please visit our 
+            a(href='./become-an-exhibitor') Become an Exhibitor page.
 
-        p <strong>Vendor applications are closed</strong> but you can check back on this site in the fall to find instructions on how to become a vendor.
+        p If you're looking for gifts, new clothes, art for your house or just about anything else, you are likely to find what you're looking for at one of the many vendor booths lining the tree-shaded streets during the Inman Park Festival.
 
         h2 Booths
         
@@ -65,43 +69,21 @@ block contents
                 = ' '
                 a(href="/booths/become-an-exhibitor") visit the Become an Exhibitor page for more info.
         
-        if globals.offSeason && !globals.vendors.appActive
+        if !globals.vendors.appActive
             p Vendor applications are closed in the off-season but you can check back on this site in the fall to find instructions on how to become a vendor. We use <a href="https://www.zapplication.org/" target="_blank">ZAPP</a> to manage vendor applications &ndash; feel free to visit their site to create an account at any time.
 
-        h2 2018 Arts &amp; Crafts Winners
+        h2 2019 Arts &amp; Crafts Winners
 
+        p 
+            a(href='./previous-winners') Click here to see winners from previous years.
+        
         .BoothWinners
-            +boothWinner("First Place", "Greg Stones", "Paintings", "http://www.gregstones.com/")
-                        
-            +boothWinner("Second Place", "Matthew Terrell", "Photography", "http://www.itsjustmematt.com/") 
-
-            +boothWinner("Third Place", "Emma Knapp", "Jewelry", "http://www.etsy.com/shop/ironangeljewelry")
+            +boothWinner("First Place", "Andrew Swartz", "Mixed Media", "http://www.skullgarden.net/")
+            +boothWinner("Second Place", "Veronique Harris", "Ceramics", "https://www.veroniqueharris.com/") 
+            +boothWinner("Third Place", "John Fesken", "Mixed Media")
 
             .BoothWinner.BoothWinner--honorable
                 h3 Honorable Mentions
-                
-                +boothWinnerHonorable("Melissa Steurer", "Leather", "https://steurer.co")
-
-                +boothWinnerHonorable("Kathryn Wieldraayer", "Fiber", "https://www.rangemarktextiles.com/")
-
-                +boothWinnerHonorable("Eileen Tantillo", "Ceramics", "http://www.eileentantilloart.com/")
-
-        //- h2 2017 Arts &amp; Crafts Winners
-        //- 
-        //- .BoothWinners
-        //-     +boothWinner("First Place", "Leif Johansen", "Shadow box drawings & paintings", "http://www.leiferikjohansen.com/")
-        //- 
-        //-     +boothWinner("First Place", "Leif Johansen", "Shadow box drawings & paintings", "http://www.leiferikjohansen.com/")
-        //- 
-        //-     +boothWinner("Second Place", "Linda Hill", "Paintings", "http://www.heartscapedesigns.com/") 
-        //- 
-        //-     +boothWinner("Third Place", "Natacha Monnalisa", "Wood burning drawings", "http://www.natachamonnalisa.com/")
-        //- 
-        //-     .BoothWinner.BoothWinner--honorable
-        //-         h3 Honorable Mentions
-        //- 
-        //-         +boothWinnerHonorable("Hannah Long", "Jewelry", "http://www.etsy.com/shop/hannahlongjewelry")
-        //- 
-        //-         +boothWinnerHonorable("Megan Smith", "Stuffed animals", "http://www.noblesmith.design")
-        //- 
-        //-         +boothWinnerHonorable("Glenn Lewis", "Photography", "http://www.glennlewisphotography.com/")
+                +boothWinnerHonorable("Dee Mirkin", "Mixed Media")
+                +boothWinnerHonorable("Jake Mosher", "Photography", "http://www.jakemosher.com")
+                +boothWinnerHonorable("Jill Sharp", "Jewelry", "http://www.bpjewelry.com/")

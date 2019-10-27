@@ -25,13 +25,24 @@ block contents
             //-             | to volunteer your time and help make this year's festival great!
         
             //-         a.u-blockCentered.Button(href=globals.volunteerSite) Sign Up
+
+            if globals.vendors.appActive
+                .HeroSlidePromo
+                    .HeroSlidePromo-vendors
+                        div
+                            h2 Now accepting vendor applications!
+                            p 
+                                a(href=globals.vendors.site) Apply for a booth on here Zapp
+                            p
+                                a(href='/booths/become-a-vendor') Learn more on our Become a Vendor page.
+
             div
                 +slideImage('/assets/img/2020/hero-art-submission', 'Art Submission for 2020 Festival is live!', '/art/submissions')
 
             div
                 +slideImage('/assets/img/2019/hero-big-mask', 'Parade Block Heroes')
-            div
-                +slideImage('/assets/img/2019/hero-gnome-parade', 'Gnomes in the Festival Parade')
+            //- div
+            //-     +slideImage('/assets/img/2019/hero-gnome-parade', 'Gnomes in the Festival Parade')
             div
                 +slideImageXL('/assets/img/2019/hero-balloon-man', 'Man making balloon animals')
             div
@@ -143,11 +154,19 @@ block contents
         //-         h3 #{globals.ipf.date.year} Art Contest
         //-         p The call for artwork entries deadline has passed. Check back for details on this year's winning artwork.
         //-         
-        
+
         li.PromotionItem
             section
-                h3 Golf Cart Map
-                p If you're a neighbor who plans on having a personal golf cart during festival, <a href="/assets/static/archive/2019/Golf-Cart-Map-2019.pdf">please see the updated map of allowed and prohibited areas for carts</a>.
+                h3 Now accepting vendor applications
+                p 
+                    | Check out our 
+                    |
+                    a(href='/booths/become-an-exhibitor') Become an Exhibitor page to learn more.
+        
+        //- li.PromotionItem
+        //-     section
+        //-         h3 Golf Cart Map
+        //-         p If you're a neighbor who plans on having a personal golf cart during festival, <a href="/assets/static/archive/2019/Golf-Cart-Map-2019.pdf">please see the updated map of allowed and prohibited areas for carts</a>.
                 //- ul
                 //-     li Friday #{globals.ipf.date.friday.date} (Tour of Homes only) 
                 //-     li Saturday #{globals.ipf.date.saturday.date} 
