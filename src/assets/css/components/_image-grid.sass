@@ -1,0 +1,32 @@
+.ImageGrid
+    margin: 0 auto
+    width: 70%
+
+    @media (min-width: $bp-md)
+        width: 100%
+
+.ImageGridItem
+    margin-bottom: 2em
+
+    img
+        display: block
+        margin: 0 auto
+        max-width: 100%
+
+    @media (min-width: $bp-md)
+        display: inline-block
+        vertical-align: middle
+        width: 48%
+
+        img
+            max-width: 70%
+
+    @media (min-width: $bp-lg)
+        display: inline-block
+        vertical-align: middle
+        width: 33%
+
+        img
+            margin: 0 auto
+            max-width: 70%
+            max-height: 350px

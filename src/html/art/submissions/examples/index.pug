@@ -1,0 +1,31 @@
+extends ../../../_templates/layout
+
+block title
+    title #{globals.ipf.title} Festival Art from Previous Years
+
+block contents
+    article.u-container
+
+        h1 Festival Art from Previous Years
+
+        .ImageGrid
+            .ImageGridItem
+                img(src='/assets/img/2019/festival-artwork.jpg' alt='2019 Inman Park Festival Artwork')
+            .ImageGridItem
+                img(src='/assets/img/2018/festival-artwork.png' alt='2018 Inman Park Festival Artwork')
+            .ImageGridItem
+                img(src='/assets/img/2017/art/festival-art-2017-ming-phan-small.jpg' alt='2017 Inman Park Festival Artwork')
+            .ImageGridItem
+                img(src='/assets/img/2020/festival-artwork-2016.jpg' alt='2016 Inman Park Festival Artwork')
+            .ImageGridItem
+                img(src='/assets/img/2020/festival-artwork-2015.jpg' alt='2015 Inman Park Festival Artwork')
+            .ImageGridItem
+                img(src='/assets/img/2020/festival-artwork-2014.jpg' alt='2014 Inman Park Festival Artwork')
+
+
+        p
+            a(href="/art/submissions") Visit the Submissions Page
+            | 
+            ||
+            |
+            a(href="/art") Visit the Festival Art Page
