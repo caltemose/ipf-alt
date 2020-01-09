@@ -36,8 +36,8 @@ block contents
                             p
                                 a(href='/booths/become-a-vendor') Learn more on our Become a Vendor page.
 
-            div
-                +slideImage('/assets/img/2020/hero-art-submission', 'Art Submission for 2020 Festival is live!', '/art/submissions')
+            //- div
+            //-     +slideImage('/assets/img/2020/hero-art-submission', 'Art Submission for 2020 Festival is live!', '/art/submissions')
 
             div
                 +slideImage('/assets/img/2019/hero-big-mask', 'Parade Block Heroes')
@@ -88,20 +88,28 @@ block contents
                 
         //-         p Festival thrives on volunteers. <a href="#{globals.volunteerSite}">Sign up now on our volunteer site</a>.
 
+        //- .PromotionItemHero-image.image--big-house
         //- .PromotionItemHero-text
         //-     section
-        //-         h2 Getting Ready
-        //- 
-        //-         p Festival planning is well-underway. Look here soon for Volunteer signup and other announcements as we get closer to this year's festival.
+        //-         h2 Festival is Coming!
         
+        //-         p Look here soon for Volunteer signup and other announcements as we get closer to this year's festival.
 
-        .PromotionItemHero-image.image--art-submission
+        .PromotionItemHero-image.image--parade
         .PromotionItemHero-text
             section
-                h3 Submit your art!
-                p We are now accepting submissions for the 2020 Festival artwork. Visit the submissions page to learn more.
-                p
-                    a(href="/art/submissions") Learn more here
+                h3 Want to March in the Parade?
+                p 
+                    a(href=globals.events.parade.application) Download the Parade Application Here
+        
+
+        //- .PromotionItemHero-image.image--art-submission
+        //- .PromotionItemHero-text
+        //-     section
+        //-         h3 Submit your art!
+        //-         p We are now accepting submissions for the 2020 Festival artwork. Visit the submissions page to learn more.
+        //-         p
+        //-             a(href="/art/submissions") Learn more here
 
         //-        
         //- .PromotionItemHero-image.image--iris-2018

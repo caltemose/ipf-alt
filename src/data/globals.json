@@ -114,7 +114,7 @@
         ],
         "parade": {
             "time": "2:00 PM",
-            "application": "/assets/static/archive/2019/2019-Parade-Application.pdf",
+            "application": "/assets/static/archive/2020/ParadeApp2020.pdf",
             "applicationActive": true
         }
     },
@@ -137,7 +137,7 @@
     },
     "art": {
         "submissions": {
-            "active": true,
+            "active": false,
             "deadline": "Dec 15, 2019"
         }
     },
