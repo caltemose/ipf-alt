@@ -22,5 +22,42 @@ const carouselConfig = {
 
 const carousels = document.getElementsByClassName('carousel')
 if (carousels.length) {
-    const slider = tns(carouselConfig)
+    tns(carouselConfig)
+}
+
+// instantiate accordions if any exist
+const accordions = document.getElementsByClassName('Accordion');
+if (accordions.length) {
+    for(var i=0; i<accordions.length; i++) {
+        const accordion = accordions[i];
+        const triggers = accordion.querySelectorAll('.AccordionTrigger');
+        if (triggers.length) {
+            for(var j=0; j<triggers.length; j++) {
+                triggers[j].addEventListener('click', (event) => {
+                    const parentEl = event.target.parentElement;
+                    const nextEl = event.target.nextElementSibling;
+                    let hideNextEl;
+                    if (nextEl && nextEl.classList.contains('AccordionContent')) {
+                        hideNextEl = !nextEl.classList.contains('hide');
+                    }
+
+                    if (nextEl && parentEl && parentEl.classList.contains('Accordion')) {
+                        // reset all
+                        const allAccordionContent = parentEl.querySelectorAll('.AccordionContent'); 
+                        if (allAccordionContent && allAccordionContent.length) {
+                            for(var k=0; k<allAccordionContent.length; k++) {
+                                allAccordionContent[k].classList.add('hide');
+                            }
+                        }
+                        // select current
+                        if (hideNextEl) {
+                            nextEl.classList.add('hide');
+                        } else {
+                            nextEl.classList.remove('hide');
+                        }
+                    }
+                })
+            }
+        }
+    }
 }

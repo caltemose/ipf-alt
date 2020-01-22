@@ -1,0 +1,20 @@
+.AccordionTrigger
+    display: block
+    position: relative
+
+    &::before
+        position: absolute
+        content: '\25b6' 
+        font-size: 0.4em
+        top: 0.1em
+        left: -1.1em
+
+    &:hover
+        cursor: pointer
+
+
+.AccordionContent
+    display: block
+
+.AccordionContent.hide
+    display: none

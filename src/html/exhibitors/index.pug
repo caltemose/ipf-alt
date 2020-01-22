@@ -1,0 +1,220 @@
+extends ../_templates/layout
+
+
+block title
+    title #{globals.ipf.title} | Exhibitor Information
+
+block contents
+
+    //- +secondaryNav(globals.exhibitors.nav)
+
+    article.u-container
+
+        h1 Exhibitor Information
+
+        p The following sections contain all the information needed for exhibitors to understand the application process, festival rules and expectations of exhibitors and other useful information for vendors.
+
+        p Each section title can be clicked to hide or show that section.
+
+        .Accordion
+       
+            h2.AccordionTrigger(name='eventInformation') Event Information
+
+            .AccordionContent
+                p We welcome Exhibitors to the 49th Inman Park Festival in the Historic Inman Park Neighborhood! This event is a mainstay in the Atlanta Arts community. The Inman Park Festival will showcase a wide variety of artistic disciplines including painting, metalwork, fiber art, mixed media, fiber, ceramics, jewelry, woodcraft and much more.
+                p 
+                    | To apply to festival, please use this link: 
+                    a(href='https://www.zapplication.org/event-info.php?ID=7721')
+                    | or search event &ldquo;Inman Park&rdquo; in Zapplication.
+                p 
+                    | For specific questions, please e-mail 
+                    a(href="mailto:artinmanpark@gmail.com") artinmanpark@gmail.com
+                p Held in one of the oldest neighborhoods in Metro Atlanta, the Inman Park Festival is a two-day celebration of community and tradition presented by the Inman Park Neighborhood Association, for people of all ages, races, customs, and interests.&nbsp;The Festival is a major celebration of the arts while honoring the rich history of our community.&nbsp;At this festival, there is something for everyone: fine arts and crafts, a children&apos;s play area, local food and beverage concessions and live entertainment. All this in the ambiance of Atlanta&apos;s most lovely and historic neighborhood.
+                p The Festival is entirely run by volunteers, and all proceeds go back to various neighborhood and other in-town initiatives such as playgrounds, sidewalks, and general beautification.
+                p Approximately 400 exhibitors will participate in this annual event.
+                p Festival Hours: Saturday 11:00AM-7:00PM, Sunday 11:00AM-6:00PM
+
+            h2.AccordionTrigger#importantDates Important Dates
+
+            .AccordionContent.hide
+                p Start accepting applications: October 1, 2019
+                p Application deadline: March 6, 2020
+                p Jury dates: January 19, February 9, February 23, and March 7, 2020
+                p Accept invitation &amp; purchase deadline: March 15, 2020
+                p Event Dates: April 25-26, 2020
+                p Load-in: Saturday 25, 2020 between 6:30AM-10:30AM
+
+            h2.AccordionTrigger(name='feeStructure') Fee Structure
+
+            .AccordionContent.hide
+                p The festival takes place rain or shine, and the application and booth fees are non-refundable. All spaces are in the streets of Inman Park.
+
+                p 
+                    | Application fee: $25
+                    br
+                    | Booth fee (10' deep x 15' wide): $335
+                    br
+                    | For each additional booth: $335
+
+                p Non-profit organizations with a 501c3 status may apply to the Community Corner which is in one end of the neighborhood next to the Delta Park Music stage.
+                p
+                    | Application fee: $25
+                    br
+                    | Booth fee (10' deep x 15' wide): $100 
+
+                p After an invitation has been extended to the applicant, payment can be made through the shopping cart at Zapp. Once updated the shopping cart, it is possible to pay online using PayPal or by mailing a check to:
+                p
+                    | Inman Park Festival, Arts &amp; Crafts and Street Market
+                    br
+                    | 245 North Highland Avenue, NE
+                    br
+                    | Suite 230 – 218
+                    br
+                    | Atlanta, GA 30307-1909
+            
+            h2.AccordionTrigger Festival Rules
+
+            .AccordionContent.hide
+                ol
+                    li The Festival provides only the ground space for exhibitors. Each exhibitor must provide and prepare his/her own displays. Electricity is not provided. All tents must be secured and weighted.
+                    li The City of Atlanta festival ordinance requires that your tent must be certified as flame-proof. Please refer to Article IV, Sec. 142-42(e) of the Atlanta Municipal Code.
+                    li Prior to the Festival, exhibitors will be notified of their site location and detailed setup information. Plan to set up your booth on Saturday between 6:30AM-10:30AM. Please do not call for booth assignments, once assignment has been done, they will be posted on Zapp. You will also be informed about your location during check-in.
+                    li Set-up for the exhibition will be Saturday, April 25, from 6:30AM to 10:30AM. BOOTH PERMITS ARE DISTRIBUTED AT CHECK-IN ON SATURDAY MORNING. Festival volunteers will be at the exhibit area to direct you to your assigned booth for unloading. Vehicles (maximum two per booth for first booth, and one additional if you request additional booth spaces) should be parked in designated lots promptly after unloading.  Parking is limited; please pack accordingly. Parking details will be provided during the check-in process.  On street parking is available in the surrounding neighborhood. Paid parking options will also be available for festival guests and artists.
+                    li Vendor vehicles are limited in size. No trucks with dual axles and/or more than four wheels. Trailers can't be longer than 18' or taller than 7'4".
+                    li After unloading, the exhibitor's vehicles must be moved to designated parking. Vehicles will not be permitted to remain in the exhibition space during the Festival, nor may they enter the Festival footprint until approved by the off-duty police officers onsite during the whole Festival weekend.
+                    li Exhibitors shall be responsible for obtaining any required licenses, permits or approvals under state laws applicable to his/her activity at the Festival and for paying any taxes, sales taxes, fees or other charges that may be applicable to any Exhibitor's activity at the Festival.
+                    li The Festival is a rain or shine event. No refunds will be given for cancellations.
+                    li The Festival reserves the right to cancel an Exhibitor's contract. The Festival may require the Exhibitor to leave the Festival at any time if the Exhibitor is in violation of any rules and/or regulations stated herein.
+                    li No merchandise may be sold or displayed at the Inman Park Festival that creates a public nuisance or large quantities of litter, or which bears the Inman Park butterfly logo or the words &ldquo;Inman Park&rdquo; or any other wording that links the merchandise to Inman Park. Food or beverages may not be sold in the Arts &amp; Crafts or Street Market areas without prior approval. No amplified music, compressors or generators are allowed.
+                    li Pets are prohibited at the Festival by city ordinance Sec. 142-63(e). Inman Park Festival is a &ldquo;class B&rdquo; festival and anyone with a pet is subject to a citation from the Atlanta Police Department.
+                    li Security personnel will be provided, and all reasonable care exercised, but the Inman Park Festival shall not be responsible for loss of or damage to merchandise or for injury to anyone participating in the show. If insurance is desired, it must be secured by the exhibitor.
+                    li Items suitable for Street Market are handcrafted items, antiques, furniture, memorabilia, consumables such as soaps, lotions, and candles, and other unique items. Vendor applications will be reviewed and accepted/rejected as they are received and reviewed for appropriateness.
+                    li Five (5) representative artwork pictures plus one (1) booth picture must be submitted with the Zapplication application for the juried show (arts &amp; crafts). If several artists share a booth, pictures from all artists are required.
+                    li All work to be exhibited at the juried show (Arts &amp; Crafts) must be artist's original work. Manufactured or kit objects and/or ceramics cast from commercial molds will not be considered for the Arts &amp; Crafts Exhibition. Exhibition officials have the authority to reject or disqualify any work.
+                    li The Inman Park Arts &amp; Crafts Committee will jury all juried show applications and may accept or reject some or all the work represented by the images that accompany the application. The jury will meet on the following dates to accept/reject arts &amp; crafts applications: 01/19/20, 02/09/20, 02/23/20, and 03/07/20.
+                    li Applications will be juried as they are received (see schedule above), and when the slots are filled no more applications will be accepted.  Overflow or rejections from Arts &amp; Crafts will not automatically get a space in the Street Market area.
+                    li Judging of Arts &amp; Crafts exhibitors will begin at 12:00PM on Saturday 4/27/2019. First prize, $500; second prize, $300; third prize, $150; and three honorable mentions, $50 each.
+
+            h2.AccordionTrigger Exhibitor Categories
+
+            .AccordionContent.hide
+
+                h3 Juried and Non-Juried
+
+                p
+                    strong Ceramics:
+                    |
+                    | Original shaped and fired clay including earthenware, porcelain, and raku.
+
+                p
+                    strong Drawing/Printmaking:
+                    |
+                    | Original drawings made with pen, pencil, charcoal, pastels or chalk. Printmaking process may include pulled plates, linoleum prints, etching, engraving, silkscreen or lithography. All prints must be signed and numbered by the artist. Photocopies are not permitted.
+
+                p
+                    strong Fiber:
+                    |
+                    | Works created from fibers including basketry, batik, weaving, sewing, papermaking, knitting, and quilting.
+
+                p
+                    strong Glass:
+                    |
+                    | An object made of glass including blown, fused, stained, cast and molded.&nbsp; Embellishment of manufactured materials is not permitted.
+
+                p
+                    strong Handcraft:
+                    |
+                    | Handmade items made by the artist from manufactured, recycled, or repurposed materials transforming the combined materials into a unique product into a cohesive collection. The complete description of the items required.
+
+                p
+                    strong Jewelry:
+                    |
+                    | All Jewelry crafted from metal, glass, stone, clay, or other materials.  Commercial molds or casts are not permitted. At least 50% of the organic materials in the finished product used must be produced by the artist.
+
+                p
+                    strong Leather:
+                    |
+                    | Works created from leather materials.
+
+                p
+                    strong Metalwork:
+                    |
+                    | Functional and sculptural works incorporating metal.
+
+                p
+                    strong Mixed Media:
+                    |
+                    | Includes more than one type of physical material such as collage, paper, clay, fiber, glass, encaustic, pen and ink, paint, watercolor, or photography.
+
+                p
+                    strong Painting:
+                    |
+                    | The use of oils, acrylics, watercolors, and tempera suitable for hanging.
+
+                p
+                    strong Photography:
+                    |
+                    | Prints, transparencies or digital images made from the artist&rsquo;s original negative or taken with a digital camera that has been processed by the artist.
+
+                p
+                    strong Woodwork:
+                    |
+                    | Original works in wood that are built, turned, carved or tooled. 
+
+
+                h3 Non-Juried only categories
+
+                p
+                    strong Consumables:
+                    |
+                    | Soaps, body products, chocolate, candy, sauces, spices, pickles, tea, honey, candles and other products that are consumed.
+
+                p
+                    strong Pet Supplies:
+                    |
+                    | Collars, leashes, harnesses, pet cookies, and pet toys.
+
+                p
+                    strong Various:
+                    |
+                    | Work that does not fit in any other category.
+
+                p 
+                    strong Vintage:
+                    |
+                    | Old items which carries certain nostalgic value.
+            
+            h2.AccordionTrigger Location
+
+            .AccordionContent.hide
+            
+                p Please use the below GPS addresses to find the entry point to Festival; please note that we have separate entrances for the juried and non-juried show.
+
+                p 
+                    strong Juried Show (arts &amp; crafts) 
+                    br
+                    strong Community Corner (non-profit)
+                    br
+                    | At 242 Elizabeth Street, Atlanta, GA 30307
+
+                p 
+                    strong Non-Juried Show (street market)
+                    br
+                    | At 1001 Euclid Avenue, Atlanta GA 30307
+
+
+            h2.AccordionTrigger Load In/Load Out
+            
+            .AccordionContent.hide
+                p Artists will be able to unload near their booth during set-up and tear down. Exhibitors can load-in only during the designated times (April 25th between 6:30AM – 10:30AM). The lane of traffic where the Festival takes place is only wide enough for one vehicle. Therefore, we depend upon artists’ cooperation to keep traffic moving at a pace that will allow everyone equal time to set-up. We ask that upon arrival at your booth location you unpack then move your vehicle before you start set-up. Artists will be responsible for hand carting in additional merchandise after the designated load-in time.
+
+                img(src='/assets/img/2020/exhibitor-load-in-map.png' alt='Exhibitor load in/load out map').u-imgwidth
+
+            h2.AccordionTrigger Sales Tax
+            
+            .AccordionContent.hide
+                p Artists are responsible for collecting and reporting sales tax. The current Sales Tax rate for this event is 8% (Georgia 4%, Fulton County 3%, City of Atlanta 1%). 
+
+                p
+                    | The sales tax form can be downloaded here: 
+                    a(href='https://dor.georgia.gov/fs-32-miscellaneous-events') https://dor.georgia.gov/fs-32-miscellaneous-events 

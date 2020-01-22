@@ -135,6 +135,42 @@
             }
         ]
     },
+    "exhibitors": {
+        "nav": [
+            {
+                "title": "Event Information",
+                "href": "#eventInformation"
+            },
+            {
+                "title": "Important Dates",
+                "href": "#importantDates"
+            },
+            {
+                "title": "Fee Structure",
+                "href": "#feeStructure"
+            },
+            {
+                "title": "Festival Rules",
+                "href": "#festivalRules"
+            },
+            {
+                "title": "Exhibitor Categories",
+                "href": "#exhibitorCategories"
+            },
+            {
+                "title": "Location",
+                "href": "#location"
+            },
+            {
+                "title": "Load In/Load Out",
+                "href": "#loadInLoadOut"
+            },
+            {
+                "title": "Sales Tax",
+                "href": "#salesTax"
+            }
+        ]
+    },
     "art": {
         "submissions": {
             "active": false,
