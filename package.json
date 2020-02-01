@@ -1,7 +1,7 @@
 {
   "name": "ipf-alt",
   "version": "1.0.0",
-  "description": "Test repo for improving process for IPF site.",
+  "description": "Repository for Inman Park Festival web site.",
   "scripts": {
     "html": "gulp markup",
     "start": "gulp dev",

@@ -12,19 +12,19 @@ block contents
     .Hero
         .carousel
             //- VOLUNTEER PROMO SLIDE
-            //- .HeroSlidePromo
-            //-     .HeroSlidePromo-banner
+            .HeroSlidePromo
+                .HeroSlidePromo-banner
         
-            //-     .HeroSlidePromo-copy
-            //-         h3 Festival Needs Volunteers!
-            //-         p
-            //-             | Festival doesn't happen without volunteers.
-            //-             = ' '
-            //-             a(href=globals.volunteerSite) Signup now
-            //-             = ' '
-            //-             | to volunteer your time and help make this year's festival great!
+                .HeroSlidePromo-copy
+                    h3 Festival Needs Volunteers!
+                    p
+                        | Festival doesn't happen without volunteers.
+                        = ' '
+                        a(href=globals.volunteerSite) Signup now
+                        = ' '
+                        | to volunteer your time and help make this year's festival great!
         
-            //-         a.u-blockCentered.Button(href=globals.volunteerSite) Sign Up
+                    a.u-blockCentered.Button(href=globals.volunteerSite) Sign Up
 
             if globals.vendors.appActive
                 .HeroSlidePromo
@@ -82,11 +82,12 @@ block contents
             //-     p
             //-         a(href="/art/2019") View the Art
 
-        //- .PromotionItemHero-text
-        //-     section
-        //-         h2 Volunteer Now!
+        .PromotionItemHero-image.image--iris-2018
+        .PromotionItemHero-text
+            section
+                h2 Volunteer Now!
                 
-        //-         p Festival thrives on volunteers. <a href="#{globals.volunteerSite}">Sign up now on our volunteer site</a>.
+                p Festival thrives on volunteers. <a href="#{globals.volunteerSite}">Sign up now on our volunteer site</a>.
 
         //- .PromotionItemHero-image.image--big-house
         //- .PromotionItemHero-text
@@ -95,12 +96,12 @@ block contents
         
         //-         p Look here soon for Volunteer signup and other announcements as we get closer to this year's festival.
 
-        .PromotionItemHero-image.image--parade
-        .PromotionItemHero-text
-            section
-                h3 Want to March in the Parade?
-                p 
-                    a(href='/events/parade') Learn how to apply here.
+        //- .PromotionItemHero-image.image--parade
+        //- .PromotionItemHero-text
+        //-     section
+        //-         h3 Want to March in the Parade?
+        //-         p 
+        //-             a(href='/events/parade') Learn how to apply here.
         
 
         //- .PromotionItemHero-image.image--art-submission

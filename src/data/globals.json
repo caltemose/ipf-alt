@@ -31,7 +31,7 @@
             }
         }
     },
-    "offseason": true,
+    "offseason": false,
     "tour": {
         "tickets": {
             "active": false,
@@ -86,7 +86,7 @@
         }
     ],
     "copyright": "Copyright &copy; Inman Park Festival",
-    "volunteerSite": "https://signup.com/go/JvQXwwg",
+    "volunteerSite": "https://signup.com/go/faDSmvL",
     "vendors": {
         "appActive": true,
         "deadline": "March 9, 2020",
