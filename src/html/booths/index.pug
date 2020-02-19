@@ -34,7 +34,7 @@ block contents
             strong If you are interested in becoming a vendor,
             |
             | please visit our 
-            a(href='/exhibitor') Exhibitor page.
+            a(href='/exhibitors') Exhibitor page.
 
         p If you're looking for gifts, new clothes, art for your house or just about anything else, you are likely to find what you're looking for at one of the many vendor booths lining the tree-shaded streets during the Inman Park Festival.
 
@@ -62,12 +62,12 @@ block contents
         p Together they comprise one of the largest street markets in the Southeast!
         
         if globals.vendors.appActive
-            h2 Become a Vendor
+            h2 Become an Exhibitor
         
             p 
-                | If you are interested in being a vendor for the #{globals.ipf.date.year} festival, 
+                | If you are interested in being a exhibitor for the #{globals.ipf.date.year} festival, 
                 = ' '
-                a(href="/booths/become-an-exhibitor") visit the Become an Exhibitor page for more info.
+                a(href="/exhibitors") visit the Exhibitors page for more info.
         
         if !globals.vendors.appActive
             p Vendor applications are closed in the off-season but you can check back on this site in the fall to find instructions on how to become a vendor. We use <a href="https://www.zapplication.org/" target="_blank">ZAPP</a> to manage vendor applications &ndash; feel free to visit their site to create an account at any time.
