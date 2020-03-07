@@ -1,10 +1,14 @@
 mixin tourImage(imageName, alt)
     img(sizes="(min-width: 1024px) 940px, 100vw" srcset=`${imageName}-1440.jpg 1440w, ${imageName}-940.jpg 940w, ${imageName}-720.jpg 720w, ${imageName}-366.jpg 366w, ${imageName}-326.jpg 326w` src=`${imageName}-326.jpg` alt=alt).TourHomeImage
 
-mixin homeSponsor(name)
+mixin homeSponsor(name, url)
     p.HomeSponsor
         | Sponsored by:
-        span=name
+        if url
+            | 
+            a(href=url target="_blank")= name
+        else
+            span=name
 
 
 ul.TourHomes.u-container
@@ -102,6 +106,8 @@ ul.TourHomes.u-container
         p Its high ceilings, plentiful windows, and catty-cornered aspect fill it with sunshine. The large porch offers views of spectacular sunsets and, in winter, a landscape of midtown Atlanta skyscrapers. Original features, such as the heart pine floors, four fireplaces, and the gas light fixture in the coat closet are reminders of the home&rsquo;s age. In fact, all the rooms were originally both wired for electricity and piped for the more reliable gas. 
 
         p Michael crafted reproduction trim and cabinetry to supplement the original trim work in most rooms. Karen designed the contemporary kitchen, completed in 2015, which overlooks the backyard, and, with its custom table, is the center of family life. Throughout the house, family antiques from Holland blend beautifully with photographs and treasures from the de Nies&rsquo; adventures. Don&rsquo;t miss the collection of Beltline Lantern Parade creations in the downstairs bedroom and the stained-glass window at the top of the stairs, which Michael created as a wedding gift for Karen.
+
+        +homeSponsor("The Club Afterschool", "https://www.theclubafterschool.com/")
 
     //- 7
     li
