@@ -81,22 +81,22 @@
             {
                 "start": "11:45AM",
                 "end": "12:45PM",
-                "title": "Tyler Neal Band",
-                "photo": "",
-                "thumb": "",
-                "description": "Blues/Rock",
-                "bio": "<p>Tyler first began exploring music on guitar and drums, trying to emulate the Hendrix and Zeppelin hits he loved. He didn't realize it until later in life, but he was also inspired by the gospel music he heard in church, more compelled by the spirit of a song than the technique. He found a mentor in drummer and composer Yonrico Scott (Derek Trucks Band, Royal Southern Brotherhood) who could see that the fire Tyler had for music needed fuel. Tyler then entered the orbit of Col. Bruce Hampton. He started going to Bruce's shows at Northside Tavern in Atlanta, and Bruce invited him to sit in. When Bruce invited him to officially join the band and go on tour, Tyler had no doubt the path Bruce offered was the one he belonged on. He spent the next two years as lead guitarist for Col. Bruce Hampton & The Madrid Express. Since Bruce's unexpected death in 2017, Tyler has been leading his own band and working on his first album of original songs. Tyler always knew he had to play music but didn't always know why. The first leg of his musical path has made it clear, music is not just a project but a need.  This has become a mantra for Tyler, always reminding him to push ahead in the face of doubt, and believe in music as his best hope to meet his best self.</p>",
-                "url": "https://tylernealband.com"
-            },
-            {
-                "start": "1:00PM",
-                "end": "2:00PM",
                 "title": "Johnny Awesome",
                 "photo": "",
                 "thumb": "",
                 "description": "Alternative/Rock",
                 "bio": "<p>Johnny Awesome is a new Refreshing Rock band with their souls set on \"making it\" in music. They have been a group since Autumn of 2007 and have been working hard at creating music that satisfies not just the ears, but the soul. From house shows to various venues in the city of Atlanta, they have been preparing for their dream of becoming a successful performing band. For booking, send us an email at johnnawesome99@gmail.com Thanks guys and don't forget to always support local music and jam with life!</p>",
                 "url": "https://JohnnyAwesomeBand.com"
+            },
+            {
+                "start": "1:00PM",
+                "end": "2:00PM",
+                "title": "Tyler Neal Band",
+                "photo": "",
+                "thumb": "",
+                "description": "Blues/Rock",
+                "bio": "<p>Tyler first began exploring music on guitar and drums, trying to emulate the Hendrix and Zeppelin hits he loved. He didn't realize it until later in life, but he was also inspired by the gospel music he heard in church, more compelled by the spirit of a song than the technique. He found a mentor in drummer and composer Yonrico Scott (Derek Trucks Band, Royal Southern Brotherhood) who could see that the fire Tyler had for music needed fuel. Tyler then entered the orbit of Col. Bruce Hampton. He started going to Bruce's shows at Northside Tavern in Atlanta, and Bruce invited him to sit in. When Bruce invited him to officially join the band and go on tour, Tyler had no doubt the path Bruce offered was the one he belonged on. He spent the next two years as lead guitarist for Col. Bruce Hampton & The Madrid Express. Since Bruce's unexpected death in 2017, Tyler has been leading his own band and working on his first album of original songs. Tyler always knew he had to play music but didn't always know why. The first leg of his musical path has made it clear, music is not just a project but a need.  This has become a mantra for Tyler, always reminding him to push ahead in the face of doubt, and believe in music as his best hope to meet his best self.</p>",
+                "url": "https://tylernealband.com"
             },
             {
                 "start": "3:00PM",
@@ -224,8 +224,8 @@
         ],
         "e": [
             {
-                "start": "12:30PM",
-                "end": "1:30PM",
+                "start": "12:00",
+                "end": "1:00PM",
                 "title": "Leah Calvert & Neal Fountain",
                 "photo": "",
                 "thumb": "",
@@ -234,8 +234,8 @@
                 "url": "https://leahsatellite.com"
             },
             {
-                "start": "1:45PM",
-                "end": "2:45PM",
+                "start": "1:15PM",
+                "end": "2:15PM",
                 "title": "GSU Jazz Band",
                 "photo": "",
                 "thumb": "",
@@ -244,8 +244,8 @@
                 "url": "https://music.gsu.edu/jazz-studies-department/"
             },
             {
-                "start": "3:00PM",
-                "end": "4:00PM",
+                "start": "2:30PM",
+                "end": "3:30PM",
                 "title": "Danii Roundtree",
                 "photo": "",
                 "thumb": "",
@@ -254,8 +254,8 @@
                 "url": "https://DaniiRoundtree.com"
             },
             {
-                "start": "4:15PM",
-                "end": "5:15PM",
+                "start": "3:45PM",
+                "end": "4:45PM",
                 "title": "Glenn Phillips Band",
                 "photo": "",
                 "thumb": "",
@@ -264,8 +264,8 @@
                 "url": "https://glennphillips.myfreesites.net/"
             },
             {
-                "start": "5:30PM",
-                "end": "6:30PM",
+                "start": "5:00PM",
+                "end": "6:00PM",
                 "title": "Swimming Pool Q's",
                 "photo": "",
                 "thumb": "",

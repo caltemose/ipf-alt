@@ -3,6 +3,7 @@
         "title": "Inman Park Festival",
         "date": {
             "annual": "49",
+            "annualSuffix": "th",
             "year": "2020",
             "friday": {
                 "date": "April 24",
@@ -88,7 +89,7 @@
     "copyright": "Copyright &copy; Inman Park Festival",
     "volunteerSite": "https://signup.com/go/faDSmvL",
     "vendors": {
-        "appActive": true,
+        "appActive": false,
         "deadline": "March 9, 2020",
         "notification": "March 26, 2020",
         "site": "https://www.zapplication.org/event-info.php?ID=7721"

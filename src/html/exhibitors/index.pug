@@ -21,17 +21,23 @@ block contents
             h2.AccordionTrigger(name='eventInformation') Event Information
 
             .AccordionContent
-                p We welcome Exhibitors to the 49th Inman Park Festival in the Historic Inman Park Neighborhood! This event is a mainstay in the Atlanta Arts community. The Inman Park Festival will showcase a wide variety of artistic disciplines including painting, metalwork, fiber art, mixed media, fiber, ceramics, jewelry, woodcraft and much more.
-                p 
-                    | To apply to festival, please use this link: 
-                    a(href='https://www.zapplication.org/event-info.php?ID=7721')
-                    | or search event &ldquo;Inman Park&rdquo; in Zapplication.
+                p We welcome Exhibitors to the #{globals.ipf.date.annual}#{globals.ipf.date.annualSuffix} Inman Park Festival in the Historic Inman Park Neighborhood! This event is a mainstay in the Atlanta Arts community. The Inman Park Festival will showcase a wide variety of artistic disciplines including painting, metalwork, fiber art, mixed media, fiber, ceramics, jewelry, woodcraft and much more.
+                if !globals.vendors.appActive
+                    p 
+                        strong Exhibitor applications for this year's festival are now closed. 
+                else
+                    p 
+                        | To apply to festival, 
+                        a(href=globals.vendors.site) please use this link
+                        |
+                        | or search event &ldquo;Inman Park&rdquo; in Zapplication.
                 p 
                     | For specific questions, please e-mail 
                     a(href="mailto:artinmanpark@gmail.com") artinmanpark@gmail.com
                 p Held in one of the oldest neighborhoods in Metro Atlanta, the Inman Park Festival is a two-day celebration of community and tradition presented by the Inman Park Neighborhood Association, for people of all ages, races, customs, and interests.&nbsp;The Festival is a major celebration of the arts while honoring the rich history of our community.&nbsp;At this festival, there is something for everyone: fine arts and crafts, a children&apos;s play area, local food and beverage concessions and live entertainment. All this in the ambiance of Atlanta&apos;s most lovely and historic neighborhood.
                 p The Festival is entirely run by volunteers, and all proceeds go back to various neighborhood and other in-town initiatives such as playgrounds, sidewalks, and general beautification.
                 p Approximately 400 exhibitors will participate in this annual event.
+                //- TODO replace hours with globals
                 p Festival Hours: Saturday 11:00AM-7:00PM, Sunday 11:00AM-6:00PM
 
             h2.AccordionTrigger#importantDates Important Dates
