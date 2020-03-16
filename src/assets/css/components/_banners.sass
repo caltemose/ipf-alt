@@ -4,6 +4,15 @@
     font-family: $base-font-family-serif
     font-style: italic
 
+    p
+        padding: 0 1.5em
+
+        @media (min-width: $bp-md)
+            padding: 0 7em
+
+        @media (min-width: $bp-lg)
+            padding: 0 10em
+
 .Banner--dates
     background: $brand-yellow-light
     color: $brand-black
@@ -30,13 +39,5 @@
     background: #eee
     font-size: 0.8em
     font-style: normal
-    font-family: $base-font-family-sans-serif
 
-    p
-        padding: 0 1.5em
-
-        @media (min-width: $bp-md)
-            padding: 0 7em
-
-        @media (min-width: $bp-lg)
-            padding: 0 10em
+    

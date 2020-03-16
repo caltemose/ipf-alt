@@ -12,19 +12,19 @@ block contents
     .Hero
         .carousel
             //- VOLUNTEER PROMO SLIDE
-            .HeroSlidePromo
-                .HeroSlidePromo-banner
+            //- .HeroSlidePromo
+            //-     .HeroSlidePromo-banner
         
-                .HeroSlidePromo-copy
-                    h3 Festival Needs Volunteers!
-                    p
-                        | Festival doesn't happen without volunteers.
-                        = ' '
-                        a(href=globals.volunteerSite) Signup now
-                        = ' '
-                        | to volunteer your time and help make this year's festival great!
+            //-     .HeroSlidePromo-copy
+            //-         h3 Festival Needs Volunteers!
+            //-         p
+            //-             | Festival doesn't happen without volunteers.
+            //-             = ' '
+            //-             a(href=globals.volunteerSite) Signup now
+            //-             = ' '
+            //-             | to volunteer your time and help make this year's festival great!
         
-                    a.u-blockCentered.Button.u-hiddenMobile(href=globals.volunteerSite) Sign Up
+            //-         a.u-blockCentered.Button.u-hiddenMobile(href=globals.volunteerSite) Sign Up
 
             if globals.vendors.appActive
                 .HeroSlidePromo
@@ -59,9 +59,11 @@ block contents
             .PageIntro-copy
                 p During the last full weekend in April each year, Inman Park proudly presents a neighborhood festival widely regarded as Atlanta&rsquo;s most spirited and eclectic.
 
-                p Please join us for the #{globals.ipf.date.annual}th Inman Park Spring Festival and Tour Of Homes.
+                p As noted above, this year's festival will be postponed or canceled. Please check back later for more news.
+
+                //- p Please join us for the #{globals.ipf.date.annual}th Inman Park Spring Festival and Tour Of Homes.
                 
-                p The #{globals.ipf.date.year} Inman Park Festival takes place on Saturday #{globals.ipf.date.saturday.date} &amp; Sunday #{globals.ipf.date.sunday.date} with a Tour of Homes preview on Friday #{globals.ipf.date.friday.date}.
+                //- p The #{globals.ipf.date.year} Inman Park Festival takes place on Saturday #{globals.ipf.date.saturday.date} &amp; Sunday #{globals.ipf.date.sunday.date} with a Tour of Homes preview on Friday #{globals.ipf.date.friday.date}.
                 
                 p *Please remember that pets, bicycles and scooters are not allowed at festival.*
 
