@@ -35,7 +35,7 @@
     "offseason": false,
     "tour": {
         "tickets": {
-            "active": true,
+            "active": false,
             "url": "https://ipf.ticketbud.com/2020-tour-of-homes"
         },
         "cost": {
