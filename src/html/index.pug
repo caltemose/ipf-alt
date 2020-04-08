@@ -48,35 +48,42 @@ block contents
             div
                 +slideImageXL('/assets/img/2019/hero-band', 'One of many beautiful homes in Inman Park')
 
-    include _includes/_banner-corona
+    //- include _includes/_banner-corona
 
     .u-container
         .PageIntro
 
             .PageIntro-header
-                h1 Welcome to Atlanta's Favorite Street Festival
+                h1 This Year's a Little Different
                 
             .PageIntro-copy
-                p During the last full weekend in April each year, Inman Park proudly presents a neighborhood festival widely regarded as Atlanta&rsquo;s most spirited and eclectic.
+                p As you may have heard, there will be no Inman Park Festival this year. :(
+                
+                p We are so sad that we will not have Festival this year, but we've come up with some ideas to help keep the spirit of Festival and Inman Park alive! Please follow all government regulations, and let's show our spirit on Festival weekend, April 24-26!
 
-                p As noted above, this year's festival will be postponed or canceled. Please check back later for more news.
+                p 
+                    | This year, we're calling it:
+                    br
+                    strong 2020 Inman Park UNFestival &amp; Tour AT Home
+
+                //- p During the last full weekend in April each year, Inman Park proudly presents a neighborhood festival widely regarded as Atlanta&rsquo;s most spirited and eclectic.
+
+                //- p As noted above, this year's festival will be postponed or canceled. Please check back later for more news.
 
                 //- p Please join us for the #{globals.ipf.date.annual}th Inman Park Spring Festival and Tour Of Homes.
                 
                 //- p The #{globals.ipf.date.year} Inman Park Festival takes place on Saturday #{globals.ipf.date.saturday.date} &amp; Sunday #{globals.ipf.date.sunday.date} with a Tour of Homes preview on Friday #{globals.ipf.date.friday.date}.
                 
-                p *Please remember that pets, bicycles and scooters are not allowed at festival.*
+                //- p *Please remember that pets, bicycles and scooters are not allowed at festival.*
 
     .PromotionItemHero.u-container.u-container--noPad
-        //- .PromotionItemHero-image.image--art-2019
-        //- .PromotionItemHero-text
-            //- section
-            //-     h2 Tickets Available!
+        .PromotionItemHero-image.image--big-house
+        .PromotionItemHero-text
+            section
+                h2 Celebrate UNFestival 2020!
                 
-            //-     p Tour of Homes tickets can now be purchased online and at neighborhood locations.
-                
-            //-     p
-            //-         a(href="/events/tour-of-homes#buy-tickets") Learn More
+                p 
+                    a(href="/unfestival") Learn how you can celebrate UNFestival this year in Inman Park.
             
             //- section
             //-     h2 Art Chosen!
@@ -86,12 +93,12 @@ block contents
             //-     p
             //-         a(href="/art/2019") View the Art
 
-        .PromotionItemHero-image.image--iris-2018
-        .PromotionItemHero-text
-            section
-                h2 Volunteer Now!
+        //- .PromotionItemHero-image.image--iris-2018
+        //- .PromotionItemHero-text
+        //-     section
+        //-         h2 Volunteer Now!
                 
-                p Festival thrives on volunteers. <a href="#{globals.volunteerSite}">Sign up now on our volunteer site</a>.
+        //-         p Festival thrives on volunteers. <a href="#{globals.volunteerSite}">Sign up now on our volunteer site</a>.
 
         //- .PromotionItemHero-image.image--big-house
         //- .PromotionItemHero-text
@@ -157,9 +164,12 @@ block contents
 
         li.PromotionItem.alt-primary
             section
-                h3 Tour of Homes Tickets
-                p
-                    a(href="/events/tour-of-homes") Online ticket purchase is available now!
+                //- h3 Tour of Homes Tickets
+                //- p
+                //-     a(href="/events/tour-of-homes") Online ticket purchase is available now!
+                h3 Celebrate Safely on 4/25
+
+                p On Saturday 4/25 at 2PM we invite you to join us on your porch to make the loudest hoot &amp; hollering you can make!
 
 
         //- li.PromotionItem
@@ -185,8 +195,18 @@ block contents
 
         li.PromotionItem
             section
-                h3 #{globals.ipf.date.year} Join the Parade
-                p If your group is interested in marching in this year's parade, <a href="#{globals.events.parade.application}">Download the Parade Application here</a>.
+                //- h3 #{globals.ipf.date.year} Join the Parade
+                //- p 
+                //-     | If your group is interested in marching in this year's parade, 
+                //-     |
+                //-     a(href="#{globals.events.parade.application}") Download the Parade Application here.
+                h3 Merch for sale soon!
+                p 
+                    | UNfestival t-shirts and posters will soon be available for online purchase. Make sure to follow the 
+                    | 
+                    a(href="https://www.facebook.com/InmanParkFestival/" target="_blank") Inman Park Festival Facebook page
+                    |
+                    | for further instructions.
 
         li.PromotionItem.alt-secondary
             include _includes/_social-icons
