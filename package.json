@@ -24,6 +24,7 @@
   "devDependencies": {
     "axios": "^0.18.1",
     "browser-sync": "^2.26.7",
+    "csv-parse": "^4.8.8",
     "del": "^3.0.0",
     "form-serialize": "^0.7.2",
     "gulp": "^4.0.0",

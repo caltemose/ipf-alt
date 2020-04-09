@@ -1,69 +1,15 @@
 [
   {
-    "booths": [
-      "72"
-    ],
-    "firstname": "Cindy",
-    "lastname": "Parker",
-    "category": "Non profit (501c3)",
-    "class": "non-profit-501c3"
-  },
-  {
-    "booths": [
-      "69"
-    ],
-    "firstname": "Courtney",
-    "lastname": "Perez",
+    "booths": [],
+    "firstname": "Boyd",
+    "lastname": "Baker",
+    "business": "Community Arts Live",
     "category": "Non profit (501c3)",
     "class": "non-profit-501c3",
-    "url": "https://www.fullcirclefarmsanctuary.org"
+    "url": "https://www.xmarksthepark.com"
   },
   {
-    "booths": [
-      "70"
-    ],
-    "firstname": "Katherine",
-    "lastname": "Hollis",
-    "category": "Non profit (501c3)",
-    "class": "non-profit-501c3"
-  },
-  {
-    "booths": [
-      "71"
-    ],
-    "firstname": "wendy",
-    "lastname": "johnson",
-    "business": "Atlanta Roller Derby",
-    "category": "Non profit (501c3)",
-    "class": "non-profit-501c3",
-    "url": "http://www.atlantarollergirls.com"
-  },
-  {
-    "booths": [
-      "76"
-    ],
-    "firstname": "Yvonne",
-    "lastname": "Chambliss",
-    "business": "Freedom Fellowship Church",
-    "category": "Non profit (501c3)",
-    "class": "non-profit-501c3",
-    "url": "http://discoverfreedomfellowship.org"
-  },
-  {
-    "booths": [
-      "74"
-    ],
-    "firstname": "Julie",
-    "lastname": "Escarcega",
-    "business": "Good Mews Animal Foundation",
-    "category": "Non profit (501c3)",
-    "class": "non-profit-501c3",
-    "url": "http://www.goodmews.org"
-  },
-  {
-    "booths": [
-      "67"
-    ],
+    "booths": [],
     "firstname": "Lucas",
     "lastname": "Bitter",
     "business": "Intown Lutheran Church",
@@ -72,9 +18,43 @@
     "url": "http://intownlutheran.com"
   },
   {
-    "booths": [
-      "78"
-    ],
+    "booths": [],
+    "firstname": "Ashley",
+    "lastname": "Elliott",
+    "business": "The Alliance Theatre",
+    "category": "Non profit (501c3)",
+    "class": "non-profit-501c3",
+    "url": "https://www.alliancetheatre.org"
+  },
+  {
+    "booths": [],
+    "firstname": "David",
+    "lastname": "Epstein",
+    "business": "ContactPoint, L5P",
+    "category": "Non profit (501c3)",
+    "class": "non-profit-501c3",
+    "url": "https://www.atlcp.org"
+  },
+  {
+    "booths": [],
+    "firstname": "Julie",
+    "lastname": "Escarcega",
+    "business": "Good Mews Animal Foundation",
+    "category": "Non profit (501c3)",
+    "class": "non-profit-501c3",
+    "url": "http://www.goodmews.org"
+  },
+  {
+    "booths": [],
+    "firstname": "Paige",
+    "lastname": "Gradishar",
+    "business": "Something New",
+    "category": "Non profit (501c3)",
+    "class": "non-profit-501c3",
+    "url": "http://www.somethingnew.org"
+  },
+  {
+    "booths": [],
     "firstname": "Julia",
     "lastname": "Mayfield",
     "business": "LifeLine Animal Project",
@@ -82,9 +62,22 @@
     "class": "non-profit-501c3"
   },
   {
-    "booths": [
-      "65"
-    ],
+    "booths": [],
+    "firstname": "Cindy",
+    "lastname": "Parker",
+    "category": "Non profit (501c3)",
+    "class": "non-profit-501c3"
+  },
+  {
+    "booths": [],
+    "firstname": "Courtney",
+    "lastname": "Perez",
+    "category": "Non profit (501c3)",
+    "class": "non-profit-501c3",
+    "url": "https://www.fullcirclefarmsanctuary.org"
+  },
+  {
+    "booths": [],
     "firstname": "Susan",
     "lastname": "Pierce",
     "business": "Trees Atlanta",
@@ -93,13 +86,26 @@
     "url": "http://www.treesatlanta.org"
   },
   {
-    "booths": [
-      "73"
-    ],
-    "firstname": "Ashley",
-    "lastname": "Lee",
-    "business": "West Atlanta Modern Quilt Guild",
+    "booths": [],
+    "firstname": "Nancy",
+    "lastname": "Quintrell",
     "category": "Non profit (501c3)",
     "class": "non-profit-501c3"
+  },
+  {
+    "booths": [],
+    "firstname": "Kyndall",
+    "lastname": "Thiessen",
+    "category": "Non profit (501c3)",
+    "class": "non-profit-501c3"
+  },
+  {
+    "booths": [],
+    "firstname": "Camille",
+    "lastname": "Wiggins",
+    "business": "Lighthouse Therapeutic Foster Care",
+    "category": "Non profit (501c3)",
+    "class": "non-profit-501c3",
+    "url": "https://www.lighthousetfc.org"
   }
 ]

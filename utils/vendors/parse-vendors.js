@@ -3,13 +3,15 @@ const path = require('path')
 const csv = require('csv-parser')
 const slug = require('slug')
 
-const INPUT_FILE = '2019-vendors.tsv'
+const INPUT_FILE = '2020-vendors.tsv'
 const GULP_PATH = '../../src/data/'
 const YEAR = '2019'
 
+var i = 0
+
 function readFile (url) {
     fs.createReadStream(url)
-        .pipe(csv({ separator: '\t' }))
+        .pipe(csv({ separator: '\t', escape: '}' }))
         .on('data', row => parseRow(row))
         .on('end', () => writeFiles())
 }
@@ -17,12 +19,12 @@ function readFile (url) {
 function parseRow (row) {
     // let key = ''
 
-    let last = cleanField(row['Last Name'])
+    let last = cleanField(row['Last name'])
     // if (notEmpty(last)) {
     //     key = last
     // }
 
-    let first = cleanField(row['First Name'])
+    let first = cleanField(row['First name'])
     // if (notEmpty(first)) {
     //     if (key.length) {
     //         key += '-'
@@ -30,7 +32,7 @@ function parseRow (row) {
     //     key += first
     // }
 
-    let business = cleanField(row['Business Name'])
+    let business = cleanField(row['Business name'])
     // if (notEmpty(business)) {
     //     if (key.length) {
     //         key += '-'
@@ -38,7 +40,7 @@ function parseRow (row) {
     //     key += business
     // }
 
-    const area = row['Area'].toLowerCase()
+    const area = fixArea(row['Area'])
 
     let vendor = { booths: [] }
 
@@ -50,16 +52,16 @@ function parseRow (row) {
         vendor.lastname = last
     }
 
-    if (notEmpty(business)) {
+    if (notEmpty(business) && business.toLowerCase() !== 'n/a') {
         vendor.business = business
     }
 
-    if (notEmpty(row['Category'])) {
-        vendor.category = cleanCategory(row['Category'])
+    if (notEmpty(row['Medium'])) {
+        vendor.category = cleanCategory(row['Medium'])
         vendor.class = makeClassFromCategory(vendor.category)
     }
 
-    vendor.booths = getBoothsFromRow(row)
+    // vendor.booths = getBoothsFromRow(row)
 
     if (notEmpty(row['Website'])) {
         const url = cleanUrl(row['Website'])
@@ -83,6 +85,16 @@ function writeFiles () {
 HELPERS
 
  */
+
+function fixArea (area) {
+    /*
+    NON-JURIED SHOW = street market
+    JURIED SHOW = arts & crafts
+    COMMUNITY CORNER
+    */
+    const a = area.toLowerCase()
+    return a === 'non-juried show' ? 'sm' : a === 'juried show' ? 'ac' : 'cc'
+}
 
 function defaultResults () {
     return {
@@ -119,7 +131,7 @@ function cleanUrl (url) {
     url = split[0]
 
     // reject illegals: "none", "n/a"
-    if (url == 'none' && url == 'n\/a') {
+    if (url == 'none' || url == 'n\/a') {
         return null
     }
 

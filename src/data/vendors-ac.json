@@ -1,18 +1,23 @@
 [
   {
-    "booths": [
-      "93"
-    ],
-    "firstname": "Eileen",
-    "lastname": "Tantillo",
+    "booths": [],
+    "firstname": "Maria",
+    "lastname": "Bruckman",
+    "business": "Maria Bruckman Art",
     "category": "Ceramics",
     "class": "ceramics",
-    "url": "http://www.eileentantilloart.com/"
+    "url": "https://mariabruckmanart.com"
   },
   {
-    "booths": [
-      "11"
-    ],
+    "booths": [],
+    "firstname": "Cara",
+    "lastname": "Gilbert",
+    "business": "Cara Gilbert Ceramics",
+    "category": "Ceramics",
+    "class": "ceramics"
+  },
+  {
+    "booths": [],
     "firstname": "Veronique",
     "lastname": "Harris",
     "category": "Ceramics",
@@ -20,30 +25,7 @@
     "url": "http://veroniqueharris.com"
   },
   {
-    "booths": [
-      "138"
-    ],
-    "firstname": "Amanda",
-    "lastname": "Proctor",
-    "business": "Amanda Proctor Ceramics",
-    "category": "Ceramics",
-    "class": "ceramics",
-    "url": "http://amandaproctor.com"
-  },
-  {
-    "booths": [
-      "37"
-    ],
-    "firstname": "JEAN",
-    "lastname": "THOMAS",
-    "business": "ANJEL CREATIONS",
-    "category": "Ceramics",
-    "class": "ceramics"
-  },
-  {
-    "booths": [
-      "103"
-    ],
+    "booths": [],
     "firstname": "Brenna",
     "lastname": "McBroom",
     "business": "BrennaDee Ceramics",
@@ -52,75 +34,15 @@
     "url": "http://brennadee.com"
   },
   {
-    "booths": [
-      "152"
-    ],
-    "firstname": "Lisa",
-    "lastname": "Tantillo",
-    "business": "Calou Calay",
+    "booths": [],
+    "firstname": "Yesha",
+    "lastname": "Panchal",
     "category": "Ceramics",
     "class": "ceramics",
-    "url": "http://www.caloucalay.com"
+    "url": "http://www.yesha-art.com"
   },
   {
-    "booths": [
-      "29"
-    ],
-    "firstname": "Cara",
-    "lastname": "Gilbert",
-    "business": "Cara Gilbert Ceramics",
-    "category": "Ceramics",
-    "class": "ceramics",
-    "url": "http://caragilbert.com"
-  },
-  {
-    "booths": [
-      "112"
-    ],
-    "firstname": "Jeremy",
-    "lastname": "Keller",
-    "business": "EarthFire",
-    "category": "Ceramics",
-    "class": "ceramics",
-    "url": "http://www.earthfiregreenware.com"
-  },
-  {
-    "booths": [
-      "115"
-    ],
-    "firstname": "Eric",
-    "lastname": "Strange",
-    "business": "Eric B Strange Pottery",
-    "category": "Ceramics",
-    "class": "ceramics",
-    "url": "https://www.facebook.com/ericbstrangepottery"
-  },
-  {
-    "booths": [
-      "155"
-    ],
-    "firstname": "VICENTE",
-    "lastname": "Franco",
-    "business": "Hands and fire LLC.",
-    "category": "Ceramics",
-    "class": "ceramics",
-    "url": "http://www.handsandfire.etsy.com"
-  },
-  {
-    "booths": [
-      "184"
-    ],
-    "firstname": "Rachel",
-    "lastname": "Bloom",
-    "business": "One Wheeled Pottery",
-    "category": "Ceramics",
-    "class": "ceramics",
-    "url": "https://www.instagram.com/onewheeledpottery/?hl=en"
-  },
-  {
-    "booths": [
-      "19"
-    ],
+    "booths": [],
     "firstname": "polly",
     "lastname": "sherrill",
     "business": "polly on the avenue",
@@ -129,154 +51,212 @@
     "url": "http://pollythepotter.com"
   },
   {
-    "booths": [
-      "156"
-    ],
-    "firstname": "Dennis",
-    "lastname": "Stansel",
-    "business": "Pottery by Ladd Stansel",
-    "category": "Ceramics",
-    "class": "ceramics"
-  },
-  {
-    "booths": [
-      "49"
-    ],
-    "firstname": "Susan",
-    "lastname": "Schulz",
-    "business": "Schulz Pottery",
-    "category": "Ceramics",
-    "class": "ceramics"
-  },
-  {
-    "booths": [
-      "52"
-    ],
-    "firstname": "Clay",
-    "lastname": "Savely",
-    "business": "Tree of Life Potters",
+    "booths": [],
+    "firstname": "Lisa",
+    "lastname": "Tantillo",
+    "business": "Calou Calay",
     "category": "Ceramics",
     "class": "ceramics",
-    "url": "http://treeoflifepotters.com"
+    "url": "https://hwww.caloucalay.com"
   },
   {
-    "booths": [
-      "25"
-    ],
-    "firstname": "Corey",
-    "lastname": "Hubbell",
-    "category": "Glass",
-    "class": "glass",
-    "url": "http://www.redmondschoolofglass.com"
+    "booths": [],
+    "firstname": "JEAN",
+    "lastname": "THOMAS",
+    "business": "ANJEL CREATIONS",
+    "category": "Ceramics",
+    "class": "ceramics"
   },
   {
-    "booths": [
-      "178"
-    ],
-    "firstname": "Parry",
-    "lastname": "Moss",
-    "business": "Parry Moss Glass",
-    "category": "Glass",
-    "class": "glass"
+    "booths": [],
+    "firstname": "Sarah",
+    "lastname": "Vekasi",
+    "business": "Sarah Sunshine Pottery",
+    "category": "Ceramics",
+    "class": "ceramics",
+    "url": "http://sarahsunshinepottery.com"
   },
   {
-    "booths": [
-      "140"
-    ],
+    "booths": [],
+    "firstname": "Thomas",
+    "lastname": "Burns",
+    "business": "Atlanta Vintage Travel",
+    "category": "Drawing / Printmaking",
+    "class": "drawing-printmaking",
+    "url": "http://www.atlantavintagetravel.com"
+  },
+  {
+    "booths": [],
+    "firstname": "Eli",
+    "lastname": "Helman",
+    "business": "Eli Helman Ink",
+    "category": "Drawing / Printmaking",
+    "class": "drawing-printmaking",
+    "url": "https://www.elihelman.com"
+  },
+  {
+    "booths": [],
+    "firstname": "Chandra",
+    "lastname": "Jennings",
+    "business": "Board to Art",
+    "category": "Drawing / Printmaking",
+    "class": "drawing-printmaking"
+  },
+  {
+    "booths": [],
+    "firstname": "Michael",
+    "lastname": "Paul",
+    "business": "Treksalot",
+    "category": "Drawing / Printmaking",
+    "class": "drawing-printmaking",
+    "url": "https://www.treksalot.com"
+  },
+  {
+    "booths": [],
+    "firstname": "Larry & Sherry",
+    "lastname": "Paulsen",
+    "category": "Drawing / Printmaking",
+    "class": "drawing-printmaking",
+    "url": "http://www.cityartmarket.com"
+  },
+  {
+    "booths": [],
+    "firstname": "Rachel",
+    "lastname": "Shurbutt",
+    "business": "Huck and Harbor",
+    "category": "Drawing / Printmaking",
+    "class": "drawing-printmaking",
+    "url": "https://www.huckandharbor.com"
+  },
+  {
+    "booths": [],
+    "firstname": "Andrew",
+    "lastname": "Swartz",
+    "business": "skullgarden",
+    "category": "Drawing / Printmaking",
+    "class": "drawing-printmaking",
+    "url": "https://skullgarden.net"
+  },
+  {
+    "booths": [],
+    "firstname": "Tony",
+    "lastname": "Alvarez",
+    "business": "Dark Cycle Clothing",
+    "category": "Fiber / Clothing",
+    "class": "fiber-clothing",
+    "url": "http://darkcycleclothing.com"
+  },
+  {
+    "booths": [],
+    "firstname": "Benjarat",
+    "lastname": "Batchelder",
+    "category": "Fiber / Clothing",
+    "class": "fiber-clothing",
+    "url": "https://www.etsy.com/shop/memiecouture"
+  },
+  {
+    "booths": [],
+    "firstname": "Clay",
+    "lastname": "Bush",
+    "business": "Salvage",
+    "category": "Fiber / Clothing",
+    "class": "fiber-clothing",
+    "url": "http://salvagegoodstn.com"
+  },
+  {
+    "booths": [],
+    "firstname": "Dawn",
+    "lastname": "De Santo",
+    "business": "handjive",
+    "category": "Fiber / Clothing",
+    "class": "fiber-clothing",
+    "url": "https://hhandjiveclothing.com"
+  },
+  {
+    "booths": [],
+    "firstname": "Margaret",
+    "lastname": "Doyle",
+    "business": "Bledsoe Bags",
+    "category": "Fiber / Clothing",
+    "class": "fiber-clothing",
+    "url": "https://www.bledsoessewnsew.com"
+  },
+  {
+    "booths": [],
+    "firstname": "Black Sheep",
+    "lastname": "Goods",
+    "category": "Fiber / Clothing",
+    "class": "fiber-clothing",
+    "url": "http://etsy.com/shop/blacksheepgoods615"
+  },
+  {
+    "booths": [],
+    "firstname": "Kathryn",
+    "lastname": "Wieldraayer",
+    "business": "Rangemark",
+    "category": "Fiber / Clothing",
+    "class": "fiber-clothing",
+    "url": "http://rangemarktextiles.com"
+  },
+  {
+    "booths": [],
+    "firstname": "May",
+    "lastname": "Yang",
+    "business": "May's Stitchery",
+    "category": "Fiber / Clothing",
+    "class": "fiber-clothing"
+  },
+  {
+    "booths": [],
+    "firstname": "Zhiyong",
+    "lastname": "Ye",
+    "category": "Fiber / Clothing",
+    "class": "fiber-clothing"
+  },
+  {
+    "booths": [],
+    "firstname": "Lena",
+    "lastname": "Zolotarev",
+    "business": "Pixie + Thistle",
+    "category": "Fiber / Clothing",
+    "class": "fiber-clothing",
+    "url": "http://pixieandthistle.com"
+  },
+  {
+    "booths": [],
     "firstname": "kyle",
     "lastname": "keeler",
     "business": "Visionary Glass",
-    "category": "Glass",
-    "class": "glass",
+    "category": "Glass / Mosaic",
+    "class": "glass-mosaic",
     "url": "http://www.visionaryglassarts.com"
   },
   {
-    "booths": [
-      "9"
-    ],
-    "firstname": "Adrianna",
-    "lastname": "D'Angelo",
+    "booths": [],
+    "firstname": "Maegan",
+    "lastname": "Wilson",
+    "business": "JM Glass Studio",
+    "category": "Glass / Mosaic",
+    "class": "glass-mosaic",
+    "url": "https://www.jmglassstudio.com"
+  },
+  {
+    "booths": [],
+    "firstname": "Davide",
+    "lastname": "aidien shapiro",
+    "business": "American Princess",
     "category": "Jewelry",
     "class": "jewelry"
   },
   {
-    "booths": [
-      "136"
-    ],
-    "firstname": "Treffry",
-    "lastname": "Caldwell",
+    "booths": [],
+    "firstname": "Katie",
+    "lastname": "Aldrich",
     "category": "Jewelry",
     "class": "jewelry"
   },
   {
-    "booths": [
-      "123"
-    ],
-    "firstname": "Juan",
-    "lastname": "Lee",
-    "business": "Art Silver Studio/Art in the Valley",
-    "category": "Jewelry",
-    "class": "jewelry"
-  },
-  {
-    "booths": [
-      "165"
-    ],
-    "firstname": "Leigh",
-    "lastname": "Griffin",
-    "business": "Benchwork",
-    "category": "Jewelry",
-    "class": "jewelry",
-    "url": "http://leighgriffinjewelry.com"
-  },
-  {
-    "booths": [
-      "118"
-    ],
-    "firstname": "Jill",
-    "lastname": "Sharp",
-    "business": "Blue Piranha",
-    "category": "Jewelry",
-    "class": "jewelry",
-    "url": "http://www.bpjewelry.com"
-  },
-  {
-    "booths": [
-      "36"
-    ],
-    "firstname": "Hanan",
-    "lastname": "Ingel",
-    "business": "Erez Ancient Coin Jewlery",
-    "category": "Jewelry",
-    "class": "jewelry",
-    "url": "http://www.ownapieceofhistory.biz"
-  },
-  {
-    "booths": [
-      "8"
-    ],
-    "firstname": "Hannah",
-    "lastname": "Long",
-    "business": "Hannah Long Jewelry",
-    "category": "Jewelry",
-    "class": "jewelry",
-    "url": "https://www.hannahlongjewelry.com"
-  },
-  {
-    "booths": [
-      "58"
-    ],
-    "firstname": "susan",
-    "lastname": "wachler",
-    "business": "Metal Dance Jewelry",
-    "category": "Jewelry",
-    "class": "jewelry",
-    "url": "http://metaldance.etsy.com"
-  },
-  {
-    "booths": [
-      "24"
-    ],
+    "booths": [],
     "firstname": "Julia",
     "lastname": "Benson-Slaughter",
     "business": "Noctua Designs LLC",
@@ -285,53 +265,67 @@
     "url": "http://noctuadesigns.com"
   },
   {
-    "booths": [
-      "170"
-    ],
-    "firstname": "Tiana",
-    "lastname": "Saul",
-    "business": "Sayuri Designs",
+    "booths": [],
+    "firstname": "Treffry",
+    "lastname": "Caldwell",
+    "business": "Pluma Jewelry",
     "category": "Jewelry",
     "class": "jewelry",
-    "url": "https://www.facebook.com/tiana.sayuri.designs/"
+    "url": "https://www.plumajewelry.com"
   },
   {
-    "booths": [
-      "47"
-    ],
-    "firstname": "Regina",
-    "lastname": "To",
-    "business": "Sophia Pip Designs",
+    "booths": [],
+    "firstname": "Emelisa",
+    "lastname": "Cantero",
     "category": "Jewelry",
     "class": "jewelry",
-    "url": "http://www.sophiapip.etsy.com"
+    "url": "https://www.etsy.com/shop/ichacantero"
   },
   {
-    "booths": [
-      "179"
-    ],
-    "firstname": "Stephanie",
-    "lastname": "Peebles",
-    "business": "Stephanie Leigh Jewelry",
+    "booths": [],
+    "firstname": "Adrianna",
+    "lastname": "D'Angelo",
+    "business": "The Bleu Giraffe",
     "category": "Jewelry",
     "class": "jewelry",
-    "url": "http://www.stephanieleighjewelry.com"
+    "url": "https://www.adriannadangelo.com"
   },
   {
-    "booths": [
-      "181"
-    ],
-    "firstname": "Ali",
-    "lastname": "Reznikoff",
-    "business": "The Silversmith Jewelry",
+    "booths": [],
+    "firstname": "Abigail",
+    "lastname": "Fincannon",
+    "business": "Mettle by Abby",
+    "category": "Jewelry",
+    "class": "jewelry"
+  },
+  {
+    "booths": [],
+    "firstname": "Mako",
+    "lastname": "Friedenberg",
+    "business": "Green Elements -La tagua",
     "category": "Jewelry",
     "class": "jewelry",
-    "url": "http://www.thesilversmithjewelry.com"
+    "url": "http://www.latagua.info"
   },
   {
-    "booths": [
-      "109"
-    ],
+    "booths": [],
+    "firstname": "Tina",
+    "lastname": "Goolsby",
+    "business": "Pieces Past",
+    "category": "Jewelry",
+    "class": "jewelry",
+    "url": "http://www.piecespast.com"
+  },
+  {
+    "booths": [],
+    "firstname": "Jenna",
+    "lastname": "Hirt",
+    "business": "Tying Tribes",
+    "category": "Jewelry",
+    "class": "jewelry"
+  },
+  {
+    "booths": [],
     "firstname": "Jorge",
     "lastname": "Lastra",
     "business": "THR Barcelona USA LLC",
@@ -340,19 +334,61 @@
     "url": "http://www.thrbarcelonausa.com"
   },
   {
-    "booths": [
-      "50"
-    ],
-    "firstname": "Jenna",
-    "lastname": "Hirt",
-    "business": "Tying Tribes",
+    "booths": [],
+    "firstname": "LeAnne",
+    "lastname": "Marquis",
+    "business": "Marquis Jewelry LLC",
     "category": "Jewelry",
-    "class": "jewelry"
+    "class": "jewelry",
+    "url": "https://www.marquisjewelry.com"
   },
   {
-    "booths": [
-      "56"
-    ],
+    "booths": [],
+    "firstname": "LILIANA",
+    "lastname": "OLMOS",
+    "business": "Olmox - Fine Filigree Jewelry",
+    "category": "Jewelry",
+    "class": "jewelry",
+    "url": "https://olmox.com"
+  },
+  {
+    "booths": [],
+    "firstname": "Stephanie",
+    "lastname": "Peebles",
+    "business": "Stephanie Leigh Jewelry",
+    "category": "Jewelry",
+    "class": "jewelry",
+    "url": "http://www.stephanieleighjewelry.com"
+  },
+  {
+    "booths": [],
+    "firstname": "Tiana",
+    "lastname": "Saul",
+    "business": "Sayuri Designs",
+    "category": "Jewelry",
+    "class": "jewelry",
+    "url": "http://sayuridesigns.com"
+  },
+  {
+    "booths": [],
+    "firstname": "Jill",
+    "lastname": "Sharp",
+    "business": "Blue Piranha",
+    "category": "Jewelry",
+    "class": "jewelry",
+    "url": "http://www.bluepiranhajewelry.com"
+  },
+  {
+    "booths": [],
+    "firstname": "Michele",
+    "lastname": "Throne",
+    "business": "Sidhe Designs",
+    "category": "Jewelry",
+    "class": "jewelry",
+    "url": "http://www.sidhedesigns.com"
+  },
+  {
+    "booths": [],
     "firstname": "Alejandra",
     "lastname": "Avila",
     "category": "Leather",
@@ -360,20 +396,25 @@
     "url": "http://www.alejaavila.com"
   },
   {
-    "booths": [
-      "111"
-    ],
-    "firstname": "Muriel",
-    "lastname": "Luxemburger",
-    "business": "Atelier Luxembourg",
+    "booths": [],
+    "firstname": "Remon",
+    "lastname": "Bebawy",
+    "business": "Remon",
     "category": "Leather",
     "class": "leather",
-    "url": "http://www.atelierluxembourg.com"
+    "url": "http://oriental-leather-art.com"
   },
   {
-    "booths": [
-      "139"
-    ],
+    "booths": [],
+    "firstname": "Brian",
+    "lastname": "Joyner",
+    "business": "Hang Over Guitar Straps",
+    "category": "Leather",
+    "class": "leather",
+    "url": "http://www.etsy.com/shop/hangoverguitarstraps"
+  },
+  {
+    "booths": [],
     "firstname": "Jon",
     "lastname": "Ladd",
     "business": "Jon Ladd Leather",
@@ -382,31 +423,16 @@
     "url": "http://www.jonladdleather.com"
   },
   {
-    "booths": [
-      "108"
-    ],
-    "firstname": "Jonathon",
-    "lastname": "Wye",
-    "business": "Jonathon Wye, LLC",
+    "booths": [],
+    "firstname": "Muriel",
+    "lastname": "Luxemburger",
+    "business": "Atelier Luxembourg",
     "category": "Leather",
     "class": "leather",
-    "url": "http://www.jonwye.com"
+    "url": "http://www.atelierluxembourg.com"
   },
   {
-    "booths": [
-      "164"
-    ],
-    "firstname": "George",
-    "lastname": "Antuna",
-    "business": "Kazel & co.",
-    "category": "Leather",
-    "class": "leather",
-    "url": "http://www.kazelco.com"
-  },
-  {
-    "booths": [
-      "13"
-    ],
+    "booths": [],
     "firstname": "Melissa",
     "lastname": "Steurer",
     "business": "Steurer & Co.",
@@ -415,19 +441,31 @@
     "url": "http://www.steurer.co"
   },
   {
-    "booths": [
-      "99"
-    ],
+    "booths": [],
+    "firstname": "Jonathon",
+    "lastname": "Wye",
+    "business": "Jonathon Wye, LLC",
+    "category": "Leather",
+    "class": "leather",
+    "url": "http://www.jonwye.com"
+  },
+  {
+    "booths": [],
     "firstname": "Nelms",
     "lastname": "Creekmur",
     "category": "Metalwork",
     "class": "metalwork"
   },
   {
-    "booths": [
-      "105",
-      "107"
-    ],
+    "booths": [],
+    "firstname": "Jay",
+    "lastname": "Kim",
+    "business": "Jay Kim",
+    "category": "Metalwork",
+    "class": "metalwork"
+  },
+  {
+    "booths": [],
     "firstname": "William",
     "lastname": "Staubach",
     "business": "Daylight Designs",
@@ -435,59 +473,25 @@
     "class": "metalwork"
   },
   {
-    "booths": [
-      "125",
-      "127"
-    ],
-    "firstname": "Wayne",
-    "lastname": "Dorn",
-    "business": "Yardbirds",
-    "category": "Metalwork",
-    "class": "metalwork"
-  },
-  {
-    "booths": [
-      "21"
-    ],
-    "firstname": "Chris",
-    "lastname": "Cumbie",
+    "booths": [],
+    "firstname": "nathan",
+    "lastname": "bailey",
+    "business": "7art",
     "category": "Mixed media",
     "class": "mixed-media",
-    "url": "http://www.facebook.com/chriscumbieart"
+    "url": "http://sevenart.org"
   },
   {
-    "booths": [
-      "12"
-    ],
-    "firstname": "Dee",
-    "lastname": "Mirkin",
-    "category": "Mixed media",
-    "class": "mixed-media"
-  },
-  {
-    "booths": [
-      "35"
-    ],
-    "firstname": "Elite",
-    "lastname": "Shaier",
+    "booths": [],
+    "firstname": "Faryn",
+    "lastname": "Davis",
+    "business": "Fernworks",
     "category": "Mixed media",
     "class": "mixed-media",
-    "url": "http://elitetheartist.squarespace.com"
+    "url": "http://www.fernworks.org"
   },
   {
-    "booths": [
-      "2"
-    ],
-    "firstname": "ronnie",
-    "lastname": "Land",
-    "category": "Mixed media",
-    "class": "mixed-media",
-    "url": "http://rlandart.com"
-  },
-  {
-    "booths": [
-      "34"
-    ],
+    "booths": [],
     "firstname": "Taguhi",
     "lastname": "Erzrumyan",
     "category": "Mixed media",
@@ -495,131 +499,7 @@
     "url": "http://www.taguhiart.com"
   },
   {
-    "booths": [
-      "137"
-    ],
-    "firstname": "Walter",
-    "lastname": "Knoechel",
-    "category": "Mixed media",
-    "class": "mixed-media",
-    "url": "https://www.etsy.com/shop/creativetablesstudio"
-  },
-  {
-    "booths": [
-      "31"
-    ],
-    "firstname": "Michelle",
-    "lastname": "Ottley",
-    "business": "2 Graces Studio, LLC",
-    "category": "Mixed media",
-    "class": "mixed-media",
-    "url": "http://2gracessstudio.net"
-  },
-  {
-    "booths": [
-      "176"
-    ],
-    "firstname": "Henry",
-    "lastname": "Warner",
-    "business": "ALCOVE FINE ART",
-    "category": "Mixed media",
-    "class": "mixed-media",
-    "url": "http://www.alcovearts.com"
-  },
-  {
-    "booths": [
-      "54"
-    ],
-    "firstname": "Katja",
-    "lastname": "Hilton",
-    "business": "Amazing & Beautiful Butterflies",
-    "category": "Mixed media",
-    "class": "mixed-media",
-    "url": "http://abbutterflies.com"
-  },
-  {
-    "booths": [
-      "27"
-    ],
-    "firstname": "Thomas",
-    "lastname": "Burns",
-    "business": "Atlanta Vintage Travel",
-    "category": "Mixed media",
-    "class": "mixed-media",
-    "url": "http://www.atlantavintagetravel.com"
-  },
-  {
-    "booths": [
-      "195",
-      "197"
-    ],
-    "firstname": "Sandie",
-    "lastname": "Cappai",
-    "business": "Cappai Designs",
-    "category": "Mixed media",
-    "class": "mixed-media",
-    "url": "http://cappaidesigns.com"
-  },
-  {
-    "booths": [
-      "44"
-    ],
-    "firstname": "Jesse",
-    "lastname": "Kunerth",
-    "business": "Dose Creative",
-    "category": "Mixed media",
-    "class": "mixed-media",
-    "url": "http://www.dosecamera.com"
-  },
-  {
-    "booths": [
-      "116"
-    ],
-    "firstname": "Patsy",
-    "lastname": "Gullett",
-    "business": "Ed Gullett",
-    "category": "Mixed media",
-    "class": "mixed-media",
-    "url": "http://collegiatelegacy.com"
-  },
-  {
-    "booths": [
-      "190"
-    ],
-    "firstname": "Stacey",
-    "lastname": "Brown",
-    "business": "Fine Art by Stacey Brown",
-    "category": "Mixed media",
-    "class": "mixed-media",
-    "url": "http://www.sbrownart.com"
-  },
-  {
-    "booths": [
-      "141"
-    ],
-    "firstname": "Jessica",
-    "lastname": "Ladd",
-    "business": "Jessica Stoddart-Ladd, Artist",
-    "category": "Mixed media",
-    "class": "mixed-media",
-    "url": "http://www.jessicastoddartladd.com"
-  },
-  {
-    "booths": [
-      "20",
-      "22"
-    ],
-    "firstname": "john",
-    "lastname": "ha",
-    "business": "John hung ha",
-    "category": "Mixed media",
-    "class": "mixed-media",
-    "url": "http://www.johnhungha.com"
-  },
-  {
-    "booths": [
-      "174"
-    ],
+    "booths": [],
     "firstname": "john",
     "lastname": "fesken",
     "business": "John W Fesken",
@@ -628,97 +508,50 @@
     "url": "http://www.jwmadman.deviant.com"
   },
   {
-    "booths": [
-      "122"
-    ],
-    "firstname": "Kenneth",
-    "lastname": "Kudulis",
-    "business": "kudulah",
+    "booths": [],
+    "firstname": "Alex",
+    "lastname": "Grimmer",
+    "business": "Freaky Record",
     "category": "Mixed media",
     "class": "mixed-media",
-    "url": "http://www.kudulah.com"
+    "url": "https://freakyrecord.com"
   },
   {
-    "booths": [
-      "41"
-    ],
-    "firstname": "Leif",
-    "lastname": "Johansen",
-    "business": "Leif Erik Johansen",
+    "booths": [],
+    "firstname": "Katja",
+    "lastname": "Hilton",
+    "business": "Amazing & Beautiful Butterflies",
     "category": "Mixed media",
     "class": "mixed-media",
-    "url": "http://leiferikjohansen.com"
+    "url": "http://abbutterflies.com"
   },
   {
-    "booths": [
-      "185"
-    ],
-    "firstname": "Mary",
-    "lastname": "Proctor",
-    "business": "Missionary Mary",
+    "booths": [],
+    "firstname": "Dinett",
+    "lastname": "Hok",
     "category": "Mixed media",
     "class": "mixed-media",
-    "url": "http://missionarymary.com/contact.htm"
+    "url": "http://dinetthok.com/"
   },
   {
-    "booths": [
-      "5"
-    ],
-    "firstname": "Beth",
-    "lastname": "Watson",
-    "business": "MyMy Butterfly",
+    "booths": [],
+    "firstname": "Walter",
+    "lastname": "Knoechel",
+    "business": "Creative Tables & Decor",
     "category": "Mixed media",
     "class": "mixed-media",
-    "url": "https://www.instagram.com/mymy_butterfly/"
+    "url": "https://creativetablesanddecor.com/"
   },
   {
-    "booths": [
-      "10"
-    ],
-    "firstname": "Thomas",
-    "lastname": "Lowery",
-    "business": "Paper Ghost Studio",
+    "booths": [],
+    "firstname": "david",
+    "lastname": "lasker",
     "category": "Mixed media",
     "class": "mixed-media",
-    "url": "http://paperghoststudio.com"
+    "url": "http://davelasker.com"
   },
   {
-    "booths": [
-      "180"
-    ],
-    "firstname": "Pat",
-    "lastname": "McNeely",
-    "business": "pat mcneely DESIGN",
-    "category": "Mixed media",
-    "class": "mixed-media",
-    "url": "http://patmcneely.com"
-  },
-  {
-    "booths": [
-      "26"
-    ],
-    "firstname": "Simone",
-    "lastname": "Wilson",
-    "business": "Pleasant Hugh Studio",
-    "category": "Mixed media",
-    "class": "mixed-media",
-    "url": "http://simonewilsonartanddesign.com"
-  },
-  {
-    "booths": [
-      "43"
-    ],
-    "firstname": "Andrew",
-    "lastname": "Swartz",
-    "business": "skullgarden",
-    "category": "Mixed media",
-    "class": "mixed-media",
-    "url": "http://skullgarden.net"
-  },
-  {
-    "booths": [
-      "46"
-    ],
+    "booths": [],
     "firstname": "Huiying",
     "lastname": "Lee",
     "business": "Sweet Valley Bonsai",
@@ -726,93 +559,58 @@
     "class": "mixed-media"
   },
   {
-    "booths": [
-      "16"
-    ],
+    "booths": [],
     "firstname": "John",
     "lastname": "Lundy",
     "business": "The Humble Hutch",
     "category": "Mixed media",
     "class": "mixed-media",
-    "url": "http://www.etsy.com/shop/thehumblehutch"
+    "url": "https://www.etsy.com/shop/thehumblehutchco"
   },
   {
-    "booths": [
-      "160",
-      "162"
-    ],
-    "firstname": "Chris",
-    "lastname": "Oaks",
-    "business": "Twin Oaks Hammocks",
+    "booths": [],
+    "firstname": "debra",
+    "lastname": "mager",
+    "business": "debra mager",
     "category": "Mixed media",
     "class": "mixed-media",
-    "url": "http://twinoakstore.com"
+    "url": "http://debramagermosaics.com"
   },
   {
-    "booths": [
-      "161"
-    ],
-    "firstname": "william",
-    "lastname": "cowherd",
-    "business": "william  c. j.",
+    "booths": [],
+    "firstname": "Jess",
+    "lastname": "Pierce",
+    "category": "Mixed media",
+    "class": "mixed-media"
+  },
+  {
+    "booths": [],
+    "firstname": "Henry",
+    "lastname": "Warner",
+    "business": "ALCOVE FINE ART",
     "category": "Mixed media",
     "class": "mixed-media",
-    "url": "http://williamcj.com"
+    "url": "https://www.hcwarner.com"
   },
   {
-    "booths": [
-      "142"
-    ],
-    "firstname": "Dave",
-    "lastname": "Goldman",
+    "booths": [],
+    "firstname": "SPOON",
+    "lastname": ".",
+    "business": "Artwork by Spoon, LLC",
     "category": "Painting",
     "class": "painting",
-    "url": "http://www.davegoldman.net"
+    "url": "https://www.artworkbyspoon.com"
   },
   {
-    "booths": [
-      "42"
-    ],
-    "firstname": "Greg",
-    "lastname": "Stones",
+    "booths": [],
+    "firstname": "Lauren",
+    "lastname": "Auld",
+    "business": "LtA Creations",
     "category": "Painting",
-    "class": "painting",
-    "url": "http://www.gregstones.com"
+    "class": "painting"
   },
   {
-    "booths": [
-      "3"
-    ],
-    "firstname": "Jamie",
-    "lastname": "Calkin",
-    "category": "Painting",
-    "class": "painting",
-    "url": "http://www.jamiecalkin.com"
-  },
-  {
-    "booths": [
-      "129"
-    ],
-    "firstname": "Larry & Sherry",
-    "lastname": "Paulsen",
-    "category": "Painting",
-    "class": "painting",
-    "url": "http://www.cityartmarket.com"
-  },
-  {
-    "booths": [
-      "4"
-    ],
-    "firstname": "Loukas",
-    "lastname": "Balomenos",
-    "category": "Painting",
-    "class": "painting",
-    "url": "http://loukasart.com"
-  },
-  {
-    "booths": [
-      "51"
-    ],
+    "booths": [],
     "firstname": "Amine",
     "lastname": "Badr",
     "business": "Amine badr fine art",
@@ -821,63 +619,31 @@
     "url": "http://aminebadrart.com"
   },
   {
-    "booths": [
-      "14"
-    ],
-    "firstname": "Amy",
-    "lastname": "Durant",
-    "business": "Amy Durant Art",
+    "booths": [],
+    "firstname": "Charles",
+    "lastname": "Boniface",
     "category": "Painting",
     "class": "painting"
   },
   {
-    "booths": [
-      "194"
-    ],
-    "firstname": "CHRIS",
-    "lastname": "HOBE",
-    "business": "ART REVOLTS",
+    "booths": [],
+    "firstname": "Dave",
+    "lastname": "Goldman",
     "category": "Painting",
     "class": "painting",
-    "url": "http://www.cantbuyfrdm.com"
+    "url": "http://www.davegoldman.net"
   },
   {
-    "booths": [
-      "187"
-    ],
-    "firstname": "SPOON",
-    "lastname": "SPOON",
-    "business": "Artwork by Spoon, LLC",
+    "booths": [],
+    "firstname": "Patsy",
+    "lastname": "Gullett",
+    "business": "Sculptured Watercolors",
     "category": "Painting",
     "class": "painting",
-    "url": "http://www.artworkbyspoon.com"
+    "url": "https://hcollegiatelegacy.com"
   },
   {
-    "booths": [
-      "33"
-    ],
-    "firstname": "Debra",
-    "lastname": "Davis",
-    "business": "Debra Davis Fine Art",
-    "category": "Painting",
-    "class": "painting",
-    "url": "http://www.debradavisfineart.com"
-  },
-  {
-    "booths": [
-      "45"
-    ],
-    "firstname": "Linda",
-    "lastname": "Hill",
-    "business": "Heartscape Designs",
-    "category": "Painting",
-    "class": "painting",
-    "url": "http://www.heartscapedesigns.com"
-  },
-  {
-    "booths": [
-      "98"
-    ],
+    "booths": [],
     "firstname": "Smita",
     "lastname": "Gupta",
     "business": "Henna tattoo & Face Painting",
@@ -885,53 +651,50 @@
     "class": "painting"
   },
   {
-    "booths": [
-      "158"
-    ],
-    "firstname": "JC",
-    "lastname": "PINO",
-    "business": "JCPINOGALLERY",
+    "booths": [],
+    "firstname": "Victoria",
+    "lastname": "Jackson",
     "category": "Painting",
     "class": "painting",
-    "url": "http://jcpinogallery.com"
+    "url": "https://hwww.victoriajacksonart.com"
   },
   {
-    "booths": [
-      "113"
-    ],
-    "firstname": "Marisol",
-    "lastname": "Spoon",
-    "business": "Marisol Spoon Inc.",
+    "booths": [],
+    "firstname": "Ana",
+    "lastname": "Jones",
+    "business": "Ana's Jazzy Art",
+    "category": "Painting",
+    "class": "painting"
+  },
+  {
+    "booths": [],
+    "firstname": "Aziz",
+    "lastname": "Kadmiri",
+    "business": "Kadmiri Fine Art",
     "category": "Painting",
     "class": "painting",
-    "url": "http://marisolspoon.com"
+    "url": "http://www.kadmirifineart.com"
   },
   {
-    "booths": [
-      "15"
-    ],
-    "firstname": "Joe",
-    "lastname": "Martino",
-    "business": "Martino Fine Art",
+    "booths": [],
+    "firstname": "Jessica",
+    "lastname": "Ladd",
+    "business": "Jessica Stoddart-Ladd, Artist",
     "category": "Painting",
     "class": "painting",
-    "url": "http://www.joemartinoart.com"
+    "url": "http://www.jessicastoddartladd.com"
   },
   {
-    "booths": [
-      "154"
-    ],
-    "firstname": "Richard",
-    "lastname": "Webb",
-    "business": "Richard F Webb Fine Art",
+    "booths": [],
+    "firstname": "Nelson",
+    "lastname": "Perez",
+    "business": "Vodka Bacon Studios",
     "category": "Painting",
     "class": "painting",
-    "url": "http://www.richardfwebb.com"
+    "url": "https://www.vodkabaconstudios.com"
   },
   {
-    "booths": [
-      "192"
-    ],
+    "booths": [],
     "firstname": "Chouaieb",
     "lastname": "Saidi",
     "business": "Saidiart",
@@ -940,31 +703,16 @@
     "url": "http://www.saidiart.com"
   },
   {
-    "booths": [
-      "120"
-    ],
-    "firstname": "Sang",
-    "lastname": "Kim",
-    "business": "Samuelsart",
+    "booths": [],
+    "firstname": "Marisol",
+    "lastname": "Spoon",
+    "business": "Marisol Spoon Inc.",
     "category": "Painting",
     "class": "painting",
-    "url": "http://www.samuelsart.com"
+    "url": "http://marisolspoon.com"
   },
   {
-    "booths": [
-      "159"
-    ],
-    "firstname": "Saville",
-    "lastname": "Studios",
-    "business": "Saville Studios",
-    "category": "Painting",
-    "class": "painting",
-    "url": "http://www.savillestudios.com"
-  },
-  {
-    "booths": [
-      "30"
-    ],
+    "booths": [],
     "firstname": "Kristin",
     "lastname": "Thorsen",
     "business": "thorsenart",
@@ -973,70 +721,25 @@
     "url": "http://www.thorsenart.com"
   },
   {
-    "booths": [
-      "167"
-    ],
-    "firstname": "David",
-    "lastname": "Dobbs",
+    "booths": [],
+    "firstname": "Richard",
+    "lastname": "Webb",
+    "business": "Richard F Webb Fine Art",
+    "category": "Painting",
+    "class": "painting",
+    "url": "https://www.richardfwebb.com"
+  },
+  {
+    "booths": [],
+    "firstname": "Michael",
+    "lastname": "Bryant",
+    "business": "Michael Bryant",
     "category": "Photography",
     "class": "photography",
-    "url": "https://fineartamerica.com/profiles/david-a-dobbs.html"
+    "url": "https://www.michael-bryant.com"
   },
   {
-    "booths": [
-      "150"
-    ],
-    "firstname": "Jana",
-    "lastname": "Epstein",
-    "category": "Photography",
-    "class": "photography",
-    "url": "http://www.janaepstein.com"
-  },
-  {
-    "booths": [
-      "53"
-    ],
-    "firstname": "JMIGUEL",
-    "lastname": "HERNANDEZ",
-    "category": "Photography",
-    "class": "photography",
-    "url": "http://jmiguelfineart.com"
-  },
-  {
-    "booths": [
-      "119"
-    ],
-    "firstname": "Matthew",
-    "lastname": "Terrell",
-    "category": "Photography",
-    "class": "photography",
-    "url": "http://www.itsjustmematt.com"
-  },
-  {
-    "booths": [
-      "186"
-    ],
-    "firstname": "charles",
-    "lastname": "holton",
-    "business": "1954",
-    "category": "Photography",
-    "class": "photography"
-  },
-  {
-    "booths": [
-      "18"
-    ],
-    "firstname": "Julia",
-    "lastname": "Dressler",
-    "business": "Coles Corner",
-    "category": "Photography",
-    "class": "photography",
-    "url": "http://www.colescornerimages.com"
-  },
-  {
-    "booths": [
-      "166"
-    ],
+    "booths": [],
     "firstname": "Shaun",
     "lastname": "Krisher",
     "business": "Epic Photography Atlanta",
@@ -1045,10 +748,7 @@
     "url": "http://epicphotoatl.com"
   },
   {
-    "booths": [
-      "104",
-      "106"
-    ],
+    "booths": [],
     "firstname": "Glenn",
     "lastname": "Lewis",
     "business": "Glenn Lewis Photography",
@@ -1057,137 +757,51 @@
     "url": "http://www.glennlewisphotography.com"
   },
   {
-    "booths": [
-      "135"
-    ],
-    "firstname": "Jake",
-    "lastname": "Mosher",
-    "business": "Jake Mosher Photography",
+    "booths": [],
+    "firstname": "Max",
+    "lastname": "McDonough",
+    "business": "Time Ghost Photography",
     "category": "Photography",
     "class": "photography",
-    "url": "http://www.jakemosher.com"
+    "url": "https://timeghostphoto.com/"
   },
   {
-    "booths": [
-      "110"
-    ],
+    "booths": [],
     "firstname": "Michael",
-    "lastname": "Bryant",
-    "business": "Michael Bryant",
+    "lastname": "Schuier",
+    "business": "Schuier Photography",
     "category": "Photography",
     "class": "photography",
-    "url": "http://www.michael-bryant.com"
+    "url": "https://www.schuierphotography.com/"
   },
   {
-    "booths": [
-      "23"
-    ],
-    "firstname": "Deborah",
-    "lastname": "Bryant",
-    "business": "Deborah Bryant Handwoven",
-    "category": "Textile / Fiber",
-    "class": "textile-fiber",
-    "url": "http://www.deborahbryanthandwoven.com"
+    "booths": [],
+    "firstname": "Karen",
+    "lastname": "Varsha",
+    "business": "1951",
+    "category": "Photography",
+    "class": "photography"
   },
   {
-    "booths": [
-      "28"
-    ],
-    "firstname": "May",
-    "lastname": "Yang",
-    "business": "May's Stitchery",
-    "category": "Textile / Fiber",
-    "class": "textile-fiber"
-  },
-  {
-    "booths": [
-      "157"
-    ],
-    "firstname": "Kathryn",
-    "lastname": "Wieldraayer",
-    "business": "Rangemark",
-    "category": "Textile / Fiber",
-    "class": "textile-fiber",
-    "url": "http://rangemarktextiles.com"
-  },
-  {
-    "booths": [
-      "7"
-    ],
-    "firstname": "Deborah",
-    "lastname": "Brawley",
-    "business": "The Unbroken Circle",
-    "category": "Textile / Fiber",
-    "class": "textile-fiber",
-    "url": "http://www.ubcircle.com"
-  },
-  {
-    "booths": [
-      "124",
-      "126"
-    ],
-    "firstname": "maria",
-    "lastname": "musngi",
-    "business": "Orb Arts",
-    "category": "Textile / Fiber /Painting",
-    "class": "textile-fiber-painting"
-  },
-  {
-    "booths": [
-      "188"
-    ],
-    "firstname": "Rosemary",
-    "lastname": "Kimble",
-    "business": "EnRapturing Entertainment",
-    "category": "Various / Other",
-    "class": "various-other"
-  },
-  {
-    "booths": [
-      "32"
-    ],
-    "firstname": "Tiim",
-    "lastname": "Kuhlman",
-    "category": "Woodwork",
-    "class": "woodwork"
-  },
-  {
-    "booths": [
-      "6"
-    ],
-    "firstname": "Scott",
-    "lastname": "Blanchard",
-    "business": "Dancing Fox Shoji",
-    "category": "Woodwork",
-    "class": "woodwork"
-  },
-  {
-    "booths": [
-      "17"
-    ],
-    "firstname": "Jeffrey",
-    "lastname": "Nelson",
-    "business": "Hudson River Inlay",
+    "booths": [],
+    "firstname": "Ana Maria",
+    "lastname": "Barragan",
+    "business": "Ana A",
     "category": "Woodwork",
     "class": "woodwork",
-    "url": "http://www.hudsonriverinlay.com"
+    "url": "https://www.anaeyewear.co"
   },
   {
-    "booths": [
-      "177"
-    ],
-    "firstname": "Jane",
-    "lastname": "Burke",
-    "business": "Jane Burke",
+    "booths": [],
+    "firstname": "Andy",
+    "lastname": "Costine",
+    "business": "ARC Woodworking",
     "category": "Woodwork",
     "class": "woodwork",
-    "url": "http://www.janeburke.com"
+    "url": "https://costineandy.simdif.com"
   },
   {
-    "booths": [
-      "95",
-      "97"
-    ],
+    "booths": [],
     "firstname": "scott",
     "lastname": "mattison",
     "business": "Mattison Woodworks, LLC",
@@ -1196,31 +810,33 @@
     "url": "http://mattisonwoodworks.com"
   },
   {
-    "booths": [
-      "114"
-    ],
-    "firstname": "Mike",
-    "lastname": "Merritt",
-    "business": "Mike Merritt Artworks",
+    "booths": [],
+    "firstname": "Jeffrey",
+    "lastname": "Nelson",
+    "business": "Hudson River Inlay",
     "category": "Woodwork",
     "class": "woodwork",
-    "url": "http://www.mikemerrittart.com"
+    "url": "http://www.hudsonriverinlay.com"
   },
   {
-    "booths": [
-      "163"
-    ],
+    "booths": [],
     "firstname": "Drew",
     "lastname": "Oxford",
     "business": "Ox in the Shop",
     "category": "Woodwork",
     "class": "woodwork",
-    "url": "http://oxintheshop.com"
+    "url": "https://www.oxintheshop.com"
   },
   {
-    "booths": [
-      "117"
-    ],
+    "booths": [],
+    "firstname": "Pamela",
+    "lastname": "Regal",
+    "category": "Woodwork",
+    "class": "woodwork",
+    "url": "http://rockndesigns.com"
+  },
+  {
+    "booths": [],
     "firstname": "DERIK",
     "lastname": "VANVLEET",
     "business": "VanVleet Woodworking llc",
