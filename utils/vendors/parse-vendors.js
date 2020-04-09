@@ -61,7 +61,9 @@ function parseRow (row) {
         vendor.class = makeClassFromCategory(vendor.category)
     }
 
-    // vendor.booths = getBoothsFromRow(row)
+    if (notEmpty(row['Artist statement'])) {
+        vendor.statement = row['Artist statement']
+    }
 
     if (notEmpty(row['Website'])) {
         const url = cleanUrl(row['Website'])

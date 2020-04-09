@@ -6,6 +6,7 @@
     "business": "Maria Bruckman Art",
     "category": "Ceramics",
     "class": "ceramics",
+    "statement": "I handmake my art from porcelain. Pieces are detailed with hand-made glazes, gold/platinum lusters, gold filled/silver wire, semi-precious stones, & pearls. All pieces are one-of-a-kind works of art.",
     "url": "https://mariabruckmanart.com"
   },
   {
@@ -14,7 +15,8 @@
     "lastname": "Gilbert",
     "business": "Cara Gilbert Ceramics",
     "category": "Ceramics",
-    "class": "ceramics"
+    "class": "ceramics",
+    "statement": "Hand thrown stoneware and porcelain. All designed and thrown and glazed by only me. Graphic design on supple forms."
   },
   {
     "booths": [],
@@ -22,6 +24,7 @@
     "lastname": "Harris",
     "category": "Ceramics",
     "class": "ceramics",
+    "statement": "Ceramic sculptural and functional art. Wheel thrown, hand-built and sculpted using porcelaneous clay, decorated using underglazes, oxides and glazes. Fired to cone 6 in an electric kiln.",
     "url": "http://veroniqueharris.com"
   },
   {
@@ -31,6 +34,7 @@
     "business": "BrennaDee Ceramics",
     "category": "Ceramics",
     "class": "ceramics",
+    "statement": "I design and create a line of wheel thrown, crystalline glazed porcelain ware as well as a line of functional slipcast work emphasizing clean lines, subtle microcrystalline glazes, and bright colors.",
     "url": "http://brennadee.com"
   },
   {
@@ -39,6 +43,7 @@
     "lastname": "Panchal",
     "category": "Ceramics",
     "class": "ceramics",
+    "statement": "Most of my works are inspired by nature. This handmade vase has an exclusive shape from off white stoneware clay with an ascent black of color and unique hand drawn patterns to create originality.",
     "url": "http://www.yesha-art.com"
   },
   {
@@ -48,6 +53,7 @@
     "business": "polly on the avenue",
     "category": "Ceramics",
     "class": "ceramics",
+    "statement": "i make wheel thrown brightly colored functional pottery..handpainted and slip decorated..microwave, dishwasher safe..a neighborhood favorite,,",
     "url": "http://pollythepotter.com"
   },
   {
@@ -57,6 +63,7 @@
     "business": "Calou Calay",
     "category": "Ceramics",
     "class": "ceramics",
+    "statement": "Hand thrown and altered sculptural functional ware in porcelain and stoneware, glazed in my home-mixed glazes, fired oxidation to cone 6 and Raku.",
     "url": "https://hwww.caloucalay.com"
   },
   {
@@ -65,7 +72,8 @@
     "lastname": "THOMAS",
     "business": "ANJEL CREATIONS",
     "category": "Ceramics",
-    "class": "ceramics"
+    "class": "ceramics",
+    "statement": "Handmade ceramics for home and garden"
   },
   {
     "booths": [],
@@ -74,6 +82,7 @@
     "business": "Sarah Sunshine Pottery",
     "category": "Ceramics",
     "class": "ceramics",
+    "statement": "I hand make and sign each piece on a speckled stoneware clay, fire in an oxidation kiln, and glaze with a unique signature from glazes I formulate from scratch.",
     "url": "http://sarahsunshinepottery.com"
   },
   {
@@ -83,6 +92,7 @@
     "business": "Atlanta Vintage Travel",
     "category": "Drawing / Printmaking",
     "class": "drawing-printmaking",
+    "statement": "All new illustrations of Atlanta landmarks and college game day mascots, created in a retro style.",
     "url": "http://www.atlantavintagetravel.com"
   },
   {
@@ -92,6 +102,7 @@
     "business": "Eli Helman Ink",
     "category": "Drawing / Printmaking",
     "class": "drawing-printmaking",
+    "statement": "Ink drawings created by self-taught artist with Micron pens on paper. Blending intricately detailed modern & folk styles into eclectic subjects, some pieces take more than 100 hours to complete.",
     "url": "https://www.elihelman.com"
   },
   {
@@ -100,7 +111,8 @@
     "lastname": "Jennings",
     "business": "Board to Art",
     "category": "Drawing / Printmaking",
-    "class": "drawing-printmaking"
+    "class": "drawing-printmaking",
+    "statement": "Scratchboard: hand rendering through a top coat of black ink into a center coat of white clay. Basically a manual etching process. Reverse of pencil, adding light instead of dark. Masonite board."
   },
   {
     "booths": [],
@@ -109,6 +121,7 @@
     "business": "Treksalot",
     "category": "Drawing / Printmaking",
     "class": "drawing-printmaking",
+    "statement": "My creative process involves hand-sketching ideas on paper, scanning completed outlines into a computer and then adding in details and coloring in Adobe Illustrator/Photoshop.",
     "url": "https://www.treksalot.com"
   },
   {
@@ -117,6 +130,7 @@
     "lastname": "Paulsen",
     "category": "Drawing / Printmaking",
     "class": "drawing-printmaking",
+    "statement": "graphic art printmaking - limited editions - hand drawings & colored by husband & wife artist team.",
     "url": "http://www.cityartmarket.com"
   },
   {
@@ -126,6 +140,7 @@
     "business": "Huck and Harbor",
     "category": "Drawing / Printmaking",
     "class": "drawing-printmaking",
+    "statement": "Custom life-like pet portraits in pastels, using a mix of blending techniques and pencil work to bring life to the page.",
     "url": "https://www.huckandharbor.com"
   },
   {
@@ -135,6 +150,7 @@
     "business": "skullgarden",
     "category": "Drawing / Printmaking",
     "class": "drawing-printmaking",
+    "statement": "Colored pencil, acrylic, and gouache mixed media paintings on wood of hypnagogic scenarios, innerspace exploration, and the happiness of pursuit.",
     "url": "https://skullgarden.net"
   },
   {
@@ -144,6 +160,7 @@
     "business": "Dark Cycle Clothing",
     "category": "Fiber / Clothing",
     "class": "fiber-clothing",
+    "statement": "Hand Drawn, Hand Screen Printed Apparel Uniquely Designed with Animals on Bikes!!!",
     "url": "http://darkcycleclothing.com"
   },
   {
@@ -152,6 +169,7 @@
     "lastname": "Batchelder",
     "category": "Fiber / Clothing",
     "class": "fiber-clothing",
+    "statement": "I craft handcraft women's apparel, specifically tops and dresses. I personally design and sew each piece in my collection. Every design is unique and represents my dedication to my work.",
     "url": "https://www.etsy.com/shop/memiecouture"
   },
   {
@@ -161,6 +179,7 @@
     "business": "Salvage",
     "category": "Fiber / Clothing",
     "class": "fiber-clothing",
+    "statement": "Purses messenger bags wallets clutches pouches computer sleeves tablet sleeves and more. Interior pockets are made from undeployed air bags.All materials are harvested washed and sewn by the artist.",
     "url": "http://salvagegoodstn.com"
   },
   {
@@ -170,6 +189,7 @@
     "business": "handjive",
     "category": "Fiber / Clothing",
     "class": "fiber-clothing",
+    "statement": "I design patterns for the realistic female form. Layered fabrics are cut from patterns w/ electric shears, then assembled w/ a 5 thread serger. Pieces are embellished w/ appliquÃ©s & hand stamping.",
     "url": "https://hhandjiveclothing.com"
   },
   {
@@ -179,6 +199,7 @@
     "business": "Bledsoe Bags",
     "category": "Fiber / Clothing",
     "class": "fiber-clothing",
+    "statement": "Bledsoe Bags is two sisters who love fabric and the stories that go with it. We use new and pre-loved fabric to make unique bags, large and small, because we believe everything deserves a gorgeous bag",
     "url": "https://www.bledsoessewnsew.com"
   },
   {
@@ -187,6 +208,7 @@
     "lastname": "Goods",
     "category": "Fiber / Clothing",
     "class": "fiber-clothing",
+    "statement": "Ice Dyeing a new form of dyeing that creates one of a kind clothing. I apply the ice on top fo the clothes, then the dye on top of that. Once it melts it creates a watercolor effect.",
     "url": "http://etsy.com/shop/blacksheepgoods615"
   },
   {
@@ -196,6 +218,7 @@
     "business": "Rangemark",
     "category": "Fiber / Clothing",
     "class": "fiber-clothing",
+    "statement": "Each product is block printed by hand in our Chattanooga, TN studio onto 100% cotton dish towels, napkins, tote bags, and onesies. We use water based textile ink.",
     "url": "http://rangemarktextiles.com"
   },
   {
@@ -204,14 +227,16 @@
     "lastname": "Yang",
     "business": "May's Stitchery",
     "category": "Fiber / Clothing",
-    "class": "fiber-clothing"
+    "class": "fiber-clothing",
+    "statement": "Hand cross stitched pieces sewn onto jackets, wall hangings, wallets, purses, & pillows. Hand embroidered wall hangings, jackets, & pillows. Reverse applique pieces for wall hanging, pillows, & purses"
   },
   {
     "booths": [],
     "firstname": "Zhiyong",
     "lastname": "Ye",
     "category": "Fiber / Clothing",
-    "class": "fiber-clothing"
+    "class": "fiber-clothing",
+    "statement": "With a specialty in painting on white silk."
   },
   {
     "booths": [],
@@ -220,6 +245,7 @@
     "business": "Pixie + Thistle",
     "category": "Fiber / Clothing",
     "class": "fiber-clothing",
+    "statement": "My items are all handmade, I dye my premium wool blend felt using a hot dye technique. The felt is hand cut my embroidery work is done by hand. A sewing machine is used for professional seams only.",
     "url": "http://pixieandthistle.com"
   },
   {
@@ -229,6 +255,7 @@
     "business": "Visionary Glass",
     "category": "Glass / Mosaic",
     "class": "glass-mosaic",
+    "statement": "I create hand blown lampwork borosilicate glass art using a torch, glass rods, and metal fume.",
     "url": "http://www.visionaryglassarts.com"
   },
   {
@@ -238,6 +265,7 @@
     "business": "JM Glass Studio",
     "category": "Glass / Mosaic",
     "class": "glass-mosaic",
+    "statement": "Kiln fired glass. Glass is fired multiple times at various temperatures for desired textures & cold-worked. Larger wall art has a powder coated, steel frame, designed specifically for each piece.",
     "url": "https://www.jmglassstudio.com"
   },
   {
@@ -246,14 +274,16 @@
     "lastname": "aidien shapiro",
     "business": "American Princess",
     "category": "Jewelry",
-    "class": "jewelry"
+    "class": "jewelry",
+    "statement": "from sheet silver,which i pencil draw on.then cut&dome.polishing machine,etching tools,hand tools,hand drill,hand torch, where solder is applied.clasps i make.  my studio is located in upstate new york"
   },
   {
     "booths": [],
     "firstname": "Katie",
     "lastname": "Aldrich",
     "category": "Jewelry",
-    "class": "jewelry"
+    "class": "jewelry",
+    "statement": "We excel at all metalworking skills. Materials include silver, gold, copper& brass and semi-precious/precious gemstones. Special techniques include etching, Keum Boo, granulation, and patination."
   },
   {
     "booths": [],
@@ -262,6 +292,7 @@
     "business": "Noctua Designs LLC",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "Handcrafted artisan jewelry, including my lampworked glass pendants/beads & metalworked pieces, plus chainmaille, semiprecious stones, & found/upcycled/Fair Trade components, in unique combinations.",
     "url": "http://noctuadesigns.com"
   },
   {
@@ -271,6 +302,7 @@
     "business": "Pluma Jewelry",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "Semi-precious gemstones and minerals are hand chosen for their unique qualities. I then cut and shape them or leave them raw to set in hand forged irregular bezel settings unique to each stone",
     "url": "https://www.plumajewelry.com"
   },
   {
@@ -279,6 +311,7 @@
     "lastname": "Cantero",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "I make handmade jewelry with polymer clay. The process is the following: I prepare the clay by conditioning it, paint it using different techniques, cut it and hand mold it. I bake, design & assemble",
     "url": "https://www.etsy.com/shop/ichacantero"
   },
   {
@@ -288,6 +321,7 @@
     "business": "The Bleu Giraffe",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "Half awake dreams provide design. Each clearer than the last. Brilliant Silver.Flaming Copper. Stones that could make the moon jealous. Cut.Hammer.Pierce.Texture.Form.Fuse.Torch. Saw.Polish.Complete",
     "url": "https://www.adriannadangelo.com"
   },
   {
@@ -296,7 +330,8 @@
     "lastname": "Fincannon",
     "business": "Mettle by Abby",
     "category": "Jewelry",
-    "class": "jewelry"
+    "class": "jewelry",
+    "statement": "Every piece of Mettle is handmade with sterling silver and 14k gold, natural gemstones and diamonds. Every piece is one of a kind and expertly created!"
   },
   {
     "booths": [],
@@ -305,6 +340,7 @@
     "business": "Green Elements -La tagua",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "La Tagua is an Amazon nut with a smooth white finish after it is tumbled and buffed. We use a full wood workshop of tools to cut and shape our parts and eco dyes.",
     "url": "http://www.latagua.info"
   },
   {
@@ -314,6 +350,7 @@
     "business": "Pieces Past",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "I create beautiful keepsake jewelry from porcelain china and vintage silverware. I use diamond saws and grinders to cut each unique piece then I finish each one with silversmithing techniques.",
     "url": "http://www.piecespast.com"
   },
   {
@@ -322,7 +359,8 @@
     "lastname": "Hirt",
     "business": "Tying Tribes",
     "category": "Jewelry",
-    "class": "jewelry"
+    "class": "jewelry",
+    "statement": "I hand weave 4-164 stands of fiber together to create all original patterns & adorn with my handmade glass/ceramic beads I create in my studio & with pendants I collect on my world travels."
   },
   {
     "booths": [],
@@ -331,6 +369,7 @@
     "business": "THR Barcelona USA LLC",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "I work in sculpture and glass. The technique is small-scale forged iron and hand-painted glass jewelry. All pieces are worked by hand in my workshop, making each unique by design and production.",
     "url": "http://www.thrbarcelonausa.com"
   },
   {
@@ -340,6 +379,7 @@
     "business": "Marquis Jewelry LLC",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "Using only a torch on copper, I create vibrant colors & patterns. I hand cut my shapes/designs to create my unique jewelry. Many pieces are complemented w/ gemstones that I bezel set in fine silver.",
     "url": "https://www.marquisjewelry.com"
   },
   {
@@ -349,6 +389,7 @@
     "business": "Olmox - Fine Filigree Jewelry",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "I blend modern design with the antique technique of filigree. Using fine threads of silver and gold I create unique, timeless jewelry that ranges from statement pieces to jewelry for every day.",
     "url": "https://olmox.com"
   },
   {
@@ -358,6 +399,7 @@
     "business": "Stephanie Leigh Jewelry",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "Made by hand with the spirit in mind, I craft my jewelry using metaphysical gemstones, ethically sourced recycled leather, & antique pendants. I use fair-trade beads sourced from small batch artisans.",
     "url": "http://www.stephanieleighjewelry.com"
   },
   {
@@ -367,6 +409,7 @@
     "business": "Sayuri Designs",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "Handmade, one of a kind jewelry comprised of precious and semi precious stones and metals, and antique, found, and reused material. Constructed by wirewrapping, stringing, and soldering techniques.",
     "url": "http://sayuridesigns.com"
   },
   {
@@ -376,6 +419,7 @@
     "business": "Blue Piranha",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "Sterling silver flows around colorful gems in swirling patterns that make the most of positive and negative space, evoking a sense of movement. I use traditional fabrication techniques.",
     "url": "http://www.bluepiranhajewelry.com"
   },
   {
@@ -385,6 +429,7 @@
     "business": "Sidhe Designs",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "A hand held jewelerâ€™s saw is used to create imagery with silver, gold and bronze. Other techniques include Keumboo, stone setting, texturing. soldering and patination to create contrast.",
     "url": "http://www.sidhedesigns.com"
   },
   {
@@ -393,6 +438,7 @@
     "lastname": "Avila",
     "category": "Leather",
     "class": "leather",
+    "statement": "Handcrafted leather handbags made out of genuine leather combined with fibers.",
     "url": "http://www.alejaavila.com"
   },
   {
@@ -402,6 +448,7 @@
     "business": "Remon",
     "category": "Leather",
     "class": "leather",
+    "statement": "I am doing leather art sculpture, I am using genuine leather, molds, tools, I am doing a lot of treatments for leather and I am using the tools to do the shap, every art piece can be with frame or wit",
     "url": "http://oriental-leather-art.com"
   },
   {
@@ -411,6 +458,7 @@
     "business": "Hang Over Guitar Straps",
     "category": "Leather",
     "class": "leather",
+    "statement": "I create fine handmade guitar straps using premium leathers and fabrics. My straps are proudly worn by amateur and professional musicians around the world.",
     "url": "http://www.etsy.com/shop/hangoverguitarstraps"
   },
   {
@@ -420,6 +468,7 @@
     "business": "Jon Ladd Leather",
     "category": "Leather",
     "class": "leather",
+    "statement": "Artist designed English Bridle leather bags folded into delicate forms & riveted for strength/beauty, soft rugged functional shoulder & hand bags, Finest hand worked custom fit English Bridle belts.",
     "url": "http://www.jonladdleather.com"
   },
   {
@@ -429,6 +478,7 @@
     "business": "Atelier Luxembourg",
     "category": "Leather",
     "class": "leather",
+    "statement": "Unique and authentic French Designer collection of handbags entirely made by hand in Atlanta with the finest leathers and rare vintage canvas.",
     "url": "http://www.atelierluxembourg.com"
   },
   {
@@ -438,6 +488,7 @@
     "business": "Steurer & Co.",
     "category": "Leather",
     "class": "leather",
+    "statement": "Located in Louisville, Steurer & Co. is a designer & manufacturer of small batch handcrafted leather totes, satchels & accessories made from veggie tan US steer hide & solid brass hardware.",
     "url": "http://www.steurer.co"
   },
   {
@@ -447,6 +498,7 @@
     "business": "Jonathon Wye, LLC",
     "category": "Leather",
     "class": "leather",
+    "statement": "Handmade graphic leather goods featuring original artwork. Belts with the animals and foliage of Asia, Africa, and North America. Wallets with robots battling monsters. All handmade in Washington DC",
     "url": "http://www.jonwye.com"
   },
   {
@@ -454,7 +506,8 @@
     "firstname": "Nelms",
     "lastname": "Creekmur",
     "category": "Metalwork",
-    "class": "metalwork"
+    "class": "metalwork",
+    "statement": "As a blacksmith, I use a propane forge to heat stock and reclaimed metal to a bright orange, and then I hammer out harpoon style fire pokers, outdoor fire boxes, and RR spike door knockers."
   },
   {
     "booths": [],
@@ -462,7 +515,8 @@
     "lastname": "Kim",
     "business": "Jay Kim",
     "category": "Metalwork",
-    "class": "metalwork"
+    "class": "metalwork",
+    "statement": "Engraving with a Dremel on brass and copper, patinated with mineral salt solutions and torch flame."
   },
   {
     "booths": [],
@@ -470,7 +524,8 @@
     "lastname": "Staubach",
     "business": "Daylight Designs",
     "category": "Metalwork",
-    "class": "metalwork"
+    "class": "metalwork",
+    "statement": "Sculptures are inspired by the Ikebana art form. Keeping each piece simple yet elegant. Mild steel"
   },
   {
     "booths": [],
@@ -479,6 +534,7 @@
     "business": "7art",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "I explore photography layering objects, acrylics, oil glazes, Resins, wax, textures and Patinas...",
     "url": "http://sevenart.org"
   },
   {
@@ -488,6 +544,7 @@
     "business": "Fernworks",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "Nature themed art and jewelry which blends hand painted scenes & real specimens into dimensional layers of resin. Each piece is deeply layered then polished into delicate, dreamlike 3-D landscapes.",
     "url": "http://www.fernworks.org"
   },
   {
@@ -496,6 +553,7 @@
     "lastname": "Erzrumyan",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "I use unique technique to achieve richness by layers and textural overlays. I experiment with variety of media: hot melts acrylics plaster to create powerful textural effects and reflected surfaces.",
     "url": "http://www.taguhiart.com"
   },
   {
@@ -505,6 +563,7 @@
     "business": "John W Fesken",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "Emotionally provocative, 3-D theatrical constructions utilizing self-taught painting, sculpture and drawing techniques focusing upon the joys and challenges of the human condition.",
     "url": "http://www.jwmadman.deviant.com"
   },
   {
@@ -514,6 +573,7 @@
     "business": "Freaky Record",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "I take old vinyl records and carve out artwork from them. I use a wood burning tool to carve out the record. Each record is made on a different artist, making each record a one of a kind piece.",
     "url": "https://freakyrecord.com"
   },
   {
@@ -523,6 +583,7 @@
     "business": "Amazing & Beautiful Butterflies",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "We display real Butterflies and Insects.We go through a complex process to rehydrate, mount them out and re-dry them.We make our own frames.We are one of the largest insect displays in the Country.",
     "url": "http://abbutterflies.com"
   },
   {
@@ -531,6 +592,7 @@
     "lastname": "Hok",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "I love to create mixed media artwork with heavy textures and rich colors that not only captures the world from my perspective, but also incorporates elements of nature in the actual artwork.",
     "url": "http://dinetthok.com/"
   },
   {
@@ -540,6 +602,7 @@
     "business": "Creative Tables & Decor",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "Epoxy resin designs in serving trays, lazy susans, coasters, and wall art with an assemblage of industrial gears",
     "url": "https://creativetablesanddecor.com/"
   },
   {
@@ -548,6 +611,7 @@
     "lastname": "lasker",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "Furniture, Sculpture and Digital Imagery created and taken by the artist.",
     "url": "http://davelasker.com"
   },
   {
@@ -556,7 +620,8 @@
     "lastname": "Lee",
     "business": "Sweet Valley Bonsai",
     "category": "Mixed media",
-    "class": "mixed-media"
+    "class": "mixed-media",
+    "statement": "Select a potential plant, then shape and grow for 5-20 years until it looks like a miniature tree. Each bonsai has its own unique character."
   },
   {
     "booths": [],
@@ -565,6 +630,7 @@
     "business": "The Humble Hutch",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "I create paper mache and gourd sculptures using materials such as paper, metal, wood, clay and gourds that depict animals, holiday themes and other whimsical characters.",
     "url": "https://www.etsy.com/shop/thehumblehutchco"
   },
   {
@@ -574,6 +640,7 @@
     "business": "debra mager",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "unconventional whimsical 3D mosaics primarily stained glass, beads, vintage materials",
     "url": "http://debramagermosaics.com"
   },
   {
@@ -581,7 +648,8 @@
     "firstname": "Jess",
     "lastname": "Pierce",
     "category": "Mixed media",
-    "class": "mixed-media"
+    "class": "mixed-media",
+    "statement": "Sustainably harvested and handmade moss artwork and maintenance-free living walls. Japanese Kokedama."
   },
   {
     "booths": [],
@@ -590,6 +658,7 @@
     "business": "ALCOVE FINE ART",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "Unique process combining a mix of painting & texture methods with assemblage of sculpture & debris. Using primarily a concrete grinder,dremel,scroll,miter and jigsaw the use steel,fabric and debris",
     "url": "https://www.hcwarner.com"
   },
   {
@@ -599,6 +668,7 @@
     "business": "Artwork by Spoon, LLC",
     "category": "Painting",
     "class": "painting",
+    "statement": "Developed a style of painting to blend historic & cultural subjects with a contemporary, minimalistic painting style. Completely composed & painted by hand.",
     "url": "https://www.artworkbyspoon.com"
   },
   {
@@ -607,7 +677,8 @@
     "lastname": "Auld",
     "business": "LtA Creations",
     "category": "Painting",
-    "class": "painting"
+    "class": "painting",
+    "statement": "Materials -Acrylic paint & pouring medium.   Techniques - different pours include dutch , ring, open cup, flip cup, swipe, strainer, puddle"
   },
   {
     "booths": [],
@@ -616,6 +687,7 @@
     "business": "Amine badr fine art",
     "category": "Painting",
     "class": "painting",
+    "statement": "After establishing my inspiration, i draw outlines with brush and charcoal. Once i am happy with the base of my painting i add colors and details.",
     "url": "http://aminebadrart.com"
   },
   {
@@ -623,7 +695,8 @@
     "firstname": "Charles",
     "lastname": "Boniface",
     "category": "Painting",
-    "class": "painting"
+    "class": "painting",
+    "statement": "My acrylic paintings and multi-layered works built with bold brushwork and playful energy. Some are rather abstract, others are evocative of the rivers, creeks, and beaches near Savannah and Tybee."
   },
   {
     "booths": [],
@@ -631,6 +704,7 @@
     "lastname": "Goldman",
     "category": "Painting",
     "class": "painting",
+    "statement": "I invent these imaginary scenes in traditional oil on canvas.",
     "url": "http://www.davegoldman.net"
   },
   {
@@ -640,6 +714,7 @@
     "business": "Sculptured Watercolors",
     "category": "Painting",
     "class": "painting",
+    "statement": "I do 3 dimensional watercolors of historical places, buildings, houses, and colleges.All the orig designs are made by me.I handcut with exacto knife and hand wc each piece.",
     "url": "https://hcollegiatelegacy.com"
   },
   {
@@ -648,7 +723,8 @@
     "lastname": "Gupta",
     "business": "Henna tattoo & Face Painting",
     "category": "Painting",
-    "class": "painting"
+    "class": "painting",
+    "statement": "Herbal henna tattoo and face paint"
   },
   {
     "booths": [],
@@ -656,6 +732,7 @@
     "lastname": "Jackson",
     "category": "Painting",
     "class": "painting",
+    "statement": "Acrylic on gallery wrapped canvas. Using palette knife and brush creating layers of color & texture.",
     "url": "https://hwww.victoriajacksonart.com"
   },
   {
@@ -664,7 +741,8 @@
     "lastname": "Jones",
     "business": "Ana's Jazzy Art",
     "category": "Painting",
-    "class": "painting"
+    "class": "painting",
+    "statement": "I create whimsical works of art by manipulating, moving, and blowing alcohol inks in a fresh new way that allows me to create animals and flowers that are happy, fun, and vibrant. I work on canvas"
   },
   {
     "booths": [],
@@ -673,6 +751,7 @@
     "business": "Kadmiri Fine Art",
     "category": "Painting",
     "class": "painting",
+    "statement": "I use acrylic paint on gallery wrapped canvases. Using palette knives and brushes mostly but I also love to play with other tools such as hard plastic boards, rubber spatulas and forks.",
     "url": "http://www.kadmirifineart.com"
   },
   {
@@ -682,6 +761,7 @@
     "business": "Jessica Stoddart-Ladd, Artist",
     "category": "Painting",
     "class": "painting",
+    "statement": "Oil paintings on wood panel. Rich in color & minimalism, the anonymity of familiar subjects encites the viewer to design their own narrative. Handwrought metal frames intensifies the impact of work.",
     "url": "http://www.jessicastoddartladd.com"
   },
   {
@@ -691,6 +771,7 @@
     "business": "Vodka Bacon Studios",
     "category": "Painting",
     "class": "painting",
+    "statement": "I primarily paint with acrylics, but I have been known to oil it up a bit, and use mix media. My art is a combination of pop, surrealism, contemporary, urban, whimsical influences with a 3D element.",
     "url": "https://www.vodkabaconstudios.com"
   },
   {
@@ -700,6 +781,7 @@
     "business": "Saidiart",
     "category": "Painting",
     "class": "painting",
+    "statement": "Originals figurative oil-paintings on cotton canvas, mostly framed. O",
     "url": "http://www.saidiart.com"
   },
   {
@@ -709,6 +791,7 @@
     "business": "Marisol Spoon Inc.",
     "category": "Painting",
     "class": "painting",
+    "statement": "We are a husband/wife artist team inspired by the forest, sea, vintage aesthetics, and classical painting. We offer oil paintings, hand sculpted frames, and archival prints",
     "url": "http://marisolspoon.com"
   },
   {
@@ -718,6 +801,7 @@
     "business": "thorsenart",
     "category": "Painting",
     "class": "painting",
+    "statement": "MY cityscapes and mountainscapes are fictional, acrylic on panel. All of my work is created spontaneously and are all originals.",
     "url": "http://www.thorsenart.com"
   },
   {
@@ -727,6 +811,7 @@
     "business": "Richard F Webb Fine Art",
     "category": "Painting",
     "class": "painting",
+    "statement": "Using acrylics, texture mediums, and varnishes, I paint photorealistic classic cars on sustainable wood frames using a grid system to capture exact dimensions.",
     "url": "https://www.richardfwebb.com"
   },
   {
@@ -736,6 +821,7 @@
     "business": "Michael Bryant",
     "category": "Photography",
     "class": "photography",
+    "statement": "Black & White Film shot in a plastic toy camera called a Holga. NOT CREATED IN PHOTOSHOP.",
     "url": "https://www.michael-bryant.com"
   },
   {
@@ -745,6 +831,7 @@
     "business": "Epic Photography Atlanta",
     "category": "Photography",
     "class": "photography",
+    "statement": "Digital photography using traditional photography technique. I use long exposure and flash to create larger than life images. My work is printed on paper and metal for vibrance and clarity.",
     "url": "http://epicphotoatl.com"
   },
   {
@@ -754,6 +841,7 @@
     "business": "Glenn Lewis Photography",
     "category": "Photography",
     "class": "photography",
+    "statement": "I travel the world, taking landscape, wildlife, and travel photos. I use Photoshop in a minimal way to create classic, realistic images. I show large work, on aluminum and acrylic at up to 6' x 24'.",
     "url": "http://www.glennlewisphotography.com"
   },
   {
@@ -763,6 +851,7 @@
     "business": "Time Ghost Photography",
     "category": "Photography",
     "class": "photography",
+    "statement": "Artistic photography rooted in practical camera techniques, particularly long exposures. Products include prints on aluminum and paper, lenticular ornaments, and backlit image transfer on plastic.",
     "url": "https://timeghostphoto.com/"
   },
   {
@@ -772,6 +861,7 @@
     "business": "Schuier Photography",
     "category": "Photography",
     "class": "photography",
+    "statement": "I'm a nature photographer specializing in classic American landscapes. Using a medium format camera I create unique perspective prints ranging from 11&quot;x17&quot; - 70&quot;x130.&quot; All Photos printed on aluminum.",
     "url": "https://www.schuierphotography.com/"
   },
   {
@@ -780,7 +870,8 @@
     "lastname": "Varsha",
     "business": "1951",
     "category": "Photography",
-    "class": "photography"
+    "class": "photography",
+    "statement": "I am a local photographer shooting with Holga and SLR cameras. The prints are typically on color and black and white matte photography paper. Subjects for this show will be mainly still life images."
   },
   {
     "booths": [],
@@ -789,6 +880,7 @@
     "business": "Ana A",
     "category": "Woodwork",
     "class": "woodwork",
+    "statement": "Wooden accessories:  All my work is made with tropicals woods and exotic woods.  I paint with resin and layers of wood making landscapes and forms.  Cuff, pendants, rings, bracelets, frames.",
     "url": "https://www.anaeyewear.co"
   },
   {
@@ -798,6 +890,7 @@
     "business": "ARC Woodworking",
     "category": "Woodwork",
     "class": "woodwork",
+    "statement": "I combine figured burls with geometric shapes.I believe this elevates the natural edge material.",
     "url": "https://costineandy.simdif.com"
   },
   {
@@ -807,6 +900,7 @@
     "business": "Mattison Woodworks, LLC",
     "category": "Woodwork",
     "class": "woodwork",
+    "statement": "Hand Crafted Heirloom Quality wood furniture and kitchen items.",
     "url": "http://mattisonwoodworks.com"
   },
   {
@@ -816,6 +910,7 @@
     "business": "Hudson River Inlay",
     "category": "Woodwork",
     "class": "woodwork",
+    "statement": "Marquetry: the fine art of wood inlay. Design an image; select the woods (and shells and stones) based on hues, grains & textures. Cut & inlay each piece. Glue, sand, press and finish with a lacquer.",
     "url": "http://www.hudsonriverinlay.com"
   },
   {
@@ -825,6 +920,7 @@
     "business": "Ox in the Shop",
     "category": "Woodwork",
     "class": "woodwork",
+    "statement": "I use both domestic and exotic woods and turn them on a lathe to make one of a kind works of art such as salad bowls of various complexity as well as other woodturned items.",
     "url": "https://www.oxintheshop.com"
   },
   {
@@ -833,6 +929,7 @@
     "lastname": "Regal",
     "category": "Woodwork",
     "class": "woodwork",
+    "statement": "Hand cut wood, shaped into musical instruments. Hand painted and coated with a 2 part epoxy for durability. Tables, barstools, clocks and fold up tv tables. Each piece of functional art is unique.",
     "url": "http://rockndesigns.com"
   },
   {
@@ -842,6 +939,7 @@
     "business": "VanVleet Woodworking llc",
     "category": "Woodwork",
     "class": "woodwork",
+    "statement": "100% handcrafted custom furniture using solid hardwoods, all sourced here in Atlanta. I sell mostly commissioned pieces to local Atlanta residents.",
     "url": "http://www.vanvleetwoodworking.com"
   }
 ]

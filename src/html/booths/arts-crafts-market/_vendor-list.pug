@@ -15,3 +15,5 @@ ul.Vendors
                     if hasUrl
                         a.Vendor-url(href=vendor.url)= vendor.url
                     div.Vendor-category= vendor.category
+                    if vendor.statement
+                        div.Vendor-statement  !{vendor.statement}

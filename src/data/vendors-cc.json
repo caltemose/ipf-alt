@@ -6,6 +6,7 @@
     "business": "Community Arts Live",
     "category": "Non profit (501c3)",
     "class": "non-profit-501c3",
+    "statement": "Creating documentary on Atlanta's Road Battles and would like to share the story. Also, hoping to collect more tales from intowners.",
     "url": "https://www.xmarksthepark.com"
   },
   {
@@ -15,6 +16,7 @@
     "business": "Intown Lutheran Church",
     "category": "Non profit (501c3)",
     "class": "non-profit-501c3",
+    "statement": "Intown Lutheran Church &quot;A God Worth Knowing&quot; &quot;A City Worth Loving&quot; &quot;A Life Worth Living&quot;",
     "url": "http://intownlutheran.com"
   },
   {
@@ -24,6 +26,7 @@
     "business": "The Alliance Theatre",
     "category": "Non profit (501c3)",
     "class": "non-profit-501c3",
+    "statement": "Non-profit theater applying to be a part of the Community Center",
     "url": "https://www.alliancetheatre.org"
   },
   {
@@ -33,6 +36,7 @@
     "business": "ContactPoint, L5P",
     "category": "Non profit (501c3)",
     "class": "non-profit-501c3",
+    "statement": "We provide after school classes and parties focusing on sports and activities. We specialize in tree climbing, soccer, dodgeball, capture the flag, hockey, art, tennis, ultimate, golf, and basketball.",
     "url": "https://www.atlcp.org"
   },
   {
@@ -42,6 +46,7 @@
     "business": "Good Mews Animal Foundation",
     "category": "Non profit (501c3)",
     "class": "non-profit-501c3",
+    "statement": "We will be selling pet related merchandise, including mugs, tiles, shirts, and jewelry.",
     "url": "http://www.goodmews.org"
   },
   {
@@ -51,6 +56,7 @@
     "business": "Something New",
     "category": "Non profit (501c3)",
     "class": "non-profit-501c3",
+    "statement": "Our booth sells handmade items from Peru and local artists. Handmade llama dolls made from authentic alpaca fur, blankets woven on a loom, and string art pieces handmade from wood, nails, and string.",
     "url": "http://www.somethingnew.org"
   },
   {
@@ -59,14 +65,16 @@
     "lastname": "Mayfield",
     "business": "LifeLine Animal Project",
     "category": "Non profit (501c3)",
-    "class": "non-profit-501c3"
+    "class": "non-profit-501c3",
+    "statement": "LifeLine Animal Project isn't your average animal welfare organization. We take a holistic approach to improving the standard of care for animals in Atlanta through management of the county shelters,"
   },
   {
     "booths": [],
     "firstname": "Cindy",
     "lastname": "Parker",
     "category": "Non profit (501c3)",
-    "class": "non-profit-501c3"
+    "class": "non-profit-501c3",
+    "statement": "We are a non-profit Buddhist Meditation Center in Inman Park on Edgewood Avenue"
   },
   {
     "booths": [],
@@ -74,6 +82,7 @@
     "lastname": "Perez",
     "category": "Non profit (501c3)",
     "class": "non-profit-501c3",
+    "statement": "We are a non-profit animal sanctuary, we have participated in the past in the festival. We will have information about our sanctuary, ways to get involved and support the animals.",
     "url": "https://www.fullcirclefarmsanctuary.org"
   },
   {
@@ -83,6 +92,7 @@
     "business": "Trees Atlanta",
     "category": "Non profit (501c3)",
     "class": "non-profit-501c3",
+    "statement": "Non-profit doing community outreach about our urban forest",
     "url": "http://www.treesatlanta.org"
   },
   {
@@ -90,14 +100,16 @@
     "firstname": "Nancy",
     "lastname": "Quintrell",
     "category": "Non profit (501c3)",
-    "class": "non-profit-501c3"
+    "class": "non-profit-501c3",
+    "statement": "The Central Fulton Master Gardeners is a nonprofit group of volunteers that offers gardening advice to event goers and provides plants for purchase."
   },
   {
     "booths": [],
     "firstname": "Kyndall",
     "lastname": "Thiessen",
     "category": "Non profit (501c3)",
-    "class": "non-profit-501c3"
+    "class": "non-profit-501c3",
+    "statement": "Chattahoochee Riverkeeper is an environmental advocacy organization dedicated solely to protecting and restoring the Chattahoochee River Basin."
   },
   {
     "booths": [],
@@ -106,6 +118,7 @@
     "business": "Lighthouse Therapeutic Foster Care",
     "category": "Non profit (501c3)",
     "class": "non-profit-501c3",
+    "statement": "Lighthouse Therapeutic Foster Care Inc is a non profit company. Looking to provide information about the company and the need for foster parents in Georgia. We will provide free water & merchandise.",
     "url": "https://www.lighthousetfc.org"
   }
 ]

@@ -6,6 +6,7 @@
     "business": "City in Bloom Ceramics",
     "category": "Ceramics",
     "class": "ceramics",
+    "statement": "My work is composed of wheel thrown & handbuilt porcelain forms, screenprinted with hand drawn illustrations with underglaze. Fired to cone 6, some are fired for a third time with gold/silver decals.",
     "url": "https://cityinbloomceramics.com"
   },
   {
@@ -15,6 +16,7 @@
     "business": "Future Relics",
     "category": "Ceramics",
     "class": "ceramics",
+    "statement": "I am a full-time potter. Using the potters wheel & handbuilding techniques, I make mostly functional pottery. My work is decorated with imagery & texture using a variety of firing methods.",
     "url": "http://futurerelicsgallery.com"
   },
   {
@@ -24,6 +26,7 @@
     "business": "Mind Body Clay",
     "category": "Ceramics",
     "class": "ceramics",
+    "statement": "Mind Body Clay features all handcrafted fine art ceramic pottery and unique home decor pieces. All ceramic work is made from stoneware & porcelain, hand formed, glazed & draws inspiration from nature.",
     "url": "https://www.valeriecostanza.org"
   },
   {
@@ -33,6 +36,7 @@
     "business": "Artworks by Karen Fincannon",
     "category": "Ceramics",
     "class": "ceramics",
+    "statement": "I handbuild my sculptures from earthenware clay. Textures are created using a variety of texture tools, some I have made myself, others are purchased rubber stamps. The pieces are bisque fired and fin",
     "url": "http://www.karenfincannon.com"
   },
   {
@@ -42,6 +46,7 @@
     "business": "Handmade Studio",
     "category": "Ceramics",
     "class": "ceramics",
+    "statement": "Ceramics: Black and white functional and sculptural ceramics. Each piece has a unique hand carved image. In addition we offer colorful ceramic jewelry.",
     "url": "http://tamifulford.com/"
   },
   {
@@ -51,6 +56,7 @@
     "business": "A Russell Gerber Ceramics",
     "category": "Ceramics",
     "class": "ceramics",
+    "statement": "Stoneware clay was thrown on the wheel, original decorations and patterns created, and firing was done using traditional kiln techniques (including raku and wood fire).",
     "url": "https://www.instagram.com/arussellgerber/"
   },
   {
@@ -60,6 +66,7 @@
     "business": "Beauty and Beast Art",
     "category": "Ceramics",
     "class": "ceramics",
+    "statement": "All original functional and decorative pottery. Thrown and handbuilt stoneware vessels and sculpture. Electric fired to cone 6 and also naked raku firing technique.",
     "url": "http://www.chickentracksartranch.com"
   },
   {
@@ -69,6 +76,7 @@
     "business": "After Hours Pottery",
     "category": "Ceramics",
     "class": "ceramics",
+    "statement": "I value the quirks that make people special, and follow the same approach in my design. Rather than striving for exact replications, I use techniques that allow the clays personality to shine through.",
     "url": "http://www.instagram.com/afterhourspottery"
   },
   {
@@ -77,6 +85,7 @@
     "lastname": "Mahathey",
     "category": "Ceramics",
     "class": "ceramics",
+    "statement": "I create bold and fun tableware that is wheel thrown and hand decorated with a focus on design, color, narrative.",
     "url": "http://marisamahathey.com"
   },
   {
@@ -86,6 +95,7 @@
     "business": "Kiln.it.ATL pottery",
     "category": "Ceramics",
     "class": "ceramics",
+    "statement": "Wheel thrown and handbuilt functional pottery. My work is inspired by texture, pattern, and nature to create beautiful works of art for use in every day life.",
     "url": "https://www.instagram.com/kiln.it.atl/"
   },
   {
@@ -94,6 +104,7 @@
     "lastname": "Sasaki",
     "category": "Ceramics",
     "class": "ceramics",
+    "statement": "I make unique one of a kind handmade pottery pieces that are mostly wheel thrown, trimmed, glazed and fired in electric kiln for completion. All my pieces are my original design and user friendly.",
     "url": "https://www.masasasakiceramics.com"
   },
   {
@@ -102,7 +113,8 @@
     "lastname": "Schloss",
     "business": "Schloss Pottery",
     "category": "Ceramics",
-    "class": "ceramics"
+    "class": "ceramics",
+    "statement": "We throw the works on a traditional wheel and shape all of our pieces by hand. We formulate our own glazes. Despite these traditions, our work will stand the challenge of use in microwave ovens, tra"
   },
   {
     "booths": [],
@@ -110,7 +122,8 @@
     "lastname": "Schwartzwald",
     "business": "B. Hart Art",
     "category": "Ceramics",
-    "class": "ceramics"
+    "class": "ceramics",
+    "statement": "I am a native Atlantian who lives in Candler Park. I make small batch functional ceramic goods such as mugs, bowls, serving pieces, to-go coffee cups, vases. I have a clean modern aesthetic."
   },
   {
     "booths": [],
@@ -119,6 +132,7 @@
     "business": "Sinfully Sweet Soap",
     "category": "Consumables",
     "class": "consumables",
+    "statement": "Artisan Gourmet Goat Milk Soaps, Lotions, Scrubs, Bath Bombs, Bath Bomb Cupcakes, Cupcake Soaps &more! We've done the show 3 years now & love attending and Vending",
     "url": "http://www.sinfullysweetsoap.com"
   },
   {
@@ -127,7 +141,8 @@
     "lastname": "Barnett",
     "business": "Uncorked Candles",
     "category": "Consumables",
-    "class": "consumables"
+    "class": "consumables",
+    "statement": "Uncorked Candles creates amazingly aromatic candles hand poured into recycled, repurposed beer, wine and liquor bottle containers."
   },
   {
     "booths": [],
@@ -136,6 +151,7 @@
     "business": "Thyme to Garnish",
     "category": "Consumables",
     "class": "consumables",
+    "statement": "Thyme to Garnish creates hand-blended, naturally dehydrated vegetables, herbs, spices, nuts and seeds into mixes that can be added to pantry and/or refrigerator items to enhance everyday foods.",
     "url": "http://www.thymetogarnish.com"
   },
   {
@@ -145,6 +161,7 @@
     "business": "Jack Be Nimble Candles, LLC",
     "category": "Consumables",
     "class": "consumables",
+    "statement": "We hand-pour each of our candles in batches of 12 in our studio in Atlanta. All of our candles are made using American grown soy wax, all natural cotton wicks & fine fragrance oils.",
     "url": "https://www.jackbenimblecandles.com"
   },
   {
@@ -154,6 +171,7 @@
     "business": "Lit Up Candle Co.",
     "category": "Consumables",
     "class": "consumables",
+    "statement": "Using a 4-step, cold-working process, we upcycle beer and wine bottles into soy candles, planters and serving dishes. Our soy candles, wax melts, and room sprays are made with 100% organic fragrance.",
     "url": "https://litupcandleco.com"
   },
   {
@@ -163,6 +181,7 @@
     "business": "Cheeky Maiden Soap Co",
     "category": "Consumables",
     "class": "consumables",
+    "statement": "Cheeky Maiden Soap produces hand crafted all natural soap, body care products and household cleaning supplies using local, organic and sustainable raw materials.",
     "url": "http://www.cheekymaidensoap.com"
   },
   {
@@ -172,6 +191,7 @@
     "business": "DeJu LLC",
     "category": "Consumables",
     "class": "consumables",
+    "statement": "We have a packaged raw honey infused with fruits, vegetables, and spices. I'm pretty sure that you may already have a honey vendor, but please keep in mind that this is not your ordinary infused honey",
     "url": "http://www.grandmashoneystuff.com"
   },
   {
@@ -181,6 +201,7 @@
     "business": "Smack Yo Mama Gourmet BBQ Sauce",
     "category": "Consumables",
     "class": "consumables",
+    "statement": "We produce 7 gluten, high-fructose corn syrup and MSG free bbq sauces by combining ingredients in a steam kettle then bottling. we also have a salt free all purpose dry seasoning we combine by hand.",
     "url": "https://www.smackyomama.com"
   },
   {
@@ -190,6 +211,7 @@
     "business": "LUMERIA BOD",
     "category": "Consumables",
     "class": "consumables",
+    "statement": "Our plant-based, cruelty free, luxury self care products handcrafted with premium ingredients include soaps, herb infused moisturizers, bath bombs and soaks, candles, room & linen sprays and more!",
     "url": "http://www.lumeriabodycare.com"
   },
   {
@@ -199,6 +221,7 @@
     "business": "True & Radiant",
     "category": "Consumables",
     "class": "consumables",
+    "statement": "True & Radiant is a handmade line of all natural and organic skincare and hair care products made with the finest natural and organic cosmetic ingredients. I make everything by hand in small batches.",
     "url": "https://www.trueandradiant.com/"
   },
   {
@@ -208,6 +231,7 @@
     "business": "Built By Bees",
     "category": "Consumables",
     "class": "consumables",
+    "statement": "Honey Vinegars, Whipped & Infused Honeys, Honey Butters, Honey Mustards & Raw Honeys     Winner & Finalist Awards: sofi Gold, Good Food Guild Finalist, Flavor of Georgia, Intl Flaves",
     "url": "http://www.builtbybees.com"
   },
   {
@@ -215,7 +239,8 @@
     "firstname": "Cyndee",
     "lastname": "Iniguez",
     "category": "Consumables",
-    "class": "consumables"
+    "class": "consumables",
+    "statement": "We sell Old Fashioned Licorice. Red, black, cinnamon and chocolate."
   },
   {
     "booths": [],
@@ -224,6 +249,7 @@
     "business": "Element Tree Essentials",
     "category": "Consumables",
     "class": "consumables",
+    "statement": "I create a unique candle that doubles as a warm moisturizer,combining the highest quality ingredients including,shea butter,coconut oil,rose hip oil,grape seed oil,Vitamin E and cosmetic grade soy.",
     "url": "https://etecandles.com"
   },
   {
@@ -233,6 +259,7 @@
     "business": "TJ Crafters",
     "category": "Consumables",
     "class": "consumables",
+    "statement": "We make 100% soy candles and melts. Warmers, incense and oils.",
     "url": "http://www.tjcrafters.com"
   },
   {
@@ -242,6 +269,7 @@
     "business": "We InGeorgia",
     "category": "Consumables",
     "class": "consumables",
+    "statement": "Original blends of Rub/Seasonings. Hand blended and bottled in Roswell, GA.   7 different blends. Members of Georgia Grown Dept of Ag",
     "url": "http://www.3beerrub.com"
   },
   {
@@ -251,6 +279,7 @@
     "business": "The Craftist",
     "category": "Consumables",
     "class": "consumables",
+    "statement": "We raise goats on our farm in western Kentucky, milk them and make soap. Our soaps smell wonderful, look beautiful and make you feel fantastic.  We also make solid lotion bars, lip balm, and more.",
     "url": "http://www.thecraftist.com"
   },
   {
@@ -260,6 +289,7 @@
     "business": "Merrilily Gardens",
     "category": "Consumables",
     "class": "consumables",
+    "statement": "Georgia Grown  Georgia Made Gourmet Foods Jams Jellies Pickled Vegetables Vidalia Onion Barbeque Sauces Fruit Chutneys Gormet Sauces",
     "url": "http://www.merrililygardens.com"
   },
   {
@@ -269,6 +299,7 @@
     "business": "Herbonita Soap Company, Inc.",
     "category": "Consumables",
     "class": "consumables",
+    "statement": "We are known for our 60% Olive Oil Artisan soaps using the Cold Process method, large bath bombs, and seasonal candles.",
     "url": "https://herbonita.com"
   },
   {
@@ -278,6 +309,7 @@
     "business": "Pure Bliss Organics",
     "category": "Consumables",
     "class": "consumables",
+    "statement": "Packaged food- Organic granola, energy bars and bites, nuts",
     "url": "https://www.pureblissorganics.com"
   },
   {
@@ -287,6 +319,7 @@
     "business": "Xocolatl Small Batch Chocolate",
     "category": "Consumables",
     "class": "consumables",
+    "statement": "We make bean-to-bar dark chocolate made from cacao beans we import directly from South and Central America and East Africa and turn them into dark chocolate bars at the Krog Street Market.",
     "url": "http://www.xocolatlchocolate.com"
   },
   {
@@ -296,6 +329,7 @@
     "business": "Bare Candle Company",
     "category": "Consumables",
     "class": "consumables",
+    "statement": "Bare candles are hand poured in small batches by the owner with tree-free stone label to limit the impact. Using only 100% soy wax and phthalate-free fragrances, Bare candles are clean and simple.",
     "url": "https://www.barecandleco.com"
   },
   {
@@ -305,6 +339,7 @@
     "business": "Turnrow Bath Body & Home",
     "category": "Consumables",
     "class": "consumables",
+    "statement": "Soy candles, cold processed soap and body products made with raw materials sourced from Georgia farmers and packaged in compostable, biodegradable, and recyclable materials. Vegan and Cruelty free",
     "url": "http://www.myturnrow.com"
   },
   {
@@ -314,6 +349,7 @@
     "business": "Wiggle & Roar",
     "category": "Consumables",
     "class": "consumables",
+    "statement": "Custom newborn and baby accessories including our signature diaper changing clutches, car seat canopies, bibs, and burp cloths, for the trendy mom and dapper dad.",
     "url": "https://www.wiggleandroar.etsy.com"
   },
   {
@@ -323,6 +359,7 @@
     "business": "Beautiful Briny Sea",
     "category": "Consumables",
     "class": "consumables",
+    "statement": "Beautiful Briny Sea is an artisan dry goods company based in Atlanta, Georgia. Our small-batch salt blends, sugars, and seasonings are made with integrity, sustainability and a whole lot of love!",
     "url": "http://www.beautifulbriysea.com"
   },
   {
@@ -332,6 +369,7 @@
     "business": "Honey Next Door",
     "category": "Consumables",
     "class": "consumables",
+    "statement": "We keep over 160 beehives in Atlanta in 15 neighborhoods. We keep bees in Inman Park by N Highland and Cleburne. We will have Inman Park Honey, Beeswax Candles, and other hive products.",
     "url": "http://honeynextdoor.com"
   },
   {
@@ -341,6 +379,7 @@
     "business": "Phickles",
     "category": "Consumables",
     "class": "consumables",
+    "statement": "Phickles is a specialty food company based in Athens, Ga. Our products include small batch artisan pickled vegetables, bbq sauces and marinades, salsa, pepper jellies, and cheese spreads.",
     "url": "https://www.phickles.com"
   },
   {
@@ -350,6 +389,7 @@
     "business": "Bee Wild",
     "category": "Consumables",
     "class": "consumables",
+    "statement": "Local Raw Honey from our 3-generation family farm in Gainesville GA.",
     "url": "https://beewild.buzz"
   },
   {
@@ -358,7 +398,8 @@
     "lastname": "Balog",
     "business": "Killjoy Designs",
     "category": "Drawing / Printmaking",
-    "class": "drawing-printmaking"
+    "class": "drawing-printmaking",
+    "statement": "I design and screenprint Atlanta based designs honoring and recognizing Atlanta's wide variety of neighborhoods. Each design is uniquely colored with a resin finish to seal it."
   },
   {
     "booths": [],
@@ -367,6 +408,7 @@
     "business": "Treebok Pets",
     "category": "Drawing / Printmaking",
     "class": "drawing-printmaking",
+    "statement": "I draw Custom Charcoal Pet Portraits from clients' photographs. All work is hand-drawn in charcoal and pastel, then mailed to the client in 1-2 weeks. I also offer printed items featuring my work.",
     "url": "http://www.treebokpets.com"
   },
   {
@@ -376,6 +418,7 @@
     "business": "AH Art & Illustration",
     "category": "Drawing / Printmaking",
     "class": "drawing-printmaking",
+    "statement": "I create illustrations using pencil, markers, and pen.",
     "url": "https://angiecoccoma.etsy.com"
   },
   {
@@ -385,6 +428,7 @@
     "business": "The Toonheadz",
     "category": "Drawing / Printmaking",
     "class": "drawing-printmaking",
+    "statement": "Live Caricature Art Entertainment",
     "url": "http://www.thetoonheadz.con"
   },
   {
@@ -394,6 +438,7 @@
     "business": "methane studios, inc",
     "category": "Drawing / Printmaking",
     "class": "drawing-printmaking",
+    "statement": "We create and screen print posters, textiles, cards and more from our shop located in East Point",
     "url": "http://www.methanestudios.com"
   },
   {
@@ -403,6 +448,7 @@
     "business": "Buckhead Thread Co.",
     "category": "Drawing / Printmaking",
     "class": "drawing-printmaking",
+    "statement": "I design and print clothing and accessories",
     "url": "http://www.buckheadthread.com"
   },
   {
@@ -412,6 +458,7 @@
     "business": "Noosh! Studios",
     "category": "Drawing / Printmaking",
     "class": "drawing-printmaking",
+    "statement": "I am a relief printmaker, I primarily use my hand-carved woodblocks to print T-shirts at festivals but I also sell original carvings and hand-pulled prints.",
     "url": "https://www.nooshstudios.com"
   },
   {
@@ -421,6 +468,7 @@
     "business": "Sunavworld, LLC.",
     "category": "Fiber / Clothing",
     "class": "fiber-clothing",
+    "statement": "Fairtrade products- stuffed toys, purses, silk, linen scarves- handwoven on a backstrap loam, in Nepal, with 100% cotton, silk, linen yarns which are hand dyed with natural/ regular azo- free dye .",
     "url": "https://www.sunavworld.com"
   },
   {
@@ -430,6 +478,7 @@
     "business": "Wandering Line",
     "category": "Fiber / Clothing",
     "class": "fiber-clothing",
+    "statement": "Abstract and atlanta based sketches pulled from my sketch book and digitized for screen printing. 2-3 color images screen printed onto tees, hats, and prints.",
     "url": "http://www.thewanderingline.com"
   },
   {
@@ -439,6 +488,7 @@
     "business": "Maelu",
     "category": "Fiber / Clothing",
     "class": "fiber-clothing",
+    "statement": "Maelu is an environmentally conscious company centered upon sustainable textiles made with natural fibers and vegetable dyes. All items are handmade and hand block printed, making each item one of a k",
     "url": "http://www.maeludesigns.com"
   },
   {
@@ -447,7 +497,8 @@
     "lastname": "Dillingham",
     "business": "Westwind Tie Dye",
     "category": "Fiber / Clothing",
-    "class": "fiber-clothing"
+    "class": "fiber-clothing",
+    "statement": "I make high quality Tie Dye Clothing and Accessories. Each piece is hand folded, bound and dyed individually."
   },
   {
     "booths": [],
@@ -456,6 +507,7 @@
     "business": "100%cool Efi Designs",
     "category": "Fiber / Clothing",
     "class": "fiber-clothing",
+    "statement": "We create cutting edge fashion accessories from upcycled,repurposed fabrics.Hand painted fabric,photography,humorous and inspirational messages are added to wallets and handbags for originality.",
     "url": "http://www.etsy.com/shop/ingaandevija"
   },
   {
@@ -464,7 +516,8 @@
     "lastname": "Fajardo",
     "business": "ErÃ¼ka Art & Design",
     "category": "Fiber / Clothing",
-    "class": "fiber-clothing"
+    "class": "fiber-clothing",
+    "statement": "Handmade cushion in non-allergenic fabrics. We use plastic safety eyes. Our collection is based on marine animals with shapes that allow you to rest and relax. Ideal for Room Kids, and Nursery Decor."
   },
   {
     "booths": [],
@@ -472,7 +525,8 @@
     "lastname": "Kamau",
     "business": "Tinga Tinga Inter Inc DBA Ethnic Vibes",
     "category": "Fiber / Clothing",
-    "class": "fiber-clothing"
+    "class": "fiber-clothing",
+    "statement": "Everything i sell is 100% handcrafted, We do bleach and dye technique on 100% rayon fabric .  African ethnic garment are hand tailored using the original Ankara fabric and all the bead-work is masai"
   },
   {
     "booths": [],
@@ -481,6 +535,7 @@
     "business": "The Lion's Drawer",
     "category": "Fiber / Clothing",
     "class": "fiber-clothing",
+    "statement": "I make handmade ATL hats for adults, kids and pets. I also offer fun local designs such as state shapes and OTP and ITP hats!",
     "url": "https://www.thelionsdrawer.com"
   },
   {
@@ -490,6 +545,7 @@
     "business": "M&K House",
     "category": "Fiber / Clothing",
     "class": "fiber-clothing",
+    "statement": "We make blankets, pillows, zippies, cuffs, hearts, bags, scarves & even shirts...from beautiful fabric that has been made from recycled saris. We adorn our products with hand-stamped positive quotes.",
     "url": "http://www.mandkhouse.com"
   },
   {
@@ -498,7 +554,8 @@
     "lastname": "Maples",
     "business": "Local Threads",
     "category": "Fiber / Clothing",
-    "class": "fiber-clothing"
+    "class": "fiber-clothing",
+    "statement": "Earth Creations has embraced Southern Craftsmanship Since 1996. My clothing is hand sewn and hand dyed in the South. I use sustainable fibers and clay dyes."
   },
   {
     "booths": [],
@@ -506,6 +563,7 @@
     "lastname": "Mathis",
     "category": "Fiber / Clothing",
     "class": "fiber-clothing",
+    "statement": "Handmade designer aprons, tea towels, oven mitts and other kitchen accessories",
     "url": "http://www.textileandtwine.etsy.com"
   },
   {
@@ -514,7 +572,8 @@
     "lastname": "May",
     "business": "YIP and More",
     "category": "Fiber / Clothing",
-    "class": "fiber-clothing"
+    "class": "fiber-clothing",
+    "statement": "I hand crochet festival tops and I hand macrame plant hangers and wall hangings."
   },
   {
     "booths": [],
@@ -522,7 +581,8 @@
     "lastname": "Neel",
     "business": "Atelier Marie Neel",
     "category": "Fiber / Clothing",
-    "class": "fiber-clothing"
+    "class": "fiber-clothing",
+    "statement": "Linen clothing line"
   },
   {
     "booths": [],
@@ -531,6 +591,7 @@
     "business": "Lexi Brite, LLC",
     "category": "Fiber / Clothing",
     "class": "fiber-clothing",
+    "statement": "Printed tea towels and t-shirts with funny sayings. Graphics and printing is all done by me.",
     "url": "https://www.lexibrite.com"
   },
   {
@@ -539,7 +600,8 @@
     "lastname": "Oleski",
     "business": "JackieOdesigns",
     "category": "Fiber / Clothing",
-    "class": "fiber-clothing"
+    "class": "fiber-clothing",
+    "statement": "Handcrafted fabric(upholstery) handbags. Original, unique, excellent quality."
   },
   {
     "booths": [],
@@ -547,7 +609,8 @@
     "lastname": "Pace",
     "business": "B's Creative Stitches",
     "category": "Fiber / Clothing",
-    "class": "fiber-clothing"
+    "class": "fiber-clothing",
+    "statement": "Personally handcrafted bags, wallets, totes and small organizers created from cork, leather and textiles. Most pieces have added &quot;bling&quot; that has been up cycled from costume jewelry finds."
   },
   {
     "booths": [],
@@ -555,7 +618,8 @@
     "lastname": "Rhoton",
     "business": "C R stuff",
     "category": "Fiber / Clothing",
-    "class": "fiber-clothing"
+    "class": "fiber-clothing",
+    "statement": "a patented seagrass hat that is one size fits all, pack-able and tested at 40 mph on a jetski."
   },
   {
     "booths": [],
@@ -564,6 +628,7 @@
     "business": "Scribbler Experiment",
     "category": "Fiber / Clothing",
     "class": "fiber-clothing",
+    "statement": "I digitally design my own black and white coloring fabric prints, and sew each item myself including installing zippers, interfacing, stuffing, and hand stitching. All items are intended for coloring.",
     "url": "http://www.scribblerexperiment.etsy.com"
   },
   {
@@ -572,6 +637,7 @@
     "lastname": "Sterling",
     "category": "Fiber / Clothing",
     "class": "fiber-clothing",
+    "statement": "I have handmade/hand loomed Turkish towels and throws. Most are 100% cotton and some are 80% cotton and 20% bamboo.",
     "url": "http://www.theturkblasian.com"
   },
   {
@@ -581,6 +647,7 @@
     "business": "Ana Ana LLC",
     "category": "Fiber / Clothing",
     "class": "fiber-clothing",
+    "statement": "Ana Ana has high quality Traditional Turkish Textiles made of Aegean Cotton and hand woven. We have turkish towels, shawls and blankets and some handcrafts from womenâ€™s market from coastal town Dikili",
     "url": "http://www.anaana.biz"
   },
   {
@@ -590,6 +657,7 @@
     "business": "Shari B. Green",
     "category": "Fiber / Clothing",
     "class": "fiber-clothing",
+    "statement": "I create a line of clothing for women that is made entirely out of recycled materials.I restyle and resize existing garments and add vintage trims and fabric scraps creating one of a kind pieces.",
     "url": "http://www.facebook.com/sharibgreen/"
   },
   {
@@ -598,7 +666,8 @@
     "lastname": "Corley",
     "business": "Flora/Fauna",
     "category": "Garden",
-    "class": "garden"
+    "class": "garden",
+    "statement": "We create living art using plants sourced from our greenhouses. Examples include hanging kokedama string gardens, terrariums and air plant arrangements."
   },
   {
     "booths": [],
@@ -606,7 +675,8 @@
     "lastname": "Heard",
     "business": "Cactus Creations",
     "category": "Garden",
-    "class": "garden"
+    "class": "garden",
+    "statement": "Cactus gardens and succulent Gardens grown and designed by Peggy. Using pea gravel lava rock, driftwood, seashells, and assorted mosses for decor"
   },
   {
     "booths": [],
@@ -615,6 +685,7 @@
     "business": "Goat City",
     "category": "Garden",
     "class": "garden",
+    "statement": "Plant Design & Delivery business. Every plant is truly one of a kind and thoughtfully designed. All pots/containers are either hand-made in house or made from re-purpose or recycled materials.",
     "url": "https://www.goatcityplantdesign.com"
   },
   {
@@ -624,6 +695,7 @@
     "business": "Horticult LLC",
     "category": "Garden",
     "class": "garden",
+    "statement": "We plant colorful and unusual succulents and sansevierias in pots for indoors or outdoors, using a wide variety of containers, ranging from traditional to whimsical.",
     "url": "https://www.horticult.com"
   },
   {
@@ -632,7 +704,8 @@
     "lastname": "aplin",
     "business": "aplin design",
     "category": "Glass / Mosaic",
-    "class": "glass-mosaic"
+    "class": "glass-mosaic",
+    "statement": "Stained glass art using mosiac and fusion techniques"
   },
   {
     "booths": [],
@@ -641,6 +714,7 @@
     "business": "Brenda's Fused Glass",
     "category": "Glass / Mosaic",
     "class": "glass-mosaic",
+    "statement": "Art glass is cut,assembled into a design,fused & annealed in a kiln;cooled & placed on top of a mold,returned to the kiln for forming.Slumped bottle clocks,spoon rests;bottle lamps,vases.",
     "url": "http://brendasfusedglass.com"
   },
   {
@@ -649,7 +723,8 @@
     "lastname": "Hipps",
     "business": "Antique Glass Wind Chimes & Bird Feeders",
     "category": "Glass / Mosaic",
-    "class": "glass-mosaic"
+    "class": "glass-mosaic",
+    "statement": "Antique glass wind chimes. Vintage soda bottle hummingbird feeders. Vintage glass bird feeders. Vintage themed crystal suncatchers.  All made using no glue, bolted together. High quality crystals."
   },
   {
     "booths": [],
@@ -658,6 +733,7 @@
     "business": "The Little Nest",
     "category": "Glass / Mosaic",
     "class": "glass-mosaic",
+    "statement": "I hand make baby bibs and bodysuits using a combination of fabric appliquÃ©s and vinyl.",
     "url": "https://hwww.the-little-nest.com"
   },
   {
@@ -666,7 +742,8 @@
     "lastname": "Lewis",
     "business": "Glasstacular",
     "category": "Glass / Mosaic",
-    "class": "glass-mosaic"
+    "class": "glass-mosaic",
+    "statement": "I use a propane and oxygen torch to melt, blow, pull and gather borosilicate glass into colorful works of art."
   },
   {
     "booths": [],
@@ -674,7 +751,8 @@
     "lastname": "Ortel",
     "business": "Bohemian Spirit Glass",
     "category": "Glass / Mosaic",
-    "class": "glass-mosaic"
+    "class": "glass-mosaic",
+    "statement": "I make stained and fused glass sun catchers, window panels and ornaments. I use the Tiffany method to assemble my stained glass.   Some of my pieces I combine both stained and kiln worked glass."
   },
   {
     "booths": [],
@@ -682,7 +760,8 @@
     "lastname": "Pennella",
     "business": "C.A.P Glassworks",
     "category": "Glass / Mosaic",
-    "class": "glass-mosaic"
+    "class": "glass-mosaic",
+    "statement": "I am a glass blower. The technique I use is referred to as lampwork. The type of glass I use is borosilicate."
   },
   {
     "booths": [],
@@ -691,6 +770,7 @@
     "business": "Oriskany Glass Studio",
     "category": "Glass / Mosaic",
     "class": "glass-mosaic",
+    "statement": "3D beveled and stained glass objects including sun catchers, air plant planters and orbs. Utilizing the tiffany foil method, lead came and metal channel.",
     "url": "https://www.oriskanyglass.etsy.com"
   },
   {
@@ -699,7 +779,8 @@
     "lastname": "Babay",
     "business": "YouNique Jewelry",
     "category": "Jewelry",
-    "class": "jewelry"
+    "class": "jewelry",
+    "statement": "Handmade and hand stamped jewelry using copper, silver, brass, and semi-precious gemstones. I cut, saw, and solder the components used in my jewelry and I personalize on site for my customers."
   },
   {
     "booths": [],
@@ -708,6 +789,7 @@
     "business": "A. Battiste",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "A. Battiste is a handmade jewelry company based in Atlanta, GA. It is minority woman owned and operated. A variety of techniques are used including soldering, hammering, wrapping and connecting.",
     "url": "http://www.abattiste.com"
   },
   {
@@ -717,6 +799,7 @@
     "business": "Baizaar",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "Baizaar features all handmade jewelry and one of a kind apparel made in partnership with empowered artisans in Thailand and India. All items are made in small production following Fair Trade practices",
     "url": "http://www.silverstonebrass.com"
   },
   {
@@ -725,7 +808,8 @@
     "lastname": "Brown",
     "business": "Marsha Marsha Jewelry",
     "category": "Jewelry",
-    "class": "jewelry"
+    "class": "jewelry",
+    "statement": "Simple, minimal, meaningful jewelry. Yoga/Nature Inspired. Handmade."
   },
   {
     "booths": [],
@@ -734,6 +818,7 @@
     "business": "Fire Raine Studio",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "I design & fabricate jewelry using techniques to manipulate fine metals, enhanced with natural stones, pearls, & components. Skills include torch, stone setting, wrap, chain, metal forming & PMC.",
     "url": "http://www.fireraine.etsy.com"
   },
   {
@@ -743,6 +828,7 @@
     "business": "Dave Cain Handcrafted Jewelry",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "I explore the medium of chainmaking, originally through an interest in armor. I now present my work by adapting historic styles into new patterns and concepts that preserve their traditional origin.",
     "url": "http://www.davecain.com"
   },
   {
@@ -752,6 +838,7 @@
     "business": "Agora Art Studio",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "I work with ancient technique of CloisonnÃ© Enamel. I use traditional metalworking and fuse enamel on fine silver by combining it with sterling silver and precious stones.",
     "url": "http://www.ninoarts.com"
   },
   {
@@ -761,6 +848,7 @@
     "business": "Beautiful Chaos",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "I cut, solder/electroplate stone, coins, prisms and metals to create ensembles that can be worn multiple ways. Women get 1:1 styling where they can choose personal selections to complete their look.",
     "url": "http://www.bchaos.com"
   },
   {
@@ -769,7 +857,8 @@
     "lastname": "Fleischhut",
     "business": "Leapa Designs",
     "category": "Jewelry",
-    "class": "jewelry"
+    "class": "jewelry",
+    "statement": "I hand make jewelry by soldering found or created objects into pendants and by crocheting chains with beads for a feminine, bohemian look. The creative ranges from the delicate to the bold statement."
   },
   {
     "booths": [],
@@ -778,6 +867,7 @@
     "business": "Jowelry's Designs",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "Beautiful stones, Beads and precious metals unite to form my handmade jewelry. I create my jewelry by twisting and bending sterling silver and other metals sometimes capturing semi-precious stones.",
     "url": "http://jowelrysdesigns.com"
   },
   {
@@ -786,7 +876,8 @@
     "lastname": "Garcia",
     "business": "It Element, LLC",
     "category": "Jewelry",
-    "class": "jewelry"
+    "class": "jewelry",
+    "statement": "Our Handicrafts include a variety of:  Sterling Silver Jewelry, Alpaca (Nickel/Silver)  (Bracelets, BroochesEarrings, Pendants)  Hand-Beaded Work, Semi-Precious Stone Crafts & Leather Handbags"
   },
   {
     "booths": [],
@@ -795,6 +886,7 @@
     "business": "ALYN VAUGHN",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "Materials: Passion & Drive! Alyn Vaughn advocates for Student Apprenticeships. We use our product assortment & show we work to teach enterprise to students in 4 states. College is not for everyone.",
     "url": "https://alynvaughn.com/"
   },
   {
@@ -804,6 +896,7 @@
     "business": "element47",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "Contemporary sterling silver jewelry with a pop of color through the use of vibrant colored resins or semi precious stones.",
     "url": "http://www.element47designs.com"
   },
   {
@@ -813,6 +906,7 @@
     "business": "ISEA DESIGNS",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "Metal work in sterling silver,gold filed, stones necklaces and men/women leather work bracelets.",
     "url": "http://iseadesigns.etsy.com"
   },
   {
@@ -821,7 +915,8 @@
     "lastname": "Jalsa",
     "business": "In The Beginning Jewelry",
     "category": "Jewelry",
-    "class": "jewelry"
+    "class": "jewelry",
+    "statement": "I utilize the techniques of fabrication, PMC sculpting, wire wrapping with gemstones and the Victorian lace making techniques of hand tatting and knotting to create unique mixed media jewelry."
   },
   {
     "booths": [],
@@ -830,6 +925,7 @@
     "business": "cameoko",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "cameoko jewelry is a playful and modern resin jewelry line that is creating using crushed gemstones and minerals combined with metallic flakes and set in cast open bezels.",
     "url": "https://www.cameoko.com"
   },
   {
@@ -839,6 +935,7 @@
     "business": "Throwing Stars LLC",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "I use 14k Gold Filled, Sterling Silver and Oxidized Sterling Silver materials for a dainty, yet slightly edgy, jewelry. I solder and hammer to make earrings, necklaces, rings & bracelets.",
     "url": "http://www.throwingstarsjewelry.com"
   },
   {
@@ -847,7 +944,8 @@
     "lastname": "Levey",
     "business": "fantasy treasures",
     "category": "Jewelry",
-    "class": "jewelry"
+    "class": "jewelry",
+    "statement": "Handmade coin and silver jewelry. Unique jewelry. Sterling silver rings and chains."
   },
   {
     "booths": [],
@@ -855,6 +953,7 @@
     "lastname": "massey",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "Hand cut/ hammered/ soldered from a raw metal state. Customizations. Some set stones & painted accents. Mostly precious metals. Base metals/leather offered in our Boho concept I call &quot;Guinnevere&quot;.",
     "url": "http://www.jillmassey.com"
   },
   {
@@ -864,6 +963,7 @@
     "business": "EcoManiacs Sustainable Jewelry",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "I create unique, sustainable, jewelry from reclaimed materials, gemstones, and found objects.",
     "url": "http://www.facebook.com/amypieronidesigns"
   },
   {
@@ -873,6 +973,7 @@
     "business": "Paper Towns Vintage",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "Jewelry and accessories created from salvaged vintage maps. (Returning vendor)",
     "url": "http://etsy.com/shop/papertownsvintage"
   },
   {
@@ -882,6 +983,7 @@
     "business": "Caroline Sandlin Jewelry",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "Benchmade sterling silver hand fabricated rings, necklaces, pendants, bracelets. Sterling silver with or without natural stone cabochons.",
     "url": "http://www.carolinesandlin.etsy.com"
   },
   {
@@ -891,6 +993,7 @@
     "business": "Talia Serinese Jewelry",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "I create jewelry using natural gemstones, freshwater pearls, sterling silver, and 14 karat gold fill. Each piece is finished with hand-forged and hammered clasps, ear wires and metalwork.",
     "url": "http://www.taliaserinese.etsy.com"
   },
   {
@@ -900,6 +1003,7 @@
     "business": "jewels by julie",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "I fabricate in sterling silver and gold. Using semi-precious stones in most pieces I strive to make each one, from earrings to rings and pendants, unique and individual.",
     "url": "http://www.jewels-by-julie.com"
   },
   {
@@ -909,6 +1013,7 @@
     "business": "Katherine Smith Jewelry",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "Hand forged pieces incorporating 14k gold fill chain and gemstones.  Modern, affordable, and asymmetrical necklaces, earrings, and bracelets.",
     "url": "http://www.katherinesmithjewelry.com"
   },
   {
@@ -916,7 +1021,8 @@
     "firstname": "Daron",
     "lastname": "Smith",
     "category": "Jewelry",
-    "class": "jewelry"
+    "class": "jewelry",
+    "statement": "Traditional metalsmithing techniques and hand tools are used to hand fabricate one of a kind jewelry pieces. Materials used are natural cabochons, sterling silver, and some gold."
   },
   {
     "booths": [],
@@ -925,6 +1031,7 @@
     "business": "PenguinArts",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "Artist-made lampwork glass beads made using soda-lime glass, frit, enamels & studio blown glass shards. The beads are integrated into jewelry with Swarovski crystals, gemstones and sterling findings.",
     "url": "http://www.penguinartsjewelry.com"
   },
   {
@@ -933,6 +1040,7 @@
     "lastname": "Timmins",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "personally handcrafted silver and gold rings. we cast, forge, solder, twist, and hammer to create a variety of styles in solid .925 sterling silver and 14KY gold fill. Rings for all sizes!",
     "url": "http://www.gibcobracelets.com"
   },
   {
@@ -942,6 +1050,7 @@
     "business": "Wendy Tonsits Jewelry",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "All jewelry is hand fabricated in sterling silver or 14k gold filled and genuine gemstones to achieve a synthesis of bold clean lines and striking relationships of form and color.",
     "url": "https://amalgamartsatlanta.com"
   },
   {
@@ -951,6 +1060,7 @@
     "business": "Heather Anne Walter",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "Sterling silver, semi-precious stones, and found objects joined together in art. Created with instinct as much as design gives each piece a sense of nature and spirituality with an ancient feel.",
     "url": "https://www.instagram.com/metalsmith_haw"
   },
   {
@@ -960,6 +1070,7 @@
     "business": "Crafts & Love LLC",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "Handmade in Candler Park, Crafts & Love highlights natural, raw gemstones with minimalist geometric brass lines to create affordable handcrafted jewelry using wire-wrapping and beading skills.",
     "url": "https://hwww.craftsandlove.com"
   },
   {
@@ -968,6 +1079,7 @@
     "lastname": "Zinn",
     "category": "Jewelry",
     "class": "jewelry",
+    "statement": "From the silversmiths of the ancient Hill Tribe villages in Southeast Asia, to the traditional weavers of Mayan Ponchos in Guatemala, we travel to remote parts of the world collecting handmade crafts.",
     "url": "http://culture-cross.org"
   },
   {
@@ -977,6 +1089,7 @@
     "business": "Paul Aude Leather Handbags & Accessories",
     "category": "Leather",
     "class": "leather",
+    "statement": "I offer handmade leather Handbags, Laptop messenger bags, leather journals filled with recycled handmade paper, and Belts. variation in the colors of my product comes from hand mixed color dyes.",
     "url": "http://www.audeandamy.com"
   },
   {
@@ -985,14 +1098,16 @@
     "lastname": "Bennett",
     "business": "Branson's Designs",
     "category": "Leather",
-    "class": "leather"
+    "class": "leather",
+    "statement": "Handmade cowhide purses, coin purses, wristbands, barrettes, gifts for children(leather), made with advanced techniques, nylon thread, YKK Zippers."
   },
   {
     "booths": [],
     "firstname": "Caroline",
     "lastname": "Clarke",
     "category": "Leather",
-    "class": "leather"
+    "class": "leather",
+    "statement": "I am third generation in the art of making leather. I design my own patterns. That I hand cut out of cowhide leather. Then I sew the purse together."
   },
   {
     "booths": [],
@@ -1000,7 +1115,8 @@
     "lastname": "Hammonds",
     "business": "Got Scrapz",
     "category": "Leather",
-    "class": "leather"
+    "class": "leather",
+    "statement": "All designs are hand cut, bonded and/or stitched using recycled leather."
   },
   {
     "booths": [],
@@ -1009,6 +1125,7 @@
     "business": "Mochiis Footwear",
     "category": "Leather",
     "class": "leather",
+    "statement": "Each pair of shoes and bag is hand-tooled and handcarved, hand painted to give unique 3D effects and patina to the hand-work.",
     "url": "https://mochiis.com"
   },
   {
@@ -1016,7 +1133,8 @@
     "firstname": "Karen",
     "lastname": "Sanderson",
     "category": "Leather",
-    "class": "leather"
+    "class": "leather",
+    "statement": "Australian Outback Hats"
   },
   {
     "booths": [],
@@ -1024,7 +1142,8 @@
     "lastname": "Berbey",
     "business": "The tin man and friends",
     "category": "Metalwork",
-    "class": "metalwork"
+    "class": "metalwork",
+    "statement": "Over 100 bottle holders characters made with recycled metals...my art is very unique! All my art pieces are made with recycled metal... I create my pieces from recycled iron by forging the metal, usin"
   },
   {
     "booths": [],
@@ -1033,6 +1152,7 @@
     "business": "THE TIN MAN",
     "category": "Metalwork",
     "class": "metalwork",
+    "statement": "One of a kind works composed from hand salvaged antique tin tiles. I work in rust, manipulating the patina. I use a homemade paint and stain. All work has the provenance written on the back.",
     "url": "http://thetinmanart.com"
   },
   {
@@ -1042,6 +1162,7 @@
     "business": "Block & Hammer",
     "category": "Metalwork",
     "class": "metalwork",
+    "statement": "We rescue vintage silverplate & hand stamp with fun messages that include food puns and endearing phrases. We also create custom men's accessories such as tie bars, collar stays & cufflinks.",
     "url": "http://blockandhammer.etsy.com"
   },
   {
@@ -1051,6 +1172,7 @@
     "business": "BE Creations and Designs INC",
     "category": "Metalwork",
     "class": "metalwork",
+    "statement": "We create sustainable metal pieces out of locally sourced recycled steel inspired by our family adventures homesteading and in the great outdoors, made in our barn studio in rural North Georgia.",
     "url": "http://www.beoutfitters.com"
   },
   {
@@ -1060,6 +1182,7 @@
     "business": "Klinker Closet",
     "category": "Metalwork",
     "class": "metalwork",
+    "statement": "I cast door pulls and door knocker out of brass, bead necklaces,",
     "url": "http://www.klinkercloset.com"
   },
   {
@@ -1069,6 +1192,7 @@
     "business": "OM Grown Art",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "We make unique carved wood art and home decor using graphic design and CNC programming and routing. We carve various materials mixing metal, wood, acrylic, and epoxy to create a one-of-a-kind product",
     "url": "http://omgrownart.com"
   },
   {
@@ -1077,6 +1201,7 @@
     "lastname": "Bancroft",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "Music and book paintings collaged and painted with handwritten song lyrics and popular quotes",
     "url": "http://www.lexiconoflove.etsy.com"
   },
   {
@@ -1086,6 +1211,7 @@
     "business": "Garden Grown Designs",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "Garden Grown Designs is a collection of Dried Flower Art. Pressed Flora are displayed in several ways, including Glass Wall Hangings and Resin SunCatchers, Coasters, Keychains, Bookmarks and Jewelry.",
     "url": "https://hwww.etsy.com/shop/gardengrowndesigns"
   },
   {
@@ -1095,6 +1221,7 @@
     "business": "Lady of Graves: Art & Oddities",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "I create mixed media art as well as handmade oddities and curiosities. Bones, specimens, resin, acrylic paint and found objects or antiques are my main mediums.",
     "url": "https://www.ladyofgraves.com"
   },
   {
@@ -1103,7 +1230,8 @@
     "lastname": "Carlson",
     "business": "Clue Town Books",
     "category": "Mixed media",
-    "class": "mixed-media"
+    "class": "mixed-media",
+    "statement": "Clue Town Books are a series of ready-to-solve scavenger hunts located in walkable areas of Atlanta and beyond!"
   },
   {
     "booths": [],
@@ -1111,6 +1239,7 @@
     "lastname": "Chambers",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "A unique combination of wood & other natural elements that gives the illusion of naturally joined branches.",
     "url": "http://www.branchingoutart.weebly.com"
   },
   {
@@ -1120,6 +1249,7 @@
     "business": "SassyFrass Designs",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "Antique copper, silver, and brass Belt Buckles and belts. Belt buckles are embellished with Natural Stones, cabochons, mosaics, antique and vintage findings. Belt straps  are 100% leather and tooled.",
     "url": "https://www.sassyfrass.design"
   },
   {
@@ -1128,6 +1258,7 @@
     "lastname": "Coker",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "I create acrylic-based mixed media pieces, incorporating custom made mono-printed papers, and inspirational images, quotes, affirmations, or words",
     "url": "http://www.hannahcokerart.com"
   },
   {
@@ -1137,6 +1268,7 @@
     "business": "Rustic Stuff of the South",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "Unique Rustic creative work: Rustic coolers, tailgate bench, rustic lazy susans, trays, signs, college rustic signs, beautiful transfer rustic art, vintage flags with rustic frames",
     "url": "http://rusticstuffofthesouth.com"
   },
   {
@@ -1145,6 +1277,7 @@
     "lastname": "Eaton",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "I recycle leaves and wood from an assortment of trees and plants to create tables, bowls and birdbaths. Each one of a kind pieces are hand finished, painted or acid stained and make perfect indoor or",
     "url": "https://rareearthcreated.com"
   },
   {
@@ -1153,6 +1286,7 @@
     "lastname": "Elam Chavez",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "My work is a mix of watercolor, ink and digital illustrations that are transformed into art prints, greeting cards and articulated dolls. My style is colorful, fun and playful.",
     "url": "http://www.missyelamchavez.com"
   },
   {
@@ -1162,6 +1296,7 @@
     "business": "Lynnie's art",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "My art is hand designed made out of paper. I do Butterflies pictures, singles,flowers, dragonflies it's all very uniqus.",
     "url": "http://lynniesart.com"
   },
   {
@@ -1171,6 +1306,7 @@
     "business": "Henley Studios",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "Original photography printed using an archival ink bonding process (calibrated for each individual piece), wed with the gestural connotations of acrylic paint and varnish on hand-built wood panel.",
     "url": "http://www.henleystudios.com"
   },
   {
@@ -1179,7 +1315,8 @@
     "lastname": "Hurlbutt",
     "business": "The Country Junction",
     "category": "Mixed media",
-    "class": "mixed-media"
+    "class": "mixed-media",
+    "statement": "Mother/Daughter buss. We have the farm where we milk our goats and make goat milk soaps & lotions. We make Body butters, lip balms, bath balms, deodorants, face cream, heel helper, all from scratch"
   },
   {
     "booths": [],
@@ -1188,6 +1325,7 @@
     "business": "JustInCaseByLilly",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "I create beautiful and unique keepsake treasures from repurposed cigar boxes. I specialize in mixed media which includes my number one seller &quot;steampunk&quot;.",
     "url": "https://facebook.com/justincasebylillyhurt"
   },
   {
@@ -1197,6 +1335,7 @@
     "business": "American Glory Handbags",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "Artwork is American History themed replicating vintage burlap sacks, advertising & posters, printed onto either linen or canvas with leather details, Coconut Wax candles are farm scented,hay,saddle..",
     "url": "https://hottotrotapparel.com/"
   },
   {
@@ -1205,7 +1344,8 @@
     "lastname": "mcdavid",
     "business": "mcdavid studios",
     "category": "Mixed media",
-    "class": "mixed-media"
+    "class": "mixed-media",
+    "statement": "Hand crafted charcuterie boards ....hand painted with resin and acrylic mediums...all made from reclaimed materials"
   },
   {
     "booths": [],
@@ -1214,6 +1354,7 @@
     "business": "Third Half Studios",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "We span the mediums of graphic illustration, acrylic painting, sculpting and fabric design. Mediums include paint, wood, paper, glitter, resin, and varied crafting elements",
     "url": "https://thirdhalfstudios.square.site"
   },
   {
@@ -1223,6 +1364,7 @@
     "business": "Woven Words",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "Handmade & Handpainted wood signs and glass frames. Prints of Calligraphy and original paintings and watercolors. Wall hangings and home decor. Handmade pottery",
     "url": "http://shopwovenwords.etsy.com"
   },
   {
@@ -1232,6 +1374,7 @@
     "business": "The Pink Butterfly",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "Handmade clothing, premium cotton fabrics. Embroidered hairbows, grossgrain & satin ribbons. Machines, sewing machine, serger & commerial embroidery machine. Made in Smoke and pet free environment",
     "url": "https://www.thepinkbutterfly.net"
   },
   {
@@ -1240,6 +1383,7 @@
     "lastname": "Phelps",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "Textured layers of latex and acrylic paint on masonite board. The texture of the working surface consists of sand applied using a bonding technique. Multiple layers of thin washes, water and alcohol.",
     "url": "http://demonephelps.com"
   },
   {
@@ -1249,6 +1393,7 @@
     "business": "PlanetPrahler",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "Each work incorporates a watercolor wash, a variety of different papers, and oil paint on wood. All paintings are influenced by nature and double imagery is used in the larger pieces.",
     "url": "http://www.etsy.com/people/planetprahler"
   },
   {
@@ -1257,7 +1402,8 @@
     "lastname": "rice",
     "business": "Handwoven Creations",
     "category": "Mixed media",
-    "class": "mixed-media"
+    "class": "mixed-media",
+    "statement": "Handwoven seagrass basket. The Seagrass soaked in before weaving. A knot is tied at the base weaving starts anti clockwise to finish. Leather is wrapped around handles basket air dried to form."
   },
   {
     "booths": [],
@@ -1265,7 +1411,8 @@
     "lastname": "ROWE",
     "business": "10 Moons Art",
     "category": "Mixed media",
-    "class": "mixed-media"
+    "class": "mixed-media",
+    "statement": "Glass on painted convas under resin in a variety of techniques."
   },
   {
     "booths": [],
@@ -1274,6 +1421,7 @@
     "business": "Richard Russell Studios",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "The image is drawn in pencil and watercolor. Next, I use acrylic for color, texture and detail. A transparent glaze is added to the background to give the illusion of depth. Finally a shiny clear coat",
     "url": "https://www.richardrussellstudios.com"
   },
   {
@@ -1283,6 +1431,7 @@
     "business": "Big and Little Cookie",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "We use forgotten paper products (like vintage seed packets and postcards) to create pouches, clutches, and totes. Our wooden plaques and vases are made with wood salvaged from various sources.",
     "url": "https://bigandlittlecookie.square.site"
   },
   {
@@ -1291,7 +1440,8 @@
     "lastname": "Swinford",
     "business": "Swinford_Designs",
     "category": "Mixed media",
-    "class": "mixed-media"
+    "class": "mixed-media",
+    "statement": "I salvage and preserve old maps and photos, then hand make custom frames for each one from barnwood. Each piece is then finished individually by hand with an original antiquing process."
   },
   {
     "booths": [],
@@ -1300,6 +1450,7 @@
     "business": "By Jennifer Upton",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "I am an Image Transfer Artist, combining my original images, steel and wood to create one of a kind wall art and home accessories.",
     "url": "http://www.byjenniferupton.com"
   },
   {
@@ -1309,6 +1460,7 @@
     "business": "Clay in wood",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "Luce hand builds clay pieces for each piece Dominicus and I discuss wood components to use to tell and enhance the story. We are fusing clay and wood to create Sculptural and Functional Art.",
     "url": "http://www.clayinwood.com"
   },
   {
@@ -1318,6 +1470,7 @@
     "business": "Wearvie.com",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "IS Studio produces works that come from a multitude of disciplines including illustration, printmaking, film photography and graphic design that are produced on wood, paper, and textiles.",
     "url": "http://wearvie.com"
   },
   {
@@ -1327,6 +1480,7 @@
     "business": "MyMy Butterfly",
     "category": "Mixed media",
     "class": "mixed-media",
+    "statement": "Insect Art---I spread and pin all insects (ethically sourced) myself. Then encase them in frames, domes, or other interesting things like vials, bookmarks, and pendants.",
     "url": "https://www.instagram.com/mymy_butterfly/"
   },
   {
@@ -1336,6 +1490,7 @@
     "business": "Peach or Plum?",
     "category": "Painting",
     "class": "painting",
+    "statement": "Peach or Plum is a line of stationery products and gift items all created using my bright & detailed watercolor illustrations.",
     "url": "http://peachorplum.com"
   },
   {
@@ -1344,7 +1499,8 @@
     "lastname": "boyd",
     "business": "timboydart",
     "category": "Painting",
-    "class": "painting"
+    "class": "painting",
+    "statement": "I use acrylic paint and inks on canvas a wood panels to create cartoon characters"
   },
   {
     "booths": [],
@@ -1353,6 +1509,7 @@
     "business": "Stan Bruns Illustrations",
     "category": "Painting",
     "class": "painting",
+    "statement": "I use acrylic paint for depth of color, heavy body paint worked with a palette knife for texture & pen&ink for detail . My abstract & illustrative collections are inspired by images that tell a tale.",
     "url": "http://www.stanbruns.etsy.com"
   },
   {
@@ -1362,6 +1519,7 @@
     "business": "Sergey Cherep Fine Art",
     "category": "Painting",
     "class": "painting",
+    "statement": "I use oil on canvas in Post Impressionism style.Colors and brushstrokes bring 3 dimensions to my art",
     "url": "https://hwww.sergeycherep.com"
   },
   {
@@ -1371,6 +1529,7 @@
     "business": "Daniel Curran Art",
     "category": "Painting",
     "class": "painting",
+    "statement": "I paint heavily textured portraits of iconic figures, animals, cityscapes and landscapes on canvas. I also draw digital portraits of animals, which are then transferred to wood and hand cut.",
     "url": "http://www.danielcurranart.com"
   },
   {
@@ -1379,6 +1538,7 @@
     "lastname": "Denier",
     "category": "Painting",
     "class": "painting",
+    "statement": "Combining grey washes in the back ground with colorful dry brushed images in the foreground I achieve a vibrant, fun and whimsical compositions. Acrylic paint on canvas allows me the avenue.",
     "url": "http://www.mikedenierart.com"
   },
   {
@@ -1387,6 +1547,7 @@
     "lastname": "Freeman",
     "category": "Painting",
     "class": "painting",
+    "statement": "ATL based artist with a focus on whimsical animal portraits and bird paintings. Every animal has a name + story. Originals are Acrylic on canvas + digitized prints.",
     "url": "http://www.lacymfreeman.com"
   },
   {
@@ -1395,6 +1556,7 @@
     "lastname": "Hays",
     "category": "Painting",
     "class": "painting",
+    "statement": "Acrylic paintings and related merchandise, depicting pop iconography, pop culture, monsters and hot rod/kustom kulture related imagery",
     "url": "http://dirkhays.com"
   },
   {
@@ -1404,6 +1566,7 @@
     "business": "Jeremy Worst",
     "category": "Painting",
     "class": "painting",
+    "statement": "I paint Modern Realistic Acrylic Paintings.  I blend my acrylics with retarder to reduce the drying time and add time to blend. This makes some of my paintings look like Oil paintings.",
     "url": "http://www.jworst.com"
   },
   {
@@ -1412,6 +1575,7 @@
     "lastname": "Hill",
     "category": "Painting",
     "class": "painting",
+    "statement": "Paintings, print making and illustration made with acrylic paint, spray paint, ink and resin.",
     "url": "http://www.maniclawd.com"
   },
   {
@@ -1421,6 +1585,7 @@
     "business": "Art by Mariah Hope",
     "category": "Painting",
     "class": "painting",
+    "statement": "I paint in acrylics on canvas. I paint pet and people portraits.  I take orders at the event and then deliver paintings later. I will have some items for sale at the event as well.",
     "url": "http://www.mariahhope.com"
   },
   {
@@ -1430,6 +1595,7 @@
     "business": "The Belligerent Monkey",
     "category": "Painting",
     "class": "painting",
+    "statement": "Low-brow and pop art pieces with acrylic paints on canvas. Inspiration comes from comic books, tattoos, sci-fi, and pop culture. Original paintings, signed/ numbered prints, and magnets are available.",
     "url": "http://www.belligerentmonkey.com"
   },
   {
@@ -1439,6 +1605,7 @@
     "business": "Kyegombe Fine Art Gallery",
     "category": "Painting",
     "class": "painting",
+    "statement": "I use bright vivid colors in an abstract style to create dynamic portraits and skyline paintings of US major cities. Using acrylic paints, I'm able to create overlapping layers of color .",
     "url": "http://www.kyegombe.com"
   },
   {
@@ -1447,7 +1614,8 @@
     "lastname": "Laguardia",
     "business": "Faces Unlimited",
     "category": "Painting",
-    "class": "painting"
+    "class": "painting",
+    "statement": "I do professional, amazing face painting"
   },
   {
     "booths": [],
@@ -1456,6 +1624,7 @@
     "business": "Between the Evergreens",
     "category": "Painting",
     "class": "painting",
+    "statement": "I paint abstract landscapes using acrylic paint and sell the originals and reproductions.",
     "url": "http://www.betweentheevergreens.com/"
   },
   {
@@ -1465,6 +1634,7 @@
     "business": "Manager",
     "category": "Painting",
     "class": "painting",
+    "statement": "My art is lyrical and mystical, and it possesses a universal appeal express through oil paintings. Abstract style in a subjective manner.",
     "url": "https://manamiart.com"
   },
   {
@@ -1474,6 +1644,7 @@
     "business": "Shijun Art",
     "category": "Painting",
     "class": "painting",
+    "statement": "Oil on canvas using brushes & palette knives to obtain texture & vibrant colors. Artwork is inspirational & joyful in concept, depicting vivid scenes of harmonious interaction with the natural world.",
     "url": "http://www.shijunart.com"
   },
   {
@@ -1482,6 +1653,7 @@
     "lastname": "Murrah",
     "category": "Painting",
     "class": "painting",
+    "statement": "My artworks are created with an array of mediums primarily Oils, some acrylics, pastels, stains and leafing. The 3D artworks I create are made with found objects and collages.",
     "url": "http://www.chawnmurrah.com"
   },
   {
@@ -1491,6 +1663,7 @@
     "business": "Blank Canvas Massage",
     "category": "Painting",
     "class": "painting",
+    "statement": "Oil on canvas depicting abstract landscape designs based on significant moments or meaningful locations",
     "url": "http://www.blankcanvasmassage.com/"
   },
   {
@@ -1500,6 +1673,7 @@
     "business": "Katie Phillips Fine Art",
     "category": "Painting",
     "class": "painting",
+    "statement": "I am primarily a palette knife artist using an impasto painting method, applying thick acrylics onto the canvas with the knives. I love the texture and unique blends of color created by this process.",
     "url": "https://www.katiephillipsart.com"
   },
   {
@@ -1507,7 +1681,8 @@
     "firstname": "Kimberly",
     "lastname": "Stansbury",
     "category": "Painting",
-    "class": "painting"
+    "class": "painting",
+    "statement": "Painting on recycled materials etc. Folk art"
   },
   {
     "booths": [],
@@ -1515,6 +1690,7 @@
     "lastname": "Zhang",
     "category": "Painting",
     "class": "painting",
+    "statement": "impressionistic work created by mixing acrylics and sumi ink on self embellished & handmade textured board covered with rice papers in combination of Asian artistic skill and western expression",
     "url": "http://www.jimzhangart.com"
   },
   {
@@ -1523,6 +1699,7 @@
     "lastname": "Aversano",
     "category": "Pet supplies",
     "class": "pet-supplies",
+    "statement": "All natural dog treats made in Decatur GA.",
     "url": "http://www.tajmahound.com"
   },
   {
@@ -1532,6 +1709,7 @@
     "business": "Hollywoof Styles",
     "category": "Pet supplies",
     "class": "pet-supplies",
+    "statement": "Handmade Dog and Cat Collars, Leashes, Harnesses and Martingales sewn using various types of ribbons and rescue nylon webbing. Hand Stamped Copper and Silver Pet Tags with cute sayings or ID info.",
     "url": "https://hollywoofstyles.com"
   },
   {
@@ -1541,6 +1719,7 @@
     "business": "Brixtix Bakery for Dogs",
     "category": "Pet supplies",
     "class": "pet-supplies",
+    "statement": "We handmake pop culture inspired cookies for dogs, as well as trainer treats for dogs and cats, using high quality, minimal ingredients, and sew collars and make leashes of recycled climbing ropes.",
     "url": "http://brixtix.com"
   },
   {
@@ -1550,6 +1729,7 @@
     "business": "Wonder Dog Bakery",
     "category": "Pet supplies",
     "class": "pet-supplies",
+    "statement": "All natural dog biscuits and treats.",
     "url": "http://wonderdogbakery.net"
   },
   {
@@ -1559,6 +1739,7 @@
     "business": "Josie's BackYard",
     "category": "Pet supplies",
     "class": "pet-supplies",
+    "statement": "Twenty Seven All Natural Dog Treats developed from whole wheat flour. Other ingredients are vegetables, fruits, peanut butter, and more. We mix, roll, cut and bake.",
     "url": "http://josiesbackyard.com"
   },
   {
@@ -1568,6 +1749,7 @@
     "business": "artworks by susan, photography textile artist",
     "category": "Photography",
     "class": "photography",
+    "statement": "I print my photographs on fabric, stretched on 1.5&quot; gallery wrap, varnished with painted edges.",
     "url": "https://susanpoindexter.com"
   },
   {
@@ -1576,6 +1758,7 @@
     "lastname": "Teague",
     "category": "Photography",
     "class": "photography",
+    "statement": "Fine art photography. Subject matter varied, but predominantly focused on the Inman Park Neighborhood. Selling loose prints as well as framed prints in a variety of sizes.",
     "url": "http://catiteague.com"
   },
   {
@@ -1584,6 +1767,7 @@
     "lastname": "ayers",
     "category": "Various",
     "class": "various",
+    "statement": "We are a 501c(3) charity. We raise awareness fro testicular and prostate cancer. We sell t-shirts, wristbands, koozies and sunglasses to raise money for these causes. Same spot as last yr Please",
     "url": "http://www.call-to-duty.org"
   },
   {
@@ -1593,6 +1777,7 @@
     "business": "RockBelly",
     "category": "Various",
     "class": "various",
+    "statement": "RockBelly offers mineral & crystal specimens from around the globe, plus handmade pendants & rings. Items for adults, kids, & all budgets. Our booth is fun, educational, and always a crowd favorite!",
     "url": "https://rockbellyminerals.com"
   },
   {
@@ -1601,7 +1786,8 @@
     "lastname": "Brighton",
     "business": "Gene Brighton",
     "category": "Various",
-    "class": "various"
+    "class": "various",
+    "statement": "Original Juggling batons, patented bouncing flying soft and safe frisbees, Seed bead art, children's beaded items. Bottle cap art. Been apart of this festival for 10+ years. Love it."
   },
   {
     "booths": [],
@@ -1609,7 +1795,8 @@
     "lastname": "Britt",
     "business": "Gnarly Gnarwhals",
     "category": "Various",
-    "class": "various"
+    "class": "various",
+    "statement": "Gnarly Gnarwhals makes pop art using recycled materials and also chic home decor with recycled materials. We also feature different types of plant arrangements using fun and quirky toys."
   },
   {
     "booths": [],
@@ -1618,6 +1805,7 @@
     "business": "ABETTERBUZZ Brand Goods",
     "category": "Various",
     "class": "various",
+    "statement": "Our products are bold, graphic inspired apparel and goods. Our mission is to create high quality, affordable goods, while giving back to the communities we work, live and play in.",
     "url": "http://www.abetterbuzzbrandgoods.com"
   },
   {
@@ -1627,6 +1815,7 @@
     "business": "Dragonfly Henna",
     "category": "Various",
     "class": "various",
+    "statement": "We offer safe, all-natural freehand henna temporary tattoos and glitter tattoos. We make our own henna from natural ingredients and essential oils. Henna prices start at $10. Glitter starts at $5.",
     "url": "http://www.atlantahenna.com"
   },
   {
@@ -1634,7 +1823,8 @@
     "firstname": "CJ",
     "lastname": "Cumberland",
     "category": "Various",
-    "class": "various"
+    "class": "various",
+    "statement": "Hammock.chairs. swings. Porch lounges. Frames. Hanging furniture."
   },
   {
     "booths": [],
@@ -1643,6 +1833,7 @@
     "business": "beehive home",
     "category": "Various",
     "class": "various",
+    "statement": "beehive home (formerly Climb) is an affordable handmade line of pressed mugs, laser-cut jewelry & local maps, sublimated baby apparel, and housewares. Our line is tongue-in-cheek, to make you smile.",
     "url": "https://thebeehiveatl.com/collections/beehive-home"
   },
   {
@@ -1652,6 +1843,7 @@
     "business": "Gift N' Green",
     "category": "Various",
     "class": "various",
+    "statement": "Eco friendly products made from recycled and sustainable materials. Bamboo, silk and organic cotton clothing, recycled tent totes, recycled rugs mad into pillows, silver plated recycled creations.",
     "url": "http://www.giftngreen.com"
   },
   {
@@ -1661,6 +1853,7 @@
     "business": "Megateeth Fossils",
     "category": "Various",
     "class": "various",
+    "statement": "MegaTeeth offers prehistoric Megalodon shark teeth we personally find SCUBA diving Georgia & the Carolinas. Our premier Savannah Fossils will be featured. Our Curator and dive team will be on site.",
     "url": "https://www.megateeth.com"
   },
   {
@@ -1670,6 +1863,7 @@
     "business": "JJ Parrot",
     "category": "Various",
     "class": "various",
+    "statement": "We run everything out of my basement in Kirkwood. All short sleeve button down shirts with fun animal prints. Prints drawn by us and our friends.",
     "url": "http://jjparrot.com"
   },
   {
@@ -1679,6 +1873,7 @@
     "business": "Bill hallman boutique",
     "category": "Various",
     "class": "various",
+    "statement": "we will have clothing, accessories, and jewelry",
     "url": "http://www.billhallman.com"
   },
   {
@@ -1688,6 +1883,7 @@
     "business": "404 Proud",
     "category": "Various",
     "class": "various",
+    "statement": "High quality tees and hats with designs relating to Atlanta.",
     "url": "http://www.404proud.com"
   },
   {
@@ -1696,7 +1892,8 @@
     "lastname": "Hursit",
     "business": "ARK Imports, LLC",
     "category": "Various",
-    "class": "various"
+    "class": "various",
+    "statement": "All of our ceramics and knobs are handmade and hand-painted unique pieces."
   },
   {
     "booths": [],
@@ -1705,6 +1902,7 @@
     "business": "The Sun Catcher",
     "category": "Various",
     "class": "various",
+    "statement": "Hand Strung crystals attaching them to various objects such as horse shoes, watering cans, driftwood and other objects. Each catching the rays of the sun allowing them to cast beautiful rainbows.",
     "url": "https://www.mysuncatchers.etsy.com"
   },
   {
@@ -1714,6 +1912,7 @@
     "business": "Mandalina",
     "category": "Various",
     "class": "various",
+    "statement": "Our Mandalina Eco Towels, Blankets, & Wraps are contemporary, light weight textiles for the beach boat and home. The perfect combination of both function and design",
     "url": "http://www.mandalina.ecwid.com"
   },
   {
@@ -1723,6 +1922,7 @@
     "business": "K.A.T.'s",
     "category": "Various",
     "class": "various",
+    "statement": "Hand Dyed Silk Scarves. Floral with a unique pattern implementing three processes: 1. Batik2. French Painting, 3. Italian Marbling. All silk scarves are set to be washer / dryer safe.",
     "url": "http://www.silks.tv"
   },
   {
@@ -1732,6 +1932,7 @@
     "business": "Linden Longbords",
     "category": "Various",
     "class": "various",
+    "statement": "I make Hand Crafted Longboard Skateboards and Chairs out of Up Cycled Vintage Trick Water Skis.",
     "url": "http://lindenlongboards.com"
   },
   {
@@ -1740,7 +1941,8 @@
     "lastname": "Lyle",
     "business": "A Practice in Patience",
     "category": "Various",
-    "class": "various"
+    "class": "various",
+    "statement": "A practice in patience is a combination of intricate work with paper, ceramics, and watercolor. I hand-cut paper with a scalpel and turn the designs into stencils for planters and textiles."
   },
   {
     "booths": [],
@@ -1749,6 +1951,7 @@
     "business": "Map of Home",
     "category": "Various",
     "class": "various",
+    "statement": "As cartographers, we use many map-making techniques to create unique pieces of the Atlanta area, other cities, and features of the natural world.",
     "url": "http://www.mapofhome.etsy.com"
   },
   {
@@ -1758,6 +1961,7 @@
     "business": "Lemon Zesty",
     "category": "Various",
     "class": "various",
+    "statement": "I work in watercolor and gouache and print my designs on a range of products including mugs, shirts, wood block prints, greeting cards and pins. I also sell my original artwork.",
     "url": "http://www.lemonzesty.com"
   },
   {
@@ -1767,6 +1971,7 @@
     "business": "Things UnCommon",
     "category": "Various",
     "class": "various",
+    "statement": "At Things UnCommon, we handcraft candles, body products, textiles and ceramics and are known for our southern-inspired whimsical names and designs.",
     "url": "https://things-uncommon.com"
   },
   {
@@ -1776,6 +1981,7 @@
     "business": "Inspire Active Wear",
     "category": "Various",
     "class": "various",
+    "statement": "Artist designed active wear made from recycled plastic water bottles. Textile patterns created from photographs taken by Barbara Northrup. Printed and sewn in small artisan batches in Georgia.",
     "url": "http://www.inspireactivewear.com"
   },
   {
@@ -1785,6 +1991,7 @@
     "business": "Fuzzy Ink",
     "category": "Various",
     "class": "various",
+    "statement": "We create cute and whimsical designs that encourage customers to create their own story for each illustration. Each design is hand printed on our shirts as well as printed on heavy cover stock paper.",
     "url": "http://www.fuzzy-ink.com/"
   },
   {
@@ -1794,6 +2001,7 @@
     "business": "Jill's Jams & Jellies",
     "category": "Various",
     "class": "various",
+    "statement": "Homemade jams, jellies, relish, pickles and salsa. All made small batch by Jill herself. No mass production. All natural products. Licensed by the Ga. Department of Ag./Georgia Grown member.",
     "url": "https://www.jillsjam.com"
   },
   {
@@ -1802,6 +2010,7 @@
     "lastname": "Powell",
     "category": "Various",
     "class": "various",
+    "statement": "Big Skinny Wallets in mens and womens styles",
     "url": "http://www.bigskinny.net"
   },
   {
@@ -1811,6 +2020,7 @@
     "business": "Clair ThÃ© LLC",
     "category": "Various",
     "class": "various",
+    "statement": "I provide premium/organic loose-leaf teas that I source directly from growers in different countries and/or blend as well as teaware. A woman-owned local business, tea represents purity and harmony.",
     "url": "http://www.clairthe.com"
   },
   {
@@ -1820,6 +2030,7 @@
     "business": "The SandArt Cart",
     "category": "Various",
     "class": "various",
+    "statement": "The SandArt Cart creates SandArt with children of all ages. We teach design techniques and offer a hands on art activity that they get to talk home! Fun for the whole family. 28 vibrant colors!!",
     "url": "http://www.thesandartcart.com"
   },
   {
@@ -1828,6 +2039,7 @@
     "lastname": "Sharpe",
     "category": "Various",
     "class": "various",
+    "statement": "Odd Little Birdie creates quirky horror and pop culture inspired hand embroidery and mixed media art! Paper Bones is a whimsical, colorful world of watercolor creatures and adorable baby onesies!",
     "url": "http://www.etsy.com/shop/oddlittlebirdie"
   },
   {
@@ -1837,6 +2049,7 @@
     "business": "jellykoe",
     "category": "Various",
     "class": "various",
+    "statement": "I paint with acrylics on canvas or wood.I paint my characters with a flat, illustrative style, and use a bright, mostly pastel color scheme. My wife makes plush creatures based on my design.",
     "url": "http://www.jellykoe.com"
   },
   {
@@ -1846,6 +2059,7 @@
     "business": "CEMENT6",
     "category": "Various",
     "class": "various",
+    "statement": "CEMENT6 is a unique line of backpacks, purses, wallets, and the like; each sustainably and ethically handmade from recycled cement and feed bags.",
     "url": "https://cement6.com"
   },
   {
@@ -1854,6 +2068,7 @@
     "lastname": "Townsend",
     "category": "Various",
     "class": "various",
+    "statement": "I create fun pop art art illustrations. I use acrylic paint, pencils & ink on various surfaces. At my booth I sell original works as well as prints and merch based of my own original works.",
     "url": "http://www.iamjert.com"
   },
   {
@@ -1863,6 +2078,7 @@
     "business": "Color of Heat",
     "category": "Various",
     "class": "various",
+    "statement": "Color of Heat is unisex line of handmade cotton shorts and tops by emerging designer, Kat Whatley. Kat is a 2017 graduate of the Fashion Institute of Technology in NYC with a fashion design degree.",
     "url": "http://www.colorofheat.com"
   },
   {
@@ -1871,14 +2087,16 @@
     "lastname": "Wilson",
     "business": "The Last Straw...You'll Ever Want",
     "category": "Various",
-    "class": "various"
+    "class": "various",
+    "statement": "I make cheese straws in various flavors including the traditional cheddar. What makes my cheese straws different, there is no butter. I also make mini pound cakes in respective flavors. Key Lim, Peach"
   },
   {
     "booths": [],
     "firstname": "harry",
     "lastname": "zajlo",
     "category": "Various",
-    "class": "various"
+    "class": "various",
+    "statement": "Beads, crystals, fossils, shells, jewelry,clothes and some stained glass antiques"
   },
   {
     "booths": [],
@@ -1886,7 +2104,8 @@
     "lastname": "ZAMORA",
     "business": "THE BLUE RIDGE NURSERY, INC.",
     "category": "Various",
-    "class": "various"
+    "class": "various",
+    "statement": "We are dedicated to propagation, grow and sales of cacti, succulents, violets and rare/exotic plants. Plants are offered already planted in pots. We also offer macrame, concrete pots and wood boxes."
   },
   {
     "booths": [],
@@ -1894,7 +2113,8 @@
     "lastname": "Arpin",
     "business": "1952",
     "category": "Vintage",
-    "class": "vintage"
+    "class": "vintage",
+    "statement": "Street Mkt-Antique/Vintage/Primitive items: Quilts,Linens,furniture,depress glass,pottery,sterling silver, ladies/children items,books,collectibles, & Spring/Garden decor & unique hard to find items."
   },
   {
     "booths": [],
@@ -1902,7 +2122,8 @@
     "lastname": "Brown",
     "business": "Hungry Like the Wolf Vintage",
     "category": "Vintage",
-    "class": "vintage"
+    "class": "vintage",
+    "statement": "Hungry Like the Wolf Vintage is colorful feminine vintage and vintage inspired clothing and accessories. Some jewelry will be original pieces. Ezra James Vintage is vintage menswear and accessories."
   },
   {
     "booths": [],
@@ -1911,6 +2132,7 @@
     "business": "ART CORE",
     "category": "Vintage",
     "class": "vintage",
+    "statement": "I am a mixed media artist and/so I collect antiques, vintage, and collectibles because of its age, beauty, rarity, condition, utility, personal emotional connection, and/or other unique features.",
     "url": "http://www.facebook.com/athloneclarke"
   },
   {
@@ -1919,7 +2141,8 @@
     "lastname": "Cruz",
     "business": "Vintage Vannety",
     "category": "Vintage",
-    "class": "vintage"
+    "class": "vintage",
+    "statement": "Vintage Vannety specializes in unique, beautiful, hand selected one of a kind vintage and antique clothing spanning all decades from the Victorian period to the late 1990s. Vintage for men and ladies!"
   },
   {
     "booths": [],
@@ -1927,7 +2150,8 @@
     "lastname": "Davenport",
     "business": "What's It Worth",
     "category": "Vintage",
-    "class": "vintage"
+    "class": "vintage",
+    "statement": "Vintage items - collectibles - handmade cabinets and refinished small furniture items -"
   },
   {
     "booths": [],
@@ -1935,7 +2159,8 @@
     "lastname": "Midgette",
     "business": "MIDGE MAN RECORDS",
     "category": "Vintage",
-    "class": "vintage"
+    "class": "vintage",
+    "statement": "Providing the best titles in vintage vinyl records including Classic Rock, Hard Rock, Heavy Metal, Punk, Post-Punk, New Wave, Reggae, Jazz, Blues, Soul, R&B, Hip-Hop, Country, and Soundtracks."
   },
   {
     "booths": [],
@@ -1944,6 +2169,7 @@
     "business": "Resurrected Furniture Design",
     "category": "Vintage",
     "class": "vintage",
+    "statement": "Here at RFD we carry a wide selection of vintage and hand made custom furniture. Every piece in our inventory is hand painted and restored to an elegant finish. We also carry home decor & pillows.",
     "url": "http://resurrectedfd.com"
   },
   {
@@ -1952,7 +2178,8 @@
     "lastname": "Scott",
     "business": "Classic Rewind",
     "category": "Vintage",
-    "class": "vintage"
+    "class": "vintage",
+    "statement": "We like to include an eclectic mix of vintage items for our booth that can include small furniture pieces, industrial salvage, kitchenware, lamps, other objects for the home."
   },
   {
     "booths": [],
@@ -1961,6 +2188,7 @@
     "business": "SarahLou Designs",
     "category": "Vintage",
     "class": "vintage",
+    "statement": "SarahLou Designs sells a highly curated selection of vintage and up-cycled clothing and accessories. The booth is set up looks more like a boutique, has a dressing room and mirror.",
     "url": "https://www.etsy.com/people/sarahloudesigns"
   },
   {
@@ -1969,7 +2197,8 @@
     "lastname": "Akerele",
     "business": "Wooden Element",
     "category": "Woodwork",
-    "class": "woodwork"
+    "class": "woodwork",
+    "statement": "I create handcrafted wooden pieces of wearable art with Rosewood, Zebrawood, Walnut & more. I specialize in plant-based resins & geometric scoring. Pieces are hand polished/buffed & resin treated."
   },
   {
     "booths": [],
@@ -1978,6 +2207,7 @@
     "business": "ECHO Fabrication, LLC",
     "category": "Woodwork",
     "class": "woodwork",
+    "statement": "Woodworking and turning techniques used creating unique recreational/survival fire-starters. Exotic and domestic woods are used. Metal acid dyes for color. Various woodburning techniques for design.",
     "url": "http://www.georgiafiresteel.com"
   },
   {
@@ -1986,7 +2216,8 @@
     "lastname": "Barreneche/Schemel",
     "business": "D3F CO LLC",
     "category": "Woodwork",
-    "class": "woodwork"
+    "class": "woodwork",
+    "statement": "Each piece is individually handcrafted. Our wooden cases go through 7 different sand paper sizes to get a natural finish. We find scraps of materials from furniture places to minimize waist."
   },
   {
     "booths": [],
@@ -1995,6 +2226,7 @@
     "business": "Go Jump in the LakeÂ®",
     "category": "Woodwork",
     "class": "woodwork",
+    "statement": "We handmake rustic wood signs, picture frames, and whatever other cool items we can think of. Each item is hand screen printed and hand sanded to give it that age old weathered look.",
     "url": "https://www.etsy.com/shop/gojumpinthelake"
   },
   {
@@ -2003,7 +2235,8 @@
     "lastname": "Gonzalez",
     "business": "Creative Woodscapes",
     "category": "Woodwork",
-    "class": "woodwork"
+    "class": "woodwork",
+    "statement": "Products are made from cedar, spruce and pine. Equipment used is a drill press, compound miter and table saws, a sander and finish nailers."
   },
   {
     "booths": [],
@@ -2012,6 +2245,7 @@
     "business": "Wooden it be Lovely",
     "category": "Woodwork",
     "class": "woodwork",
+    "statement": "Children's wooden puzzles/name puzzles: A scroll saw is used to cut out each individual letter or piece, puzzle is sanded several times, and letters are painted bright primary colors with acrylic",
     "url": "http://woodenitbelovely123.com"
   },
   {
@@ -2020,7 +2254,8 @@
     "lastname": "Knight",
     "business": "Kaboodle Home",
     "category": "Woodwork",
-    "class": "woodwork"
+    "class": "woodwork",
+    "statement": "we make furniture from salvaged wood, lockers, and fans. We will alos have coasters from David Roe and jewelry from Mar Sweeney"
   },
   {
     "booths": [],
@@ -2029,6 +2264,7 @@
     "business": "SLrustic",
     "category": "Woodwork",
     "class": "woodwork",
+    "statement": "I create handmade wood signs with which is mostly reclaimed wood! As a designer, I design the signs and paint them onto wood. My process keeps the character of the natural wood, but is still timeless!",
     "url": "https://hwww.slrustic.com"
   },
   {
@@ -2038,6 +2274,7 @@
     "business": "Blackberry Bottom",
     "category": "Woodwork",
     "class": "woodwork",
+    "statement": "We specialize in handcrafted wooden home decor such as wooden baskets, serving trays, lazy Susanâ€™s, cookbook stands, cutting boards, and more. Hand painted, stained, distressed wood.",
     "url": "https://www.shopblackberrybottom.com"
   },
   {
@@ -2046,7 +2283,8 @@
     "lastname": "Puckett",
     "business": "Woodcraft toys",
     "category": "Woodwork",
-    "class": "woodwork"
+    "class": "woodwork",
+    "statement": "To make wooden toys, I purchase wood, make a template, trace out the template and cut out wood with a band saw, sand, route, apply working parts, paint (if necessary), sand, and paint again."
   },
   {
     "booths": [],
@@ -2054,7 +2292,8 @@
     "lastname": "Schemel/Barreneche",
     "business": "Fento",
     "category": "Woodwork",
-    "class": "woodwork"
+    "class": "woodwork",
+    "statement": "Handmade eyewear made out of wood, stone, denim and cork. Tech:Scroll saw cutting, sewing and dying."
   },
   {
     "booths": [],
@@ -2062,7 +2301,8 @@
     "lastname": "sinquefield",
     "business": "D & B Enterprises",
     "category": "Woodwork",
-    "class": "woodwork"
+    "class": "woodwork",
+    "statement": "I hand make very unique, very durable, and very reasonably priced outdoor furniture with the finest materials (wood) available"
   },
   {
     "booths": [],
@@ -2071,6 +2311,7 @@
     "business": "Little Wood and Toy Shop",
     "category": "Woodwork",
     "class": "woodwork",
+    "statement": "I make wooden toys and furniture. My toys are handmade with the finest quality hardwoods then colored and sealed using non toxic finishes appropriate to the toy's use.",
     "url": "https://www.etsy.com/shop/littlewoodandtoyshop"
   },
   {
@@ -2080,6 +2321,7 @@
     "business": "Creations by SV",
     "category": "Woodwork",
     "class": "woodwork",
+    "statement": "I create various functional and decorative pieces out of wood which i've personally cut and hand burned or painted in my home studio in Cabbagetown. Items range from wood coasters to wall decor.",
     "url": "http://www.creationsbysv.etsy.com"
   }
 ]
