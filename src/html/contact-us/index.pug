@@ -10,51 +10,53 @@ block contents
     article.u-container
         h1 Contact Us
 
-        p If you have a question, please send an email to the appropriate point of contact. We will make every effort to get back to you as soon as possible. 
+        p The contact us form is currently unavailable while we make infrastructure changes to our website. 
+
+        //- p If you have a question, please send an email to the appropriate point of contact. We will make every effort to get back to you as soon as possible. 
         //- Thank you for your interest and we hope to see you at Festival!
         
         //- p 
         //-     em Due to COVID-19 concerns, Inman Park Spring Festival &amp; Tour of Homes, scheduled to take place April 24-26, 2020 will be postponed or cancelled. 
         
-        h3 Important Notes Before You Email Us:
+        //- h3 Important Notes Before You Email Us:
         
-        ul
-            li Vendor/booth applications are closed. 
-            //- Check back soon for a link to this year's application.
-            //- li Vendor/booth applications are closed. If you applied through Zapp you can check your status there.
-            li Food vendor applications are closed.
-            li Pets are not allowed at festival. City rules.
-            //- li The Music/Band list is final and closed for this year.
+        //- ul
+        //-     li Vendor/booth applications are closed. 
+        //-     //- Check back soon for a link to this year's application.
+        //-     //- li Vendor/booth applications are closed. If you applied through Zapp you can check your status there.
+        //-     li Food vendor applications are closed.
+        //-     li Pets are not allowed at festival. City rules.
+        //-     //- li The Music/Band list is final and closed for this year.
 
-        form(method="POST" action="contact.php").Form--contact#ContactForm
+        //- form(method="POST" action="contact.php").Form--contact#ContactForm
             
-            p 
-                strong All fields are required.
+        //-     p 
+        //-         strong All fields are required.
             
-            label
-                | Your name:
-                input(type="text" name="name" required)
+        //-     label
+        //-         | Your name:
+        //-         input(type="text" name="name" required)
             
-            label
-                | Your email address:
-                input(type="email" name="email" required)
+        //-     label
+        //-         | Your email address:
+        //-         input(type="email" name="email" required)
             
-            label
-                | Select a point of contact:
-                select(name="recipient" required)
-                    each contact in globals.contacts
-                        option(value=contact.value)= contact.label
+        //-     label
+        //-         | Select a point of contact:
+        //-         select(name="recipient" required)
+        //-             each contact in globals.contacts
+        //-                 option(value=contact.value)= contact.label
 
-            label
-                | Your Message:
-                textarea(name="message" required)
+        //-     label
+        //-         | Your Message:
+        //-         textarea(name="message" required)
 
-            label
-                input(type="text" size="25" name="email_address")
+        //-     label
+        //-         input(type="text" size="25" name="email_address")
             
-            input(type="submit" name="submit" value="Send Email")
+        //-     input(type="submit" name="submit" value="Send Email")
 
-        p#successMessage Message sent - thanks for getting in touch. We'll respond as soon as we can.
+        //- p#successMessage Message sent - thanks for getting in touch. We'll respond as soon as we can.
 
-block scripts
-    script(src="/assets/js/contact.js")
+//- block scripts
+//-     script(src="/assets/js/contact.js")
