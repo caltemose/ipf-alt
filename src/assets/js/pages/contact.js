@@ -3,6 +3,7 @@ import serialize from 'form-serialize'
 
 let $form
 let $successMessage
+let $errorMessage
 let $name
 let $email
 let $recipient
@@ -11,6 +12,7 @@ let $message
 const initialize = (form) => {
     $form = document.getElementById(form)
     $successMessage = document.getElementById('successMessage')
+    $errorMessage = document.getElementById('errorMessage')
     $name = $form.querySelector('[name="name"]')
     $email = $form.querySelector('[name="email"]')
     $recipient = $form.querySelector('[name="recipient"]')
@@ -57,20 +59,22 @@ const submitAjaxForm = () => {
     axios
         .post('/contact-us/contact.php', serialize($form))
         .then(res => {
-            console.log(res)
             hideElement($form)
-            showElement($successMessage)
+            if (res.data.result) showElement($successMessage)
+            else showElement($errorMessage)
         })
         .catch(err => console.log(err))
 }
 
-const testVarSet = () => {
-    const params = new URLSearchParams(window.location.search);
-    return params.has('test')
-}
+// const testVarSet = () => {
+//     const params = new URLSearchParams(window.location.search);
+//     return params.has('test')
+// }
 
-if (testVarSet()) initialize('ContactForm')
-else {
-    var container = document.querySelector('article');
-    container.remove();
-}
+// if (testVarSet()) initialize('ContactForm')
+// else {
+//     var container = document.querySelector('article');
+//     container.remove();
+// }
+
+initialize('ContactForm')
