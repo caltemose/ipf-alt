@@ -21,7 +21,7 @@ try {
     $mail->Port = 587;
 
     $mail->setFrom('admin@inmanparkfestival.org', 'Festival Admin');
-    $mail->addAddress('sponsors@inmanparkfestival.org', 'IPF Staff: Sponsors');
+    $mail->addAddress('support@inmanparkfestival.org', 'IPF Staff: Sponsors');
     $mail->isHTML(true);
     $mail->Subject = 'Initial test with smtp + php';
     $mail->Body = 'This is a test email with some <strong>html</strong>';

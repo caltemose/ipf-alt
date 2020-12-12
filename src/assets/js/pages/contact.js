@@ -64,4 +64,13 @@ const submitAjaxForm = () => {
         .catch(err => console.log(err))
 }
 
-initialize('ContactForm')
+const testVarSet = () => {
+    const params = new URLSearchParams(window.location.search);
+    return params.has('test')
+}
+
+if (testVarSet()) initialize('ContactForm')
+else {
+    var container = document.querySelector('article');
+    container.remove();
+}

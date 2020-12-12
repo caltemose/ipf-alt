@@ -1,11 +1,10 @@
 <?php
-require 'vendor/autoload.php';
-use Mailgun\Mailgun;
-require '_config.php';
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
 
-# Instantiate the client.
-$mgClient = new Mailgun($mailgunKey);
-$domain = "inmanparkfestival.org";
+require 'vendor/autoload.php';
+require '_config.php';
 
 // get POST data
 $visitorName = Trim(stripslashes($_POST['name']));
@@ -145,9 +144,6 @@ switch($recipient) {
     case 'volunteers':
         $recipientList = 'volunteer@inmanparkfestival.org';
         break;
-    case 'pr':
-        $recipientList = 'pr@inmanparkfestival.org';
-        break;
     case 'marketing':
         $recipientList = 'advertising@inmanparkfestival.org';
         break;
@@ -158,23 +154,53 @@ switch($recipient) {
         $recipientList = 'festival@inmanparkfestival.org';
 }
 
-$messageBody  = "To respond to this email, copy the email address shown below into a new message please.\n";
-$messageBody .= "Email sent from the website contact form from:\n";
-$messageBody .= $visitorName . ' - ' . $visitorEmail . "\n\n";
-$messageBody .= $message;
+$messageStart = "Email sent from the website contact form from:";
 
-# Make the call to the client.
-$result = $mgClient->sendMessage($domain, array(
-    'from'    => $visitorName . ' <' . $visitorEmail . '>',
-    'to'      => $recipientList,
-    'subject' => 'Email from Festival Contact Form',
-    'text'    => $messageBody
-));
-$success["result"] = $result;
-$success["recipientList"] = $recipientList;
+$messageBodyTxt = $messageStart . "\n";
+$messageBodyTxt .= $visitorName . ' - ' . $visitorEmail . "\n\n";
+$messageBodyTxt .= $message;
 
-$res = json_encode($success);
-header('Content-Type: application/json');
-echo $res;
+$messageBodyHTML = $messageStart . '<br>';
+$messageBodyHTML .= $visitorName . ' - ' . $visitorEmail . '<br><br>';
+$messageBodyHTML .= $message;
 
-?>
+$mail = new PHPMailer(true);
+
+try {
+    $mail->SMTPDebug = SMTP::DEBUG_OFF; // DEBUG_CLIENT;
+    $mail->SMTPAuth = true;
+    $mail->isSMTP();
+    $mail->Host = 'email-smtp.us-east-1.amazonaws.com';
+    $mail->Username = $smtpUsername; // from _config
+    $mail->Password = $smtpPassword; // from _config
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+    $mail->Port = 587;
+
+    $mail->setFrom('admin@inmanparkfestival.org', 'Festival Admin');
+    // $mail->addAddress('support@inmanparkfestival.org', 'IPF Staff: Sponsors');
+    $mail->addAddress($recipientList);
+    $mail->addReplyTo($visitorEmail, $visitorName);
+    $mail->isHTML(true);
+    $mail->Subject = 'Email from Festival Contact Form';
+    $mail->Body = $messageBodyHTML; //'Email from form in HTML';
+    $mail->AltBody = $messageBodyTxt; //'Email from form in text';
+
+    $mail->send();
+
+    $success["result"] = true;
+    $success["recipientList"] = $recipientList;
+
+    $res = json_encode($success);
+    header('Content-Type: application/json');
+    echo $res;
+
+} catch (Exception $e) {
+    // handle message not sent
+    $success["result"] = false;
+    $success["error"] = $mail->ErrorInfo;
+    $res = json_encode($success);
+    header('Content-Type: application/json');
+    echo $res;
+}
+
+

@@ -32,7 +32,7 @@
             }
         }
     },
-    "offseason": false,
+    "offseason": true,
     "tour": {
         "tickets": {
             "active": false,
@@ -116,7 +116,7 @@
         "parade": {
             "time": "2:00 PM",
             "application": "/assets/static/archive/2020/ParadeApp2020.pdf",
-            "applicationActive": true
+            "applicationActive": false
         }
     },
     "markets": {
@@ -210,11 +210,8 @@
             "value": "volunteers",
             "label": "Volunteers"
         }, {
-            "value": "pr",
-            "label": "Public Relations"
-        }, {
             "value": "marketing",
-            "label": "Advertising and Marketing"
+            "label": "Advertising, Marketing and PR"
         }, {
             "value": "support",
             "label": "Website Support"
