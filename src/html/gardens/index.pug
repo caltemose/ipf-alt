@@ -1,0 +1,87 @@
+include ../_templates/mixins
+
+doctype html
+html(lang="en")
+
+    head
+
+        block title
+        
+        meta(content="IE=edge,chrome=1" http-equiv="X-UA-Compatible")
+        meta(content="width=device-width" name="viewport")
+
+        link(href='https://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css')
+        link(href='/assets/css/main.css', rel='stylesheet' type='text/css')
+        //- link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.1/tiny-slider.css")
+
+        meta(property="og:title" content="Inman Park Festival - Garden Tours 2021")
+        meta(property="og:description" content="Garden Tours 2021 Description")
+        meta(property="og:image" content="http://inmanparkfestival.org/assets/img/ipf-butterfly-facebook.png")
+        meta(property="og:url" content="http://inmanparkfestival.org")
+        meta(property="og:type" content="website")
+        meta(name="twitter:card" content="summary_large_image")
+
+    body
+
+        .GardenToursContainer
+            .GardenToursHeaderContainer
+                header.GardenToursHeader
+                    h1
+                        img(src="/assets/img/ipf-logo-revised-large.svg" alt="Inman Park Butterfly" width="210")
+                        span.GardenToursHeader-text Inman Park Garden Tour 2021
+
+            main.GardenTours
+                .GardenSection.GardenHero
+                    p Hero contains:
+                    ul
+                        li promo image
+                        li welcome message
+                        li basic date/time details
+
+                .GardenSection.GardenSponsors-primary
+                    p Primary/featured sponsors (linked logo images)
+                
+                .GardenSection.bgGarden-secondary.GardenMoreDetails
+                    p More details: description of event, covid protocols/perspective
+
+                .GardenSection.GardenMerchandise
+                    p Merchandise promo image + link
+
+                .GardenSectionSplit
+                    .GardenSectionSplit-half.alt-secondary.GardenMap
+                        div Map
+                    .GardenSectionSplit-half.alt-tertiary.GardenVolunteer
+                        div Volunteer promo with link
+
+                .GardenSection.GardenSponsors-secondary
+                    p Other sponsors (linked logo images)
+
+
+
+        footer.Footer
+            .u-container
+            
+                //- .Footer-sponsors
+            
+                nav.Footer-nav
+                    //- a(href="/contact-us" class="PipeNav") Contact Us
+                    a(href="/terms-of-use" class="PipeNav") Terms of Use
+                    a(href="/privacy-policy" class="PipeNav") Privacy Policy
+                    a(href="/trademark" class="PipeNav") Trademark Use
+                
+                p.fineprint!= globals.copyright
+
+        //- script(src="/assets/js/shared.js")
+        block scripts
+
+        if (isProduction)
+            script.
+                var _gaq = _gaq || [];
+                _gaq.push(['_setAccount', 'UA-21675291-1']);
+                _gaq.push(['_trackPageview']);
+
+                (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                })();

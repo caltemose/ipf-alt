@@ -1,0 +1,91 @@
+.GardenToursHeaderContainer
+    background-color: $brand-grey-dark
+
+.GardenToursHeader
+    h1
+        margin: 0
+        padding: 0.5em 0 0
+        font-family: $base-font-family-serif
+        text-align: center
+        font-size: 1.2em
+        color: #fff
+        span
+            display: block
+            padding: 0.5em 0
+            background-color: rgb(62, 84, 25)
+
+        @media screen and (min-width: $bp-md)
+            font-size: 1.5em
+            span
+                padding: 0.75em 0
+
+
+.GardenToursContainer
+    margin: 0 auto
+    max-width: 43em
+    @media screen and (min-width: $bp-md)
+        max-width: 56em
+
+.GardenTours
+    margin: 0
+
+.GardenSection
+    padding: 1em
+    @media screen and (min-width: $bp-md)
+        padding-left: 2em
+        padding-right: 2em
+    @media screen and (min-width: $bp-lg)
+        padding-left: 3em
+        padding-right: 3em
+
+
+.GardenSection.bgGarden-secondary
+    background-color: #eee
+
+
+.GardenSectionSplit
+    @media screen and (min-width: $bp-md)
+        display: flex
+.GardenSectionSplit-half
+    @media screen and (min-width: $bp-md)
+        flex: 0 1 50%
+
+    > div
+        padding: 1em
+
+    &.alt-secondary
+        background-color: $brand-green
+    &.alt-tertiary
+        background-color: $brand-yellow
+
+.GardenHero
+    min-height: 260px
+    background-color: #ddd
+    @media screen and (min-width: $bp-md)
+        min-height: 400px
+
+.GardenSponsors-primary
+    min-height: 170px
+    @media screen and (min-width: $bp-md)
+        min-height: 320px
+
+.GardenMoreDetails
+    min-height: 300px
+    @media screen and (min-width: $bp-md)
+        min-height: 500px
+
+.GardenMerchandise
+    min-height: 200px
+
+.GardenMap
+    min-height: 160px
+    @media screen and (min-width: $bp-md)
+        min-height: 200px
+
+.GardenVolunteer
+    min-height: 100px
+    @media screen and (min-width: $bp-md)
+        min-height: 200px
+
+.GardenSponsors-secondary
+    min-height: 420px
