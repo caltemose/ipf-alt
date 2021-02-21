@@ -27,37 +27,32 @@ html(lang="en")
             .GardenToursHeaderContainer
                 header.GardenToursHeader
                     h1
-                        img(src="/assets/img/2021/garden-tour-logo.png" alt="Inman Park Tour of Gardens 2021" width="210")
+                        img(src="/assets/img/2021/garden-tour-logo-inverse.png" alt="Inman Park Tour of Gardens 2021" width="210")
                         span April 23-25, 2021
 
             main.GardenTours
-                .GardenSection.GardenHero
+                .GardenHero
+                    img(src="/assets/img/2021/gardens/shroeder-hydrangea.jpg" alt="Oak-leaf Hydrangea in Shroeder Gardens")
                     div
                         h2 Join us for the Inman Park Tour of Gardens
-                        p We are currently getting this page ready to tell you all about our wonderful tour of gardens coming up April 23-25, 2021. 
+                        
 
                 .GardenSection.GardenSponsors-primary
-                    h2 Our presenting sponsor for the Tour of Gardens is:
+                    h2 Presenting sponsor:
                     a(href="https://www.northside.com/" target="_blank")
                         img(src="/assets/img/2021/northside-hospital.png" alt="Inman Park Festival Presenting Sponsor: Northside Hospital")
                 
                 .GardenSection.bgGarden-secondary.GardenMoreDetails
-                    h2 Current Tour details (subject to change):
 
-                    ul
-                        li There will be 10 gardens on the tour.
-                        li There will be 500 tickets available for each day. Each ticket can be used on only the day it was purchased for.
-                        li Only visitors holding tickets will be allowed in gardens.
-                        li Some gardens will have artists selling their goods.
-                        li Some gardens will have musicians playing.
+                    p We can&rsquo;t hold the Inman Park Festival so instead we&rsquo;re having a Garden Party! The Inman Park Tour of Gardens will take guests on a fanciful tour of some of the most eclectic and innovative yards in Historic Inman Park. On tour guests will see quirky landscapes and untraditional additions to classic homes with finely manicured lawns with sweeping views of our city.  
 
-                    h2 Key safety details:
+                    p Each garden will hold a different surprise. Some will have dance troupes, live music, art and plenty of Inman Park Charm. Come for the gardens, stay for the culture. Enjoy our socially distanced outdoor event. Masks and good humor required.  
 
-                    ul
-                        li Masks and social distancing are required for all events/activities at all times. No exceptions.
-                        li Hand sanitizer will be available at each garden.
-                        li There will be a one-way Tour of Gardens route to keep everyone moving in the same direction and to avoid crossing paths.
+                    p Inman Park is Atlanta&rsquo;s first suburb and one of the city&rsquo;s most beloved neighborhoods.
 
+                    p First developed in the late 1800&rsquo;s, Inman Park is home to many historic Victorian homes and parks. But it is the spirit of community, the spirit of our neighbors, a spirit inherent in the great diversity of Inman Parkers that makes it a special and beloved community. In our community Y&rsquo;all means All. 
+
+                    p Proceeds from Inman Park Tour of Gardens will be used to better our neighborhood and community. We donate to local schools, parks, pay for sidewalks and support the Little Five Points Alliance and the Public Library on Ponce.
 
                 //- .GardenSection.GardenMerchandise
                 //-     p Merchandise promo image + link
@@ -68,10 +63,15 @@ html(lang="en")
                 //-     .GardenSectionSplit-half.alt-tertiary.GardenVolunteer
                 //-         div Volunteer promo with link
 
-                //- .GardenSection.GardenSponsors-secondary
-                //-     p Other sponsors (linked logo images)
+                .GardenSection.GardenSponsors-secondary
+                    h2.SponsorsHeader.SponsorsHeader--gold Gardener Sponsors
+                    ul.Sponsors.Sponsors--gold
+                        +sponsorGridImage("/assets/img/2021/sponsors/team360.png", "Team 360", "https://www.compass.com/agents/andre-de-winter/")
+                        +sponsorGridImage("/assets/img/2021/sponsors/trolley-barn.png", "The Trolley Barn", "https://thetrolleybarn.com")
+                        +sponsorGridImage("/assets/img/2021/sponsors/outback-bikes.png", "Outback Bikes", "https://www.outback-bikes.com/")
 
-
+                    div.Gardens-moreSponsors
+                        a(href="/gardens/sponsors/") View more sponsors here
 
         footer.Footer
             .u-container

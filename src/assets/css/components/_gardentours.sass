@@ -1,5 +1,5 @@
 .GardenToursHeaderContainer
-    background-color: #8fdaff
+    background-color: $brand-grey-dark
 
 .GardenToursHeader
     h1
@@ -8,11 +8,11 @@
         font-family: $base-font-family-serif
         text-align: center
         font-size: 1.2em
-        color: #fff
+        color: #000
         span
             display: block
             padding: 0.5em 0
-            background-color: #0a70a3
+            background-color: $brand-yellow
 
         @media screen and (min-width: $bp-md)
             font-size: 1.5em
@@ -62,27 +62,35 @@
         background-color: $brand-yellow
 
 .GardenHero
-    padding-bottom: 1.5em
+    padding-bottom: .5em
     background-color: #ddd
+    // background-image: url('/assets/img/2021/garden-bg.jpg')
+    // background-size: cover
+    
     
     div
         margin: 0 auto
         max-width: 35em
     h2
-        margin-top: 1em
+        margin: .25em 0 0
+        padding: 0 3em
+        text-align: center
 
-    
+    img
+        max-width: 100%
+
     // @media screen and (min-width: $bp-md)
     //     min-height: 400px
 
 .GardenSponsors-primary
+    padding-top: 1.5em
     padding-bottom: 1.5em
     h2
         margin-top: 0
         margin-bottom: 0.5em
         margin-left: 2em
         margin-right: 2em
-        font-size: 1.2em
+        font-size: 1em
         text-align: center
     img
         width: 100%
@@ -108,3 +116,21 @@
 
 .GardenSponsors-secondary
     min-height: 420px
+
+.Gardens-moreSponsors
+    margin: 0 0 1em
+    text-align: center
+    a
+        display: inline-block
+        padding: .5em 1em
+        border-radius: 4px
+        background-color: $brand-green-dark
+        color: #fff
+
+        &:visited
+            color: #fff
+
+.GardenSponsors-title
+    font-family: $base-font-family-serif
+    text-align: center
+
