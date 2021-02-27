@@ -32,13 +32,22 @@ html(lang="en")
 
             main.GardenTours
                 .GardenHero
-                    img(src="/assets/img/2021/gardens/shroeder-hydrangea.jpg" alt="Oak-leaf Hydrangea in Shroeder Gardens")
-                    div
-                        h2 Join us for the Inman Park Tour of Gardens
+                    .carousel
+                        div
+                            img(src='/assets/img/2021/gardens/schroeder-hydrangea.jpg' alt='Oak-leaf Hydrangea in Schroeder Gardens')
+                        div
+                            img(src='/assets/img/2021/gardens/cope-1.jpg' alt='Cope Gardens')
+                        div
+                            img(src='/assets/img/2021/gardens/schroeder-door.jpg' alt='Azaleas near the Door in Schroeder Gardens')
+                        div
+                            img(src='/assets/img/2021/gardens/cope-2.jpg' alt='Cope Gardens')
+            
+                div.GardenWelcome
+                    h2 Join us for the Inman Park Tour of Gardens
                         
 
                 .GardenSection.GardenSponsors-primary
-                    h2 Presenting sponsor:
+                    h2 Presented By:
                     a(href="https://www.northside.com/" target="_blank")
                         img(src="/assets/img/2021/northside-hospital.png" alt="Inman Park Festival Presenting Sponsor: Northside Hospital")
                 
@@ -54,8 +63,20 @@ html(lang="en")
 
                     p Proceeds from Inman Park Tour of Gardens will be used to better our neighborhood and community. We donate to local schools, parks, pay for sidewalks and support the Little Five Points Alliance and the Public Library on Ponce.
 
-                //- .GardenSection.GardenMerchandise
-                //-     p Merchandise promo image + link
+                .GardenSection.GardenTickets
+                    .GardenTickets-image
+                    .GardenTickets-copy
+                        h2 Buy Garden Tickets Online
+                        p Tickets are available for purchase by the day: 
+
+                        ul
+                            li 
+                                a(href="https://ipf.ticketbud.com/inman-park-tour-of-gardens-2021-april-23-friday-b1a5f665-084ff42b4fd4") Friday, April 23
+                            li 
+                                a(href="https://ipf.ticketbud.com/inman-park-tour-of-gardens-2021-april-24-saturday-6fb24b0b-7b3ca8bfd2b1") Saturday, April 24
+                            li 
+                                a(href="https://ipf.ticketbud.com/inman-park-tour-of-gardens-2021-april-25-sunday-f42aa3e6-3030490ad07a") Sunday, April 25
+
 
                 //- .GardenSectionSplit
                 //-     .GardenSectionSplit-half.alt-secondary.GardenMap
@@ -86,7 +107,7 @@ html(lang="en")
                 
                 p.fineprint!= globals.copyright
 
-        //- script(src="/assets/js/shared.js")
+        script(src="/assets/js/gardens.js")
         block scripts
 
         if (isProduction)

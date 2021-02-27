@@ -67,14 +67,13 @@
     // background-image: url('/assets/img/2021/garden-bg.jpg')
     // background-size: cover
     
-    
-    div
-        margin: 0 auto
-        max-width: 35em
-    h2
-        margin: .25em 0 0
-        padding: 0 3em
-        text-align: center
+    // div
+    //     margin: 0 auto
+    //     max-width: 35em
+    // h2
+    //     margin: .25em 0 0
+    //     padding: 0 3em
+    //     text-align: center
 
     img
         max-width: 100%
@@ -82,9 +81,24 @@
     // @media screen and (min-width: $bp-md)
     //     min-height: 400px
 
+    .tns-nav
+        padding-top: .3em
+
+    button[data-action="stop"],
+    button[data-action="start"]
+        display: none
+
+.GardenWelcome
+    h2
+        margin: 1.5em 0 0
+        padding: 0 3em
+        font-size: 1.5em
+        text-align: center
+
 .GardenSponsors-primary
     padding-top: 1.5em
     padding-bottom: 1.5em
+    text-align: center
     h2
         margin-top: 0
         margin-bottom: 0.5em
@@ -94,7 +108,7 @@
         text-align: center
     img
         width: 100%
-        max-width: 100%
+        max-width: 400px
 
 .GardenMoreDetails
     min-height: 300px
@@ -103,6 +117,30 @@
 
 .GardenMerchandise
     min-height: 200px
+
+.GardenTickets
+    display: flex
+
+    .GardenTickets-copy
+        h2
+            margin-top: 0
+
+    @media screen and (min-width: $bp-md)
+        margin-top: 1em
+        
+        .GardenTickets-image
+            flex: 0 1 25%
+            background-image: url('/assets/img/2021/cope-frog.jpg')
+            background-size: contain
+            background-repeat: no-repeat
+            width: 200px
+            height: 200px
+
+        .GardenTickets-copy
+            flex: 0 1 75%
+            padding-top: 0.25em
+            padding-left: 1em
+            
 
 .GardenMap
     min-height: 160px
