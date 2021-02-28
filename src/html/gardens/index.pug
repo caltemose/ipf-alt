@@ -63,19 +63,29 @@ html(lang="en")
 
                     p Proceeds from Inman Park Tour of Gardens will be used to better our neighborhood and community. We donate to local schools, parks, pay for sidewalks and support the Little Five Points Alliance and the Public Library on Ponce.
 
-                .GardenSection.GardenTickets
-                    .GardenTickets-image
-                    .GardenTickets-copy
-                        h2 Buy Garden Tickets Online
-                        p Tickets are available for purchase by the day: 
+                .GardenSection.GardenDates
+                    h2 Tour of Gardens Dates and Times:
 
-                        ul
-                            li 
-                                a(href="https://ipf.ticketbud.com/inman-park-tour-of-gardens-2021-april-23-friday-b1a5f665-084ff42b4fd4") Friday, April 23
-                            li 
-                                a(href="https://ipf.ticketbud.com/inman-park-tour-of-gardens-2021-april-24-saturday-6fb24b0b-7b3ca8bfd2b1") Saturday, April 24
-                            li 
-                                a(href="https://ipf.ticketbud.com/inman-park-tour-of-gardens-2021-april-25-sunday-f42aa3e6-3030490ad07a") Sunday, April 25
+                    ul
+                        li Friday, April 23 / 4-8PM
+                        li Saturday, April 24 / noon-4PM
+                        li Sunday, April 24 / noon-4PM
+
+                - var gardenTicketsLive = false
+                if gardenTicketsLive
+                    .GardenSection.GardenTickets
+                        .GardenTickets-image
+                        .GardenTickets-copy
+                            h2 Buy Garden Tickets Online
+                            p Tickets are available for purchase by the day: 
+
+                            ul
+                                li 
+                                    a(href="https://ipf.ticketbud.com/inman-park-tour-of-gardens-2021-april-23-friday-b1a5f665-084ff42b4fd4") Friday, April 23
+                                li 
+                                    a(href="https://ipf.ticketbud.com/inman-park-tour-of-gardens-2021-april-24-saturday-6fb24b0b-7b3ca8bfd2b1") Saturday, April 24
+                                li 
+                                    a(href="https://ipf.ticketbud.com/inman-park-tour-of-gardens-2021-april-25-sunday-f42aa3e6-3030490ad07a") Sunday, April 25
 
 
                 //- .GardenSectionSplit
