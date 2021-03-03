@@ -63,15 +63,16 @@ html(lang="en")
 
                     p Proceeds from Inman Park Tour of Gardens will be used to better our neighborhood and community. We donate to local schools, parks, pay for sidewalks and support the Little Five Points Alliance and the Public Library on Ponce.
 
-                .GardenSection.GardenDates
-                    h2 Tour of Gardens Dates and Times:
+                - var gardenTicketsLive = true
+                if !gardenTicketsLive
+                    .GardenSection.GardenDates
+                        h2 Tour of Gardens Dates and Times:
 
-                    ul
-                        li Friday, April 23 / 4-8PM
-                        li Saturday, April 24 / noon-4PM
-                        li Sunday, April 24 / noon-4PM
+                        ul
+                            li Friday, April 23 / 4-8PM
+                            li Saturday, April 24 / noon-4PM
+                            li Sunday, April 24 / noon-4PM
 
-                - var gardenTicketsLive = false
                 if gardenTicketsLive
                     .GardenSection.GardenTickets
                         .GardenTickets-image
@@ -81,11 +82,11 @@ html(lang="en")
 
                             ul
                                 li 
-                                    a(href="https://ipf.ticketbud.com/inman-park-tour-of-gardens-2021-april-23-friday-b1a5f665-084ff42b4fd4") Friday, April 23
+                                    a(href="https://ipf.ticketbud.com/tour-of-gardens-friday-april23-2021") Friday, April 23 (4-8pm)
                                 li 
-                                    a(href="https://ipf.ticketbud.com/inman-park-tour-of-gardens-2021-april-24-saturday-6fb24b0b-7b3ca8bfd2b1") Saturday, April 24
+                                    a(href="https://ipf.ticketbud.com/tour-of-gardens-saturday-april24-2021") Saturday, April 24 (noon-4pm)
                                 li 
-                                    a(href="https://ipf.ticketbud.com/inman-park-tour-of-gardens-2021-april-25-sunday-f42aa3e6-3030490ad07a") Sunday, April 25
+                                    a(href="https://ipf.ticketbud.com/tour-of-gardens-sunday-april25-2021") Sunday, April 25 (noon-4pm)
 
 
                 //- .GardenSectionSplit
