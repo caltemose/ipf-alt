@@ -140,15 +140,54 @@
             flex: 0 1 75%
             padding-top: 0.25em
             padding-left: 1em
+
+.GardenVolunteer
+    margin: 1em 0
+    padding: 2em
+    background-color: $brand-green
+
+    h3
+        margin: 0
+        padding: 0
+        font-size: 1.5em
+        font-family: $base-font-family-sans-serif
+        font-style: normal
+        font-weight: normal
+        text-transform: uppercase
+        color: $brand-white
+        letter-spacing: 0.1em
+    p
+        margin: 0
+
+    .Button
+        display: block
+        margin-top: 1em
+        max-width: 60%
+        text-align: center
+
+    .GardenVolunteer-copy
+        display: block
+
+    @media screen and (min-width: $bp-md)
+        display: flex
+        justify-content: center
+        align-items: center
+
+        .GardenVolunteer-copy
+            flex: 0 1 50%
+            text-align: right
+            padding-right: 3em
             
+            
+        .GardenVolunteer-link
+            flex: 0 1 50%
+        
+        .Button
+            margin-top: 0
+
 
 .GardenMap
     min-height: 160px
-    @media screen and (min-width: $bp-md)
-        min-height: 200px
-
-.GardenVolunteer
-    min-height: 100px
     @media screen and (min-width: $bp-md)
         min-height: 200px
 
@@ -158,19 +197,19 @@
 .Gardens-moreSponsors
     margin: 0 0 1em
     text-align: center
-    a
-        display: inline-block
-        padding: .5em 1em
-        border-radius: 4px
-        background-color: $brand-green-dark
-        color: #fff
-        text-decoration: none
+    // a
+    //     display: inline-block
+    //     padding: .5em 1em
+    //     border-radius: 4px
+    //     background-color: $brand-green-dark
+    //     color: #fff
+    //     text-decoration: none
 
-        &:hover
-            background-color: $brand-green
+    //     &:hover
+    //         background-color: $brand-green
 
-        &:visited
-            color: #fff
+    //     &:visited
+    //         color: #fff
 
 .GardenSponsors-title
     font-family: $base-font-family-serif
