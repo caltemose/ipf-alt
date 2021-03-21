@@ -24,23 +24,23 @@ html(lang="en")
     body
 
         .GardenToursContainer
-            .GardenToursHeaderContainer
-                header.GardenToursHeader
-                    h1
-                        img(src="/assets/img/2021/garden-tour-logo-inverse.png" alt="Inman Park Tour of Gardens 2021" width="210")
-                        span April 23-25, 2021
+            include ./_gardensheader
 
             main.GardenTours
+                
+
                 .GardenHero
                     .carousel
                         div
-                            img(src='/assets/img/2021/gardens/schroeder-hydrangea.jpg' alt='Oak-leaf Hydrangea in Schroeder Gardens')
+                            img(src='/assets/img/2021/gardens/begonias.jpg' alt='Begonias in Bloom')
+                        div
+                            img(src='/assets/img/2021/gardens/canflower.jpg' alt='Metal Flower Made From a Can')
                         div
                             img(src='/assets/img/2021/gardens/cope-1.jpg' alt='Cope Gardens')
                         div
-                            img(src='/assets/img/2021/gardens/schroeder-door.jpg' alt='Azaleas near the Door in Schroeder Gardens')
+                            img(src='/assets/img/2021/gardens/woodgatedoor.jpg' alt='Covered door')
                         div
-                            img(src='/assets/img/2021/gardens/cope-2.jpg' alt='Cope Gardens')
+                            img(src='/assets/img/2021/gardens/fleabaneflower.jpg' alt='Fleabane Flower')
             
                 div.GardenWelcome
                     h2 Join us for the Inman Park Tour of Gardens
@@ -56,6 +56,9 @@ html(lang="en")
                     p We can&rsquo;t hold the Inman Park Festival so instead we&rsquo;re having a Garden Party! The Inman Park Tour of Gardens will take guests on a fanciful tour of some of the most eclectic and innovative yards in Historic Inman Park. On tour guests will see quirky landscapes and untraditional additions to classic homes with finely manicured lawns with sweeping views of our city.  
 
                     p Each garden will hold a different surprise. Some will have dance troupes, live music, art and plenty of Inman Park Charm. Come for the gardens, stay for the culture. Enjoy our socially distanced outdoor event. Masks and good humor required.  
+
+                    p
+                        a(href="/gardens/on-tour").ButtonWithOutline &#8227; Read about the gardens here.
 
                     p Inman Park is Atlanta&rsquo;s first suburb and one of the city&rsquo;s most beloved neighborhoods.
 
