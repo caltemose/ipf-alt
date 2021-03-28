@@ -82,22 +82,10 @@
 .GardenHero
     padding-bottom: .5em
     background-color: #ddd
-    // background-image: url('/assets/img/2021/garden-bg.jpg')
-    // background-size: cover
-    
-    // div
-    //     margin: 0 auto
-    //     max-width: 35em
-    // h2
-    //     margin: .25em 0 0
-    //     padding: 0 3em
-    //     text-align: center
 
     img
         max-width: 100%
 
-    // @media screen and (min-width: $bp-md)
-    //     min-height: 400px
 
     .tns-nav
         padding-top: .3em
@@ -222,22 +210,8 @@
     @media screen and (min-width: $bp-lg)
         margin-bottom: 2em
 
-    // a
-    //     display: inline-block
-    //     padding: .5em 1em
-    //     border-radius: 4px
-    //     background-color: $brand-green-dark
-    //     color: #fff
-    //     text-decoration: none
-
-    //     &:hover
-    //         background-color: $brand-green
-
-    //     &:visited
-    //         color: #fff
 
 .GardenSponsors-title
-    font-family: $base-font-family-serif
     font-size: 2em
     text-align: center
 
@@ -255,4 +229,40 @@
     border: 1px solid $brand-green
     padding: 0.5em
     text-decoration: none
+
+.GardensMap
+    img
+        width: 100%
+        max-width: 100%
+
+.GardensVendors
+    h2
+        margin: 0 0 1em
+        font-size: 1.3em
+
+.GardenVendor
+    margin-bottom: 0.5em
+    padding: 0.25em
+
+    &:nth-child(even)
+        background-color: rgb(240,240,240)
+
+    @media screen and (min-width: $bp-md)
+        padding: 0.5em
+
+.GardenVendor-name
+    display: block
+
+.GardenVendor-location
+    display: flex
+    flex-wrap: nowrap
+    justify-content: space-between
+    width: 90%
+
+.GardenVendor-address
+    display: inline-block
+
+.GardenVendor-map
+    display: inline-block
+
 
