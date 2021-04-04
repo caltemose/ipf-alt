@@ -121,8 +121,6 @@
     @media screen and (min-width: $bp-md)
         min-height: 500px
 
-.GardenMerchandise
-    min-height: 200px
 
 .GardenTickets
     display: flex
@@ -147,11 +145,36 @@
             padding-top: 0.25em
             padding-left: 1em
 
+.Garden2up
+    @media screen and (min-width: $bp-md)
+        display: flex
+
 .GardenVolunteer
-    margin: 1em 0
+    width: 100%
+    margin: 0
     padding: 2em
     background-color: $brand-green
 
+    .GardenVolunteer-copy
+        display: block
+
+    @media screen and (min-width: $bp-md)
+        flex: 0 1 50%
+        
+        .Button
+            margin-top: 0
+
+.GardenMerchandise
+    margin: 1em 0 0
+    padding: 2em
+    background-color: $brand-yellow
+
+    @media screen and (min-width: $bp-md)
+        margin-top: 0
+        flex: 0 1 50%
+
+.GardenVolunteer,
+.GardenMerchandise
     h3
         margin: 0
         padding: 0
@@ -160,36 +183,15 @@
         font-style: normal
         font-weight: normal
         text-transform: uppercase
-        color: $brand-white
         letter-spacing: 0.1em
     p
         margin: 0
 
     .Button
         display: block
-        margin-top: 1em
-        max-width: 60%
+        margin: 1em auto 0
+        max-width: 90%
         text-align: center
-
-    .GardenVolunteer-copy
-        display: block
-
-    @media screen and (min-width: $bp-md)
-        display: flex
-        justify-content: center
-        align-items: center
-
-        .GardenVolunteer-copy
-            flex: 0 1 50%
-            text-align: right
-            padding-right: 3em
-            
-            
-        .GardenVolunteer-link
-            flex: 0 1 50%
-        
-        .Button
-            margin-top: 0
 
 
 .GardenMap

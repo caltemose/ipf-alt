@@ -66,6 +66,10 @@ html(lang="en")
 
                     p Proceeds from Inman Park Tour of Gardens will be used to better our neighborhood and community. We donate to local schools, parks, pay for sidewalks and support the Little Five Points Alliance and the Public Library on Ponce.
 
+                    p
+                        | Please note that 
+                        strong no dogs are allowed in the gardens.
+
                 - var gardenTicketsLive = true
                 if !gardenTicketsLive
                     .GardenSection.GardenDates
@@ -91,26 +95,20 @@ html(lang="en")
                                 li 
                                     a(href="https://ipf.ticketbud.com/tour-of-gardens-sunday-april25-2021") Sunday, April 25 (noon-4pm)
 
-                .GardenSection.GardenVolunteer
-                    div.GardenVolunteer-copy
-                        h3 Help out now
-                        p Interested in volunteering?
-                    div.GardenVolunteer-link
-                        a(href="https://signup.com/go/xKwnwHS").Button Sign up now!
+                .GardenSection.Garden2up
+                    .GardenMerchandise
+                        h3 Tour Merchandise for Sale!
+                        .GardenMerchandise-link
+                            a(href="https://inmanparkfestival.company.site/").Button Visit the shop
+                    
+                    .GardenVolunteer
+                        .GardenVolunteer-copy
+                            h3 Help out now
+                            p Interested in volunteering?
+                        .GardenVolunteer-link
+                            a(href="https://signup.com/go/xKwnwHS").Button Sign up now!
+                    
 
-                //- .GardenSectionSplit
-                //-     .GardenSectionSplit-half.alt-secondary.GardenMap
-                //-         div Map
-                //-     .GardenSectionSplit-half.alt-tertiary.GardenVolunteer
-                //-         div 
-                //-             a(href="https://signup.com/go/xKwnwHS" target="_blank") Sign up to volunteer now!
-
-                //- ul.PromotionGrid.u-container.u-container--noPad
-                //-     li.PromotionItem.alt-primary
-                //-         section
-                //-             h3 Help out now
-                //-             p Interested in volunteering?
-                //-             a(href="https://signup.com/go/xKwnwHS") Sign up now!
 
                 .GardenSection.GardenSponsors-secondary
                     h2.SponsorsHeader.SponsorsHeader--gold Gardener Sponsors
@@ -120,7 +118,7 @@ html(lang="en")
                         +sponsorGridImage("/assets/img/2021/sponsors/outback-bikes.png", "Outback Bikes", "https://www.outback-bikes.com/")
 
                     div.Gardens-moreSponsors
-                        a(href="/gardens/sponsors/").Button View more sponsors here
+                        a(href="/gardens/sponsors/").Button.alt-primary View more sponsors here
 
         footer.Footer
             .u-container
