@@ -90,7 +90,10 @@ mixin slideImageXL(imageName, alt)
 
 mixin sponsorGridImage(src, alt, url)
     li
-        a(href=url target="_blank")
+        if url
+            a(href=url target="_blank")
+                img(src=src alt=alt)
+        else
             img(src=src alt=alt)
 
 mixin footerSponsor(src, alt, url)
