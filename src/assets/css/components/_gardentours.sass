@@ -112,6 +112,11 @@
     button[data-action="start"]
         display: none
 
+.GardenAuction
+    padding: 0.75em 0
+    text-align: center
+    background: $brand-yellow
+
 .GardenWelcome
     h2
         margin: 1.5em 0 0
@@ -311,6 +316,24 @@
         font-size: 1.6em
         @media screen and (min-width: $bp-md)
             font-size: 2em
+
+.GardenMusicSponsor
+    display: flex
+    align-items: center
+    div
+        flex: 0 1 50%
+        font-size: 0.9em
+        text-align: center
+    img
+        max-width: 175px
+
+    @media screen and (min-width: $bp-md)
+        .GardenMusicSponsor-text
+            flex: 0 1 45%
+            text-align: right 
+        .GardenMusicSponsor-image
+            flex: 0 1 55%
+            text-align: left
 
 .GardenMusicLocation
     margin: 1em 0 2em
