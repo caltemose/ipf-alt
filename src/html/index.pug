@@ -2,16 +2,20 @@ doctype html
 html(lang="en")
 
     head
-
+        meta(name="viewport" content="width=device-width, initial-scale=1")
         style(type="text/css").
             .u-container { max-width: 44em; margin: 2em auto; font-family: sans-serif;}
             h1 { font-size: 32px; margin: 1em 0;}
             p { font-size: 22px; line-height: 130% }
+            @media (max-width: 600px) {
+                .u-container { margin: 1.25em }
+                h1 { font-size: 28px; }
+                p { font-size: 18px; }
             
 
     body
         .u-container
-            h1 Inman Park Festival - 2022
+            h1 Inman Park Festival 2022
 
             p Yes, 2022. It's on! We're getting our site back in shape for number 50 so check back soon for more details.
 
