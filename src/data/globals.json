@@ -2,25 +2,25 @@
     "ipf": {
         "title": "Inman Park Festival",
         "date": {
-            "annual": "49",
+            "annual": "50",
             "annualSuffix": "th",
-            "year": "2021",
+            "year": "2022",
             "friday": {
-                "date": "April 24",
+                "date": "April 22",
                 "hours": {
                     "start": "12:00 PM",
                     "stop": "4:00 PM"
                 }
             },
             "saturday": {
-                "date": "April 25",
+                "date": "April 23",
                 "hours": {
                     "start": "11:00 AM",
                     "stop": "9:00 PM"
                 }
             },
             "sunday": {
-                "date": "April 26",
+                "date": "April 24",
                 "hours": {
                     "start": "11:00 AM",
                     "stop": "6:00 PM"
@@ -175,7 +175,7 @@
     "art": {
         "submissions": {
             "active": false,
-            "deadline": "Dec 15, 2019"
+            "deadline": "Dec 15, 2022"
         }
     },
     "contacts": [
