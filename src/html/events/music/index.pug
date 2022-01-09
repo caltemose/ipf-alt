@@ -1,16 +1,41 @@
-doctype html
-html(lang="en")
+extends ../../_templates/layout
 
-    head 
-        meta(http-equiv="Refresh" content="30; url='http://www.inmanparkfestival.org/gardens/music'")
+block title
+    title #{globals.ipf.title} | Events | Music
 
-        style(type="text/css").
-            p { font-size: 22px; font-family: sans-serif; max-width: 36em; margin: 2em auto; line-height: 130% }
-            
+block contents
 
-    body
-        .u-container
-            p Inman Park Festival is not happening this year. However, there is a covid-appropriate, audience-limited Tour of Gardens this year and you will be redirected to that page momentarily.
+    +secondaryNav(globals.events.nav, "music")
 
-            p
-                a(href="/gardens/music") Go to the Tour of Gardens music page now
+    include ../../_includes/_banner
+
+    //- +presentingSponsor("/assets/img/2020/sponsors/silver/raw-banner-logo.png", "RAW Real Estate Group")
+
+    .u-container
+
+        h1 Live Music at the Inman Park Festival
+        
+        //- p See this space soon for the Festival music lineup.
+
+
+    .u-container
+        select#musicSelector.MusicSelector
+            option(value="") Select Day &amp; Stage:
+            optgroup(label="Saturday")
+                option(value="SaturdayDelta") Delta Park
+                option(value="SaturdayEuclid") Euclid Ave
+                option(value="SaturdayFreedom") Freedom
+            optgroup(label="Sunday")
+                option(value="SundayDelta") Delta Park
+                option(value="SundayEuclid") Euclid Ave
+                option(value="SundayFreedom") Freedom
+
+    ul.MusicDates
+        //- Saturday bands by stage
+        +musicday("Saturday", music.stages, music.saturday)
+    
+        //- Sunday bands by stage
+        +musicday("Sunday", music.stages, music.sunday)
+
+block scripts
+    script(src="/assets/js/music.js")

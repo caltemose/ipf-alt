@@ -208,6 +208,7 @@ exports.dev = series(
     series(serve, watchAll)
 )
 
+exports.buildMarkup = series(html, php)
 
 // throwaway testing tasks
 

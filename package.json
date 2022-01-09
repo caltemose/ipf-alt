@@ -6,6 +6,7 @@
     "html": "gulp markup",
     "start": "gulp dev",
     "build": "gulp build",
+    "build:markup": "NODE_ENV='production' gulp buildMarkup",
     "build:production": "NODE_ENV='production' gulp build",
     "build:staging": "NODE_ENV='staging' gulp build",
     "deploy:staging": "deploy-to-staging-web-root",
