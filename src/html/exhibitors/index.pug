@@ -42,12 +42,12 @@ block contents
             h2.AccordionTrigger#importantDates Important Dates
 
             .AccordionContent.hide
-                p Start accepting applications: October 1, 2019
-                p Application deadline: March 6, 2020
-                p Jury dates: January 19, February 9, February 23, and March 7, 2020
-                p Accept invitation &amp; purchase deadline: March 15, 2020
-                p Event Dates: April 25-26, 2020
-                p Load-in: Saturday 25, 2020 between 6:30AM-10:30AM
+                p Start accepting applications: October 1, #{globals.ipf.date.year-1}
+                p Application deadline: March 5, #{globals.ipf.date.year}
+                p Jury dates: January 19, February 9, February 23, and March 7, #{globals.ipf.date.year}
+                p Accept invitation &amp; purchase deadline: March 15, #{globals.ipf.date.year}
+                p Event Dates: April #{globals.ipf.date.friday}-#{globals.ipf.date.sunday}, #{globals.ipf.date.year}
+                p Load-in: Saturday #{globals.ipf.date.saturday.number}, #{globals.ipf.date.year} between 6:30AM-10:30AM
 
             h2.AccordionTrigger(name='feeStructure') Fee Structure
 
@@ -84,7 +84,7 @@ block contents
                     li The Festival provides only the ground space for exhibitors. Each exhibitor must provide and prepare his/her own displays. Electricity is not provided. All tents must be secured and weighted.
                     li The City of Atlanta festival ordinance requires that your tent must be certified as flame-proof. Please refer to Article IV, Sec. 142-42(e) of the Atlanta Municipal Code.
                     li Prior to the Festival, exhibitors will be notified of their site location and detailed setup information. Plan to set up your booth on Saturday between 6:30AM-10:30AM. Please do not call for booth assignments, once assignment has been done, they will be posted on Zapp. You will also be informed about your location during check-in.
-                    li Set-up for the exhibition will be Saturday, April 25, from 6:30AM to 10:30AM. BOOTH PERMITS ARE DISTRIBUTED AT CHECK-IN ON SATURDAY MORNING. Festival volunteers will be at the exhibit area to direct you to your assigned booth for unloading. Vehicles (maximum two per booth for first booth, and one additional if you request additional booth spaces) should be parked in designated lots promptly after unloading.  Parking is limited; please pack accordingly. Parking details will be provided during the check-in process.  On street parking is available in the surrounding neighborhood. Paid parking options will also be available for festival guests and artists.
+                    li Set-up for the exhibition will be Saturday, #{globals.ipf.date.saturday.date}, from 6:30AM to 10:30AM. BOOTH PERMITS ARE DISTRIBUTED AT CHECK-IN ON SATURDAY MORNING. Festival volunteers will be at the exhibit area to direct you to your assigned booth for unloading. Vehicles (maximum two per booth for first booth, and one additional if you request additional booth spaces) should be parked in designated lots promptly after unloading.  Parking is limited; please pack accordingly. Parking details will be provided during the check-in process.  On street parking is available in the surrounding neighborhood. Paid parking options will also be available for festival guests and artists.
                     li Vendor vehicles are limited in size. No trucks with dual axles and/or more than four wheels. Trailers can't be longer than 18' or taller than 7'4".
                     li After unloading, the exhibitor's vehicles must be moved to designated parking. Vehicles will not be permitted to remain in the exhibition space during the Festival, nor may they enter the Festival footprint until approved by the off-duty police officers onsite during the whole Festival weekend.
                     li Exhibitors shall be responsible for obtaining any required licenses, permits or approvals under state laws applicable to his/her activity at the Festival and for paying any taxes, sales taxes, fees or other charges that may be applicable to any Exhibitor's activity at the Festival.

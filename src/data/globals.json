@@ -6,6 +6,7 @@
             "annualSuffix": "th",
             "year": "2022",
             "friday": {
+                "number": "22",
                 "date": "April 22",
                 "hours": {
                     "start": "12:00 PM",
@@ -13,6 +14,7 @@
                 }
             },
             "saturday": {
+                "number": "23",
                 "date": "April 23",
                 "hours": {
                     "start": "11:00 AM",
@@ -20,6 +22,7 @@
                 }
             },
             "sunday": {
+                "number": "24",
                 "date": "April 24",
                 "hours": {
                     "start": "11:00 AM",
@@ -36,11 +39,11 @@
     "tour": {
         "tickets": {
             "active": false,
-            "url": "https://ipf.ticketbud.com/2020-tour-of-homes"
+            "url": ""
         },
         "cost": {
-            "advance": "20",
-            "door": "25"
+            "advance": "25",
+            "door": "30"
         },
         "hours": {
             "friday": {
