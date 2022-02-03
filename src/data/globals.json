@@ -118,8 +118,8 @@
         ],
         "parade": {
             "time": "2:00 PM",
-            "application": "/assets/static/archive/2020/ParadeApp2020.pdf",
-            "applicationActive": false
+            "application": "/assets/static/archive/2022/ParadeApp2022.pdf",
+            "applicationActive": true
         }
     },
     "markets": {
