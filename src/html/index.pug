@@ -12,19 +12,19 @@ block contents
     .Hero
         .carousel
             //- VOLUNTEER PROMO SLIDE
-            //- .HeroSlidePromo
-            //-     .HeroSlidePromo-banner
+            .HeroSlidePromo
+                .HeroSlidePromo-banner
         
-            //-     .HeroSlidePromo-copy
-            //-         h3 Festival Needs Volunteers!
-            //-         p
-            //-             | Festival doesn't happen without volunteers.
-            //-             = ' '
-            //-             a(href=globals.volunteerSite) Signup now
-            //-             = ' '
-            //-             | to volunteer your time and help make this year's festival great!
+                .HeroSlidePromo-copy
+                    h3 Festival Needs Volunteers!
+                    p
+                        | Festival doesn't happen without volunteers.
+                        = ' '
+                        a(href=globals.volunteerSite) Signup now
+                        = ' '
+                        | to volunteer your time and help make this year's festival great!
         
-            //-         a.u-blockCentered.Button.u-hiddenMobile(href=globals.volunteerSite) Sign Up
+                    a.u-blockCentered.Button.u-hiddenMobile(href=globals.volunteerSite) Sign Up
 
             if globals.vendors.appActive
                 .HeroSlidePromo
@@ -93,16 +93,18 @@ block contents
     ul.PromotionGrid.u-container.u-container--noPad
         li.PromotionItem.alt-primary
             section
-                h3 Support Our Artists
-                p Help support our artists. You can view and purchase their goods through their websites.
-                a(href="/booths") Learn more on our booths page
+                h3 Want to march in the parade?
+                a(href='/events/parade') Learn how to apply here.
 
 
         li.PromotionItem.alt-tertiary
             section
-                h3 Support Our Dancers
-                p Help support our dance groups. 
-                a(href="/events/dance") Learn more on our dance page
+                h3 Volunteer Now!
+                p Festival thrives on volunteers.
+                a(href=globals.volunteerSite) Sign up now
+                //- h3 Support Our Dancers
+                //- p Help support our dance groups. 
+                //- a(href="/events/dance") Learn more on our dance page
         
         li.PromotionItem.alt-secondary
             section
