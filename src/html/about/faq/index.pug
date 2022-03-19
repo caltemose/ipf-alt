@@ -53,7 +53,7 @@ block contents
 
     article.u-container
 
-        h1 Frequently-asked Questions
+        h1 Frequently Asked Questions
         
         //- +tertiaryNav(globals.events.nav)
         
@@ -61,18 +61,32 @@ block contents
         
         dl.FaqList
             dt When does festival take place?
-            dd The Inman Park Spring Festival takes place on the last weekend of April. 
+            dd The Inman Park Spring Festival takes place on the full last weekend of April. 
             //- This year it runs from #{globals.ipf.date.saturday.date} - #{globals.ipf.date.sunday.date}.
             
             //- TODO hours should come from global data
             dt What are the hours?
-            dd On Friday, the Tour of Homes runs from Noon until #{globals.tour.hours.friday.stop} (there are no other Festival events on Friday.) On Saturday and Sunday the Tour of Homes runs from Noon until #{globals.tour.hours.weekend.stop}. On Saturday, Festival (excluding the Tour of Homes) begins at #{globals.ipf.date.saturday.hours.start} and runs until #{globals.ipf.date.saturday.hours.stop}. On Sunday, the times are #{globals.ipf.date.sunday.hours.start} until #{globals.ipf.date.sunday.hours.stop}.
-            
+            dd 
+                p
+                    | Tour of Homes (ticketed event)
+                    br 
+                    | Friday: #{globals.tour.hours.friday.start} - #{globals.tour.hours.friday.stop}
+                    br
+                    | Saturday &amp; Sunday: #{globals.tour.hours.weekend.start} - #{globals.tour.hours.weekend.stop}
+
+                p
+                    | Festival (free event)
+                    br
+                    | Saturday: #{globals.ipf.date.saturday.hours.start} - #{globals.ipf.date.saturday.hours.stop}
+                    br
+                    | Sunday: #{globals.ipf.date.sunday.hours.start} - #{globals.ipf.date.sunday.hours.stop}
+
+
             dt When is the parade?
             dd The parade occurs on Saturday at #{globals.events.parade.time}.
 
             dt Are Pets Allowed?
-            dd No. Please remember that, by City of Atlanta Ordnance, pets are not allowed at Festivals, "unless part of a planned festival program or assisting persons with disabilities". This prohibition includes "dogs, cats, snakes, birds, pigs, etc.", and applies whether or not the pet is leashed. As the ordnance says, this is for the pet's protection as well as for the protection of festival patrons. Thanks!!
+            dd No. Per City of Atlanta Ordinance, pets are not allowed at Festivals, "unless part of a planned festival program or assisting persons with disabilities". This prohibition includes "dogs, cats, snakes, birds, pigs, etc.", and applies whether or not the pet is leashed. As the ordinance says, this is for the pet's protection as well as for the protection of festival patrons. Thanks!!
         
         h2 Tour of Homes Tickets 
         
@@ -80,11 +94,8 @@ block contents
             dt How much do Tour of Homes Tickets Cost?
             dd Tour of Homes tickets are $#{globals.tour.cost.advance} in advance and $#{globals.tour.cost.door} starting Friday, #{globals.ipf.date.friday.date} (online sales incur a small additional ticket service fee).
 
-            dt Can I use my e-ticket to get into a home on the Tour of Homes?
-            dd No. You must redeem your e-ticket for a printed ticket booklet at one of the ticket locations (<a href="/map">see the map</a> for locations).
-
-            dt Where can I redeem my e-ticket for a printed ticket booklet?
-            dd Redeem your Ticketbud tickets for the official printed Tour of Homes booklet at any of the <a href="/map">ticket locations marked on the map with the ticket icon</a>.
+            dt Can I use my digital ticket to get into a home on the Tour of Homes?
+            dd Yes. You must first install the Eventeny app on your mobile device. When you arrive at the home on Tour, show the volunteer your device with the QR code visible and your digital ticket will be scanned.
 
             dt Are there group ticket rates?
             dd Yes, group discounts are available for groups of 10 or more.
@@ -110,7 +121,20 @@ block contents
         
         dl.FaqList
             dt What are the hours?
-            dd On Friday, the Tour of Homes runs from Noon until #{globals.tour.hours.friday.stop} (there are no other Festival events on Friday.) On Saturday and Sunday the Tour of Homes runs from Noon until #{globals.tour.hours.weekend.stop}. On Saturday, Festival (excluding the Tour of Homes) begins at #{globals.ipf.date.saturday.hours.stop} and runs until #{globals.ipf.date.saturday.hours.stop} On Sunday, the times are #{globals.ipf.date.sunday.hours.start} until #{globals.ipf.date.sunday.hours.stop}.
+            dd 
+                p
+                    | Tour of Homes (ticketed event)
+                    br 
+                    | Friday: #{globals.tour.hours.friday.start} - #{globals.tour.hours.friday.stop}
+                    br
+                    | Saturday &amp; Sunday: #{globals.tour.hours.weekend.start} - #{globals.tour.hours.weekend.stop}
+
+                p
+                    | Festival (free event)
+                    br
+                    | Saturday: #{globals.ipf.date.saturday.hours.start} - #{globals.ipf.date.saturday.hours.stop}
+                    br
+                    | Sunday: #{globals.ipf.date.sunday.hours.start} - #{globals.ipf.date.sunday.hours.stop}
 
             dt When is the parade?
             dd The parade occurs on Saturday at #{globals.events.parade.time}.
@@ -120,7 +144,7 @@ block contents
         
         dl.FaqList
             dt What food is available at the festival?
-            dd Pizza, barbecue, gyros, sandwiches, and, of course, funnel cakes and other street festival staples. Local restaurants will also be open for business.
+            dd Pizza, barbecue, gyros, sandwiches, and, of course, funnel cakes and other street festival staples. Vegetarian, Vegan, and Gluten-Free options will also be available.  Local restaurants will also be open for business.
 
 
         h2 Sponsors

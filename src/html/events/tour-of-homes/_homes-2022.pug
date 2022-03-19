@@ -1,0 +1,24 @@
+mixin tourImage(imageName, alt)
+    img(sizes="(min-width: 1024px) 940px, 100vw" srcset=`${imageName}-1440.jpg 1440w, ${imageName}-940.jpg 940w, ${imageName}-720.jpg 720w, ${imageName}-366.jpg 366w, ${imageName}-326.jpg 326w` src=`${imageName}-326.jpg` alt=alt).TourHomeImage
+
+mixin homeSponsor(name, url)
+    p.HomeSponsor
+        | Sponsored by:
+        if url
+            | 
+            a(href=url target="_blank")= name
+        else
+            span=name
+
+
+ul.TourHomes.u-container
+
+    //- 1
+    li
+        h3
+            | 1109 Colquitt Avenue
+            small Carolyn Kaplan and Jon Sanford
+
+        +tourImage("/assets/img/2020/toh/1109-colquitt", "1109 Colquitt")
+
+        p Shortly
