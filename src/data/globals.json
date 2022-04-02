@@ -35,11 +35,11 @@
             }
         }
     },
-    "offseason": true,
+    "offseason": false,
     "tour": {
         "tickets": {
-            "active": false,
-            "url": ""
+            "active": true,
+            "url": "https://www.eventeny.com/events/inmanparkfestivaltourofhomes2022-1759/"
         },
         "cost": {
             "advance": "25",

@@ -11,6 +11,14 @@ block contents
     
     .Hero
         .carousel
+            .HeroSlidePromo
+                .HeroSlidePromo-banner-tickets
+
+                .HeroSlidePromo-copy
+                    h3 Tour of Homes Tickets on Sale Now!
+                    p
+                        a(href=globals.tour.tickets.url) Get your tickets now
+
             //- VOLUNTEER PROMO SLIDE
             .HeroSlidePromo
                 .HeroSlidePromo-banner
@@ -25,6 +33,8 @@ block contents
                         | to volunteer your time and help make this year's festival great!
         
                     a.u-blockCentered.Button.u-hiddenMobile(href=globals.volunteerSite) Sign Up
+            
+            
 
             if globals.vendors.appActive
                 .HeroSlidePromo
@@ -33,9 +43,6 @@ block contents
                             h2 Now accepting vendor applications!
                             p
                                 a(href='/exhibitors') Learn more on our Exhibitors page.
-
-            //- div
-            //-     +slideImage('/assets/img/2020/hero-art-submission', 'Art Submission for 2020 Festival is live!', '/art/submissions')
 
             div
                 +slideImage('/assets/img/2019/hero-big-mask', 'Parade Block Heroes')
@@ -46,7 +53,6 @@ block contents
             div
                 +slideImageXL('/assets/img/2019/hero-band', 'One of many beautiful homes in Inman Park')
 
-    //- include _includes/_banner-corona
 
     .u-container
         .PageIntro
@@ -106,13 +112,17 @@ block contents
                 //- p Help support our dance groups. 
                 //- a(href="/events/dance") Learn more on our dance page
         
+        //- li.PromotionItem.alt-secondary
+        //-     section
+        //-         h3 Support Our Musicians
+        //-         p Help support this year's musicians. Check out their web sites to learn more.
+        //-         a(href="/events/music") Learn more on our music page
+
         li.PromotionItem.alt-secondary
             section
-                h3 Support Our Musicians
-                p Help support this year's musicians. Check out their web sites to learn more.
-                a(href="/events/music") Learn more on our music page
-
-
+                h3 Tour of Homes Tickets on Sale
+                p 
+                    a(href=globals.tour.tickets.url) Buy Tour of Homes tickets online now!
             
             //- section
             //-     h2 Art Chosen!
@@ -160,13 +170,7 @@ block contents
         //-         //- p Next year's Festival details will be available online later this year.
         //-         p Look for this year's Festival updates in the forthcoming months.
 
-        //- .PromotionItemHero-text
-        //-     section
-        //-         h2 Tour Tickets on Sale
-        //-         p 
-        //-             a(href="/events/tour-of-homes/#buy-tickets") Buy Tour of Homes tickets online now!
-        //-     .ArrowNav
-        //-         a(href="/events/tour-of-homes/#buy-tickets") >
+
 
     //- ul.PromotionGrid.u-container.u-container--noPad
         //- li.PromotionItem.alt-primary
