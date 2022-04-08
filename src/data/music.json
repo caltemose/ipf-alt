@@ -174,139 +174,140 @@
             {
                 "start": "12:30AM",
                 "end": "1:30PM",
-                "title": "Uncle Don's Band",
-                "description": "Classic Rock",
-                "bio": "<p>Uncle Don&rsquo;s Band presents classic tunes reimagined! Byrds, Beatles, Stones, Dylan, Floyd, Petty, ELO, Badfinger, The Band, Dire Straits and many, many more! Featuring four of Atlanta's finest players and some of the greatest songs ever, enhanced with (and by) improvisation! 12 string electric guitar! Starfire bass! Almost two centuries of obsessive rock and roll experience on display for your enjoyment and edification!</p>"
+                "title": "Sabor! Brass Band",
+                "description": "New Orleans 2nd line",
+                "bio": "<p>Following Hurricane Katrina, bandleader Clarence \"Tre'\" Levy III found it necessary to pull together a group of musicians who could help revive and connect to the sounds of the bayous and streets of New Orleans and Southern Louisiana. Over time, that band became known as the Sabor! Brass Band. An extension of the SABOR! brand, The Sabor! Brass Band is just what the name describes...a band of many talents adn true ambassadors of the FLAVOR of Southern Louisiana!!! Made up of lifelong musicians from Baton Rouge, New Orleans, Memphis,Tuskeegee, Atlanta, and Lima (Peru, not Ohio!), the Sabor! Brass Band brings the sounds of the lively and humid Creole cultured streets of Acadiana, Baton Rouge, and New Orleans to LIFE!</p>",
+                "url": "https://www.saborbrassband.com/"
             },
             {
                 "start": "1:45PM",
                 "end": "2:45PM",
-                "title": "Last Chance Riders",
-                "photo": "/assets/img/2019/music/last-chance-riders.jpg",
-                "thumb": "/assets/img/2019/music/last-chance-riders-thumb.jpg",
-                "description": "Rock, high-energy",
-                "bio": "<p>Fronted by a soulful powerhouse vocal, captivating guitar hooks and face melting leads, Last Chance Riders delivers a timeless rock &lsquo;n roll, high-octane performance backed by an explosive rhythm section.</p><p>Inspired by The Allman Brothers Band, Led Zeppelin, The Rolling Stones, AC/DC, Janis Joplin and David Bowie - the Last Chance Riders have a broad blend of influences that results in a unique sound that is their own. The band plays original music and stays busy writing new material. After the release of their studio album &ldquo;Jet Lag Super Drag&rdquo; on June 22nd, Last Chance Riders will be touring throughout the Southeast with a powerfully engaging live set.</p>",
-                "url": "https://www.thelastchanceriders.com/epk"
+                "title": "Up the Dosage",
+                "photo": "",
+                "thumb": "",
+                "description": "Music with a rootsy foundation",
+                "bio": "<p>Up the Dosage is a supergroup of veteran Atlanta musicians who have played in many bands over too many decades.  The band draws on a variety of styles and genres from the 20th century, all of which have a rootsy foundation.  Gary Pitts holds down lead vocals and guitar, with Tim Morris on lead guitar (with some stinging slide), Alan Lieberman on drums, Dave Radlman on bass, and Jim Emshoff on keyboards.  Although each of the members has played Festival before, this is the first public performance of these artists in this combination.</p>",
+                "url": ""
             },
             {
                 "start": "3:00PM",
                 "end": "4:00PM",
-                "title": "Donna Hopkins",
-                "thumb": "/assets/img/2019/music/donna-hopkins-thumb.jpg",
-                "photo": "/assets/img/2019/music/donna-hopkins.jpg",
-                "description": "Blues/rock diva, with a touch of Americana",
-                "bio": "<p>This lady&rsquo;s the real deal. Born and raised on an Alabama farm, Donna witnessed life in the South first hand, channeling it into soulful and bluesy music that she creates and performs.  Born to a musical family, she is known and respected among musicians everywhere she goes. Here&rsquo;s what Georgia Music Magazine said of her: &ldquo;She&rsquo;s her own woman with equal parts John Lee Hooker and Billy Gibbons, with a dash of Jimmie Vaugh and Robin Trower via Bridge of Sighs.&rdquo;</p>",
-                "url": "http://donnahopkins.com"
+                "title": "Balalaika Fantasie",
+                "thumb": "",
+                "photo": "",
+                "bio": "<p>The five musicians of Balalaika Fantasie draw their inspiration from their life-long passion for Slavic music and their diverse cultural backgrounds. Performing on authentic folk instruments, the group&rsquo;s repertoire includes Ukrainian, Gypsy, Greek, Russian and Jewish folk music. Angelina Galashenkova-Reed (domra) has toured the world as soloist with the Andreyev Folk Orchestra, performing with them at Carnegie Hall&rsquo;s 100th anniversary. A virtuoso of the three-string domra, she is a winner of the prestigious &ldquo;Cup of the North&rdquo; competition and is &ldquo;Laureate of International Competitions of Professional Folk Artists.&rdquo; She Immigrated to the U.S. in 2001 and is concertmaster and domra soloist of the Atlanta Balalaika Society Orchestra (ABSO). Pennsylvania-born David Cooper (balalaika, domra, vocals) is an authority on Slavic folk instruments and studied at the Glier Institute of Kiev, Ukraine. He is artistic director and conductor of the ABSO. Mr. Cooper&rsquo;s diverse talents make him in demand in jazz, Klezmer and steel drum ensembles. Gregory Carageorge,  a professional contrabass balalaika and string bass player for 30+ years, has performed in ethnic music groups such as the Berkeley, CA based Klezmorim and Troika Balalaikas, The Massenkoff Folk Festival, and several popular touring Greek folk music bands. He was leader of the house band at New York&rsquo;s Tea Room and has appeared with numerous folk, bluegrass, and jazz ensembles. Kirill Chernoff (alto and prima balalaika) has been a member of the ABSO since he was 12 years old. He is currently president of the Balalaika and Domra Association of America and assistant principal prima balalaika player with the ABSO. Natalia Rezvan (tenor domra) graduated from the Cultural College in Ukraine with a degree in performance on the domra. She also sings in Ukranian. Since moving to the U.S., she is delighted to be a member of the ABSO and Balalaika Fantasie.</p>",
+                "description": "Slavic Folk Music",
+                "url": ""
             },
             {
                 "start": "4:15PM",
                 "end": "5:15PM",
-                "title": "Geoff Achison",
-                "photo": "/assets/img/2019/music/geoff-achison.jpg",
-                "thumb": "/assets/img/2019/music/geoff-achison-thumb.jpg",
-                "description": "Aussie blues guitarist/songwriter phenom",
-                "bio": "<p>Geoff Achison is an award-winning blues/roots artist currently residing in (and a citizen of) his native home, Melbourne, Australia. Known for his energetic live performances and unique guitar mastery, Geoff is an extraordinary guitarist who plays quite unlike anyone else. Besides his music awards he has been honored in Australian Guitar Magazine's &ldquo;Top 50 Guitarists&rdquo;, True Fire&rsquo;s &ldquo;Guitarists You Should Know&rdquo;&nbsp;and he is also&nbsp;an Official&nbsp;Patron&nbsp;of the&nbsp;Melbourne Blues Appreciation Society.</p>",
-                "url": "https://www.geoffachison.com"
+                "title": "Tito Gato",
+                "photo": "",
+                "thumb": "",
+                "description": "Latin jazz",
+                "bio": "<p>Tito Gato is a six piece Latin Jazz band based in Atlanta that plays originals and Latin arrangements of pop songs. They play Latin covers of songs from Duran Duran, Michael Jackson, and Steely Dan. Their originals are known for being catchy, unique, and infectious.</p>",
+                "url": "http://titogato.net/"
             },
             {
                 "start": "5:30PM",
                 "end": "6:30PM",
-                "title": "Yonrico Scott Band",
-                "photo": "/assets/img/2019/music/yonrico.jpg",
-                "thumb": "/assets/img/2019/music/yonrico-thumb.jpg",
-                "description": "Jazz/blues/funk percussionist/drummer icon and band",
-                "bio": "<p>Yonrico, one of the South&rsquo;s best known and beloved percussionists, fronts his most recent project and wraps up this year&rsquo;s festival at our Delta Park stage. He has recorded and performed with some other top names in the business, such as the Tedeschi-Trucks Band, Royal Southern Brotherhood, Outkast, the Allman Brothers Band, and many, many more. Well known as a Grammy award musician, Yonrico has shared his musical talent working with diverse music projects and bands, including his own. When he is not on tour, Yonrico loves to share his talents through workshops with students of all ages. He brings his usual enthusiasm, friendly demeanor, and a can-do attitude to these learning events to create a memorable and valuable experience.</p>",
-                "url": "http://www.yonricoscott.com/"
+                "title": "Michelle Malone",
+                "photo": "",
+                "thumb": "",
+                "description": "Rock/Americana",
+                "bio": "<p>A mainstay of American roots music for more than 30 years, Michelle Malone has built an award-winning career as a songwriter, road warrior, and modern-day guitar hero. Her music is ingrained in the sounds of the south, mixing the rebellious stomp of roadhouse rock &amp; roll with the raw grit of blues, the holy-rolling rasp of gospel, the slow-motion swagger of country-soul, and the organic warmth of folk music. Proudly based in Atlanta, Georgia, she's always worn her influences on her sleeve &mdash; but her music is unmistakably her own. A singer, songwriter, guitarist and producer whose music is informed by blues, roadhouse rock &amp; roll and Georgia soul, Malone&rsquo;s stunning and stirring new album Slings and Arrows (Due February 16 via SBS Records) pushes the parameters even further. It&rsquo;s upbeat, defiant, and jubilant, flush with the raw energy and emotion that&rsquo;s always been a part of her signature sound all while nudging her deeper into some personal territory she hasn&rsquo;t explored before. Malone deals with issues that have been burned into her psyche and affected her deeply. These songs speak to desire and disappointment, optimism and awareness, all with a driving and fiery conviction. &ldquo;It wasn&rsquo;t planned that way&rdquo;, she insists, &ldquo;but inevitably, that&rsquo;s how the album evolved&rdquo;</p>",
+                "url": "https://michellemalone.com/"
             }
         ],
         "e": [
             {
-                "start": "12:00AM",
-                "end": "1:00PM",
-                "title": "Southern Ska Syndicate",
-                "photo": "/assets/img/2019/music/southern-ska-syndicate.jpg",
-                "thumb": "/assets/img/2019/music/southern-ska-syndicate-thumb.jpg",
-                "description": "True ska",
-                "bio": "<p>Southern Ska Syndicate is ready to get the party started with their mix of classic ska and rocksteady sounds guaranteed to get you skanking on the dance floor! With members from all around the United States and veterans of other bands, they bring the rebel spirit of 1960's Jamaican music to you!</p>",
-                "url": "http://southernskasyndicate.com"
+                "start": "12:30PM",
+                "end": "1:30PM",
+                "title": "Smith & Calvert",
+                "photo": "",
+                "thumb": "",
+                "description": "Americana",
+                "bio": "<p>Two instruments, two voices, beautiful songs and captivating harmonies. As the lead writers and voices of the popular bluegrass band, the Dappled Grays, Leah and Michael share a long musical history. They used pandemic downtime to write an entire new catalog of music and launched their new project, Smith &amp; Calvert. Their weekly Video Podcast \"About a Song\" is out now. Michael has played with Sugarland, John McEuen (of the Nitty Gritty Dirt Band), the legendary bluegrass fiddler Bobby Hicks, and for 10 years, shared the stage with Lauren Morrow as a member of the Whiskey Gentry. Leah is a first call Atlanta fiddler/violinist and singer. Apart from releasing her own music, she currently plays and records with John Driscoll Hopkins (of the Zac Brown Band) and has recorded extensively with Kristian Bush (of Sugarland).</p>"
             },
             {
-                "start": "1:15PM",
-                "end": "2:15PM",
-                "title": "Band Camp Kids",
-                "description": "Students in Joe Gransden's Band Camp",
-                "bio": "",
+                "start": "1:45PM",
+                "end": "2:45PM",
+                "title": "GSU Faculty Jazz Quartet",
+                "description": "Jazz",
+                "bio": "The Georgia State University Jazz Studies program is internationally renowned, and its faculty includes some of the most prominent musicians and instructors in the United States. Each musician has an impressive array of credits, including Grammy Awards, collaborations with world-renowned artists, and performances. Gordon Vernick, trumpet; Kevin Bales, keyboard; Billy Thornton, bass; and Robert Boone, drums.",
                 "url": ""
             },
             {
-                "start": "2:30PM",
-                "end": "3:30PM",
-                "title": "Joe Gransden's Big Band",
-                "photo": "/assets/img/2019/music/joe-gransden.jpg",
-                "thumb": "/assets/img/2019/music/joe-gransden-thumb.jpg",
-                "description": "Trumpeteer/vocalist and his 17-piece band",
-                "bio": "<p>Joe Gransden is the soul of live Jazz and Big Band. Clint Eastwood discovered his talent and describes Joe as \"a young man with a classic voice and one hell of a Trumpet player.\" Kenny G, says \"Joe Gransden is one of those rarest musicians that has it all. He is an incredible instrumentalist with the technique of a virtuoso.\"</p>",
-                "url": "http://www.joegransden.com"
+                "start": "3:00PM",
+                "end": "4:00PM",
+                "title": "Bradley Cole Smith",
+                "photo": "",
+                "thumb": "",
+                "description": "Roots Rock",
+                "bio": "<p>A fixture on the Atlanta music scene since the early 1990&rsquo;s, the former leader and songwriter for Southeastern stalwart, Doublewide, cut his first solo album &ldquo;Beggars and Bankers&rdquo; in  2001. His latest release, &ldquo;The Hilltop EP&rdquo; (a collaboration with Nelson Nolen and producer Paul Warner) features a lush, rootsy landscape with more diverse instrumentation than prior releases. As a songwriter, Bradley has been featured in films and television. As a performer, he has shared the stage with numerous artists including Sheryl Crow, Blues Traveler, Sister Hazel, Edwin McCain, Taj Mahal, Dwight Yoakum and Jerry Jeff Walker. His songs characterize the human experience, giving them timeless and ageless appeal.</p>",
+                "url": "https://bradleycolesmith.com/"
             },
             {
-                "start": "3:45PM",
-                "end": "4:45PM",
-                "title": "Michelle Malone",
-                "photo": "/assets/img/2019/music/michelle-malone.jpg",
-                "thumb": "/assets/img/2019/music/michelle-malone-thumb.jpg",
-                "description": "Bluesy rocker & killer guitarist",
-                "bio": "<p>Compared to most musical artists in the Americana genre, Michelle Malone seems like a pair of distressed blue jeans amidst a sea of pantsuits. Unlike the surplus of self-professed rootsy rebels, one listen to this woman from Georgia and you know you&rsquo;re hearing the real thing. A singer, songwriter, guitarist, producer whose music is informed by roots rock, blues,&nbsp;folk and Georgia soul, Michelle Malone's performances can go from contemplative coffeehouse quiet to rowdy and \"Deluxe reverb on 10\" at the turn of a dime. Her passionate, uncompromising style has won her loyal following world wide. She's a&nbsp;wild-haired Rock Goddess, political singer/songwriter, passionate raw performer with early roots in the church choir&nbsp; &ndash; no single characterization tells the whole story.</p><p>Equal parts badass guitar slinger and sweet songstress, Michelle Malone artfully balances her penchant for ripping it through the roof with masterful lyrical introspection and vocals that range from sublime to raucous.</p>",
-                "url": "https://www.michellemalone.com/about"
+                "start": "4:15PM",
+                "end": "5:15PM",
+                "title": "Glenn Phillips Band",
+                "photo": "",
+                "thumb": "",
+                "description": "Rock",
+                "bio": "<p>Glenn Phillips is a critically acclaimed guitarist and composer who&rsquo;s released 20 albums over the past 50 years. From Rolling Stone: \"If rock &amp; roll guitarists were kamikaze pilots, Glenn Phillips would be in heaven right now.\" As a founding member/songwriter of the Hampton Grease Band in the late '60s, he played with countless artists of the era including John Lennon, Frank Zappa, the Grateful Dead, Fleetwood Mac, the Allman Brothers, &amp; Jimi Hendrix (Phillips is a featured interviewee in the Hendrix documentary Electric Church). His first solo album, 1975's Lost at Sea, was recorded at home and self-released; it led famed entrepreneur Richard Branson to sign Phillips to Virgin Records. In the years since, he's toured/recorded with his own group &amp; collaborated with Bob Weir of the Grateful Dead, Pete Buck of REM and Cindy Wilson of the B-52s. The one constant throughout his career: his music has remained as unique as it is acclaimed. From Guitar Player, \"A supremely musical player, Phillips has something few musicians attain: a voice of his own.\" He also recently released a highly praised memoir, Echoes: The Hampton Grease Band, My Life, My Music, and How I Stopped Having Panic Attacks. It&rsquo;s available at glennphillips.com and comes with Glenn&rsquo;s latest CD and a live DVD.</p>",
+                "url": "https://glennphillips.myfreesites.net/"
             },
             {
-                "start": "4:45PM",
-                "end": "5:45PM",
-                "title": "Atlanta Soul Power",
-                "photo": "/assets/img/2019/music/AtlantaSoulPower.jpg",
-                "thumb": "/assets/img/2019/music/AtlantaSoulPower-thumb.jpg",
-                "description": "James Brown tribute show",
-                "bio": "<p>Atlanta Soul Power &ndash; These gentlemen are about celebrating the music of the one and only, late great James Brown, the &ldquo;Godfather of Soul&rdquo;. The very nature of the music and their show demands people getting up &amp; dancing. Featuring singer Oliver Nichols (Soulhound/Tribute ABB) &amp; other assorted heavyweights from Atlanta&rsquo;s music scene.</p>",
-                "url": "https://www.facebook.com/pg/AtlantaSoulPower/"
+                "start": "5:30PM",
+                "end": "6:30PM",
+                "title": "Swimming Pool Q's ",
+                "photo": "",
+                "thumb": "",
+                "description": "Rock",
+                "bio": "<p>Founded in Atlanta in 1978, The Swimming Pool Q&rsquo;s were among the first generation of Georgia&rsquo;s celebrated New Wave bands that included The B-52&rsquo;s, The Brains, Pylon and R.E.M. When original members Jeff Calder and Bob Elsey were joined by Anne Richmond Boston, the initial configuration of the Q's quickly established a reputation for superb musicianship and originality. With a barrage of East Coast and regional dates beginning in 1979 (including the Southern leg of the first major Police tour), The Swimming Pool Q's developed the confident live presentation they have maintained into the present era. \"Visionary pop eccentrics from Atlanta,\" noted Melody Maker. \"Some of the most compelling rock sounds in all of America...lofty architectural style distinguished by the elegant and muscular guitar duets between Jeff Calder and Bob Elsey and [Anne] Boston's rhapsodic alto phrasings,\" said The Village Voice. The band maintains an active performing and recording schedule, having completed several new songs at the legendary Southern Tracks studio in Atlanta.  They celebrate their 44th Anniversary this year and have reissued their two A&amp;M Records albums, The Swimming Pool Q&rsquo;s and Blue Tomorrow.</p>",
+                "url": "http://www.swimmingpoolqs.com/"
             }
         ],
         "f": [
             {
-                "start": "12:15AM",
+                "start": "12:15PM",
                 "end": "1:15PM",
-                "title": "Bradley Cole Smith Band",
-                "photo": "/assets/img/2017/music/bradley-cole-smith.jpg",
-                "thumb": "/assets/img/2018/music/bradley-cole-smith-thumb.jpg",
-                "description": "Americana originals and covers",
-                "bio": "<p>Bradley Cole Smith is a singer-songwriter who is also an Inman Park neighbor and volunteer.  He and his band play fresh and original Americana of a country-ish vein.</p>"
+                "title": "Johnny Awesome",
+                "photo": "",
+                "thumb": "",
+                "description": "Rock",
+                "bio": "<p>Johnny Awesome is a refreshing Rock band with their souls set on &ldquo;making it&rdquo; in music. They have been a group since Autumn of 2007 and have been working hard at creating music that satisfies not just the ears, but the soul. From house shows to various venues in the city of Atlanta, they have been preparing for their dream of becoming a successful performing band. Thanks guys and don&rsquo;t forget to always support local music and Jam with Life!</p>",
+                "url": "https://www.facebook.com/Johnny-Awesome-104758399585284/"
             },
             {
                 "start": "1:30PM",
                 "end": "2:30PM",
-                "title": "SLONE",
-                "thumb": "/assets/img/2019/music/slone-thumb.jpg",
-                "description": "Alt-pop",
-                "bio": "<p>SLONE is Julie Slonecki&rsquo;s current project: a trio of veteran Atlanta musicians including Dustin Williams (of The Sagas) on bass, Dylan Hansen (of Kick The Robot) on drums, and herself filling in the rest with vocals and looping guitar live on stage.&nbsp;The songs are full of loopy goodness that bounces between indie rock and more relaxed, hip-hop-esque, grooves.</p>",
-                "url": "https://julieslonecki.com/"
+                "title": "Andrea & Mud",
+                "thumb": "",
+                "description": "Surf Western music",
+                "bio": "<p>Atlanta based Andrea &amp; Mud play Surf Western music--a unique blend of honky tonk, 60&rsquo;s surf music, and soul, the combination of which is akin to Junior Brown, Southern Culture on the Skids, and Marty Stuart. The latest release, Bad News Darlin&rsquo;, drew National and international attention, charting in the top 40 on AMA&rsquo;s singles and album charts. Surf Western lend of  is a vigorous elixir - blending spaghetti westerns with rough edged, honky tonkin' classic country - it makes for a unique blend of honky tonk, 60&rsquo;s surf music, and soul, the combination of which is akin to Junior Brown, Southern Culture on the Skids, and Marty Stuart. (They opened for him at Variety Playhouse in January.)</p>",
+                "url": "https://andreaandmud.com/"
             },
             {
                 "start": "2:45PM",
                 "end": "3:45PM",
-                "title": "Story of a Life",
-                "photo": "/assets/img/2019/music/story-of-life.jpg",
-                "thumb": "/assets/img/2019/music/story-of-life-thumb.jpg",
-                "description": "Melodious pop/rock",
-                "bio": "<p>Story Of A Life is an Atlanta-based progressive band dedicated to bringing you an enticing blend of ambitious original music and classic covers. \"A rebellious hybrid of rock, funk, jazz, prog &amp; more\"- Specializing in melodic, progressive originals and classic covers.</p>",
-                "url": "https://www.facebook.com/pg/StoryOfALifeTheBand/"
+                "title": "Soulhound",
+                "photo": "",
+                "thumb": "",
+                "description": "Southern soul & funk",
+                "bio": "<p>Atlanta based Andrea &amp; Mud play Surf Western music--a unique blend of honky tonk, 60&rsquo;s surf music, and soul, the combination of which is akin to Junior Brown, Southern Culture on the Skids, and Marty Stuart. The latest release, Bad News Darlin&rsquo;, drew National and international attention, charting in the top 40 on AMA&rsquo;s singles and album charts. Surf Western lend of  is a vigorous elixir - blending spaghetti westerns with rough edged, honky tonkin' classic country - it makes for a unique blend of honky tonk, 60&rsquo;s surf music, and soul, the combination of which is akin to Junior Brown, Southern Culture on the Skids, and Marty Stuart. (They opened for him at Variety Playhouse in January.)</p>",
+                "url": ""
             },
             {
                 "start": "4:00PM",
                 "end": "5:00PM",
-                "title": "Bonaventure Quartet",
-                "photo": "/assets/img/2019/music/bonaventure-quartet.jpg",
-                "thumb": "/assets/img/2019/music/bonaventure-quartet-thumb.jpg",
-                "description": "Django-style gypsy jazz",
-                "bio": "<p>Founded in 2000 by Charles Williams, The Bonaventure Quartet originally consisted&nbsp;four members. The vision was to be an acoustic jazz band that created music in the style of the Django Reinhardt &amp; The Hot Club of France. With the addition of singer Amy Pike, the band began incorporating American styles of jazz along with original music. The band now consists of up to eight members, but can often be found performing as a quintet, quartet, or trio depending on the occasion.</p>",
-                "url": "https://www.thebonaventurequartet.com/"
+                "title": "The Sundogs",
+                "photo": "",
+                "thumb": "",
+                "description": "Rock",
+                "bio": "<p>Brothers Lee and Will Haraway formed The Sundogs in Atlanta, GA in the early 2000s and quickly earned attention for the melodic Americana Rock and Roll sound of their high-energy live shows. The Haraways' pristine brotherly harmony, along with the passionate delivery of third songwriter and lead guitarist Jon Harris, keyboardist Kevin Thomas and drummer Jeff Mills provide the backbone of their sound: achingly beautiful melodies and lyrics featuring stories that alternate between tragic, hilarious and throw-your-fist-in-the-air badassery. This is America&rsquo;s Band. In July 2021,The Sundogs released their 5th record since 2005, &ldquo;Embroidered Rose,&rdquo; with 10 songs recorded and produced by Mills and Thomas at 360 Studios in Johns Creek, Ga.</p>",
+                "url": "https://sundogs.net/"
             }
         ]
     }
