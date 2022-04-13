@@ -92,7 +92,7 @@
     "copyright": "Copyright &copy; Inman Park Festival",
     "volunteerSite": "https://www.eventeny.com/events/volunteer/?id=1759&type=public",
     "vendors": {
-        "appActive": true,
+        "appActive": false,
         "deadline": "March 9, 2020",
         "notification": "March 26, 2020",
         "site": "https://www.eventeny.com/events/inmanparkfestivaltourofhomes2022-1759/?preview=1759"
